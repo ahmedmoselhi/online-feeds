@@ -1,0 +1,4080 @@
+Package: base-files-dbg
+Version: 3.0.14-r89.4
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 092b0456a1ae4ee6e39645d7f296df63
+Size: 824
+Filename: base-files-dbg_3.0.14-r89.4_amiko8900.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89.4
+Depends: base-files (= 3.0.14-r89.4)
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4431e47c2a02bf2b8cdc8c7f39075a2b
+Size: 856
+Filename: base-files-dev_3.0.14-r89.4_amiko8900.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89.4
+Section: doc
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e85ac209a68959dbeb669a5b341d276
+Size: 898
+Filename: base-files-doc_3.0.14-r89.4_amiko8900.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89.4
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f1092b9ed5062a06f33607ced0b8cfbf
+Size: 5630
+Filename: base-files_3.0.14-r89.4_amiko8900.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: beyonwiz-version-info
+Version: 6.3-0
+Section: base
+Architecture: amiko8900
+Maintainer: Beyonwiz
+MD5Sum: 46d20dbcf179ff0a9fffd5b8e17b6d28
+Size: 1178
+Filename: beyonwiz-version-info_6.3-0_amiko8900.ipk
+Source: beyonwiz-version-info.bb
+Description: Beyonwiz version info
+OE: beyonwiz-version-info
+License: GPLv2+
+Priority: required
+
+Package: enigma2-dbg
+Version: 6.3+git27721+3a6b079-r0
+Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 8946886555b684c17b43ee357a7dc100
+Size: 752352
+Filename: enigma2-dbg_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dev
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2 (= 6.3+git27721+3a6b079-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, enigma2-plugin-font-wqy-microhei-dev, enigma2-plugin-skins-metrix-beyonwiz-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto10-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-dev, libmad-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl10-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-dev, python-email-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mime-dev, python-mmap-dev, python-netclient-dev, python-netserver-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-shell-dev, python-smtpd-dev, python-subprocess-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 032679768775b0b1f89eb24692c1431c
+Size: 103498
+Filename: enigma2-dev_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-display-skins-meta
+Version: git253+b1d42f2-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-aliance
+MD5Sum: ca925c842744b833cfeff1563708bf74
+Size: 1270
+Filename: enigma2-display-skins-meta_git253+b1d42f2-r0_amiko8900.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-display-skins
+Version: git253+b1d42f2-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-aliance
+MD5Sum: c89644cdf90b13775bf0df41bd2e3310
+Size: 662
+Filename: enigma2-display-skins_git253+b1d42f2-r0_amiko8900.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-fonts
+Version: 6.3+git27721+3a6b079-r0
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 0e2d3ad2e2fff6790d4f1994361641b3
+Size: 778258
+Filename: enigma2-fonts_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ar
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 8697c4d4bb26454dea92918c21eea6f8
+Size: 20884
+Filename: enigma2-locale-ar_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: ar
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-bg
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 11e388e0c75b3f031d1a34a33aff0d08
+Size: 108984
+Filename: enigma2-locale-bg_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: bg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ca
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 666b94a2bd83fc40bc12108cb3ffb310
+Size: 10364
+Filename: enigma2-locale-ca_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: ca
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-cs
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5b6758e19346ff7b3fcc6336f91c55be
+Size: 87400
+Filename: enigma2-locale-cs_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: cs
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-da
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: b35f5fb96065f1e5639df9a9ac3c5827
+Size: 26656
+Filename: enigma2-locale-da_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: da
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-de
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: d8c2e32cb6d876df5951dfaa1fbdc38d
+Size: 124380
+Filename: enigma2-locale-de_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: de
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-el
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 62319b00c8290accbf1fde064fa20ce9
+Size: 147752
+Filename: enigma2-locale-el_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: el
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-en-gb
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 853d8c3e200796430c22ca4cdc9a5f1d
+Size: 39948
+Filename: enigma2-locale-en-gb_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: en-gb
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-en
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: a596fd307ed9dc3c44dddf065e987687
+Size: 70676
+Filename: enigma2-locale-en_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: en
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-es
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 3c2c3b71c4316f83f770e44ddda200fd
+Size: 96972
+Filename: enigma2-locale-es_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: es
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-et
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 36976a0084df0f8602248986c5d23640
+Size: 108280
+Filename: enigma2-locale-et_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: et
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fa
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: adc10d5e676d33a5c1d5ca9aec561d60
+Size: 22624
+Filename: enigma2-locale-fa_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: fa
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fi
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 67c5eb4e5818e6d31b2b997465d2ac4b
+Size: 83864
+Filename: enigma2-locale-fi_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: fi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fr
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: d522834a5990f3c94c7f308dfd3283fa
+Size: 105390
+Filename: enigma2-locale-fr_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: fr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fy
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 811f65296ef42e52eeb029deb1be6254
+Size: 17150
+Filename: enigma2-locale-fy_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: fy
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-he
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: a9de107226c570de79bd1561fe71915d
+Size: 17476
+Filename: enigma2-locale-he_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: he
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hr
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 9f5db9e79ca5d66e22fb0e1117264c3e
+Size: 11452
+Filename: enigma2-locale-hr_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: hr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hu
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: dd890e32cda05de8377aac6545874063
+Size: 120468
+Filename: enigma2-locale-hu_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: hu
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-id
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: d05b00d3ec2db27453ffc71f0a092f82
+Size: 74696
+Filename: enigma2-locale-id_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: id
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-is
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 9e600d69dba00ed04d1124382ea5e01e
+Size: 24488
+Filename: enigma2-locale-is_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: is
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-it
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: c1ec5a4bf666451e92073bc1e0108a00
+Size: 113484
+Filename: enigma2-locale-it_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: it
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ku
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: d76b859223cf4214f85c53b5c528a553
+Size: 27040
+Filename: enigma2-locale-ku_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: ku
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lt
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: bf0ecfa5bff658dcd6f36c81efabddcc
+Size: 142108
+Filename: enigma2-locale-lt_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: lt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lv
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 28a48714c4b0ddd3da3d941e5f974288
+Size: 18784
+Filename: enigma2-locale-lv_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: lv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nb
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5e39ef52f90625ac8347597fd80a69f0
+Size: 1072
+Filename: enigma2-locale-nb_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: nb
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nl
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 1447b2a562d85ecf82edd97996fc2332
+Size: 116676
+Filename: enigma2-locale-nl_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: nl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-no
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: e0c0bd3a7e91887e0720920bccefbe26
+Size: 62584
+Filename: enigma2-locale-no_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: no
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pl
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 18418d451c2de87763462f069606a21c
+Size: 104224
+Filename: enigma2-locale-pl_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: pl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt-br
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: f5400a06b7fe9e97c85a9b2cc5411458
+Size: 39380
+Filename: enigma2-locale-pt-br_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: pt-br
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 022e7bbb14ee474b8dbd484a27aa2ac3
+Size: 47836
+Filename: enigma2-locale-pt_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: pt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ro
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5d6877c8f63d39bdde676992eef18d77
+Size: 18700
+Filename: enigma2-locale-ro_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: ro
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ru
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: e3a4ee1e630a6e37103d6abb4a59e42d
+Size: 117936
+Filename: enigma2-locale-ru_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: ru
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sk
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5d29ab179c1e626a494d5dfa7c9807c2
+Size: 118500
+Filename: enigma2-locale-sk_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: sk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sl
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 3525219e0ba0e6d1daf9eb3e90943771
+Size: 26656
+Filename: enigma2-locale-sl_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: sl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sr
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: f8a91eb131a9fcc9cc6213104a3e7d60
+Size: 24660
+Filename: enigma2-locale-sr_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: sr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sv
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: b9f2903fc3023776b86ef52aa6f6fa0d
+Size: 62040
+Filename: enigma2-locale-sv_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: sv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-th
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 04c100202edcab6790fb4df38fc6e665
+Size: 22320
+Filename: enigma2-locale-th_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: th
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-tr
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 8a4432c988c2156a38251a2f29390059
+Size: 98448
+Filename: enigma2-locale-tr_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: tr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-uk
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 2134eac4fabe5d0c7aad50a96badfffa
+Size: 137588
+Filename: enigma2-locale-uk_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: uk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-zh-cn
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 8643420513a5f193ce7c208cd4738eae
+Size: 96664
+Filename: enigma2-locale-zh-cn_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: zh-cn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-zh-hk
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 38986f211bf9a30c2f8276cc7c2d5857
+Size: 24378
+Filename: enigma2-locale-zh-hk_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: zh-hk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-meta
+Version: 6.3+git27721+3a6b079-r0
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 3fd84c63d8cb2dbbd5896acc34299409
+Size: 4284
+Filename: enigma2-meta_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-atilehd-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 7cfe6679a74a0efe4fe244f39c4073a7
+Size: 6046
+Filename: enigma2-plugin-extensions-atilehd-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-atilehd (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-atilehd
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: ed655311876fb304de9cd8b119d223f3
+Size: 21536
+Filename: enigma2-plugin-extensions-atilehd_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-atilehd
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: c39602ac874f7f9a4acbedeb182174a5
+Size: 5202
+Filename: enigma2-plugin-extensions-cutlisteditor-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 6.3+git27721+3a6b079-r0
+Depends: aio-grab, enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 56b321a107abf022ac2c6b8d284348d5
+Size: 7374
+Filename: enigma2-plugin-extensions-cutlisteditor_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: e4309d7b9c7a1d12a81f44b840680ece
+Size: 28818
+Filename: enigma2-plugin-extensions-dvdburn-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn
+Version: 6.3+git27721+3a6b079-r0
+Depends: cdrkit, dvd+rw-tools, dvdauthor, enigma2, mjpegtools, python-imaging, replex
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 68e3e15bdd5ac222616f6e8795788ece
+Size: 805362
+Filename: enigma2-plugin-extensions-dvdburn_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: ec15ef6188cd4eea536c18b8dd53d41e
+Size: 1952
+Filename: enigma2-plugin-extensions-dvdplayer-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: b7c922451deca3317e4e83f51038ff71
+Size: 2620
+Filename: enigma2-plugin-extensions-dvdplayer_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-filecommander-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 8cdd858799f39d85b61eab6b9f2ff83b
+Size: 31738
+Filename: enigma2-plugin-extensions-filecommander-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-filecommander (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-filecommander
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: cff401f4c1f9de720f32257c433f3bb1
+Size: 70818
+Filename: enigma2-plugin-extensions-filecommander_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-filecommander
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-infopanel-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 552d2c2b0d074d94fe78ba6da060e48b
+Size: 29754
+Filename: enigma2-plugin-extensions-infopanel-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-infopanel (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-infopanel
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: eaf389524b55b3ba6c3486432f7a17fb
+Size: 100742
+Filename: enigma2-plugin-extensions-infopanel_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-infopanel
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 7e61df74886163a21aca95040f3339ae
+Size: 11076
+Filename: enigma2-plugin-extensions-mediaplayer-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 4c2aaed00860af1dcd7c8323133f8b9a
+Size: 22540
+Filename: enigma2-plugin-extensions-mediaplayer_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 4306e91fb20f0a050c6988493de87e5e
+Size: 1992
+Filename: enigma2-plugin-extensions-mediascanner-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 3e991fbce7d7183108e2db4897c94a79
+Size: 7124
+Filename: enigma2-plugin-extensions-mediascanner_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 71d2b8e8b7a7f6dd7fc1706e77218d1d
+Size: 6564
+Filename: enigma2-plugin-extensions-pictureplayer-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: bf10b417dc9700b73d47f785dd81c1ba
+Size: 26880
+Filename: enigma2-plugin-extensions-pictureplayer_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-programmlistenupdater-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 220a9f5fcbc234ccd6a4b89effe251ec
+Size: 5652
+Filename: enigma2-plugin-extensions-programmlistenupdater-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-programmlistenupdater (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-programmlistenupdater
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 612b3a0415a26ca4b6a24896023ac50e
+Size: 14568
+Filename: enigma2-plugin-extensions-programmlistenupdater_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-programmlistenupdater
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 2679866162f313fa5cc2512ab8eadb67
+Size: 6450144
+Filename: enigma2-plugin-extensions-socketmmi-dbg_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 45771f452dd43f87b98e5805cac3c616
+Size: 1554
+Filename: enigma2-plugin-extensions-socketmmi-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: bd52f7e5a4bce11d0503c2f902a76e21
+Size: 63100
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2, libc6 (>= 2.23), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.0.0+git88+1316299), libxml2 (>= 2.9.8)
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 71d2b902e8e3d04bd37478185abbc871
+Size: 10654
+Filename: enigma2-plugin-extensions-socketmmi_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-tuxboxplugins-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: b2173122342faaea0d0dea6afb573e35
+Size: 1840
+Filename: enigma2-plugin-extensions-tuxboxplugins-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-tuxboxplugins (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-tuxboxplugins
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 45d649a2f6154e57990ef99aafd974bb
+Size: 4164
+Filename: enigma2-plugin-extensions-tuxboxplugins_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-tuxboxplugins
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-volume-adjust-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5ae6fede05a19e75b55dd7b31b9c3370
+Size: 5708
+Filename: enigma2-plugin-extensions-volume-adjust-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-volume-adjust (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-volume-adjust
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 38003aafa2b969050f97fb217bc2998a
+Size: 7796
+Filename: enigma2-plugin-extensions-volume-adjust_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: extensions-volume-adjust
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-font-wqy-microhei
+Version: 6.3+git27721+3a6b079-r0
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 82d77ac2850fd07d6fbdf83596ed8b4a
+Size: 1543404
+Filename: enigma2-plugin-font-wqy-microhei_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: c651c0fb0376452d431dcc7173bd17df
+Size: 3546
+Filename: enigma2-plugin-systemplugins-cablescan-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5efebb3aa3c842add441d037fc872c18
+Size: 5268
+Filename: enigma2-plugin-systemplugins-cablescan_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5becd20fe8213d2ed39b77699fa93ed3
+Size: 6092
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 74abfe4bf90e090f38deb2e4e6e2d96b
+Size: 9128
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 6a6e1af78da0685aecfc2b5241a97510
+Size: 2664
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 6013a90c76585f1fdb14a9f877aa33fe
+Size: 3376
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 3a6c67c4edd59eaded03a17803551c34
+Size: 6666
+Filename: enigma2-plugin-systemplugins-diseqctester-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 961169db46d233931d16f63f40e9cdd6
+Size: 9108
+Filename: enigma2-plugin-systemplugins-diseqctester_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 05625390830b49b6b5c4e04939ef5333
+Size: 4938
+Filename: enigma2-plugin-systemplugins-fastscan-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: ce35f1b30d9bc811187acf628b4ae381
+Size: 7298
+Filename: enigma2-plugin-systemplugins-fastscan_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 904d2fa05b88a69c8662f771b879115f
+Size: 3816
+Filename: enigma2-plugin-systemplugins-hdmicec-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 53653f74f0817e6e90e173911444d08b
+Size: 4970
+Filename: enigma2-plugin-systemplugins-hdmicec_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 6b02bbd107ec7c16c7d1d9dd67f75853
+Size: 2002
+Filename: enigma2-plugin-systemplugins-hotplug-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2, hotplug-e2-helper
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 06663db56fe49861988c978bee426b48
+Size: 2586
+Filename: enigma2-plugin-systemplugins-hotplug_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: c5dd95e9ef0732451c246f6cf2a4979f
+Size: 4292
+Filename: enigma2-plugin-systemplugins-lcnscanner-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: f5f12887693c2f722b250579df3816bd
+Size: 6424
+Filename: enigma2-plugin-systemplugins-lcnscanner_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 13e11306fd05766bc6c90560eccbbace
+Size: 4328
+Filename: enigma2-plugin-systemplugins-networkwizard-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 1c2b59129470084f1958933922eb1b25
+Size: 7454
+Filename: enigma2-plugin-systemplugins-networkwizard_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 60c339ffa5d3f82243ddce4642452227
+Size: 12758
+Filename: enigma2-plugin-systemplugins-positionersetup-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 543e5e9412b6821a6b0e203f6c8dfcd2
+Size: 18346
+Filename: enigma2-plugin-systemplugins-positionersetup_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: a9bb60237479e2ba50c09ef5aae19eaa
+Size: 2022
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 4b50c102cb3a455b3093c887c4fa4013
+Size: 2638
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 7e8e090be6d36b0dc45b4ac219af82a9
+Size: 5112
+Filename: enigma2-plugin-systemplugins-satfinder-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: e778c451f3a135b00e5bd4a9d36d5e33
+Size: 6998
+Filename: enigma2-plugin-systemplugins-satfinder_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 10d090e3357c774e43270234ba006df8
+Size: 38388
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2, python-twisted-web
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 3ddb8cb1247502f6a4877797a5ff87e6
+Size: 77104
+Filename: enigma2-plugin-systemplugins-softwaremanager_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 4dc6204ed2e58991c793851a4a1d1830
+Size: 2306
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 8f49f5ff9d115934b0f146085d6e7c73
+Size: 3058
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 4b5945b1ebd579550dea622fee207888
+Size: 5760
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 5de141389f804463b911979e54186541
+Size: 8616
+Filename: enigma2-plugin-systemplugins-videoenhancement_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 0506899584944d88fb35de4b9343a7a4
+Size: 3692
+Filename: enigma2-plugin-systemplugins-videotune-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: c006c5057b633e35789c1da1c705d640
+Size: 5368
+Filename: enigma2-plugin-systemplugins-videotune_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 6f37fdb054715c3b16fa8965afd19356
+Size: 7752
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2, python-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: d109d44c17ad09a82a3abb8319ab1b46
+Size: 11494
+Filename: enigma2-plugin-systemplugins-wirelesslan_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-po
+Version: 6.3+git27721+3a6b079-r0
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 792808564bc240dfa9f884aa08ed812c
+Size: 3515120
+Filename: enigma2-po_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-src
+Version: 6.3+git27721+3a6b079-r0
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 7821df8293269418dbda04cbea47819c
+Size: 528980
+Filename: enigma2-src_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 6.3+git27721+3a6b079-r0
+Depends: enigma2-dev (= 6.3+git27721+3a6b079-r0)
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: cf3ad46474e1c0f8f278fd91a968f5de
+Size: 6092
+Filename: enigma2-staticdev_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2
+Version: 6.3+git27721+3a6b079-r0
+Depends: alsa-conf, enigma2-fonts, enigma2-plugin-font-wqy-microhei, enigma2-plugin-skins-metrix-beyonwiz, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.17.0.1+git18665+0dafe6e), hotplug-e2-helper, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.23), libcrypt1 (>= 4.1.1), libcrypto1.0.2 (>= 1.0.2q), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.8), libfreetype6 (>= 2.9.1), libfribidi0 (>= 0.19.7), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.58.0), libgomp1 (>= 4.9.4), libgstpbutils-1.0-0 (>= 1.17.0.1+git20002+dff5399), libjpeg62 (>= 2.0.0), libpng16-16 (>= 1.6.35), libpython2.7-1.0 (>= 2.7.15), libsigc-2.0-0 (>= 2.10.0), libssl1.0.2 (>= 1.0.2q), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libudfread0 (>= 1.0.0+git88+1316299), libxml2 (>= 2.9.8), oe-alliance-branding, python-codecs, python-core, python-crypt, python-email, python-fcntl, python-image, python-imaging, python-lang, python-mime, python-mmap, python-netclient, python-netserver, python-pickle, python-process, python-pyusb, python-re, python-shell, python-smtpd, python-subprocess, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface
+Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dashdemux, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss2
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Alliance
+MD5Sum: 99ae0b87b2ab4a93cc6cb4961d4956de
+Size: 1903222
+Filename: enigma2_6.3+git27721+3a6b079-r0_amiko8900.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: oe-alliance-base-dbg
+Version: 6.3-r0
+Recommends: alsa-utils-amixer-conf-dbg, avahi-daemon-dbg, bash-dbg, cronie-dbg, dropbear-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, e2fsprogs-tune2fs-dbg, early-configure-dbg, libavahi-client-dbg, libcrypto-compat-0.9.7-dbg, libcrypto-compat-1.0.0-dbg, llmnrd-dbg, minilocale-dbg, modutils-loadscript-dbg, ntpdate-dbg, oe-alliance-branding-dbg, oe-alliance-enigma2-dbg, opkg-dbg, p7zip-dbg, packagegroup-base-dbg, packagegroup-core-boot-dbg, python-argparse-dbg, python-numbers-dbg, python-twisted-protocols-dbg, rc-local-dbg, sdparm-dbg, tzdata-africa-dbg, tzdata-americas-dbg, tzdata-asia-dbg, tzdata-australia-dbg, tzdata-dbg, tzdata-europe-dbg, tzdata-pacific-dbg, util-linux-blkid-dbg, util-linux-flock-dbg, util-linux-sfdisk-dbg, volatile-media-dbg, vsftpd-dbg, wget-dbg
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6a950afaf544574b4599f9ed8c87ba8
+Size: 1070
+Filename: oe-alliance-base-dbg_6.3-r0_amiko8900.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Debugging files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base-dev
+Version: 6.3-r0
+Depends: oe-alliance-base (= 6.3-r0)
+Recommends: alsa-utils-amixer-conf-dev, avahi-daemon-dev, bash-dev, cronie-dev, dropbear-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, e2fsprogs-tune2fs-dev, early-configure-dev, libavahi-client-dev, libcrypto-compat-0.9.7-dev, libcrypto-compat-1.0.0-dev, llmnrd-dev, minilocale-dev, modutils-loadscript-dev, ntpdate-dev, oe-alliance-branding-dev, oe-alliance-enigma2-dev, opkg-dev, p7zip-dev, packagegroup-base-dev, packagegroup-core-boot-dev, python-argparse-dev, python-numbers-dev, python-twisted-protocols-dev, rc-local-dev, sdparm-dev, tzdata-africa-dev, tzdata-americas-dev, tzdata-asia-dev, tzdata-australia-dev, tzdata-dev, tzdata-europe-dev, tzdata-pacific-dev, util-linux-blkid-dev, util-linux-flock-dev, util-linux-sfdisk-dev, volatile-media-dev, vsftpd-dev, wget-dev
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2f22ecd64aff770a9914deeafe5cc4d
+Size: 1096
+Filename: oe-alliance-base-dev_6.3-r0_amiko8900.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Development files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base
+Version: 6.3-r0
+Depends: alsa-utils-amixer-conf, avahi-daemon, bash, cronie, dropbear, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs-tune2fs, early-configure, libavahi-client3, libcrypto-compat-0.9.7, libcrypto-compat-1.0.0, llmnrd, minilocale, modutils-loadscript, ntpdate, oe-alliance-branding, oe-alliance-enigma2, opkg, p7zip, packagegroup-base, packagegroup-core-boot, python-argparse, python-numbers, python-twisted-protocols, rc-local, sdparm, tzdata, tzdata-africa, tzdata-americas, tzdata-asia, tzdata-australia, tzdata-europe, tzdata-pacific, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, vsftpd, wget
+Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-nls-iso8859-15, kernel-module-vfat, kernel-module-xfs
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 478d2c1d977a7553b224cd1ce3c9208b
+Size: 1050
+Filename: oe-alliance-base_6.3-r0_amiko8900.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image.
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-branding-dbg
+Version: 6.3+git852+a310d20-r20200213-amiko8900
+Recommends: libc6-dbg
+Section: devel
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: d52553cf09b4732d4f6444c5f4b12c58
+Size: 60800
+Filename: oe-alliance-branding-dbg_6.3+git852+a310d20-r20200213-amiko8900_amiko8900.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.3+gitAUTOINC+a310d20cf2-r20200213-amiko8900 - Debugging files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-dev
+Version: 6.3+git852+a310d20-r20200213-amiko8900
+Depends: oe-alliance-branding (= 6.3+git852+a310d20-r20200213-amiko8900)
+Recommends: libc6-dev, python-dev
+Section: devel
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 4ca5954d522f9eb507ffd052b558f399
+Size: 816
+Filename: oe-alliance-branding-dev_6.3+git852+a310d20-r20200213-amiko8900_amiko8900.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.3+gitAUTOINC+a310d20cf2-r20200213-amiko8900 - Development files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 5fadfa6e3360ca8679d9541115f0c327
+Size: 92870
+Filename: oe-alliance-branding-remote-amiko1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: ac9f5b9abd32a4df96ebae735dc43a07
+Size: 118054
+Filename: oe-alliance-branding-remote-amiko2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: eef908ef3d0218799f4fa3bad6c292e7
+Size: 42578
+Filename: oe-alliance-branding-remote-amiko3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2208a8f8139f8bbe8d6e4cdf202f2389
+Size: 54146
+Filename: oe-alliance-branding-remote-amiko4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko5
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: eba2ec117b6ee73bb6c7ab175b31a762
+Size: 112090
+Filename: oe-alliance-branding-remote-amiko5_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-anadol1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 35c700ccb62a9aa9545676226bdc1f8f
+Size: 80416
+Filename: oe-alliance-branding-remote-anadol1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: anadol1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-anadol2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: dcc704d22b2906a6c33984c2415b4b32
+Size: 46044
+Filename: oe-alliance-branding-remote-anadol2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: anadol2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-anadol3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: c2d2a713e9b4344b3672aa61987f4007
+Size: 37882
+Filename: oe-alliance-branding-remote-anadol3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: anadol3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ariva
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 1b00e398a1f5a151dcdfdabdfee1d998
+Size: 44056
+Filename: oe-alliance-branding-remote-ariva_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ariva (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: e9fa7a0577a58c475dc6fc561e370c18
+Size: 40082
+Filename: oe-alliance-branding-remote-ax1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 76ce45285b0f3e0369b284885e714321
+Size: 99514
+Filename: oe-alliance-branding-remote-ax2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 4cdaab156f903d5f004788d77e5b4972
+Size: 33230
+Filename: oe-alliance-branding-remote-ax3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 45260eefe5d676153368876d2a7455e6
+Size: 29502
+Filename: oe-alliance-branding-remote-ax4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax51
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: dc9ed70a8c91fc25f6ea1e071b1d7f67
+Size: 73828
+Filename: oe-alliance-branding-remote-ax51_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax51 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-axas1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 164c1ec3607305693827f1c224d75441
+Size: 70716
+Filename: oe-alliance-branding-remote-axas1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: axas1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-axas2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 28c446004ff6a674af64f50abc4d6557
+Size: 57928
+Filename: oe-alliance-branding-remote-axas2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: axas2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-axas3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 3e8ece692ada540db9522fae6a9f4ee2
+Size: 39624
+Filename: oe-alliance-branding-remote-axas3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: axas3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-azboxelite
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: df1dc8588ca160e23f7a83492b1d010f
+Size: 49120
+Filename: oe-alliance-branding-remote-azboxelite_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: azboxelite (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-azboxhd
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: f59ca49f3f2ebc01af05b5fc480c57e2
+Size: 38996
+Filename: oe-alliance-branding-remote-azboxhd_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: azboxhd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-azboxme
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: a26544057be27462ad1af4c005a5350c
+Size: 23354
+Filename: oe-alliance-branding-remote-azboxme_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: azboxme (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-beyonwiz1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 4131dced6093f0c95aaaf687cb18d332
+Size: 35420
+Filename: oe-alliance-branding-remote-beyonwiz1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: beyonwiz1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-beyonwiz2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 705286a95edb9def8c1a72cff68bc75d
+Size: 53560
+Filename: oe-alliance-branding-remote-beyonwiz2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: beyonwiz2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-cc1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 7a31ef760cf2dfa3c252b73e4b2ea8b5
+Size: 35114
+Filename: oe-alliance-branding-remote-cc1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: cc1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-cube
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 6bdfb3bac32061cfb9dce68638200b0a
+Size: 47072
+Filename: oe-alliance-branding-remote-cube_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: cube (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dbg
+Version: 6.3+git852+a310d20-r0
+Section: devel
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: fb3939af95f8237b08f94898909cb6ba
+Size: 772
+Filename: oe-alliance-branding-remote-dbg_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: oe-alliance-branding-remote version 6.3+gitAUTOINC+a310d20cf2-r0 - Debugging files
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dev
+Version: 6.3+git852+a310d20-r0
+Depends: oe-alliance-branding-remote (= 6.3+git852+a310d20-r0)
+Recommends: python-dev
+Section: devel
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 7444c819ff505c629da6fd6ca63f6162
+Size: 818
+Filename: oe-alliance-branding-remote-dev_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: oe-alliance-branding-remote version 6.3+gitAUTOINC+a310d20cf2-r0 - Development files
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dinobot
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: c1166c95452c336893097fae269fb549
+Size: 67370
+Filename: oe-alliance-branding-remote-dinobot_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dinobot (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dmm0
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 446e04b87558f13c96a1b8b5820d1395
+Size: 37028
+Filename: oe-alliance-branding-remote-dmm0_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dmm0 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dmm1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: ccae741c65dea8e267083fdc4919df2f
+Size: 24888
+Filename: oe-alliance-branding-remote-dmm1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dmm1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dmm2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: ce6cb36a8e304b3b8871c79ee2d77852
+Size: 43940
+Filename: oe-alliance-branding-remote-dmm2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dmm2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-e3hd
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 1b8c943d16a92e606c61b504021f9251
+Size: 35508
+Filename: oe-alliance-branding-remote-e3hd_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: e3hd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-e4hd
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: a2c0bc86c164f76a98db872765a7e4af
+Size: 37640
+Filename: oe-alliance-branding-remote-e4hd_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: e4hd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-e4hdcombo
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: d74a0b45bf55e8f1ed69cf8ae8f513fa
+Size: 19004
+Filename: oe-alliance-branding-remote-e4hdcombo_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: e4hdcombo (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ebox5000
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 5cbfa66fb9ce93dfebc6b6876873ea06
+Size: 30276
+Filename: oe-alliance-branding-remote-ebox5000_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ebox5000 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-edision1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 7b5576ea18883de10941e9920a2a2927
+Size: 63974
+Filename: oe-alliance-branding-remote-edision1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: edision1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-edision2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 51db5bd51ea7048a1ee9f62b02156869
+Size: 45554
+Filename: oe-alliance-branding-remote-edision2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: edision2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-edision3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 87789c5fb5ea2b337c1bbc0c79b92064
+Size: 60194
+Filename: oe-alliance-branding-remote-edision3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: edision3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et4x00
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2abe301afeda05a8595994971920cc8a
+Size: 53762
+Filename: oe-alliance-branding-remote-et4x00_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et4x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et6500
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: bb355896b0ebcfa60d547b6343bfe0aa
+Size: 22912
+Filename: oe-alliance-branding-remote-et6500_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et6500 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et6x00
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 098a4331505cfb5ebc59e89be5fb8e2b
+Size: 20606
+Filename: oe-alliance-branding-remote-et6x00_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et6x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et7x00
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2a53de601a39b9d830031acceea8efe4
+Size: 105906
+Filename: oe-alliance-branding-remote-et7x00_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et7x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et7x00mini
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 96b6a7798da21987d9368698548c3177
+Size: 105684
+Filename: oe-alliance-branding-remote-et7x00mini_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et7x00mini (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et8000
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 7c15d1f794205fa5081282441a5e14f3
+Size: 32328
+Filename: oe-alliance-branding-remote-et8000_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et8000 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et9500
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 4b63b3fc9b830ec817f1dde53f39c110
+Size: 16134
+Filename: oe-alliance-branding-remote-et9500_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et9500 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et9x00
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: c6910cb102e0ea93b8290b9e9afd1191
+Size: 13710
+Filename: oe-alliance-branding-remote-et9x00_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et9x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: faec2dabf73834054a7c5cc84277e8b2
+Size: 37220
+Filename: oe-alliance-branding-remote-evo1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 769a44647fe2427c6975a95cb6191153
+Size: 34432
+Filename: oe-alliance-branding-remote-evo2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: abbf01fcf182bc1e4d10d48689f1fa1d
+Size: 29852
+Filename: oe-alliance-branding-remote-evo3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: ddb2fe721c825031c16d8ac9dde07c79
+Size: 66060
+Filename: oe-alliance-branding-remote-evo4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo5
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 981141826b57ba65e04328b136551c69
+Size: 99748
+Filename: oe-alliance-branding-remote-evo5_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo6
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 642009366d7a7cfe631cf43198c8cc52
+Size: 59272
+Filename: oe-alliance-branding-remote-evo6_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo7
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: e8caa60b1197ff00fbe44a01b78e9ef0
+Size: 93808
+Filename: oe-alliance-branding-remote-evo7_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo8
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2fa863877928358cdb2dbfd686a99098
+Size: 118012
+Filename: oe-alliance-branding-remote-evo8_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo8 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-formuler1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: c123897e466ca3562796f8751677363a
+Size: 36974
+Filename: oe-alliance-branding-remote-formuler1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: formuler1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-fusionhd
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: fefe8583a93ab55a81fd850e8a1c1fa2
+Size: 60302
+Filename: oe-alliance-branding-remote-fusionhd_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: fusionhd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-g300
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 3ba538316a7efe6f2ed313d5891bd29f
+Size: 35120
+Filename: oe-alliance-branding-remote-g300_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: g300 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb0
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: dfd60ffcfa3fbd2674f4b0797942fc27
+Size: 27326
+Filename: oe-alliance-branding-remote-gb0_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb0 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 3a3529ada3e8e27719abd8aaa684e9dc
+Size: 28310
+Filename: oe-alliance-branding-remote-gb1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 9d69a54e0fa73d978b972d24478a1801
+Size: 84130
+Filename: oe-alliance-branding-remote-gb2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: f9a7aade7eb697b8a346fe596b69892c
+Size: 55990
+Filename: oe-alliance-branding-remote-gb3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gi1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 5d83bb3d9f8a1f8ce2b47ecf528c3bee
+Size: 25726
+Filename: oe-alliance-branding-remote-gi1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gi1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hardkernel
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: cf2a7d65d62dd20572a2809360dcf6d0
+Size: 78084
+Filename: oe-alliance-branding-remote-hardkernel_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hardkernel (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd1100
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: fedf6e4e3a608a47bb802671322714c8
+Size: 117524
+Filename: oe-alliance-branding-remote-hd1100_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd1100 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd2400
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: df852f84b2ae9fe627b176c518cf6d0e
+Size: 31916
+Filename: oe-alliance-branding-remote-hd2400_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd2400 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd530c
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: f344e3362da9e2ce3905bf58d05b23f7
+Size: 85062
+Filename: oe-alliance-branding-remote-hd530c_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd530c (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd60
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 0ba6e596ee2dfc14f01da51075177d26
+Size: 34388
+Filename: oe-alliance-branding-remote-hd60_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd60 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hdbox
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: ac215a4c0aaf05c789c93a5b30efccb8
+Size: 13282
+Filename: oe-alliance-branding-remote-hdbox_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hdbox (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hitube
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: a336310e5ac3953176191ebdd4eaf7dd
+Size: 37694
+Filename: oe-alliance-branding-remote-hitube_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hitube (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini0
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 5282251a181490c1a607ff4267d55141
+Size: 14772
+Filename: oe-alliance-branding-remote-ini0_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini0 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2cd9e08b71ab1af8b350e12c581dbbfb
+Size: 13612
+Filename: oe-alliance-branding-remote-ini1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: a12f76c10fba78ff7c13601d2299b77e
+Size: 50012
+Filename: oe-alliance-branding-remote-ini2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 424e2368a5e2194372c4e3c241178a03
+Size: 51232
+Filename: oe-alliance-branding-remote-ini3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 10b166e47cc4ea578cd99474a4c155ee
+Size: 53522
+Filename: oe-alliance-branding-remote-ini4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini5
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 900f3c5e5ec9c333994428cbc9677c12
+Size: 60312
+Filename: oe-alliance-branding-remote-ini5_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini6
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 486961f3001689ed719d37daad56ea5e
+Size: 67116
+Filename: oe-alliance-branding-remote-ini6_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini7
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2b1b17ed4cf634bab544251fe07e4f6e
+Size: 72724
+Filename: oe-alliance-branding-remote-ini7_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini8
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: d00d2d722d85e40a9e64008ad37a4413
+Size: 65724
+Filename: oe-alliance-branding-remote-ini8_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini8 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-iqon1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: bbf23f3da756fdf6330be68d53d10fe2
+Size: 54680
+Filename: oe-alliance-branding-remote-iqon1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: iqon1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-iqon2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 366964850460167c4bf769cb638aea0c
+Size: 43632
+Filename: oe-alliance-branding-remote-iqon2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: iqon2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-iqon3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: a0fa2cf1244437bbcfc7b902acb2f517
+Size: 72552
+Filename: oe-alliance-branding-remote-iqon3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: iqon3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ixussone
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: c7ed12d363201e00cffdadc3e722b66c
+Size: 33586
+Filename: oe-alliance-branding-remote-ixussone_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ixussone (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ixusszero
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 15b6e99cc62ffe4aad15c1707cb80160
+Size: 26916
+Filename: oe-alliance-branding-remote-ixusszero_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ixusszero (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-izibox1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: faba6435d36ed609352d794772f39f31
+Size: 40518
+Filename: oe-alliance-branding-remote-izibox1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: izibox1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-izibox2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 78931c70bf9dc44524a2690457a56c33
+Size: 40924
+Filename: oe-alliance-branding-remote-izibox2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: izibox2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-jd1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 002704bf7ceeaa622e8c362ea98882fc
+Size: 44990
+Filename: oe-alliance-branding-remote-jd1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: jd1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-maxytec1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 3c63f84085fdd94808ff47c78d13d4f8
+Size: 38310
+Filename: oe-alliance-branding-remote-maxytec1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: maxytec1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-mediabox4k
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: a33dda48cb5204f716f233ab0630b1f7
+Size: 77488
+Filename: oe-alliance-branding-remote-mediabox4k_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: mediabox4k (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-mediabox
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 8b67b34348c123042e470fe24ada731a
+Size: 42774
+Filename: oe-alliance-branding-remote-mediabox_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: mediabox (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-megasat1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: e3e5285fb94004e18555b6875b1b8490
+Size: 52614
+Filename: oe-alliance-branding-remote-megasat1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: megasat1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-megasat2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 29359665e6c5e14ef23dc56ce61172da
+Size: 59958
+Filename: oe-alliance-branding-remote-megasat2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: megasat2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-miraclebox
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: b882b48cb165076416ee3094b2ad02bc
+Size: 42180
+Filename: oe-alliance-branding-remote-miraclebox_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: miraclebox (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-odinm6
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 8317446d6772a42e078020f6d560461b
+Size: 12856
+Filename: oe-alliance-branding-remote-odinm6_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: odinm6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-odinm7
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 968057be4a3289a281ca79a3d7f354ab
+Size: 15476
+Filename: oe-alliance-branding-remote-odinm7_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: odinm7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-odinm9
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: fb41eef15cf8b5fdab48fa5789f4a337
+Size: 25480
+Filename: oe-alliance-branding-remote-odinm9_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: odinm9 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-optimuss1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 122dae0c93ef2a70771b593beb4ba69f
+Size: 43226
+Filename: oe-alliance-branding-remote-optimuss1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: optimuss1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-optimuss2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 0f78fbe48c2ce87c648a5c560c1c6c3b
+Size: 101234
+Filename: oe-alliance-branding-remote-optimuss2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: optimuss2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-protek1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 355b153be2e4ee5ebffcc02d6cd94ee1
+Size: 100262
+Filename: oe-alliance-branding-remote-protek1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: protek1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-protek2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: e66131e84a870e1a87c0857d4e29ae43
+Size: 18962
+Filename: oe-alliance-branding-remote-protek2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: protek2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-protek3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 6a4c99ef79566cea6d28d0549d68aee5
+Size: 52730
+Filename: oe-alliance-branding-remote-protek3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: protek3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 1111215e4a2a05eb87608f2fc9275434
+Size: 70942
+Filename: oe-alliance-branding-remote-qviart1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 177a99ad49ffbdef78cb16a8c4157679
+Size: 56246
+Filename: oe-alliance-branding-remote-qviart2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 7d615fd6e98d51471543397a9689a681
+Size: 28634
+Filename: oe-alliance-branding-remote-qviart3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: c11c3097b8886dc8d9eeae27a1d47325
+Size: 32906
+Filename: oe-alliance-branding-remote-qviart4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-red1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: cdcf695ea906819ee761a10ad0e8f8c1
+Size: 40726
+Filename: oe-alliance-branding-remote-red1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: red1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-red2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 79c2ba670d660017889f1279c58d9ebf
+Size: 18008
+Filename: oe-alliance-branding-remote-red2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: red2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-relook
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 285d5f94ef032c55c6f26a5ae5c6c438
+Size: 13344
+Filename: oe-alliance-branding-remote-relook_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: relook (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-revo
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 418b5b0e72a38e0da16cef4ad82b8d7b
+Size: 71280
+Filename: oe-alliance-branding-remote-revo_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: revo (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sab1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 7a2c18b5331033ae0d973ae0524d31d2
+Size: 87484
+Filename: oe-alliance-branding-remote-sab1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sab1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf108
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 905884c483d04afebe3ed7e1108ae6b7
+Size: 95444
+Filename: oe-alliance-branding-remote-sf108_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf108 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf2x8
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: e4b48ce3372fe8000e17e52960286695
+Size: 16308
+Filename: oe-alliance-branding-remote-sf2x8_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf2x8 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf3038
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: df1e6558de4e68e8cf7cb52deb5b99c0
+Size: 84928
+Filename: oe-alliance-branding-remote-sf3038_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf3038 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf5008
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2db4f76a03f2f033f8389ec98f142a78
+Size: 31220
+Filename: oe-alliance-branding-remote-sf5008_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf5008 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf8008
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 6f5fd6f847d9ca3f7f4f4490cc6a9281
+Size: 122280
+Filename: oe-alliance-branding-remote-sf8008_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf8008 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf98
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 7ecf4899f372b47e2bac7939a127b3c2
+Size: 105148
+Filename: oe-alliance-branding-remote-sf98_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf98 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sogno
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: b54cc12341793e59fecf7eaff0baf934
+Size: 53808
+Filename: oe-alliance-branding-remote-sogno_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sogno (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-spycat1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 09fbd3b00ec646914900228c7e36cbce
+Size: 38018
+Filename: oe-alliance-branding-remote-spycat1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: spycat1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tiviar1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2402e5e24b9db46ec5e3030efff69365
+Size: 69094
+Filename: oe-alliance-branding-remote-tiviar1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tiviar1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tiviar2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: b19293ba6a1d69b927f96c3c87b1f360
+Size: 97154
+Filename: oe-alliance-branding-remote-tiviar2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tiviar2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 049581e1bb5d1d9397937e757402f080
+Size: 37630
+Filename: oe-alliance-branding-remote-tm1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 1f541d9a20e54fd744835b591a54b905
+Size: 50262
+Filename: oe-alliance-branding-remote-tm2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 31693fd0d86ae9458d8f19ce9857ac53
+Size: 27482
+Filename: oe-alliance-branding-remote-tm3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: cf08052ce937c252f0ef598da451044a
+Size: 44442
+Filename: oe-alliance-branding-remote-tm4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm5
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 2aee85fdbc62e55124b5fc133b36c3c5
+Size: 71742
+Filename: oe-alliance-branding-remote-tm5_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm6
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: a0d38adb13f0751e033925d87705a400
+Size: 73030
+Filename: oe-alliance-branding-remote-tm6_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-triplex
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: b77d3793183e02631c818759465b5334
+Size: 35178
+Filename: oe-alliance-branding-remote-triplex_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: triplex (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-turing
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: b3cb314e4792ac782f40d1444ad89a48
+Size: 104476
+Filename: oe-alliance-branding-remote-turing_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: turing (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tyrant
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: f5d3d0bad688ab1287822bcce13d0748
+Size: 14236
+Filename: oe-alliance-branding-remote-tyrant_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tyrant (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-uclan
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 8cef2489d389fb9207f3879c070a695d
+Size: 73328
+Filename: oe-alliance-branding-remote-uclan_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: uclan (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-uniboxhde
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: e98bd55ee8862db967c3d83f92068fd5
+Size: 55264
+Filename: oe-alliance-branding-remote-uniboxhde_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: uniboxhde (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vala
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 8a8ceaf4ffeaf7058eee4917889a895b
+Size: 58212
+Filename: oe-alliance-branding-remote-vala_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vala (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-visionnet
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 6b00b879744784b4b9178bbe5069a047
+Size: 41070
+Filename: oe-alliance-branding-remote-visionnet_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: visionnet (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 8aaaa5a8c711f24279e5b53bbdc68558
+Size: 47314
+Filename: oe-alliance-branding-remote-vu2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 00f1cbba2e5c4a3856c057c29a9ba625
+Size: 53482
+Filename: oe-alliance-branding-remote-vu3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 5beb595755c167e1183deb54a9edde79
+Size: 88762
+Filename: oe-alliance-branding-remote-vu4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 56694d22089c49da925ebf09b57b1d86
+Size: 82654
+Filename: oe-alliance-branding-remote-vu_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wetek2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: fa1fb5ab3df5145c7eaeed963e701a7f
+Size: 78052
+Filename: oe-alliance-branding-remote-wetek2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wetek2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wetek3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: fc852c6ea984e4de8393a9079943983b
+Size: 82000
+Filename: oe-alliance-branding-remote-wetek3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wetek3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wetek
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 3f9c4831d2b5f9295338f65f896e1e6c
+Size: 103200
+Filename: oe-alliance-branding-remote-wetek_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wetek (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wwio1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 87fea0c75dbc9875dd97f771bcc10ff8
+Size: 36010
+Filename: oe-alliance-branding-remote-wwio1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wwio1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xcore1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 83d329a9d1fc2e04503c3952513f7549
+Size: 75216
+Filename: oe-alliance-branding-remote-xcore1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xcore1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xcore2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 24e51344bf09e7cc7664f5d72f198925
+Size: 53520
+Filename: oe-alliance-branding-remote-xcore2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xcore2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xcore3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 8e2745edee4bcece98c38247ed50e852
+Size: 114540
+Filename: oe-alliance-branding-remote-xcore3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xcore3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xp1000
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 025a1870fa28ef5aef58037edda337e5
+Size: 34152
+Filename: oe-alliance-branding-remote-xp1000_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xp1000 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma1
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 423b3ba831ef7197fddb943f660b9a7b
+Size: 121228
+Filename: oe-alliance-branding-remote-zgemma1_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma2
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: b9d69900e571acca05dc61e6ddbf1842
+Size: 63588
+Filename: oe-alliance-branding-remote-zgemma2_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma3
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 098ce420df1f58d5fcca8b1c147eeab3
+Size: 90622
+Filename: oe-alliance-branding-remote-zgemma3_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma4
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 78a0872ec42f541d407d5d51a925aa1d
+Size: 24938
+Filename: oe-alliance-branding-remote-zgemma4_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma5
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: edad848573c3c3d2300475413c80e15b
+Size: 121182
+Filename: oe-alliance-branding-remote-zgemma5_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma6
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 04e9d4c68ab57d0a1718a5a69287e16e
+Size: 52694
+Filename: oe-alliance-branding-remote-zgemma6_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma7
+Version: 6.3+git852+a310d20-r0
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 4661e5a6b021790bd9f9faa83bf93408
+Size: 34142
+Filename: oe-alliance-branding-remote-zgemma7_6.3+git852+a310d20-r0_amiko8900.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-src
+Version: 6.3+git852+a310d20-r20200213-amiko8900
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: e89264f019393492a03812ca85749055
+Size: 3696
+Filename: oe-alliance-branding-src_6.3+git852+a310d20-r20200213-amiko8900_amiko8900.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.3+gitAUTOINC+a310d20cf2-r20200213-amiko8900
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding
+Version: 6.3+git852+a310d20-r20200213-amiko8900
+Depends: libc6 (>= 2.23)
+Section: base
+Architecture: amiko8900
+Maintainer: oe-alliance team
+MD5Sum: 5aff23bde2679b51a5210926c826b4c6
+Size: 174982
+Filename: oe-alliance-branding_6.3+git852+a310d20-r20200213-amiko8900_amiko8900.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.3+gitAUTOINC+a310d20cf2-r20200213-amiko8900
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 22856608a814075b09a1f39f1716857d
+Size: 774
+Filename: oe-alliance-feeds-configs-dbg_1.0-r0_amiko8900.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: oe-alliance-feeds-configs
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dev
+Version: 1.0-r0
+Depends: oe-alliance-feeds-configs (= 1.0-r0)
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b4de031da77272e930474e730fc95708
+Size: 804
+Filename: oe-alliance-feeds-configs-dev_1.0-r0_amiko8900.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: oe-alliance-feeds-configs
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-feeds-configs
+Version: 1.0-r0
+Replaces: distro-feed-configs
+Conflicts: distro-feed-configs
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e929aae77b4a24aeb93bdd7659e7309e
+Size: 1052
+Filename: oe-alliance-feeds-configs_1.0-r0_amiko8900.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: oe-alliance-feeds-configs
+License: GPLv2+
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d518d765297338474e30a767972ee96
+Size: 788
+Filename: opkg-arch-config-dbg_1.0-r1_amiko8900.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 489f8696f337df2cba756b85ee6ef879
+Size: 816
+Filename: opkg-arch-config-dev_1.0-r1_amiko8900.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: amiko8900
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: add887d9c46c1dd75ee0ab0a72d14313
+Size: 944
+Filename: opkg-arch-config_1.0-r1_amiko8900.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
