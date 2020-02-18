@@ -1,0 +1,474 @@
+Package: components-jrlg
+Version: 1.0-r8
+Depends: libgcc1 (>= 4.8.4), libsigc-1.2-5, libstdc++6 (>= 4.8.4), enigma2, libc6 (>= 2.21)
+Section: base
+Architecture: sh4
+Maintainer: Sergiri
+MD5Sum: 91cae1e4c30201a1e63b3bb3f3111f85
+Size: 30018
+Filename: components-jrlg_1.0-r8_sh4.ipk
+Source: unknown
+Description:  components-jrlg version 1.0-r8  Components for skin JRLG in distro
+ OpenSPA
+OE: components-jrlg
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-autodeepsleep
+Version: 1.0-r1
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: e8bc76e1167b8d2b74d9a24bb6d99af8
+Size: 13782
+Filename: enigma2-plugin-extensions-autodeepsleep_1.0-r1_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-autodeepsleep version 1.0-r1  Put receiver
+ automatically in deep standby a wakeup it
+OE: enigma2-plugin-extensions-autodeepsleep
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-daemonmanager
+Version: 1.0-r1
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 4f565fc3382a8f2ca5c1548294c5e782
+Size: 16092
+Filename: enigma2-plugin-extensions-daemonmanager_1.0-r1_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-daemonmanager version 1.0-r1  Install/Uninstall
+ and Enable/Disable Daemons.
+OE: enigma2-plugin-extensions-daemonmanager
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-mytube-spa
+Version: 1.0-r19
+Depends: python-oauth2client, python-uritemplate, python-google-api-client, python-gdata
+Section: extra
+Architecture: sh4
+Maintainer: acid-burn@opendreambox.org
+MD5Sum: 3ad7567c465929d4d4a3eee8da4799c6
+Size: 1237496
+Filename: enigma2-plugin-extensions-mytube-spa_1.0-r19_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-mytube-spa version 1.0-r19  Play Youtube videos
+ in your STB
+OE: enigma2-plugin-extensions-mytube-spa
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openspajr
+Version: 4.0-r6
+Section: extra
+Architecture: sh4
+Maintainer: sergiri
+MD5Sum: 650ef1f1a16b4199ef111430ffa92b8d
+Size: 1218580
+Filename: enigma2-plugin-extensions-openspajr_4.0-r6_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-openspajr version 4.0-r6  Customize skin JRLG
+OE: enigma2-plugin-extensions-openspajr
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openspaplug
+Version: 1.0-r15
+Section: base
+Architecture: sh4
+Maintainer: OpenSPA
+MD5Sum: efebdb24bb45c9d867435c3c85cb8934
+Size: 25242
+Filename: enigma2-plugin-extensions-openspaplug_1.0-r15_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-openspaplug version 1.0-r15  OpenSPA Extra
+ Plugins Manager
+OE: enigma2-plugin-extensions-openspaplug
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-scriptexecuter
+Version: 1.0-r0
+Section: extra
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b19f16195b9ff396bb6112b90f8f6639
+Size: 2096
+Filename: enigma2-plugin-extensions-scriptexecuter_1.0-r0_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-scriptexecuter version 1.0-r0  Executes your
+ scripts in /usr/script
+OE: enigma2-plugin-extensions-scriptexecuter
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-spaqbutton
+Version: 1.0-r16
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 6262a6200717363fe3ced48d01048587
+Size: 106694
+Filename: enigma2-plugin-extensions-spaqbutton_1.0-r16_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spaqbutton version 1.0-r16  Configure keys
+ functions in your STB remote control
+OE: enigma2-plugin-extensions-spaqbutton
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzimdb
+Version: 1.0-r5
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 3d5a9affb6ba412b38d6980815d0e866
+Size: 265472
+Filename: enigma2-plugin-extensions-spzimdb_1.0-r5_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzimdb version 1.0-r5  Search and Download
+ description and cover of films from IMDB Website
+OE: enigma2-plugin-extensions-spzimdb
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzmenu
+Version: 1.0-r74
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: b34a8eebbd337c56053f090d6d737fdc
+Size: 2037936
+Filename: enigma2-plugin-extensions-spzmenu_1.0-r74_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzmenu version 1.0-r74  Original Menu of
+ OpenSPA image
+OE: enigma2-plugin-extensions-spzmenu
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzmenu-azexplorer
+Version: 1.0-r4
+Depends: enigma2-plugin-extensions-spzmenu
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: ea5eb91d3c4f26cdda2d587624ee58ff
+Size: 260010
+Filename: enigma2-plugin-extensions-spzmenu-azexplorer_1.0-r4_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzmenu-azexplorer version 1.0-r4  File
+ Explorer for OpenSPA Image
+OE: enigma2-plugin-extensions-spzmenu-azexplorer
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzmenu-gespluginsopenspa
+Version: 1.0-r2
+Depends: enigma2-plugin-extensions-spzmenu
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 86404624557872c06f0b162ba0279a07
+Size: 27232
+Filename: enigma2-plugin-extensions-spzmenu-gespluginsopenspa_1.0-r2_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzmenu-gespluginsopenspa version 1.0-r2
+ Enable & Disable Plugins
+OE: enigma2-plugin-extensions-spzmenu-gespluginsopenspa
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzmenu-spzbackups
+Version: 1.0-r7
+Depends: enigma2-plugin-extensions-spzmenu
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: cb59ddc4133ea4070c11ba9b12488fd6
+Size: 74244
+Filename: enigma2-plugin-extensions-spzmenu-spzbackups_1.0-r7_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzmenu-spzbackups version 1.0-r7  Create and
+ restore Backups from your settings & Plugins
+OE: enigma2-plugin-extensions-spzmenu-spzbackups
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzmenu-spzpipmenu
+Version: 1.0-r1
+Depends: enigma2-plugin-extensions-spzmenu
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 5e7b4b6762c26b0a3aaab23a7b3ea489
+Size: 4528
+Filename: enigma2-plugin-extensions-spzmenu-spzpipmenu_1.0-r1_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzmenu-spzpipmenu version 1.0-r1  Create PIP
+ Menu
+OE: enigma2-plugin-extensions-spzmenu-spzpipmenu
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzmenu-spzsimplerss
+Version: 1.0-r0
+Depends: enigma2-plugin-extensions-spzmenu
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 7d6bf747176871455bf066ff74546c2d
+Size: 64166
+Filename: enigma2-plugin-extensions-spzmenu-spzsimplerss_1.0-r0_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzmenu-spzsimplerss version 1.0-r0  Simple RSS
+ Plugins from OpenSPA
+OE: enigma2-plugin-extensions-spzmenu-spzsimplerss
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzmosaic
+Version: 1.0-r4
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: ff21bc08ed8a9f1afcf56551938f2677
+Size: 34118
+Filename: enigma2-plugin-extensions-spzmosaic_1.0-r4_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzmosaic version 1.0-r4  Mosaic portal of
+ Channels
+OE: enigma2-plugin-extensions-spzmosaic
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzremotechannels
+Version: 1.0-r2
+Section: base
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: ea90f942585a2b3adf4dfc9ad3b3e276
+Size: 46364
+Filename: enigma2-plugin-extensions-spzremotechannels_1.0-r2_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzremotechannels version 1.0-r2  Copy remote
+ channels as stream in channel list & download epg
+OE: enigma2-plugin-extensions-spzremotechannels
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spztimeshift
+Version: 1.0-r9
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 23ec3b4822ec6c2f701fb3593b197976
+Size: 46064
+Filename: enigma2-plugin-extensions-spztimeshift_1.0-r9_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spztimeshift version 1.0-r9  Advanced Timeshift
+ plugin
+OE: enigma2-plugin-extensions-spztimeshift
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzweather
+Version: 1.0-r9
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: 923fdd1669ee230ad4d2b6bb2b870672
+Size: 283032
+Filename: enigma2-plugin-extensions-spzweather_1.0-r9_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzweather version 1.0-r9  Shows meteorologic
+ prevision
+OE: enigma2-plugin-extensions-spzweather
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-spzzaphistory
+Version: 2.0-r6
+Section: extra
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: f6d731e5028dce50c57314317bd52586
+Size: 22222
+Filename: enigma2-plugin-extensions-spzzaphistory_2.0-r6_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-spzzaphistory version 2.0-r6  Quick zapping
+ between last viewed channels
+OE: enigma2-plugin-extensions-spzzaphistory
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tvweb
+Version: 1.0-r19
+Depends: wget, rtmpdump
+Section: extra
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6bb6daac7a10095ad568a843c3eca5ab
+Size: 2151522
+Filename: enigma2-plugin-extensions-tvweb_1.0-r19_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-extensions-tvweb version 1.0-r19  View films online from
+ your STB
+OE: enigma2-plugin-extensions-tvweb
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-skins-blackmodern-hd
+Version: 1.0-r24
+Depends: openspa-components
+Section: base
+Architecture: sh4
+Maintainer: Mpiero
+MD5Sum: 32973c8f2c9cf9b01a4075d9a954a20f
+Size: 656280
+Filename: enigma2-plugin-skins-blackmodern-hd_1.0-r24_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-skins-blackmodern-hd version 1.0-r24  Default skin for
+ distro OpenSPA
+OE: enigma2-plugin-skins-blackmodern-hd
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-confluence
+Version: 1.0-r4
+Depends: openspa-components
+Section: base
+Architecture: sh4
+Maintainer: mpiero
+MD5Sum: 2cc743ad2c501acf50bc1f30b5f55b54
+Size: 1674108
+Filename: enigma2-plugin-skins-confluence_1.0-r4_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-skins-confluence version 1.0-r4  Confluence Skin for
+ distro OpenSPA
+OE: enigma2-plugin-skins-confluence
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-confluence1080
+Version: 1.0-r0
+Depends: openspa-components
+Section: base
+Architecture: sh4
+Maintainer: mpiero & sergiri
+MD5Sum: b6d3f89ad002d6a1993438a0d435fa6c
+Size: 4742014
+Filename: enigma2-plugin-skins-confluence1080_1.0-r0_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-skins-confluence1080 version 1.0-r0  Confluence Skin 1080
+ for distro OpenSPA
+OE: enigma2-plugin-skins-confluence1080
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-jrlg
+Version: 1.0-r5
+Depends: openspa-components, enigma2-plugin-extensions-openspajr, components-jrlg
+Section: base
+Architecture: sh4
+Maintainer: Sergiri
+MD5Sum: bfe890ef959d1b30893197508991b8cb
+Size: 3574222
+Filename: enigma2-plugin-skins-jrlg_1.0-r5_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-skins-jrlg version 1.0-r5  JRLG Skin for distro OpenSPA
+OE: enigma2-plugin-skins-jrlg
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-jrlg1080
+Version: 1.0-r5
+Depends: openspa-components, enigma2-plugin-extensions-openspajr, components-jrlg
+Section: base
+Architecture: sh4
+Maintainer: Sergiri
+MD5Sum: 59c7003bd5f614490ce0e9dd5476ff77
+Size: 4661974
+Filename: enigma2-plugin-skins-jrlg1080_1.0-r5_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-skins-jrlg1080 version 1.0-r5  JRLG Skin 1080 for distro
+ OpenSPA
+OE: enigma2-plugin-skins-jrlg1080
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-materialdesign
+Version: 1.0-r1
+Depends: openspa-components
+Section: base
+Architecture: sh4
+Maintainer: mpiero
+MD5Sum: 09a97f0b47cd84ade0cbcb1729c85ee9
+Size: 570190
+Filename: enigma2-plugin-skins-materialdesign_1.0-r1_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-skins-materialdesign version 1.0-r1  MaterialDesignHD Skin
+ for distro OpenSPA
+OE: enigma2-plugin-skins-materialdesign
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-infosignal
+Version: 1.0-r2
+Section: base
+Architecture: sh4
+Maintainer: openSPA Team <xx@xxx.xx>
+MD5Sum: ddac47412a4166641a822ef3433dc810
+Size: 21916
+Filename: enigma2-plugin-systemplugins-infosignal_1.0-r2_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-systemplugins-infosignal version 1.0-r2  Show Signal
+ Information for tuners
+OE: enigma2-plugin-systemplugins-infosignal
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-spzaddiptv
+Version: 1.0-r6
+Depends: librtmp1, gst-plugins-bad-rtmp
+Section: base
+Architecture: sh4
+Maintainer: Spaze Team <xx@xxx.xx>
+MD5Sum: a87e42e33afc04016afafde148fdc8de
+Size: 16072
+Filename: enigma2-plugin-systemplugins-spzaddiptv_1.0-r6_sh4.ipk
+Source: unknown
+Description:  enigma2-plugin-systemplugins-spzaddiptv version 1.0-r6  For append IPTV
+ Channels in Channels List
+OE: enigma2-plugin-systemplugins-spzaddiptv
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
