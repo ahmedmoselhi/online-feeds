@@ -1,0 +1,4410 @@
+Package: base-files-dbg
+Version: 3.0.14-r89.3
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d72213681ec6ef56e942efe2202858d6
+SHA256sum: 2791e199d5ba89c344318f86b8087e3d6cf8f7d2960fc5717fa8ad7637f7f3a8
+Size: 750
+Filename: base-files-dbg_3.0.14-r89.3_sparkreloaded.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89.3
+Depends: base-files (= 3.0.14-r89.3)
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7fb8075fe91538529084f0e8090c1f16
+SHA256sum: e740cceac1267430aeb519723f3aaaae1372b2685dd82877932bf2eb25e3e8df
+Size: 780
+Filename: base-files-dev_3.0.14-r89.3_sparkreloaded.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89.3
+Section: doc
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35c3a078e5063eaca575216ba896a1cc
+SHA256sum: d42b392d5375380c896b6cf6fe1d494e04de78222faf785ef12f1d5637221435
+Size: 860
+Filename: base-files-doc_3.0.14-r89.3_sparkreloaded.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89.3
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e0a93c2141e651d789f3c63038e8a001
+SHA256sum: 0ee39c1c55c2fc668173421987c3af7ab98031416efabbb9d330783ac4b8e4d5
+Size: 5710
+Filename: base-files_3.0.14-r89.3_sparkreloaded.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dbg
+Version: 6.4+git3193+d89d1ad-r0
+Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libxml2-dbg
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: aa3c83aa9d514b9a26f07200855be4ea
+SHA256sum: 0c58f206c9be01f08faa80c6da775683997968a41061c884374ae39638f2cca1
+Size: 26320
+Filename: enigma2-dbg_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dev
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2 (= 6.4+git3193+d89d1ad-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dreambox-modem-ppp-scripts-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, enigma2-plugin-font-wqy-microhei-dev, enigma2-plugin-opennfrskins-smokedefault-hd-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto10-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-dev, libmad-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl10-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-dev, python-email-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mime-dev, python-mmap-dev, python-netclient-dev, python-netserver-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-shell-dev, python-smtpd-dev, python-subprocess-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 177076f6389a4137d9756b37f8cbc142
+SHA256sum: b25ed8db9cde1894270047241d6d4c78c4366605aa747bc86c27591c8d1d24f6
+Size: 103498
+Filename: enigma2-dev_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-display-skins-meta
+Version: git253+b1d42f2-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-aliance
+MD5Sum: 7e9ea01732b5ac542fe0ccebd2848c6e
+SHA256sum: 285ebf89cfd89f5dcde6541d5627c98e7c9c9c44f40364818b6e646ad4104fa6
+Size: 1238
+Filename: enigma2-display-skins-meta_git253+b1d42f2-r0_sparkreloaded.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-display-skins
+Version: git253+b1d42f2-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-aliance
+MD5Sum: b93413234b462846a6b196907e4abbc6
+SHA256sum: 1fad9b34bdb7b64fe2276bbc6297122ccc1c74c405b2709cc7f7d9237f26fbbc
+Size: 590
+Filename: enigma2-display-skins_git253+b1d42f2-r0_sparkreloaded.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-fonts
+Version: 6.4+git3193+d89d1ad-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 007a15b13766e59032d238bfcb656f2e
+SHA256sum: 1f3eb2950d65d5b8774ea9b7cef9995b4596851d10319027a68992fdf75f42e3
+Size: 551630
+Filename: enigma2-fonts_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ar
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 762374c943d18c6b2b0801b7f1d4d940
+SHA256sum: 7f85887cc5ffa0a4ba58dd5efab5b4c5f8e0862a29477d207884da6e68ff15aa
+Size: 20916
+Filename: enigma2-locale-ar_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: ar
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-bg
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 50e2af179805f5a45c59dae791327902
+SHA256sum: 91b42119e5184d7d92db08365063059d6e1ddb3af1c531a331ab563a22b10f3c
+Size: 18640
+Filename: enigma2-locale-bg_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: bg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ca
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 46c75a9d3108324fb6b526e1270ea5e2
+SHA256sum: bee8b1b2e12736ad709ccaadffc9789c431cc9c6c5a2762606106f8993df4f95
+Size: 10356
+Filename: enigma2-locale-ca_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: ca
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-cs
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: ad09844a4ca299f551dd0b7445e62af7
+SHA256sum: 52ceae23aeda6823b5710f34be56fff8e31ab1cb20894f5545227e5433c24e83
+Size: 39300
+Filename: enigma2-locale-cs_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: cs
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-da
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 07d1ebdd793c928f016ec7832f415f4b
+SHA256sum: e1792ee7f718da9e91be460c3d425cc3f65cec60557f8e2ea82ff39829a5861e
+Size: 26216
+Filename: enigma2-locale-da_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: da
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-de
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 9bb3a489e48ef0698be6261025f749f1
+SHA256sum: e1dbf4586ad9c1a61ca0090dd05442d52e6cb94205bdf3b8269cc1e499288cfe
+Size: 83000
+Filename: enigma2-locale-de_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: de
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-el
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 93ee3728eb26b5ef7daf4dd873a43246
+SHA256sum: 47383ec56d385b903546fbc1a3d37cfc491b6f15008b16607cf75a11c896e452
+Size: 28240
+Filename: enigma2-locale-el_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: el
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-en-gb
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 96e4206b017ea392ebda09972302e205
+SHA256sum: 48ed86f5ba92453df713e4dbbfaabb7271b077fa4c44dad3320b04310948b3f5
+Size: 38470
+Filename: enigma2-locale-en-gb_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: en-gb
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-en
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 697e05387655f4836553e7ca909cee36
+SHA256sum: e419ce672678631543e47a0cfea0b631345d0acc84be03242ff0fa6ebfe80c08
+Size: 38076
+Filename: enigma2-locale-en_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: en
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-es
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f56bdbe5e2b50441c2aeb9bea15d1f6f
+SHA256sum: 1779c747c92d3ac0caa454a5e3e82d8fde00f7b5dedf75a496bf339bbbd595c3
+Size: 57556
+Filename: enigma2-locale-es_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: es
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-et
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: a2cc7725411d431a9e8425f8c5a9c9f9
+SHA256sum: 28ae51d2e4138cda47e29f13cc56aa54f62bce6aa4ca1fe133fa7cd1b930753a
+Size: 56444
+Filename: enigma2-locale-et_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: et
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fa
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f45fd72254204e199f0b9ae3932f9174
+SHA256sum: 486ad8c9348a735638ded1ec2f932ebf8f6a06973202a83c1f3775ef39eeb8d3
+Size: 22184
+Filename: enigma2-locale-fa_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: fa
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fi
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: e2067e09ee108ffc2fef5a9a9189fe70
+SHA256sum: b2e50138a926709359c0b7290fdecd70d39d17c53ba0a1b237135834ac54fdb4
+Size: 23448
+Filename: enigma2-locale-fi_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: fi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fr
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 0e36a918a37df261093b336dda278a25
+SHA256sum: bc30f8a45bcadbbd5aeb4093f1ccad92d161d4fa394467b959d60e34eb54bd6a
+Size: 27606
+Filename: enigma2-locale-fr_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: fr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fy
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 67c9fb8033e398aa883f8aa9e5d649cf
+SHA256sum: ac469a653db2ecc5d1e819e27a33bac3c00fe8c0d2cb55f8d14dc699c7d22200
+Size: 16862
+Filename: enigma2-locale-fy_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: fy
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-he
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 867af61698b0004f1ede0d4d8c5024f5
+SHA256sum: 24b484e551549c0cfbbea8e145b0fb380d6cd8375499d1fe1b11d96ed2928b14
+Size: 17810
+Filename: enigma2-locale-he_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: he
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hr
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 294e11a7c64a92ab09543e61160b9e4d
+SHA256sum: ccd51e75906e58f7060e79798dc7f3391e967e91686bbda2ee7be1f16d9676d8
+Size: 11702
+Filename: enigma2-locale-hr_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: hr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hu
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 7739fbec7e47abb6eb8905632d54a373
+SHA256sum: 3797d85744697217e61db023a78be75760571ce6b5cc822e836abbbfc860adb2
+Size: 25230
+Filename: enigma2-locale-hu_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: hu
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-is
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: e40e061fb4ee65bd877021c0329acf31
+SHA256sum: 127838c21e9b827f59469e724b5223b7c9d47abe385bf5ef84daad4e31140e40
+Size: 24140
+Filename: enigma2-locale-is_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: is
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-it
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 346dbeb0d525daed4127d644e807ea7f
+SHA256sum: c647e7d361169901c243a7deba9b22cb52247d9d09940a0c357a0493cd7d163c
+Size: 22884
+Filename: enigma2-locale-it_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: it
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ku
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 7c2b9a02b79f7930f1e892810bfe3c61
+SHA256sum: 48260e16537da98a12489b4cdaa9dfee63d9e3d7da6c1041908ae859e419f609
+Size: 26798
+Filename: enigma2-locale-ku_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: ku
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lt
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 6a790bfe722dbc2357b2a3a61d620dd2
+SHA256sum: facc163e58f206cd5d35b961ea1ff73c914229923b323111cfe877ec48ba402d
+Size: 24760
+Filename: enigma2-locale-lt_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: lt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lv
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 92749f638664c4b43110abc2b5bb8b3a
+SHA256sum: f288c0124913cb0b9b7e3ff304a4d13cf04c148470472899d205530d2e78b7cd
+Size: 18528
+Filename: enigma2-locale-lv_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: lv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nb
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: ea29b78a86949e5701506f1024820fc9
+SHA256sum: 666a869d0abb5d9fd23273c3e5a8cb52145aa60bff51d3cb7f12a115fe55728a
+Size: 1044
+Filename: enigma2-locale-nb_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: nb
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nl
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 10d6e4acaf74700bd2fefff6149fb13d
+SHA256sum: d6b2b068a40121f91125d6f4dcd00caae6efe9b5c5b25f1e9a598f5f5cc4001d
+Size: 63048
+Filename: enigma2-locale-nl_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: nl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-no
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f2067c2fdb3b8428c3fc6cb5550b8e60
+SHA256sum: 6964128846382a026a7520a5214e6d3de7445b6928a667471f19d22b0aad03b5
+Size: 13400
+Filename: enigma2-locale-no_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: no
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pl
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 156beccf43940f50fce51139bbeaa264
+SHA256sum: 43da6f8cfb3eaf775e870d9e2506c1299c42c24ed3dd59e2629bc5a15d99c1c1
+Size: 27564
+Filename: enigma2-locale-pl_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: pl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt-br
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 9a763e560d3fd388037f90bf1d64457b
+SHA256sum: d873413cacb0ce903e6ae76a12522793887287450cdd9a0e642a7bd9f947b163
+Size: 38434
+Filename: enigma2-locale-pt-br_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: pt-br
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 3e7933b03a42a48c9fe4602b4ae475b7
+SHA256sum: f4562342dfd4ac58d125bccfb30451c73669b5e7a98584ad56ec9982ee491ece
+Size: 26720
+Filename: enigma2-locale-pt_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: pt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ro
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f1b0e84a4b077bc0e08f2d27a4329fd5
+SHA256sum: bbddd2482afa0b84bf28313438836ce63a255601fe97ad9deb1bf5adeedc8d18
+Size: 18536
+Filename: enigma2-locale-ro_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: ro
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ru
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 47e524f2edda5e0b3fd01cd69493dd9a
+SHA256sum: 951c619cf8f12930769df25f2859098d33eed4e49e6e53e1c20065077a580482
+Size: 67288
+Filename: enigma2-locale-ru_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: ru
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sk
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: c88186a5f23dc30f61b812490ebdf8ea
+SHA256sum: 5166666e82d18d19a2705058132d96b23ca8dcd03ac38dece50cc7537291d11b
+Size: 23984
+Filename: enigma2-locale-sk_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: sk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sl
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: e5414dd953a16025ee5d97a3b4e3844c
+SHA256sum: 6ce10980fa381bb2e6fff553b00eda050fa283dff8b1690ca93c1811a5a63187
+Size: 26356
+Filename: enigma2-locale-sl_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: sl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sr
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: a2ea660ff3ef1339a217ec9069ddc5f8
+SHA256sum: 445e14fca8c6f3f748a726c2b87745474d70576f595a8d8059df7e9ab75c4d04
+Size: 24264
+Filename: enigma2-locale-sr_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: sr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sv
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 2d4bbc1e80f596112c4e79f95349961f
+SHA256sum: c9f56201d07bf60a99637877273716d77c69e362fd932063dda1befe1dd54f8c
+Size: 55978
+Filename: enigma2-locale-sv_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: sv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-th
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: fcdc35be9fb64b794cd095e0006b4648
+SHA256sum: 5f55f7286b72bacef98da36f730b568cb992751586840985b04b111e45f71679
+Size: 21830
+Filename: enigma2-locale-th_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: th
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-tr
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 5bb4f2a6ae272adb4229e7aa2d4a6cce
+SHA256sum: 59adc3dbd77916dd3b51becf28e39075e1f5289fdad993f73c6be7d9ae53189c
+Size: 68396
+Filename: enigma2-locale-tr_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: tr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-uk
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f42c6b58d0319f7b8f5e910fec730626
+SHA256sum: f7fc1ee517f9db24c2a1b92bb9f2c6a8260d6b26dd7d9a25b1d9491b805c4950
+Size: 20954
+Filename: enigma2-locale-uk_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: uk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-meta
+Version: 6.4+git3193+d89d1ad-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: aa35aa666c58584e9a8cfd2e7a716b5b
+SHA256sum: 88edde30b26d52e37d1b5f0d734fc8eee97e3d911e4d2d55c7225acddd360dc5
+Size: 4182
+Filename: enigma2-meta_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-accuweather-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: c0123df26c7ae74dfdde4d45eed519ea
+SHA256sum: 5a7ba3b5c12a9cd60a62e79ec5761d646bf51e906e74dede44a277c83a31edde
+Size: 14692
+Filename: enigma2-plugin-extensions-accuweather-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-accuweather (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-accuweather
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 79670273954c65d6abea96bac3bb30c7
+SHA256sum: 6b0543a8edd2c0303f8b4cdbad5c64d1711c48895359f49af1f56110f5279b05
+Size: 1798010
+Filename: enigma2-plugin-extensions-accuweather_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-accuweather
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-bmediacenter-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 3e737434a87453882b4846523962e126
+SHA256sum: 4189a5cb3e6dc9e14ec997f204cbad829ba5ab5236f2d7d8257e2a8fd7d70c2e
+Size: 34972
+Filename: enigma2-plugin-extensions-bmediacenter-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-bmediacenter (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-bmediacenter
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: ff943032923376dda164d40b1ba62489
+SHA256sum: 37b1c68d6c7a2886a05796a431bcedcb46ed2f982fa94ee64996f026c417098e
+Size: 5488290
+Filename: enigma2-plugin-extensions-bmediacenter_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-bmediacenter
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-customsubservices-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: fbfc09fc62c95a0a8af6bc3d326fd8c9
+SHA256sum: fc58b6f59350a8b9ef6d3ab27923dc84a9ac80dac3e12732904d808f9ee26d8d
+Size: 5324
+Filename: enigma2-plugin-extensions-customsubservices-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-customsubservices (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-customsubservices
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: abb65c94e73c55c7496f21609f5a773b
+SHA256sum: 05c6162f730f5e4065e0ef358560649bd79d3bff928e535ced9675825413767f
+Size: 7634
+Filename: enigma2-plugin-extensions-customsubservices_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-customsubservices
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: a6a1731a5b5d1be4f5d4a3b9211383df
+SHA256sum: 9f5627502f5e7528e57612445107380c0fc9abc6aa4230a11ac7e484d09928c8
+Size: 4958
+Filename: enigma2-plugin-extensions-cutlisteditor-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 6.4+git3193+d89d1ad-r0
+Depends: aio-grab, enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: b216e63717f5ed7d85ee2b6fbf66c52a
+SHA256sum: c294570a159fef46fad08a4fcd7f32661dfe2ef7f66700adf4268576b292e72d
+Size: 7062
+Filename: enigma2-plugin-extensions-cutlisteditor_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f286ca4c9f7b42923f4abdc494225def
+SHA256sum: 14dc8ae20ff6db2b1f96b5143d023ad235dd379a7236e75232b29afeff0bf88e
+Size: 28796
+Filename: enigma2-plugin-extensions-dvdburn-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn
+Version: 6.4+git3193+d89d1ad-r0
+Depends: cdrkit, dvd+rw-tools, dvdauthor, enigma2, mjpegtools, python-imaging, replex
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: d3d5c28381482b440d92a47afa1ae653
+SHA256sum: f0cd83d870b761538fa76c8c22d6c1940ad6b48702731f8275438f437b26d59f
+Size: 805364
+Filename: enigma2-plugin-extensions-dvdburn_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: dca4a729643ce50e66942b7d8fb7d82e
+SHA256sum: 2850f55f0bc0b7ec7b6c740e4e4a56b3ce58439ee591a256f0e31e165f1ad395
+Size: 1890
+Filename: enigma2-plugin-extensions-dvdplayer-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 772527866f25e13db6b257b8b537e42d
+SHA256sum: bc44930c9388be7b366f022ffce849173f517b08bf4fcf1f2f614f1c7fbd8321
+Size: 2584
+Filename: enigma2-plugin-extensions-dvdplayer_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-fileload-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 00980f084f10a66a775fdee2eb68b63c
+SHA256sum: 592a5a8097a3f6e46c555e7415d6474b907efc60371f64729d2ed117db6a69a3
+Size: 5824
+Filename: enigma2-plugin-extensions-fileload-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-fileload (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-fileload
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: b4bb10193473da029f0eb455d7c4051c
+SHA256sum: ba87be513e85d3cdcfbffba6576ad436ff6a778b21f2360dc0f327ba189cbace
+Size: 88302
+Filename: enigma2-plugin-extensions-fileload_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-fileload
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-infopanel-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 7b639ade59faad6702797809329858ee
+SHA256sum: 9c4af79b70d7d41c44682a036e2a03a37d3a9b2f0fbee251464c95486f57a6f1
+Size: 76386
+Filename: enigma2-plugin-extensions-infopanel-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-infopanel (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-infopanel
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: fcf751e7bde540c62fa9211ffd403487
+SHA256sum: 698730243f0be75039e58932eef1e7895f7ad985e49cc2c120428466ef154efb
+Size: 1276420
+Filename: enigma2-plugin-extensions-infopanel_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-infopanel
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mainmenu2-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: cacbb022e34dee2e4943ab6220b16aab
+SHA256sum: 8446cd46ee3650d5c2a22bdc1a5d1dbd7f1f5270b3ab64a2283d46724cb61302
+Size: 4792
+Filename: enigma2-plugin-extensions-mainmenu2-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-mainmenu2 (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mainmenu2
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 6ca2adb4567121c21895f170e6b27b65
+SHA256sum: 9e0d4e3547a2b37112c949968561a96149c9ae79278c9dc50dc92c31b3c93bb8
+Size: 3234236
+Filename: enigma2-plugin-extensions-mainmenu2_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-mainmenu2
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 9d4631c9f047350245247242136b0783
+SHA256sum: 87ff723ea0d7721de58ecd48da87f3983419d8c5cacfd3832b800c812b69eb86
+Size: 10328
+Filename: enigma2-plugin-extensions-mediaplayer-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: b16cf36eee0df4563dd6167343b5d2bb
+SHA256sum: 186886d597bd27aa932cbb0a482428b5de3b33987c60f5ece07e97cc156d6efa
+Size: 21796
+Filename: enigma2-plugin-extensions-mediaplayer_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 3ffaf2e321572afc9882009cc76407d4
+SHA256sum: 010cfa98d804bf7aa91cfc157ccd7aba6da659470600472d83c9a875b113caab
+Size: 3136
+Filename: enigma2-plugin-extensions-mediascanner-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 65026b45e58eb4fd55801936116fdf5c
+SHA256sum: 92f296fa4cfe7ae3a295c36335e6ce22d75906718504bfd215c3f8980c1bb122
+Size: 14390
+Filename: enigma2-plugin-extensions-mediascanner_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-menusort-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 139181423de970cdc83dce3374c9ad9c
+SHA256sum: e9f41965dde186496a91da66786ada12157fe7571cf7ca386af05de6fb7b7e97
+Size: 4350
+Filename: enigma2-plugin-extensions-menusort-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-menusort (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-menusort
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 267f65f175cd014aa224b6ab8a5212f5
+SHA256sum: 6a0c4fcc462a0beda3a471dc8c986d8f9c398dc33d61f592979f2b3028caa56e
+Size: 10276
+Filename: enigma2-plugin-extensions-menusort_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-menusort
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-modem-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 748b3b1a7e40cfc8c6ae629fb606ffb3
+SHA256sum: 1330c26694cc73816dbbe1a1812f0b8d496eeea848beea5a71e43026af3734c7
+Size: 3168
+Filename: enigma2-plugin-extensions-modem-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-modem (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-modem
+Version: 6.4+git3193+d89d1ad-r0
+Depends: dreambox-modem-ppp-scripts, enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 04b119112de9a64138c00f78bdb60e3e
+SHA256sum: 394c5a1204f0c09db4ed681c5cebcfdf367843630a3ef1f175b81932c536393c
+Size: 5026
+Filename: enigma2-plugin-extensions-modem_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-modem
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-nfr4xboot-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 1068e09a8167e8847d487e8f9b5f7b58
+SHA256sum: d3f3d2bfe0ffd6ccc9479a8803c7253d3a59da4dff6cfc95ed9b5c808f327dac
+Size: 48490
+Filename: enigma2-plugin-extensions-nfr4xboot-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-nfr4xboot (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-nfr4xboot
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2, libc6 (>= 2.23)
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: b116feeaba60c9b155b796c57b54118b
+SHA256sum: 5ff3c1c67347661bf174bb4fa4f2e9c3c81c6d00e73ed17e7da29dddf0a65775
+Size: 396894
+Filename: enigma2-plugin-extensions-nfr4xboot_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-nfr4xboot
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 0a97d748721ca5291bf29bfc8c9a34a2
+SHA256sum: 87a53760c47acea5e7240cec70d6026aa4cd014ef3c05afb74ec30a1387de879
+Size: 6668
+Filename: enigma2-plugin-extensions-pictureplayer-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 6bfc59de432a5bae52b9b320fdfacef7
+SHA256sum: cf157eccb4d39d055b5b10383a8caca8c4dfb43d7c3de79de7885a4771d98874
+Size: 16392
+Filename: enigma2-plugin-extensions-pictureplayer_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libxml2-dbg
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: a0aa6c109b26b0fcc65e9717c6964f34
+SHA256sum: 3c2b12fe94225c1389cd41e8d9621b54ec47a8b0721a2b2926c626e5ab46398f
+Size: 7013810
+Filename: enigma2-plugin-extensions-socketmmi-dbg_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 6d164f47bffda2efbe369f31708029fb
+SHA256sum: 60fc9aaf972e9149e30293d7a238763d19d77e94db4cf73b902a90971d7d7e6a
+Size: 1530
+Filename: enigma2-plugin-extensions-socketmmi-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: fbebe9d3a3ef990b4b5ce86ddae783b2
+SHA256sum: e00134d486f471b30b1602deb6c9010a46ac6831334f0425d08cb7948b3c8cf0
+Size: 143142
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2, libc6 (>= 2.23), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libxml2 (>= 2.9.10)
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: d924a3835df47ae2b62c00191f379b4a
+SHA256sum: bbbfdc9b0c880cf078f77e0391eb905b6d14ff44b7ef423646f11ac1246c6a80
+Size: 10568
+Filename: enigma2-plugin-extensions-socketmmi_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-tuxboxplugins-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 9ab46cae2b970e442cbe2b4d9bb5463e
+SHA256sum: e727bf84c694f5fd56b7944d6f492d132215c3a594666309f287596f08bca583
+Size: 1812
+Filename: enigma2-plugin-extensions-tuxboxplugins-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-tuxboxplugins (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-tuxboxplugins
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 14182771f481999b01050a90db61459f
+SHA256sum: 4bd3ff2eb06b59f8952d11d4e5e8bbb73c19d6c9f56ef6eb70232b34f4434365
+Size: 4140
+Filename: enigma2-plugin-extensions-tuxboxplugins_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: extensions-tuxboxplugins
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-font-wqy-microhei
+Version: 6.4+git3193+d89d1ad-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: b4a4f0931ec67e03578c31f17c43f53d
+SHA256sum: a4fe5badfddf4627e7cb46682059bfa617d2a52e343b1cee31beea02da4c8ee5
+Size: 672
+Filename: enigma2-plugin-font-wqy-microhei_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 4b480fc8295e454dd14ea92b84e3c4c7
+SHA256sum: d0475806b9931189600050908744a944026f6e9c0559cb344a01def8dac94753
+Size: 6032
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 02d57bfa711bc10624a154a74689c96b
+SHA256sum: 8be25c80d57b5ee710e70bc095b32964ccf1304ff1cabe658776ba95059c370a
+Size: 9038
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: b24ea50936929a8b5acd8267a88cb2ad
+SHA256sum: 0844786229e7f141e7ef84a9605dad3bfc48ad8d15b1af9cab93bfa907d4dfce
+Size: 6582
+Filename: enigma2-plugin-systemplugins-diseqctester-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: abb29b3156d5a01d92aabdbeefc85db8
+SHA256sum: 3876dedea67f9af1d968cc229b7ad9f5e3e2e5436c81c57e8b5fe9604003d903
+Size: 8820
+Filename: enigma2-plugin-systemplugins-diseqctester_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 7c272bc899263dd9a1976baa88a592ee
+SHA256sum: 2ded6ca0fe284dac9a7f91fa67f2522b26dffa82fd0494fe8b02fa4552a63132
+Size: 8158
+Filename: enigma2-plugin-systemplugins-fastscan-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 7d4b847d7ca97dec6ac7b446ae899b38
+SHA256sum: adbb36b1389801db2d1b304bda353e7cfffb1a76c1afa33ea6f3334653bc67de
+Size: 19572
+Filename: enigma2-plugin-systemplugins-fastscan_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 4d375cd08683d9f8de0c191958c6948f
+SHA256sum: 8c2ee2eb8377ba537a2306a397099deabfbd58c130982135fe598d160074ef6d
+Size: 3630
+Filename: enigma2-plugin-systemplugins-hdmicec-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 8769f8965d6bc19da97c0554f04c3ba7
+SHA256sum: ba0a0945e48ec1f06caa70ffc342856ba407b46242592dd29397a236801e399f
+Size: 4720
+Filename: enigma2-plugin-systemplugins-hdmicec_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 0431e5945ab099f04eb831458869f688
+SHA256sum: 25991d18b1ae8d5abb377d19dbd19fa783f84875cdc810529ff206555640cebc
+Size: 1962
+Filename: enigma2-plugin-systemplugins-hotplug-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2, hotplug-e2-helper
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: e31581a5f96295e030a468558074a22b
+SHA256sum: d04452d7290c5bd86d13f0a6cf169d10a577dee1f97cead5cde0875cbf07779e
+Size: 2696
+Filename: enigma2-plugin-systemplugins-hotplug_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: fdf1eab3338a2ecc84054311a98da920
+SHA256sum: fc1f0d44ea6b7dad9f60cf2cd99dfe45dbb55c0840337137872ce1df6d80c7ee
+Size: 4012
+Filename: enigma2-plugin-systemplugins-lcnscanner-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f7f663bab3ec9c24d44b5d3047b75438
+SHA256sum: a8aff9ae4df2df37c52c452358b4b4303c69678d0e7f73658c9a433311758fb9
+Size: 6232
+Filename: enigma2-plugin-systemplugins-lcnscanner_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: ec52e71fe0a18fb4c18709ba50e14ab3
+SHA256sum: 7ed042e67247d2128097142f43613ba166881d1e433a80509e2283c453234964
+Size: 4568
+Filename: enigma2-plugin-systemplugins-networkwizard-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 2b03234b829ec47a575abef346ac15ed
+SHA256sum: 28f762a3841c47e7aabb4d6592291b363f2c9ccca1fee4ee4dde5812ba035010
+Size: 7822
+Filename: enigma2-plugin-systemplugins-networkwizard_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 54dd869c1c901b2c1ff2f9b6a45e4817
+SHA256sum: af606372e67b87b054409da87a42b44cacaaa9d3711cfac7f50fae77ae7a9661
+Size: 12838
+Filename: enigma2-plugin-systemplugins-positionersetup-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 0f55b5633a326b1b125ac4195beca6a4
+SHA256sum: c455ff75014a581d3b4d1be6764217f662c164c10ab6b6aeb9be1a51dc7c8fc2
+Size: 18454
+Filename: enigma2-plugin-systemplugins-positionersetup_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sabnzbd-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 727091406c171a476190ad9ee27f6e59
+SHA256sum: 6882f622b550d13b8c62f9d85d1535382fcb2f59d03e96caed3928770741b4c5
+Size: 2618
+Filename: enigma2-plugin-systemplugins-sabnzbd-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-sabnzbd (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sabnzbd
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 8e2985809378d59a5cc34eae5d374ecb
+SHA256sum: 3c10dbdb1daee2d22a662a9a5e0e41ac7024effa0c07882e105092f868f4052b
+Size: 3664
+Filename: enigma2-plugin-systemplugins-sabnzbd_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-sabnzbd
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 36c8ed0973988bcc27acfad6a67fe42c
+SHA256sum: 75cad82525ad325eb2819194491e51658f27137b3279263c6ad9093369bef936
+Size: 1986
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: ee23e0aed7b9b16cc847f55a05aac5ce
+SHA256sum: 6efb2e3e069512165fc7b5feb4c8d8f9a418d2ef3566922ceb4b7223d70961f8
+Size: 2590
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 471fedccd96d2758d917bb9655a24fab
+SHA256sum: aea92624c6973d1c66af0e10c72bfb459c383066389b3989ec2903e26d834260
+Size: 4912
+Filename: enigma2-plugin-systemplugins-satfinder-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 623419cbe0c0a0203f582b974333c210
+SHA256sum: 4a0822c3379bf45a4f80e3edb7ea4d87790dd515dfbff8c5baf3013cc0548bc2
+Size: 6712
+Filename: enigma2-plugin-systemplugins-satfinder_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f6a5423f1d0e702a43b0dc3b3468d5f8
+SHA256sum: 84dda4c96dac5b6c7a0f76473b106a3f6b0b497866ab5e81ce81fcdf74ab803f
+Size: 31540
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2, python-twisted-web
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 6babb41f01c269b6f86eba10b8d1ca69
+SHA256sum: 6f1c9ad17ca8d37c8e7b1346a1cf0c4d6dcc14c72bc050afb44da7ce9f1eb4b0
+Size: 79192
+Filename: enigma2-plugin-systemplugins-softwaremanager_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 19c69c9252d819a5c56e000ca5e57772
+SHA256sum: 52f89dcd55ed0811501bf8b426f167584c8cf9d7a16c67505ded825ac45bfec6
+Size: 2278
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 5e88bfd52b75f0473dbccadba65b2127
+SHA256sum: 0821f52503812c79646cb00072fcfed17981af3c2dbef1f377c7383b3e5e3554
+Size: 3034
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 67dab0c0227bce0c23cdb516b596c9c1
+SHA256sum: 5757d229567278396a34d380b12132fa44a5cc58d4ce37dd6484551265d061ce
+Size: 5708
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: d10f9dd50c7123243cf71eb93d38b207
+SHA256sum: 5b384e67220390fddfd60f8b691f94987289ac0e6fb6d847744c2f053a162505
+Size: 8548
+Filename: enigma2-plugin-systemplugins-videoenhancement_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 8474c06c24c0fc54ad5731d24b9d3d35
+SHA256sum: c6e6b86472d3571fe72b8a735bccd5c755d9c4bc856fe77ea6d3b3d09ecf93a9
+Size: 3632
+Filename: enigma2-plugin-systemplugins-videotune-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: f09b50264eb205461a7fa50ae3a9e0a4
+SHA256sum: 9cd1e8b7632b4d2212db2816182947fd9e337c74b7eed7b66caf59f130efa1b2
+Size: 5288
+Filename: enigma2-plugin-systemplugins-videotune_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 0b1dc86621803a5617ee72b67cadcb37
+SHA256sum: dfc1dfe5ed3ce34a700aa218f018b1fdcf8f55af17da7457d2e8b5003a7fbb23
+Size: 7536
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2, python-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: b658d98068c7edea0b1aef547c19a8f9
+SHA256sum: 2de994f49f79775d640f1ff42362dbf83449805d53625915beac01df69841647
+Size: 11136
+Filename: enigma2-plugin-systemplugins-wirelesslan_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-po
+Version: 6.4+git3193+d89d1ad-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 54047876aca737d4ab4bfa508627da43
+SHA256sum: e916696ed74324bdcc457f459daab4043b4446e03efaa51906b738ae4b52b37a
+Size: 1196480
+Filename: enigma2-po_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-src
+Version: 6.4+git3193+d89d1ad-r0
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 09138438536ac37c1ea6ad2c65fc05c4
+SHA256sum: d0d1535f2069db6f4142fa06ef5104a9bd1e3559a1a08a784936dba4f95b063d
+Size: 505478
+Filename: enigma2-src_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Source files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 6.4+git3193+d89d1ad-r0
+Depends: enigma2-dev (= 6.4+git3193+d89d1ad-r0)
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: ef22400919f6cfcf6d8069dfdd1d1c84
+SHA256sum: 3ba013a40fc1fef532f64ae81a0c929a3e799e71497d18944ee9f2221fa5ec49
+Size: 24108
+Filename: enigma2-staticdev_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2
+Version: 6.4+git3193+d89d1ad-r0
+Depends: alsa-conf, enigma2-fonts, enigma2-plugin-font-wqy-microhei, enigma2-plugin-opennfrskins-smokedefault-hd, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.17.0.1+git18739+66819fe), hotplug-e2-helper, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.23), libcrypt2 (>= 4.4.12), libcrypto1.0.2 (>= 1.0.2u), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.8+git125+64efce6), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.8), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.62.4), libgomp1 (>= 4.9.4), libgstpbutils-1.0-0 (>= 1.17.0.1+git20159+0e1f7f6), libjpeg62 (>= 2.0.4), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.17), libsigc-2.0-0 (>= 2.10.2), libssl1.0.2 (>= 1.0.2u), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libxml2 (>= 2.9.10), oe-alliance-branding, python-codecs, python-core, python-crypt, python-email, python-fcntl, python-image, python-imaging, python-lang, python-mime, python-mmap, python-netclient, python-netserver, python-pickle, python-process, python-pyusb, python-re, python-shell, python-smtpd, python-subprocess, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface
+Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss2
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Alliance
+MD5Sum: 0bde769c132f153df29cedf03f3f95c8
+SHA256sum: 53b24b5ecb590c4f932e5527ba01b3e8a8a03f849db627641e9970854b85182e
+Size: 3055400
+Filename: enigma2_6.4+git3193+d89d1ad-r0_sparkreloaded.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: oe-alliance-base-dbg
+Version: 6.4-r0
+Recommends: alsa-utils-amixer-conf-dbg, avahi-daemon-dbg, bash-dbg, cronie-dbg, dropbear-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, e2fsprogs-tune2fs-dbg, early-configure-dbg, libavahi-client-dbg, libcrypto-compat-0.9.7-dbg, libcrypto-compat-1.0.0-dbg, libxcrypt-compat-dbg, llmnrd-dbg, minilocale-dbg, modutils-loadscript-dbg, ntpdate-dbg, oe-alliance-branding-dbg, oe-alliance-enigma2-dbg, opkg-dbg, p7zip-dbg, packagegroup-base-dbg, packagegroup-core-boot-dbg, python-argparse-dbg, python-numbers-dbg, python-twisted-protocols-dbg, rc-local-dbg, sdparm-dbg, tzdata-africa-dbg, tzdata-americas-dbg, tzdata-asia-dbg, tzdata-australia-dbg, tzdata-dbg, tzdata-europe-dbg, tzdata-pacific-dbg, util-linux-blkid-dbg, util-linux-flock-dbg, util-linux-sfdisk-dbg, volatile-media-dbg, vsftpd-dbg, wget-dbg
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93427c6c23510727b692be48927fba1c
+SHA256sum: 252e8acbff22a2f2b261c7ae3e04fef93dcf693cfb8f9ad0761c210f469b4888
+Size: 1000
+Filename: oe-alliance-base-dbg_6.4-r0_sparkreloaded.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Debugging files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base-dev
+Version: 6.4-r0
+Depends: oe-alliance-base (= 6.4-r0)
+Recommends: alsa-utils-amixer-conf-dev, avahi-daemon-dev, bash-dev, cronie-dev, dropbear-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, e2fsprogs-tune2fs-dev, early-configure-dev, libavahi-client-dev, libcrypto-compat-0.9.7-dev, libcrypto-compat-1.0.0-dev, libxcrypt-compat-dev, llmnrd-dev, minilocale-dev, modutils-loadscript-dev, ntpdate-dev, oe-alliance-branding-dev, oe-alliance-enigma2-dev, opkg-dev, p7zip-dev, packagegroup-base-dev, packagegroup-core-boot-dev, python-argparse-dev, python-numbers-dev, python-twisted-protocols-dev, rc-local-dev, sdparm-dev, tzdata-africa-dev, tzdata-americas-dev, tzdata-asia-dev, tzdata-australia-dev, tzdata-dev, tzdata-europe-dev, tzdata-pacific-dev, util-linux-blkid-dev, util-linux-flock-dev, util-linux-sfdisk-dev, volatile-media-dev, vsftpd-dev, wget-dev
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66f1994dd2d191d3257acb81f496f1c3
+SHA256sum: 11d12c7edd7a001ae7c3d0a73c76df830cebd9530498ee4215616ff3135008f9
+Size: 1026
+Filename: oe-alliance-base-dev_6.4-r0_sparkreloaded.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Development files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base
+Version: 6.4-r0
+Depends: alsa-utils-amixer-conf, avahi-daemon, bash, cronie, dropbear, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs-tune2fs, early-configure, libavahi-client3, libcrypto-compat-0.9.7, libcrypto-compat-1.0.0, libxcrypt-compat, llmnrd, minilocale, modutils-loadscript, ntpdate, oe-alliance-branding, oe-alliance-enigma2, opkg, p7zip, packagegroup-base, packagegroup-core-boot, python-argparse, python-numbers, python-twisted-protocols, rc-local, sdparm, tzdata, tzdata-africa, tzdata-americas, tzdata-asia, tzdata-australia, tzdata-europe, tzdata-pacific, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, vsftpd, wget
+Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-nls-iso8859-15, kernel-module-vfat, kernel-module-xfs
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1edd30d21f3072f0acc409223148887a
+SHA256sum: 06518cbd36d85f184d254d88a338ca53b1d32c59b0e407a812a37ec46bd81c0c
+Size: 982
+Filename: oe-alliance-base_6.4-r0_sparkreloaded.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image.
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-branding-dbg
+Version: 6.4+git854+28bc799-r20200222-sparkreloaded
+Recommends: libc6-dbg
+Section: devel
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 0957e5afc05dfbb39191f84c49fd62df
+SHA256sum: 746c53228dabc655b439223004cc677e8e51f438b8cc84e6584b84bf632407d4
+Size: 55266
+Filename: oe-alliance-branding-dbg_6.4+git854+28bc799-r20200222-sparkreloaded_sparkreloaded.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.4+gitAUTOINC+28bc7992ea-r20200222-sparkreloaded - Debugging files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-dev
+Version: 6.4+git854+28bc799-r20200222-sparkreloaded
+Depends: oe-alliance-branding (= 6.4+git854+28bc799-r20200222-sparkreloaded)
+Recommends: libc6-dev, python-dev
+Section: devel
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 0953da39874ff3b9b64f188f4cf7d8a9
+SHA256sum: e244c7411c603da76a63ced13d904ce6ea99f7816433a74523f38d05bc018357
+Size: 746
+Filename: oe-alliance-branding-dev_6.4+git854+28bc799-r20200222-sparkreloaded_sparkreloaded.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.4+gitAUTOINC+28bc7992ea-r20200222-sparkreloaded - Development files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 683d05159e8967ea0c9b926bb38c374c
+SHA256sum: bbb9d568069671847301b39a6abda5fbcd42fb0d53c15a5eb605036ca015ded8
+Size: 92810
+Filename: oe-alliance-branding-remote-amiko1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: c7f58446b859c9a41f08ccda358ed7bb
+SHA256sum: 1a567f569a31e878bea5b7cb25f880aa9563e7f8ae99c4f00c0dabc8728cd50f
+Size: 118034
+Filename: oe-alliance-branding-remote-amiko2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 152303fd716a2ee2541f883fd53b9b92
+SHA256sum: 44f334db2fb22585ebd4afd077a0908785cfe338398ac32347f1631730d8e4f3
+Size: 42546
+Filename: oe-alliance-branding-remote-amiko3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 2249c37f256a78b388b9c0ef686e8588
+SHA256sum: 573834549deb55d40bc073c30b548627359549d029d66e7e9f1654969d8eb191
+Size: 54110
+Filename: oe-alliance-branding-remote-amiko4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-amiko5
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: ac0224b7fffaac11087a893eb2b20ae7
+SHA256sum: 5a3f6a6d79a4e5b935d4f8504c2bb5cc3ee8d77a658bfbdcd02f758054e3c5ed
+Size: 112086
+Filename: oe-alliance-branding-remote-amiko5_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: amiko5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-anadol1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 71f2610fb39b238972796b57b96599f5
+SHA256sum: 340190d9390b7d99a055b4ebe0644e707c906d1e2c3f166dca026822ad562d24
+Size: 80386
+Filename: oe-alliance-branding-remote-anadol1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: anadol1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-anadol2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: d53816296362317e258b9aa711ac8537
+SHA256sum: d9fc749db369d97ce12ac05b3734a829460668ae477fe7df3ae4830720ea323f
+Size: 46018
+Filename: oe-alliance-branding-remote-anadol2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: anadol2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-anadol3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 7a1178fa7c4e02c03ef741f792fe7257
+SHA256sum: 67a50c49256cb46853f6490242f4682b5376f9cb5411ab42d3997ed7ec20d63b
+Size: 37852
+Filename: oe-alliance-branding-remote-anadol3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: anadol3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ariva
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 44fcbabcba05f3448d090024252b195c
+SHA256sum: f29e38e772f0f2ddcde5ec71b0adcfcfd6db843b4b7a83f790b6836b910ab088
+Size: 44022
+Filename: oe-alliance-branding-remote-ariva_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ariva (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 134bb9ca3e17373d3580ba572a999cbd
+SHA256sum: 6437d4f2083fe5caed3092beadf4ddc3ffaa9ec5884a119bb8a90083b9acaa55
+Size: 40060
+Filename: oe-alliance-branding-remote-ax1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: bf3694c0b12190789bf006b315bd5fcd
+SHA256sum: ea0fd2be8ab3d5b07a878ab27422fee8b0f5fc57d4f22d6bc1b3d0b197bdd092
+Size: 99488
+Filename: oe-alliance-branding-remote-ax2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 878d93603f677d49b673c54d3a013d4f
+SHA256sum: e58b40a6a4066112d67d667bcb3cdc6a296b14be0f1cfc32a238dbe3ecc26b3f
+Size: 33200
+Filename: oe-alliance-branding-remote-ax3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 718d80b98d5f91d7d571275d95f4877d
+SHA256sum: e7aed8a8923a2163267465029e44329ed0c2b3c078211768ab9ef3b7bfeaa6bd
+Size: 29492
+Filename: oe-alliance-branding-remote-ax4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ax51
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 7f6d46d70341e26b44fbffa6c73b98a2
+SHA256sum: 5b61861db4e5631868282aa0b2beeb13a327efab78f61b073f2f51f8a6520bd5
+Size: 73794
+Filename: oe-alliance-branding-remote-ax51_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ax51 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-axas1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 1b1aaa68b43d591581e5d771a8b90cde
+SHA256sum: 04cb03a9cf7f5218532fc25751b3ff91a5b5c792917c40bc83d4235eb606062a
+Size: 70682
+Filename: oe-alliance-branding-remote-axas1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: axas1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-axas2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: bd81a26fdbde81d6811559c97f9d43f8
+SHA256sum: 7a68f4bfcf9b93bf6aef56479f3acecd3b787ec38bbc35aaa6c1442efcded5fe
+Size: 57902
+Filename: oe-alliance-branding-remote-axas2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: axas2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-axas3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 6c317e75c7a16ed01832626333642854
+SHA256sum: 77543f81901466ae0c6052e574f35d5ec3700c444cf7a2a9bd10c7fdbc07f4ef
+Size: 39590
+Filename: oe-alliance-branding-remote-axas3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: axas3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-azboxelite
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 43b86bb4cbaf25921495b4293c78141f
+SHA256sum: a19c88589646992e3f44d6ecccca74ea735500a57bea7df749d9d977d5e429c9
+Size: 49098
+Filename: oe-alliance-branding-remote-azboxelite_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: azboxelite (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-azboxhd
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: defe3d5d7050763937eb12200622c818
+SHA256sum: f887ed155a82616b8f94afd9b21976ba98a35904ba5009c31c642e6f63fc3f68
+Size: 38970
+Filename: oe-alliance-branding-remote-azboxhd_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: azboxhd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-azboxme
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e802055f2f5eb5ac7faddef7eace2114
+SHA256sum: e4f45a17804a9e5226d321b89b7b39ec3d9a92ef5b638f4c85e71e85e5eec8e7
+Size: 23328
+Filename: oe-alliance-branding-remote-azboxme_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: azboxme (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-beyonwiz1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 8cd6edc319f946a1d265d80c17d11cb9
+SHA256sum: d8d5bb3ec7c726b9ef2f41b3d6b3aed76751ad8c314cae3820c6613a44ff8c9a
+Size: 35394
+Filename: oe-alliance-branding-remote-beyonwiz1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: beyonwiz1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-beyonwiz2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 98e0480d578c47104b3f1142da273af1
+SHA256sum: ba142fccfffa7ab0ecb9848e07e5d32597106e2f0c0f226ba17265512583177e
+Size: 53518
+Filename: oe-alliance-branding-remote-beyonwiz2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: beyonwiz2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-cc1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 8f86c1766ccc98c175465acab2a5e92f
+SHA256sum: 7a75a679edf23da38ee2dda1162d77f13426d66b97218199bb99ec3a15d9de0a
+Size: 35084
+Filename: oe-alliance-branding-remote-cc1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: cc1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-cube
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: d191c6ccb29d803813a30b6cf8813d03
+SHA256sum: be5f8d30f59138702a8920300769fc1157a9f83358a96a73c320a8730380f7a7
+Size: 47042
+Filename: oe-alliance-branding-remote-cube_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: cube (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dbg
+Version: 6.4+git854+28bc799-r0
+Section: devel
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 9f54ecd71912913e04af21b14a6f9402
+SHA256sum: 151f3df2f54efb599550d1f84ae3f10dab946e022ee3fe61d22657fddd106fbb
+Size: 702
+Filename: oe-alliance-branding-remote-dbg_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: oe-alliance-branding-remote version 6.4+gitAUTOINC+28bc7992ea-r0 - Debugging files
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dev
+Version: 6.4+git854+28bc799-r0
+Depends: oe-alliance-branding-remote (= 6.4+git854+28bc799-r0)
+Recommends: python-dev
+Section: devel
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 43bc54cf428749d30fedd838c3c1849d
+SHA256sum: 852b290880a501c1e1d707bb34a5affef77276d80fa4b2254df8b29ee162c5a3
+Size: 748
+Filename: oe-alliance-branding-remote-dev_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: oe-alliance-branding-remote version 6.4+gitAUTOINC+28bc7992ea-r0 - Development files
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dinobot
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 22f12cf51166d430ab5c603424793d5d
+SHA256sum: 4e224db0ed209d15e76eb419dab9e651cf668bd41aa3a55a7b9a557fc205ad7f
+Size: 67326
+Filename: oe-alliance-branding-remote-dinobot_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dinobot (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dmm0
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: bba9038860cba3ddbb7f91257ea32a68
+SHA256sum: 1165f0e81dc06c1518be45531bc3098057f6ade86ea44bd3bcd25125143103cc
+Size: 37010
+Filename: oe-alliance-branding-remote-dmm0_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dmm0 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dmm1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e4717c58c53c1fb40647b9fd3b0f275c
+SHA256sum: 06fa9a61198bb062db87c700408cf0e8b1058f596d70b8337e43f1dab3863bed
+Size: 24858
+Filename: oe-alliance-branding-remote-dmm1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dmm1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-dmm2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 1736338f1e918fafd81ec82984b99748
+SHA256sum: 0a379de69e540a2c564b606fd706e7385da3892dadc1c20d58c261a39810a902
+Size: 43914
+Filename: oe-alliance-branding-remote-dmm2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: dmm2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-e3hd
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: ec702d9a1e87b669aff4f9c7f08ff714
+SHA256sum: dcd1c15b9d0e4217d812c3ffd39f6ae9056911a7db18dc2a2a41a14db6c1df97
+Size: 35478
+Filename: oe-alliance-branding-remote-e3hd_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: e3hd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-e4hd
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 4fe24707cbfe4c674aa5407a91f3bbe5
+SHA256sum: 2a63a2ce1243e2bd3a4b4668ddd33fb9a5276ed8102ede7506ac6bb493373991
+Size: 37602
+Filename: oe-alliance-branding-remote-e4hd_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: e4hd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-e4hdcombo
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: a507662a0c3deeb7547d26860821759d
+SHA256sum: ca2f5635c45829fee5313c8b423be686f757f96335c5f92694f9476c54bfdaf4
+Size: 18972
+Filename: oe-alliance-branding-remote-e4hdcombo_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: e4hdcombo (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ebox5000
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 83954b763b8c80443c4896c50c8f36f9
+SHA256sum: 36b464cf276ca4a2dc4a111ebd74e33646cf6138323960684feace36daf9ac8a
+Size: 30244
+Filename: oe-alliance-branding-remote-ebox5000_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ebox5000 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-edision1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 091d9b44d73980062018785168493ff3
+SHA256sum: 8f95a40d093095fbd47f8918951934694e3ba5e38ad9952b0b3123a3b3524a03
+Size: 63948
+Filename: oe-alliance-branding-remote-edision1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: edision1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-edision2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 13baabb83daf661c11d12298eb05aa30
+SHA256sum: eecbab259951daf38d4a29abca401bc1989febd85f2669b3e82ed76127d1dcfb
+Size: 45520
+Filename: oe-alliance-branding-remote-edision2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: edision2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-edision3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 99f364dc304745dacd31431b0f4088d6
+SHA256sum: 05b3495801a9cebd36f2f3cec6a868174b7e19f34363e88d49d47e1b37d1a941
+Size: 60164
+Filename: oe-alliance-branding-remote-edision3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: edision3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et4x00
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 9a7369ad0749e7022835a9e9fb7601af
+SHA256sum: 7caa7bd99cd0ddb3b3f7b4ac41f8b8944dd3818c9214e4e924cc701c6f80440a
+Size: 53730
+Filename: oe-alliance-branding-remote-et4x00_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et4x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et6500
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: d184ebda65d3a831d7018adba26e0f55
+SHA256sum: 93c9836d691bf0ee2f2fd7ad0ccbaa7cd3f11712194df4d6eaa384c3869f6a06
+Size: 22886
+Filename: oe-alliance-branding-remote-et6500_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et6500 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et6x00
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: fc680894b1b357383059d73a8a986a1c
+SHA256sum: b1916b2b2194d2927bdc0f48cc4ccb8aef0c9b7ded4cf59bfcbbc1743f21a435
+Size: 20578
+Filename: oe-alliance-branding-remote-et6x00_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et6x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et7x00
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e57ccef0e1dbcb65f8d4ae35293a3e95
+SHA256sum: 0f22c90b99d24f8c3bf6ffd63c4c3dba241eac8967a2aa3daef8a0d9f00b4733
+Size: 105874
+Filename: oe-alliance-branding-remote-et7x00_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et7x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et7x00mini
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: d34909683d9971c0e35791bd5a39935e
+SHA256sum: 171a47cec2205f02b654a6e24255b7a8f442191887efbebbb64254bc2715144d
+Size: 105668
+Filename: oe-alliance-branding-remote-et7x00mini_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et7x00mini (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et8000
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 8571feea3bb9ee2928fc13d357bb3596
+SHA256sum: 5b7997e897b89cfc7fb87f4b582e207b3dcb36ee77a08996c619d16b750dcc24
+Size: 32298
+Filename: oe-alliance-branding-remote-et8000_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et8000 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et9500
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 9c38a3b295ba32b4cb66ec2d1d96ad07
+SHA256sum: 8af07b326fede8bae25bd9ba1cbf27cd7f497cd01dc2acbc17da2576ded98655
+Size: 16106
+Filename: oe-alliance-branding-remote-et9500_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et9500 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-et9x00
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: cd19fbbe5510c31d1df0eb41952d5ff3
+SHA256sum: 274e09fec757a25341315fe4a4e2fd41df77934c601a9d3cb982ec54ea80df35
+Size: 13684
+Filename: oe-alliance-branding-remote-et9x00_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: et9x00 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 197d93c4d09e1289d552515ddc3594aa
+SHA256sum: eba06111b9132a47e670af34b92b67db5394d207e110ddf7fae5b424864e59bf
+Size: 37194
+Filename: oe-alliance-branding-remote-evo1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 8923ea8a0a11d4f7974be270aa4b00de
+SHA256sum: a9f589de39ee6d26417301538d3b8c51b723a93f48fd76b84e7b180958385334
+Size: 34406
+Filename: oe-alliance-branding-remote-evo2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 701b228097e0d5fc46e982b62313825d
+SHA256sum: fe58b2b0e2eefbf00a6313707b6df642d864732d5c077d400e602ac9c28be0cf
+Size: 29830
+Filename: oe-alliance-branding-remote-evo3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 400e6c606150927e196c6eb99d172005
+SHA256sum: 59234439611eb1557490e618f4645b178544b3d1fcfe74086495c8aa4a2aea22
+Size: 66038
+Filename: oe-alliance-branding-remote-evo4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo5
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 0208c4b05d56ec583d81dab4fad97def
+SHA256sum: b056e2877fc5b1fbdb1edbf79b33b4a8ebf2875773d0c57c4bfe4f68178c0ffd
+Size: 99734
+Filename: oe-alliance-branding-remote-evo5_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo6
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 64bd25d65b1b952339b5f1fa1616587c
+SHA256sum: 86bf1e3181a6f08fc1e20fa2843a6bb8eef562e79793b6ea0478a50b6c280ae7
+Size: 59238
+Filename: oe-alliance-branding-remote-evo6_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo7
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: ef6f247daf233ae09fd9e0bf2e6142a2
+SHA256sum: a95f54de260d3e625e0b5335a1d5573fa97d4847be07e5e631c3275f8daa42da
+Size: 93774
+Filename: oe-alliance-branding-remote-evo7_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-evo8
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: c53e1c09134bf31cc2e21202ef6f13f7
+SHA256sum: d1f81d7b9dad5e6897b21d89c112f9a82721a53a2de590bab375e93e7b64fa9a
+Size: 117974
+Filename: oe-alliance-branding-remote-evo8_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: evo8 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-formuler1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 1644d512cddb6c02b2f46c2f163e25e8
+SHA256sum: 717dbe907abc249cad3a620570b9d18cfa1f89b392f63067443f5772b6842d79
+Size: 36948
+Filename: oe-alliance-branding-remote-formuler1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: formuler1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-fusionhd
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 2dc59ba9013578e638cc44ae76d1c195
+SHA256sum: ee7dc6384b3a0fdc41e3f2ca3cd70108616306e1a24911359a890e290e7af5b9
+Size: 60280
+Filename: oe-alliance-branding-remote-fusionhd_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: fusionhd (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-g300
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: dd963f4487065fe8f0764a29f2694666
+SHA256sum: 3726496eaae9007e82daeceeae021b799b12cdd34300b72ea89643c67a9d5573
+Size: 35090
+Filename: oe-alliance-branding-remote-g300_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: g300 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb0
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: f2322d134241e7d3d03653afa483ff24
+SHA256sum: 10e9a6618d1d09270171390ffe8b544f5890e196215f2b86e6559d366f76328c
+Size: 27302
+Filename: oe-alliance-branding-remote-gb0_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb0 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 2190520443c2cc35c5e5f8c302d5d6b2
+SHA256sum: 3cd25f1fc985c1d8903f14c7d8f7a0107ebe2f746e69acb5d3444d48e422041e
+Size: 28282
+Filename: oe-alliance-branding-remote-gb1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 4adebddc53de41ef335f6eb0b16075fc
+SHA256sum: 6352c6eb979228ceb48a5b263ace1c6030e6fad3f7bb8b3a1c419465094557c0
+Size: 84076
+Filename: oe-alliance-branding-remote-gb2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gb3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e56ae8bcbecad1b586a9a957765c4adf
+SHA256sum: 4e18805058d9b965e9ebb7d6342ce95bbd173ec3d3ae8a5c3b1fbc0edf88e2ec
+Size: 55966
+Filename: oe-alliance-branding-remote-gb3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gb3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-gi1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 4437af14b0990ca57390d78f3c66ecff
+SHA256sum: 7dfe91dec1c33e2f41b5d957ada97cd3618f951aee72ca6ba8a5e1ce4c9fb2cf
+Size: 25696
+Filename: oe-alliance-branding-remote-gi1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: gi1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hardkernel
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 99dc0dcf7154135c389dc4f6f556160c
+SHA256sum: 2aea46a4e8cbd772600df93a5427b35ebc9df42f2430f07ff7c456320ec3c25b
+Size: 78044
+Filename: oe-alliance-branding-remote-hardkernel_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hardkernel (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd1100
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 565730f711092c7a1f2f80f9e8860ad8
+SHA256sum: 47a67d73d73bfc4bdb502622353943f4c0766a9a4258db7903ec3ad45787ce6c
+Size: 117494
+Filename: oe-alliance-branding-remote-hd1100_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd1100 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd2400
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: cc5c37442c7534c17f718185e12f9f60
+SHA256sum: dacd45c406c0ceee78a966223552f07c3eae541545574b82b14f6c02fc3cb93a
+Size: 31890
+Filename: oe-alliance-branding-remote-hd2400_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd2400 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd530c
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 22142790f8e95ff620c3f78c50fe8dc8
+SHA256sum: 9a0d9e50a4bdbb989220bc01707fe0b0709aa3fae8eeb219af9e0c734029f304
+Size: 85034
+Filename: oe-alliance-branding-remote-hd530c_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd530c (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hd60
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 180f14913b5e6749e51366f6d3e2f75b
+SHA256sum: 37f0b213d776acb0ea8d6eec64001490c1c576d88250b366bd3a9aad7112f36a
+Size: 34358
+Filename: oe-alliance-branding-remote-hd60_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hd60 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hdbox
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: acdb26e19c282d884f0369eaad537b44
+SHA256sum: b412debd02f6141310c37bd70da4b946e31665dc1d008ef3c3498ff590e1fe1f
+Size: 13262
+Filename: oe-alliance-branding-remote-hdbox_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hdbox (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-hitube
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: bd6619a03ec9de470d6c096604320f36
+SHA256sum: 37e65e762bbbe377cb20d54775bf09f0e67e780774df28951720d8c9c9498081
+Size: 45626
+Filename: oe-alliance-branding-remote-hitube_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: hitube (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini0
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 7fe3dec0e3c66f08fa13895b75ed6e4c
+SHA256sum: 4d152ad818ce75f6822f2c687eab0fadeea9ddec7200d6c227f778be360f2950
+Size: 14740
+Filename: oe-alliance-branding-remote-ini0_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini0 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 8f65bb473d504d4fb46e350a7f7cf546
+SHA256sum: 01bfc66a362a857b47b3fd86d39b29dd9a3e6d95d5d3b7dadb23e9a6b6a8b5b9
+Size: 13582
+Filename: oe-alliance-branding-remote-ini1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: edea1c44db17618e7d118e05c7159a91
+SHA256sum: b5b4d94bae2424cd94a4b1dd89e84d57b37e9dcca0bf4e17f668c174786aa494
+Size: 49960
+Filename: oe-alliance-branding-remote-ini2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: c486bbdc7da511472da0b46b9655f107
+SHA256sum: b5f5f7eb87de3b9edbccecf21fa3ddb9c2e1f51c4fcce16d1f1b3d55316f18f2
+Size: 51204
+Filename: oe-alliance-branding-remote-ini3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e86141ad8377e5409a3406e33948889e
+SHA256sum: 774031ebe8dde1660e83417411df7f6c9247573a1940b23501846ec72fd62bff
+Size: 53492
+Filename: oe-alliance-branding-remote-ini4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini5
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: b6f4f5c82e85fd1a7fc86bcbd96e5bd5
+SHA256sum: 8c8e75458a0b1a22fe58a8ce06aae84a018441c83bcd1d6fa4dce51e8afc11ff
+Size: 60286
+Filename: oe-alliance-branding-remote-ini5_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini6
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 7bb344c70240587dc04bb18b4f9f0980
+SHA256sum: 6558e32ef810f7315699c777156bedab3b8ae0c259f4cc4890a3e981bd32cef4
+Size: 67090
+Filename: oe-alliance-branding-remote-ini6_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini7
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: a31400fd1438b1269a44969b32dc2f6f
+SHA256sum: c6213def890f892fcf367a15bca5724e62ec3227767758cd49deb34939df2ad1
+Size: 72662
+Filename: oe-alliance-branding-remote-ini7_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ini8
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 24e75360b30d0293a310a1bc9796cac5
+SHA256sum: 1411c2dbba4fea35d3f661ee4d07864b53a282839411a2d78ab4f5cd7db85f77
+Size: 65694
+Filename: oe-alliance-branding-remote-ini8_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ini8 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-iqon1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 761cd89ab295bac4689bd95d822b1813
+SHA256sum: 3f5e46b95cf91ba2aedd508ded759568c18168e1ee0cfb6ed13602adc51598ff
+Size: 54642
+Filename: oe-alliance-branding-remote-iqon1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: iqon1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-iqon2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: dd5e6ca4e24ecd6f7c31caaca5811896
+SHA256sum: 3c282e5c066eb45dedf1086024f77dab3fe4fac5c908b8f0d7fc256876e6cfc0
+Size: 43602
+Filename: oe-alliance-branding-remote-iqon2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: iqon2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-iqon3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 9be2c38ea5c89ea5d99ef76484c51abe
+SHA256sum: 82fb8f54aa092d7b6b74cf303149305229d41caf368ee5d7d86b54b8de0bda0f
+Size: 72510
+Filename: oe-alliance-branding-remote-iqon3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: iqon3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ixussone
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 3c7eafcca7befe99a0ec07f2117034ef
+SHA256sum: ef547e3b8a4d818877f4a055ab5c7008ca8dbf0295e77ca9e1eb9bfa4907adb8
+Size: 33564
+Filename: oe-alliance-branding-remote-ixussone_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ixussone (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-ixusszero
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 8cc383ef40506f5767c83ed26cd3b2a5
+SHA256sum: ee42eef6e031e0c9cefefcd7143a62d7d390f489b508fc2d49f46571fb34fb2c
+Size: 26890
+Filename: oe-alliance-branding-remote-ixusszero_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: ixusszero (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-izibox1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 40dcdc0e2b81fe9538e20c2e68daf93d
+SHA256sum: ade76feba53ebbe829e4ff9f2bb53866b5b3e800877b143a77f11d70f435734e
+Size: 40480
+Filename: oe-alliance-branding-remote-izibox1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: izibox1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-izibox2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 65a4fdfab9446c7f94c7989d276345f2
+SHA256sum: 11cf1e965346e7015c607269c04458705c7be9cbef13efad7291170f5cad398a
+Size: 40880
+Filename: oe-alliance-branding-remote-izibox2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: izibox2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-jd1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 55e32eb0994a6f1da3dc8391f159b38a
+SHA256sum: b30f0a4cef7c7f41a370a06b1cc3b60ff692fec9b6b0c44448689286274869cf
+Size: 44966
+Filename: oe-alliance-branding-remote-jd1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: jd1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-maxytec1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 10b57c46560ab8fe580fa995f928b646
+SHA256sum: e2764d8119997a0aa65ccbfd6e091d1f9f52e85724d2cd22a1e82ebbb37137a0
+Size: 38270
+Filename: oe-alliance-branding-remote-maxytec1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: maxytec1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-mediabox4k
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 8b551ae1a9519be4689cc81854288e41
+SHA256sum: 439eb8b0dc2a33b7cc0047f9cb3feca68882a387db50ae92c17a5e5232ff7c7c
+Size: 77454
+Filename: oe-alliance-branding-remote-mediabox4k_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: mediabox4k (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-mediabox
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 02b8d77a3184ba5131645d44945c3bfc
+SHA256sum: 4f4cb8d910b340ab9e063beaeaf51cf72f5b4499253d900ee157cb57621b5427
+Size: 42748
+Filename: oe-alliance-branding-remote-mediabox_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: mediabox (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-megasat1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: bb60e7392cfca2a53408d4149fa1315e
+SHA256sum: ab2edfb2faa31c6adedea6c84093ce5de22c36887617ad71897af5288bc254dd
+Size: 52580
+Filename: oe-alliance-branding-remote-megasat1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: megasat1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-megasat2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 952a34b0902b6ae58ef65d60a42cb2a6
+SHA256sum: 4564fc4e7a83f41454faf4fa2352bd19b29c64389000862b21dd5915f51d119d
+Size: 59928
+Filename: oe-alliance-branding-remote-megasat2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: megasat2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-miraclebox
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: dca011a80e6b6d1b25a429c093fae0ad
+SHA256sum: fb6e304b65cd57736a8fc5c0ee092aed7dae881bcf9c0fd4c2fe8ddfefe186c8
+Size: 42120
+Filename: oe-alliance-branding-remote-miraclebox_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: miraclebox (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-odinm6
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 4f9c13dbd9ab4522da621933f3f553cd
+SHA256sum: edaae0c805dbaee127c1593e561869b14351dc83ff41814012e4e3adaf4a0d42
+Size: 12826
+Filename: oe-alliance-branding-remote-odinm6_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: odinm6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-odinm7
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: adcd4702b6ff8b4684c74b2a1a05d0a7
+SHA256sum: 450f193fb2c16ba7b2c0ac4f72505ee88a56a98c6b06ea75510579b3bb2d77bc
+Size: 15454
+Filename: oe-alliance-branding-remote-odinm7_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: odinm7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-odinm9
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: aa189bda983abfbf8e495b237b2dbfbd
+SHA256sum: 13e3334b35e446388cf35b58b5c277b595942ccdd5ec84439c7042b0c178643b
+Size: 25454
+Filename: oe-alliance-branding-remote-odinm9_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: odinm9 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-optimuss1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e73e72209ea0d78036415348a94dba51
+SHA256sum: a5acadde0159a02e9c04db1e081a0789bab3ef8e615cc9ac909be84f4f750279
+Size: 43200
+Filename: oe-alliance-branding-remote-optimuss1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: optimuss1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-optimuss2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 6604ef63a3507afd2c5f847b3c1c0823
+SHA256sum: 03d49ef1e4bbf898bd49baa811c934f0ef7388b00977bf082984d66b8fa28210
+Size: 101204
+Filename: oe-alliance-branding-remote-optimuss2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: optimuss2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-protek1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: bdf9d39cfa5b8cd42db41b080c9bf5a2
+SHA256sum: 790769a3049036eb7531ee932423ed8c7eed5fda6ae24c5174b668aaa0f58193
+Size: 100198
+Filename: oe-alliance-branding-remote-protek1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: protek1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-protek2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 042b648dc252580be944b96d7825e115
+SHA256sum: f84fff8067e3bd418bdc168d9ae61af1b5af8c09029ee07c32d346e82eeddc4f
+Size: 18930
+Filename: oe-alliance-branding-remote-protek2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: protek2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-protek3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: feb00c16502a921afcd6930e2afbb59b
+SHA256sum: 71c0fe8ac83d96953b779407565ccce212d6eeef062977d485f3af660c8186a3
+Size: 52694
+Filename: oe-alliance-branding-remote-protek3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: protek3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: f5fcee41c050d8e8f384f67200b9b3dc
+SHA256sum: b09c6d6f4a06f4e9cdc672fcbff9f998db58ff660efe5c57d49b5b166d17aeab
+Size: 70914
+Filename: oe-alliance-branding-remote-qviart1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: a78096bf0b64b60fd6a1b8e1e7628cdc
+SHA256sum: 213e3dc8e5a48853dbf3a725af1993b0748f41bf6b65df16f7f77ea89945348c
+Size: 56226
+Filename: oe-alliance-branding-remote-qviart2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e9a97b8a3a9ad4173d1fdc254106220a
+SHA256sum: 2521a6e73454fb3a839535a88318e6a2628dcaf816ce795131abe4fad4e4c573
+Size: 28606
+Filename: oe-alliance-branding-remote-qviart3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-qviart4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: b41f6ca5c67886b4e6f9c80d5c31b9de
+SHA256sum: 1125405023216c5636cc8138f8b24a147d69a45a35fdcaaf34df2986a29baff1
+Size: 32878
+Filename: oe-alliance-branding-remote-qviart4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: qviart4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-red1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 5fd2ec65eea9d3cb646b7d395674ee2e
+SHA256sum: 31a0e8748d0392f2cd23b07e37f63e84289fbca62e4291227b79da12edf401ea
+Size: 40664
+Filename: oe-alliance-branding-remote-red1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: red1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-red2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 447cf23bf811bb8c36bbee8d152026c3
+SHA256sum: 2291ce8b49bdcdbe247db6081266a1e45be69477b426fa7afe9ef6d11cac34dc
+Size: 17980
+Filename: oe-alliance-branding-remote-red2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: red2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-relook
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 598803e2eb4b49132b256eddb2428297
+SHA256sum: 1677f8479a72f9e0131a2f758bb01b3bc6d7a2462314c43c05bac081c8aa61ab
+Size: 13316
+Filename: oe-alliance-branding-remote-relook_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: relook (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-revo
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 1870a3b58106b75acf41f5e6a361bd3a
+SHA256sum: 34d6b069843f3f31ddbd85b0c04e9d22408dd3d2deaf731461f4b5ed303a6ac7
+Size: 71256
+Filename: oe-alliance-branding-remote-revo_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: revo (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sab1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 278a60b0d8358fa6489d35d1b41fd0f0
+SHA256sum: 39bcacfe30b75c1f131db4ed22e3f04a95da3b94836603b9f0b08200c44862b1
+Size: 87448
+Filename: oe-alliance-branding-remote-sab1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sab1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf108
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 738bd6d685f1cce36351005576c695af
+SHA256sum: 26fc314b8ae7556616263d9ebac93652f92a8a1b797f321a311ddc8952b073d8
+Size: 95418
+Filename: oe-alliance-branding-remote-sf108_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf108 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf2x8
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 29814e5087f685a98ce41e997003d4cc
+SHA256sum: 426b13de6d4d08288cd6468aa71926db61def66de1d88acc68265dc31ac550a6
+Size: 16282
+Filename: oe-alliance-branding-remote-sf2x8_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf2x8 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf3038
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 5cdb394653157e8579f5ac14048efe4f
+SHA256sum: 6a7575e0a8f1af8e22f19b0d2c4d6b1f37ca0e4689339fda48fcc63ea90f6a57
+Size: 84902
+Filename: oe-alliance-branding-remote-sf3038_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf3038 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf5008
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: bc12c6f1170c57e2f0ae88e043a60729
+SHA256sum: ebda32cc69b7d5a5176404fb9f6d51c640ff5633d74c7d3b8c4857871b35162e
+Size: 31200
+Filename: oe-alliance-branding-remote-sf5008_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf5008 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf8008
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: a0b7bc8b532e14d077bc2146fa8b3de5
+SHA256sum: bedc0ab80af056d2f89fc0e3beab81e3330a0fdbb0beaa4d0ffd97a295eb711d
+Size: 122252
+Filename: oe-alliance-branding-remote-sf8008_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf8008 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sf98
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 5612c642cd8a17092cf1b25a4f6bdd72
+SHA256sum: 2f2965e0aaff82b1bb99750085a8628ae1e8be1538bd4e60121f695a4e6039f3
+Size: 105126
+Filename: oe-alliance-branding-remote-sf98_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sf98 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-sogno
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 7685d34daa7e6a629638adca363185b4
+SHA256sum: bee0bef9a32fc90013e090ce7445642eef1e0ad06fd2a0e7ca30754f6252e35e
+Size: 53778
+Filename: oe-alliance-branding-remote-sogno_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: sogno (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-spycat1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 568e4c06fc714fb07b209ef1f0ff4983
+SHA256sum: b2257aba201ba0283ef70957f6a88ba29d780d150e85e9bc5f7e51297b906ded
+Size: 37972
+Filename: oe-alliance-branding-remote-spycat1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: spycat1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tiviar1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 3c7ba1ad6f84dda17710926837b97f1e
+SHA256sum: c51f28fea74eb5c722554fb6932ebfd6ae4a36433e0dabdff1fdbf9fbcdfb701
+Size: 69056
+Filename: oe-alliance-branding-remote-tiviar1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tiviar1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tiviar2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 4b8aeec474234491b7a9166e3c6118fc
+SHA256sum: a1d53e9e7e009a37bb71a8c9d08f4c794ab699b123367eb46f771f1207cb5053
+Size: 97116
+Filename: oe-alliance-branding-remote-tiviar2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tiviar2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: ae33ae36518b5cd8f55865e385212a8b
+SHA256sum: 9dfd8e03485de752bff5c512e093f66c10e98a4d5d5e96b2812c5f2a79a59106
+Size: 37600
+Filename: oe-alliance-branding-remote-tm1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 9b7f77500ea9b7716c4d073463ac1978
+SHA256sum: c32012aab99729bb8b0e33a4aa53c3660a9d34661c150eb1a471ae0519eacf13
+Size: 50236
+Filename: oe-alliance-branding-remote-tm2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 2931b112d223b85ebd9475bb5fdd30af
+SHA256sum: d5bedb6daef8fa6b339818804610185a5e4d00ede5bc5db28a8c16177c79aa84
+Size: 27452
+Filename: oe-alliance-branding-remote-tm3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 9dbcc13e9277953588c29c6fab6b4d68
+SHA256sum: 42c877b70ebde3f6ed921831146a3312c1ba3d4670bace5c980b5434c93b92a4
+Size: 44420
+Filename: oe-alliance-branding-remote-tm4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm5
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 3638e18f4c9f8af83f9f3119449eb2a9
+SHA256sum: 58ba322815b11157d878924cb398b9a9c03a137ecec0642c9d132a0d6cda6f41
+Size: 71744
+Filename: oe-alliance-branding-remote-tm5_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tm6
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: ad2e0a4b66e7fc9bf54a240fdd09722d
+SHA256sum: 225529457b906272b31d73afe3344ddab4050f8d94c66bedcba2ace9c75c4fd1
+Size: 72996
+Filename: oe-alliance-branding-remote-tm6_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tm6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-triplex
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: f05b3ac190b1f9caaa2021271e940a48
+SHA256sum: 74b19fe25c6eeb5357a1df109324e223b897352e5e821329bb494a58cb216a3f
+Size: 35148
+Filename: oe-alliance-branding-remote-triplex_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: triplex (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-turing
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 0be622ffc18a5088f83ecc1761a75f07
+SHA256sum: 2fafd6124a148b215eef93a25723b9760b85d8a5ec9c86798a0ad6f56da69031
+Size: 104398
+Filename: oe-alliance-branding-remote-turing_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: turing (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-tyrant
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 5843a09713f5e72d80dc14f5fe5a571f
+SHA256sum: 50475d46d0e0854253cd0c70bfcd40bc83adb54472bfecbf9b5939a85447f210
+Size: 14210
+Filename: oe-alliance-branding-remote-tyrant_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: tyrant (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-uclan
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 4703cfa60d359efa105579d02723a8a2
+SHA256sum: 31e6a8bc9faab50dc8afb28549ea759b097fa3d0e7d93172bdb1248b5e822e17
+Size: 73274
+Filename: oe-alliance-branding-remote-uclan_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: uclan (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-uniboxhde
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 255ca1cd5855db89ea1222fa5539333f
+SHA256sum: 02a8c8f46f2f5b9791f0382429d2d5b225819c1d94ce59c7744eab83e933dd35
+Size: 55242
+Filename: oe-alliance-branding-remote-uniboxhde_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: uniboxhde (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vala
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: cec30b7e19c822322363b48281925084
+SHA256sum: df9a95b5d5d286cc7ddc0cdf9c995efae7658fbf26f15e4055fb0059071dc39e
+Size: 58190
+Filename: oe-alliance-branding-remote-vala_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vala (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-visionnet
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: c681fe6d45fa47bce6b484206f6ef345
+SHA256sum: e1cff91690963118a7a2efea8e60d0266503ac5b54482d50e395e93885610b5d
+Size: 41014
+Filename: oe-alliance-branding-remote-visionnet_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: visionnet (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 494c2aece3a73a948b4d85bd881174ca
+SHA256sum: b2afc874e582bf9eff4512124cbf450c1ebc85a9edfd29e5b4860affdafa9c2b
+Size: 47262
+Filename: oe-alliance-branding-remote-vu2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: a238fb45fbb98950a911b29cd83167e1
+SHA256sum: 1b8d9351e73d7aec342816526f63225690be6c784031b907566ace26c94657cb
+Size: 53456
+Filename: oe-alliance-branding-remote-vu3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 99b7bb1cdd596852f93c693fd2b6f428
+SHA256sum: 612e66a5d8e8da9cda5174628df73acd79e56b41bbe9184c79366824277f2f42
+Size: 88738
+Filename: oe-alliance-branding-remote-vu4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-vu
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 94c7da3a20eb917397ae2015db1c6b1b
+SHA256sum: 61ed0de62ff5e6e81b9fd01aebb8da7d673f4f29d83a53e75c0e361dcee32682
+Size: 82624
+Filename: oe-alliance-branding-remote-vu_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: vu (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wetek2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 101ef790312eb0d2c3765c35aa43828c
+SHA256sum: d54e98dfa18f93c66b16d95836a6fcd403907765777adad463147da338ec0a98
+Size: 78046
+Filename: oe-alliance-branding-remote-wetek2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wetek2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wetek3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 0b1b16aeba1bd8adf5fea3292d27a87b
+SHA256sum: c433eef83426e86dff4e110fcb5bc7bc2ce65ca01d7186c8f1d9f4258e0d0b1c
+Size: 81970
+Filename: oe-alliance-branding-remote-wetek3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wetek3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wetek
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 9544d70308567c73523370c8c26b3bbb
+SHA256sum: 4efe1f95793337a41416ec5f0c5508c9db644ad372b1312f8c126cd00f0ea31f
+Size: 103174
+Filename: oe-alliance-branding-remote-wetek_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wetek (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-wwio1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: c9897877d726b7ed885304751e2af758
+SHA256sum: 1078d014fb29da6ba56ceec0912e15fd2b17383c67655c02784a3e65ef90f2ce
+Size: 35986
+Filename: oe-alliance-branding-remote-wwio1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: wwio1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xcore1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: c9e63935429572c7257a46f136b7000d
+SHA256sum: f929586eac16dda8947ec2897dac4bd8451bdbb98b22f4a4fcc7a83bee2b75b3
+Size: 75186
+Filename: oe-alliance-branding-remote-xcore1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xcore1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xcore2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 27ee028950b999201167be34721b7322
+SHA256sum: dfc2998419475e8d96725022a71efbe35d980228ec8f1c9e9ee03fcfea0864ef
+Size: 53494
+Filename: oe-alliance-branding-remote-xcore2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xcore2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xcore3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 034faf9d9bf3581e6da9938924ada0c3
+SHA256sum: 0f5d65201b314ae43780be1341f587e76f96c97f2e46787f1b8ffca3eac52399
+Size: 114514
+Filename: oe-alliance-branding-remote-xcore3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xcore3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-xp1000
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 553acfbd6034a2c641c5446edf452a38
+SHA256sum: dc93005b56cba5ad75fdd54143023edb1e8ee07231bd51e4c01ce30ea7c448b0
+Size: 34128
+Filename: oe-alliance-branding-remote-xp1000_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: xp1000 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma1
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 75fe5eba9c3bf5019ac0a2f86e97adce
+SHA256sum: 3595ea2bd69be5e54182a8c57135be9cc59d34da75e352e699eeb3300dae2a7b
+Size: 121204
+Filename: oe-alliance-branding-remote-zgemma1_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma1 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma2
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 5018aae9dcc8e298f97db31b126b4a60
+SHA256sum: c07503a13221ca5eb5d9088757fd914e11affd14f4b4026a5a4be40a059d7cc0
+Size: 63544
+Filename: oe-alliance-branding-remote-zgemma2_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma2 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma3
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: eea561aef1d7d78b6f0be418e881034b
+SHA256sum: 2a9f868c0fc0c494c8929559e507d1a535ef6c789755f755240aae9f0b303e80
+Size: 90600
+Filename: oe-alliance-branding-remote-zgemma3_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma3 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma4
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: e8ee5e769c7f435b1f8d1edf3a8ded25
+SHA256sum: e96ccc8c0716c256bb03cd9a6dcfe39bd1b751c167804ca6f825edfe78c27f70
+Size: 24912
+Filename: oe-alliance-branding-remote-zgemma4_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma4 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma5
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: cd05d766085a77748b0243c17e3996fa
+SHA256sum: 2f8a18269b2f3b209fa62ede85656ccb1d40c1efc27378f38e920fd29f08d89e
+Size: 121164
+Filename: oe-alliance-branding-remote-zgemma5_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma5 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma6
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 645d3fa45e7018b8bbba9a36a384f49f
+SHA256sum: 3aef093e1cd728ade4b8f6c31c8bb07632ea16ca80f481bdb676351484412147
+Size: 52668
+Filename: oe-alliance-branding-remote-zgemma6_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma6 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-remote-zgemma7
+Version: 6.4+git854+28bc799-r0
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: ddb6a0200f87ebfe0fe2216c2d9ce768
+SHA256sum: 7b1287f5a9cbd995c5c542a59f45eea9fc011f78ed57c67c7ebeb23a26703c01
+Size: 34120
+Filename: oe-alliance-branding-remote-zgemma7_6.4+git854+28bc799-r0_sparkreloaded.ipk
+Source: oe-alliance-branding-remote.bb
+Description: zgemma7 (Additional remote for enigma2)
+OE: oe-alliance-branding-remote
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-src
+Version: 6.4+git854+28bc799-r20200222-sparkreloaded
+Section: devel
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: 07548950f89966d6eed4a2fad180f439
+SHA256sum: af704fa76d28ea4f97700d279c6530f0df4062361ff11f9429735ddaf7ac5cf4
+Size: 3720
+Filename: oe-alliance-branding-src_6.4+git854+28bc799-r20200222-sparkreloaded_sparkreloaded.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.4+gitAUTOINC+28bc7992ea-r20200222-sparkreloaded - Source files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding
+Version: 6.4+git854+28bc799-r20200222-sparkreloaded
+Depends: libc6 (>= 2.23)
+Section: base
+Architecture: sparkreloaded
+Maintainer: oe-alliance team
+MD5Sum: af9abb72a732a703a59281dd936a9865
+SHA256sum: b1a9ce88344ffef44d4c1123b8829e4a737076af916544cffe5c823b5e873726
+Size: 172184
+Filename: oe-alliance-branding_6.4+git854+28bc799-r20200222-sparkreloaded_sparkreloaded.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.4+gitAUTOINC+28bc7992ea-r20200222-sparkreloaded
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9532488dfa97b957a71ddc40d96f0566
+SHA256sum: cb78ab5c8904b00c43056682dff66a3787db0c8635a5d5ea83cc127cce09d876
+Size: 700
+Filename: oe-alliance-feeds-configs-dbg_1.0-r0_sparkreloaded.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: oe-alliance-feeds-configs
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-feeds-configs-dev
+Version: 1.0-r0
+Depends: oe-alliance-feeds-configs (= 1.0-r0)
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3c0738cd040f527ecb6e18844c83cacf
+SHA256sum: 26224eecafca1f22748d8195e1f0b1e5918ebb088e4649bc83211e735cd8a61c
+Size: 730
+Filename: oe-alliance-feeds-configs-dev_1.0-r0_sparkreloaded.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: oe-alliance-feeds-configs
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-feeds-configs
+Version: 1.0-r0
+Replaces: distro-feed-configs
+Conflicts: distro-feed-configs
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b96245ea918d0a9936511c6782cddd8c
+SHA256sum: 8d7fef06c2abe97654cdcb07c1575208d4c0831fc2675a833a5964cebefef983
+Size: 1020
+Filename: oe-alliance-feeds-configs_1.0-r0_sparkreloaded.ipk
+Source: oe-alliance-feeds-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: oe-alliance-feeds-configs
+License: GPLv2+
+Priority: optional
+
+Package: opennfr-version-info
+Version: 6.4-001
+Section: base
+Architecture: sparkreloaded
+Maintainer: OpenNFR
+MD5Sum: 2ef7b1cfebf0fc5e3d4fd566d9da4a42
+SHA256sum: d56eea7a8bffa4c7e9fc1ae2150ff6b4557cbdaeac004becaa91fa86de32b8ba
+Size: 1154
+Filename: opennfr-version-info_6.4-001_sparkreloaded.ipk
+Source: opennfr-version-info.bb
+Description: OpenNFR version info
+OE: opennfr-version-info
+License: GPLv2+
+Priority: required
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dbec071f0b45be742f992275ab79a918
+SHA256sum: 83b21f7c27140ba80996a384e94f1be620ed3a8afe9b48143faa13822dab95ee
+Size: 714
+Filename: opkg-arch-config-dbg_1.0-r1_sparkreloaded.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 69ee29c2e9308a352147e8e0e674ba4e
+SHA256sum: 41a5b0f951b7c4f3a87ee18a1f2db2ed85e0fdcff88feb9642c4ec0045fcdbba
+Size: 744
+Filename: opkg-arch-config-dev_1.0-r1_sparkreloaded.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: sparkreloaded
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d488c1b80f4782bc1f5d0225484c154
+SHA256sum: 06a08038565cce981b689422440079749a6ce817d8ccebac5bf1f405f47db531
+Size: 918
+Filename: opkg-arch-config_1.0-r1_sparkreloaded.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
