@@ -130,12 +130,11 @@ Conflicts: ncam-ipv4
 Source: enigma2-plugin-softcams-ncam.bb
 Filename: enigma2-plugin-softcams-ncam_10.7_sh4.ipk
 Size: 777970
+MD5Sum: f76c9cec2b3e1e1c9bf5e13ca92b37e8
 
 Package: enigma2-plugin-softcams-oscam-emu-sh4
 Version: 11573-emu-r798
-Description: OSCam-emu 1.20+git1825+c46c72d (IPv6/IPv4 Dual-Stack support)
- OSCam Open Source Softcam
-This version can connect to servers using IPv6 and/or IPv4.
+Description: OSCam-emu 11573 wit emu r 798
 Section: base
 Priority: extra
 Maintainer: oscam-emu
@@ -148,7 +147,8 @@ Replaces: enigma2-plugin-softcams-oscam-atv-emu, oscam-emu-ipv4
 Conflicts: enigma2-plugin-softcams-oscam-atv-emu, oscam-emu-ipv4
 Source: enigma2-plugin-softcams-oscam-emu.bb
 Filename: enigma2-plugin-softcams-oscam-emu_11573-emu-r798_sh4.ipk
-Size: 1527808
+Size: 1525312
+MD5Sum: 5db657b9abb502423c4289ca810f4d0e
 
 Package: enigma2-plugin-softcams-oscam-smod
 Version: 1.20+git2168+71b6d9f-r0
