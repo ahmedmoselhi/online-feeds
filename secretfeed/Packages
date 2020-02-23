@@ -1,0 +1,336 @@
+Package: enigma2-plugin-extensions-freeserver
+Version: 7.0.1
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: mino60
+Description: Free Server Online Generator Ncam OScam adddon
+Depends: python-requests, curl, nodejs, wget
+Source: 
+Homepage: www.tunisia-sat.com
+OE: enigma2
+License: Unknow
+Filename: enigma2-plugin-extensions-freeserver_7.0.1_all.ipk
+Size: 1874496
+MD5Sum: 8a197c1df80e0cf6536937245b1b75c4
+
+Package: enigma2-plugin-extensions-mediaportal
+Version: 2020012601
+Description: MediaPortal
+Section: extra
+Priority: optional
+Maintainer: MP
+Architecture: all
+OE: MediaPortal
+Homepage: none
+Depends: python-netclient, python-six, python-pprint, python-email, python-json, python-pyopenssl, python-xml, python-html, python-pycrypto, python-misc, python-numbers, python-textutils, python-twisted-core, python-twisted-web, python-compression, python-imaging, python-requests (>= 2.11.1)
+Recommends: python-pkgutil, nodejs (>= 4.4.3), python-subprocess, python-youtube-dl (>= 2020.01.24)
+Source: GIT
+Filename: enigma2-plugin-extensions-mediaportal_all.ipk
+Size: 3252400
+MD5Sum: ba559782d5c02ed3c3b0dbb940a0cbf9
+
+Package: enigma2-plugin-extensions-mpgz
+Version: 2020012601
+Description: mpgz
+Section: extra
+Priority: optional
+Maintainer: mpgz
+Architecture: all
+OE: mpgz
+Homepage: none
+Depends: enigma2-plugin-extensions-mediaportal (>= 2020012601)
+Source: mpgz
+Filename: enigma2-plugin-extensions-mpgz_all.ipk
+Size: 54770
+MD5Sum: ba48d7c566f7f67fbd0a117d0d5bae32
+
+Package: enigma2-plugin-extensions-oscamsmartcard
+Version: 2.4+git114+917301f-r0
+Description: OscamSmartcard
+ OscamSmartcard.
+Section: base
+Priority: optional
+Maintainer: undertaker
+License: GPLv2+
+Architecture: all
+OE: enigma2-plugin-extensions-oscamsmartcard
+Source: enigma2-plugin-extensions-oscamsmartcard.bb
+Filename: enigma2-plugin-extensions-oscamsmartcard_2.4+git114+917301f-r0_all.ipk
+Size: 866014
+MD5Sum: 240439d819cc2e20d3bcc6406bf9505c
+
+Package: enigma2-plugin-softcams-cccam
+Version: 2.1.4-r1-de
+Description: CCcam 2.1.4
+ An outdated binary only softcam
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Proprietary
+Architecture: sh4
+OE: enigma2-plugin-softcams-cccam
+Depends: libc6 (>= 2.23), libstdc++6, softcam-support
+Provides: enigma2-plugin-softcams-cccam-2.0.11, enigma2-plugin-softcams-cccam-2.0.9, enigma2-plugin-softcams-cccam-2.1.1, enigma2-plugin-softcams-cccam-2.2.1, enigma2-plugin-softcams-cccam-2.3.0, enigma2-plugin-softcams-cccam-2.3.2
+Replaces: enigma2-plugin-softcams-cccam-2.0.11, enigma2-plugin-softcams-cccam-2.0.9, enigma2-plugin-softcams-cccam-2.1.1, enigma2-plugin-softcams-cccam-2.2.1, enigma2-plugin-softcams-cccam-2.3.0, enigma2-plugin-softcams-cccam-2.3.2
+Conflicts: enigma2-plugin-softcams-cccam-2.0.11, enigma2-plugin-softcams-cccam-2.0.9, enigma2-plugin-softcams-cccam-2.1.1, enigma2-plugin-softcams-cccam-2.2.1, enigma2-plugin-softcams-cccam-2.3.0, enigma2-plugin-softcams-cccam-2.3.2
+Source: enigma2-plugin-softcams-cccam_2.1.4.bb
+Filename: enigma2-plugin-softcams-cccam_2.1.4-r1-de_sh4.ipk
+Size: 344558
+MD5Sum: b34e9c1eeeb0f1a88311ea3785d56782
+
+Package: enigma2-plugin-softcams-gbox
+Version: 807-r4.2
+Description: gbox.net 807
+ A binary only softcam
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Proprietary
+Architecture: sh4
+OE: enigma2-plugin-softcams-gbox
+Depends: libc6 (>= 2.23), softcam-support
+Source: enigma2-plugin-softcams-gbox_807.bb
+Filename: enigma2-plugin-softcams-gbox_807-r4.2_sh4.ipk
+Size: 274518
+MD5Sum: 15714489fdc0a22c27f2c6863454b907
+
+Package: enigma2-plugin-softcams-mgcamd
+Version: 1.45c-r4.0
+Description: mgcamd 1.45c (Long ECM & Sky-DE patched)
+ An outdated binary only softcam
+ - with patch for long ECM
+ - with patch for support of German Sky V13/V14/V15 cards
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Proprietary
+Architecture: sh4
+OE: enigma2-plugin-softcams-mgcamd
+Depends: softcam-support
+Source: enigma2-plugin-softcams-mgcamd_1.45c.bb
+Filename: enigma2-plugin-softcams-mgcamd_1.45c-r4.0_sh4.ipk
+Size: 334242
+MD5Sum: a35f30707592c4c47b8fc0afb7cf6859
+
+Package: enigma2-plugin-softcams-ncam-sh4
+Version: 10.7
+Description: NCam 10.7
+ NCam Open Source Softcam
+Section: base
+Priority: extra
+Maintainer: OpenVisionE2 team
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-ncam
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: ncam
+Replaces: ncam-ipv4
+Conflicts: ncam-ipv4
+Source: enigma2-plugin-softcams-ncam.bb
+Filename: enigma2-plugin-softcams-ncam_10.7_sh4.ipk
+Size: 777970
+
+Package: enigma2-plugin-softcams-oscam-emu-sh4
+Version: 11573-emu-r798
+Description: OSCam-emu 1.20+git1825+c46c72d (IPv6/IPv4 Dual-Stack support)
+ OSCam Open Source Softcam
+This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: extra
+Maintainer: oscam-emu
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-oscam-emu
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: enigma2-plugin-softcams-oscam-atv-emu, oscam-emu
+Replaces: enigma2-plugin-softcams-oscam-atv-emu, oscam-emu-ipv4
+Conflicts: enigma2-plugin-softcams-oscam-atv-emu, oscam-emu-ipv4
+Source: enigma2-plugin-softcams-oscam-emu.bb
+Filename: enigma2-plugin-softcams-oscam-emu_11573-emu-r798_sh4.ipk
+Size: 1527808
+
+Package: enigma2-plugin-softcams-oscam-smod
+Version: 1.20+git2168+71b6d9f-r0
+Description: OSCam-smod 1.20+git2168+71b6d9f (IPv6/IPv4 Dual-Stack support)
+ Combining the benefits of
+ - latest trunk
+ - modern interface
+ - emu support
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: smod
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-oscam-smod
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod
+Replaces: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4
+Conflicts: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4
+Source: enigma2-plugin-softcams-oscam-smod.bb
+Filename: enigma2-plugin-softcams-oscam-smod_1.20+git2168+71b6d9f-r0_sh4.ipk
+Size: 829652
+MD5Sum: 0c924d30ec2cd0dd4ec77120d71f43e4
+
+Package: enigma2-plugin-softcams-oscam-smod-ipv4only
+Version: 1.20+git2168+71b6d9f-r0
+Description: OSCam-smod 1.20+git2168+71b6d9f (IPv4 only)
+ Combining the benefits of
+ - latest trunk
+ - modern interface
+ - emu support
+ Note: You should never need this IPv4-ONLY version!
+Section: base
+Priority: optional
+Maintainer: smod
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-oscam-smod-ipv4only
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod-ipv4
+Replaces: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod
+Conflicts: enigma2-plugin-softcams-oscam-atv-ymod, enigma2-plugin-softcams-oscam-ymod, enigma2-plugin-softcams-oscam-ymod-openatv, oscam-smod
+Source: enigma2-plugin-softcams-oscam-smod-ipv4only.bb
+Filename: enigma2-plugin-softcams-oscam-smod-ipv4only_1.20+git2168+71b6d9f-r0_sh4.ipk
+Size: 827680
+MD5Sum: fd24ad0ad60d33258f24bc84a6bb8ebc
+
+Package: enigma2-plugin-softcams-oscam-stable
+Version: 1.20+svn11570-r0
+Description: OSCam-stable 1.20+svn11570 (IPv6/IPv4 Dual-Stack support)
+ OSCam Open Source Softcam
+ - build from a known stable trunk revision
+ - includes patch for Sogno/Venton boxes
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-oscam-stable
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: oscam-stable
+Replaces: oscam-stable-ipv4
+Conflicts: oscam-stable-ipv4
+Source: enigma2-plugin-softcams-oscam-stable.bb
+Filename: enigma2-plugin-softcams-oscam-stable_1.20+svn11570-r0_sh4.ipk
+Size: 642536
+MD5Sum: 6c545c2500752e248a021a530ab1150b
+
+Package: enigma2-plugin-softcams-oscam-stable-ipv4only
+Version: 1.20+svn11570-r0
+Description: OSCam-stable 1.20+svn11570 (IPv4 only)
+ OSCam Open Source Softcam
+ - build from a known stable trunk revision
+ - includes patch for Sogno/Venton boxes
+ Note: You should never need this IPv4-ONLY version!
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-oscam-stable-ipv4only
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: oscam-stable-ipv4
+Replaces: oscam-stable
+Conflicts: oscam-stable
+Source: enigma2-plugin-softcams-oscam-stable-ipv4only.bb
+Filename: enigma2-plugin-softcams-oscam-stable-ipv4only_1.20+svn11570-r0_sh4.ipk
+Size: 640360
+MD5Sum: ddfc3eb594b9eaa902a8075714924a8c
+
+Package: enigma2-plugin-softcams-oscam-trunk
+Version: 1.20+svn11573-r0
+Description: OSCam-trunk 1.20+svn11573 (IPv6/IPv4 Dual-Stack support)
+ OSCam Open Source Softcam
+ - latest trunk
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-oscam-trunk
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: enigma2-plugin-softcams-oscam-atv, oscam-trunk
+Replaces: enigma2-plugin-softcams-oscam-atv, oscam-trunk-ipv4
+Conflicts: enigma2-plugin-softcams-oscam-atv, oscam-trunk-ipv4
+Source: enigma2-plugin-softcams-oscam-trunk.bb
+Filename: enigma2-plugin-softcams-oscam-trunk_1.20+svn11573-r0_sh4.ipk
+Size: 643656
+MD5Sum: 82899acd660b434774923a7cd3c1bf8b
+
+Package: enigma2-plugin-softcams-oscam-trunk-ipv4only
+Version: 1.20+svn11573-r0
+Description: OSCam-trunk 1.20+svn11573 (IPv4 only)
+ OSCam Open Source Softcam
+ - latest trunk
+ Note: You should never need this IPv4-ONLY version!
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: sh4
+OE: enigma2-plugin-softcams-oscam-trunk-ipv4only
+Depends: libc6 (>= 2.23), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r), libusb-1.0-0 (>= 1.0.22), softcam-support
+Provides: enigma2-plugin-softcams-oscam-atv, oscam-trunk-ipv4
+Replaces: enigma2-plugin-softcams-oscam-atv, oscam-trunk
+Conflicts: enigma2-plugin-softcams-oscam-atv, oscam-trunk
+Source: enigma2-plugin-softcams-oscam-trunk-ipv4only.bb
+Filename: enigma2-plugin-softcams-oscam-trunk-ipv4only_1.20+svn11573-r0_sh4.ipk
+Size: 641202
+MD5Sum: dfb7c38604cccef2ad7385432744e38c
+
+Package: enigma2-plugin-softcams-wicardd
+Version: 1.19-r0
+Description: wicardd 1.19 (beelive)
+ An outdated binary only softcam
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Proprietary
+Architecture: sh4
+OE: enigma2-plugin-softcams-wicardd
+Depends: libc6 (>= 2.23), softcam-support
+Provides: enigma2-plugin-softcams-wicardd-1.17, enigma2-plugin-softcams-wicardd-openatv
+Replaces: enigma2-plugin-softcams-wicardd-1.17, enigma2-plugin-softcams-wicardd-openatv
+Conflicts: enigma2-plugin-softcams-wicardd-1.17, enigma2-plugin-softcams-wicardd-openatv
+Source: enigma2-plugin-softcams-wicardd_1.19.bb
+Filename: enigma2-plugin-softcams-wicardd_1.19-r0_sh4.ipk
+Size: 301302
+MD5Sum: 0d45acae6c4d661c81b9b8f226c28628
+
+Package: enigma2-plugin-systemplugins-ciplushelper
+Version: 4.8-r0
+Description: CI+ helper
+ CI+ helper.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CLOSED
+Architecture: all
+OE: enigma2-plugin-systemplugins-ciplushelper
+Filename: enigma2-plugin-systemplugins-ciplushelper_4.8-r0_all.ipk
+Size: 1380232
+MD5Sum: 1031663322dadb87721a9e021538483f
+
+Package: softcam-feed-universal
+Version: 4.3-r4
+Description: softcam-feed oe-a
+ Configuration files for softcam feeds
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: all
+OE: softcam-feed-universal
+Homepage: unknown
+Source: None
+Filename: softcam-feed-universal_4.3-r4_all.ipk
+Size: 2042
+MD5Sum: edd274087ecc3f0047b574ed46ad18b3
+
