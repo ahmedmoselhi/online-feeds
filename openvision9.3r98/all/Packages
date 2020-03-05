@@ -1,0 +1,942 @@
+Package: alsa-topology-conf
+Version: 1.2.1-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 0157c2f4e3a1ff6aaf7f5e10e350eb62
+SHA256sum: fae6291abbd2edcb13194c7e11bee6bda4ea9ffb8c43eeeff1fea648741d8aa1
+Size: 5412
+Filename: alsa-topology-conf_1.2.1-r0_all.ipk
+Source: alsa-topology-conf_1.2.1.bb
+Description: ALSA topology configuration files
+OE: alsa-topology-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: alsa-ucm-conf
+Version: 1.2.1.2-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 0726dc8a38ef0a0217a925d480f0cb15
+SHA256sum: 305dad5a2359aab7180341fa364f2cd4a51e7c2a7396fe90ab17809c361a10ad
+Size: 15446
+Filename: alsa-ucm-conf_1.2.1.2-r0_all.ipk
+Source: alsa-ucm-conf_1.2.1.2.bb
+Description: ALSA Use Case Manager configuration
+OE: alsa-ucm-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: autoconf-archive-doc
+Version: 2019.01.06-r0
+Section: doc
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: e671b69aff3d35e61091f1b73747d053
+SHA256sum: 5af6c216c5c90baf4789d0588c77610bbdefd7ebad125ebd2c4c4a798642732a
+Size: 16566
+Filename: autoconf-archive-doc_2019.01.06-r0_all.ipk
+Source: autoconf-archive_2019.01.06.bb
+Description: a collection of freely re-usable Autoconf macros - Documentation files
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
+
+Package: autoconf-archive
+Version: 2019.01.06-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 0d326ec2361e2adfc51d088428e0128b
+SHA256sum: 026368ec377a5a49fc908aeb7286364fb33d456f24497c17f7d3664aec1cb98a
+Size: 307710
+Filename: autoconf-archive_2019.01.06-r0_all.ipk
+Source: autoconf-archive_2019.01.06.bb
+Description: a collection of freely re-usable Autoconf macros
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
+
+Package: ca-certificates-dbg
+Version: 20190110-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 62de2992940064bf5e6119d0f1787ae6
+SHA256sum: 221ab614d0c4f9ceb1b29f262451553aa5ee562244df8434413514c28adc44dd
+Size: 794
+Filename: ca-certificates-dbg_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Debugging files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20190110-r0
+Depends: ca-certificates (= 20190110-r0)
+Recommends: openssl-bin-dev
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 26c3a603dfb92fcc6a30ebee64821e1d
+SHA256sum: 4e03ae6c533b52952624a13ebaa10960d0125fa1dafb9b24173fd10a284abebe
+Size: 838
+Filename: ca-certificates-dev_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Development files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20190110-r0
+Section: doc
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: fa45200e4bbb8a75d020bd29947b34b2
+SHA256sum: f24f2ce250b3c2da70a26b276cc0a42c77997678fd03500e66e7f2330900b477
+Size: 2086
+Filename: ca-certificates-doc_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Documentation files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20190110-r0
+Depends: openssl-bin
+Section: misc
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 9167b5aea4a3dd0f3e09ee2097fec9fe
+SHA256sum: 5ca6c6d8ceecde9970270da85e5bf7404791b25f59aedc7a082612b0e3fda50b
+Size: 117976
+Filename: ca-certificates_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-dbg
+Version: git3501+1046494-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 47d32a3d239f92bfdb3d2c3274801751
+SHA256sum: 84db6e9cecba473023980453f788bc41d4601a50a69446e7aff1a135341ee2da
+Size: 680
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_git3501+1046494-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Debugging files
+OE: enigma2-plugin-extensions-e2iplayer
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-dev
+Version: git3501+1046494-r0
+Depends: enigma2-plugin-extensions-e2iplayer (= git3501+1046494-r0)
+Recommends: cmdwrapper-dev, duktape-dev, f4mdump-dev, ffmpeg-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python-compression-dev, python-core-dev, python-dev, python-e2icjson-dev, python-html-dev, python-json-dev, python-pycurl-dev, python-shell-dev, python-subprocess-dev, python-textutils-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 7e631e0b5666d8484dfff1812e1e5083
+SHA256sum: 81dcd9e293f040c372d0cc6e0ec60a822eb8fc859cef34b0a5fadb11046ad56a
+Size: 842
+Filename: enigma2-plugin-extensions-e2iplayer-dev_git3501+1046494-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Development files
+OE: enigma2-plugin-extensions-e2iplayer
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-src
+Version: git3501+1046494-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 690ff720f8b9c88ad22b97ebb32fb235
+SHA256sum: 16d88e9b9097ba23b201dbae31a6f884b58d273ddac609ee86a8ce6d16dec30e
+Size: 831976
+Filename: enigma2-plugin-extensions-e2iplayer-src_git3501+1046494-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Source files
+OE: enigma2-plugin-extensions-e2iplayer
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer
+Version: git3501+1046494-r0
+Depends: cmdwrapper, duktape, f4mdump, ffmpeg, hlsdl, iptvsubparser, lsdir, python-compression, python-core, python-e2icjson, python-html, python-json, python-pycurl, python-shell, python-subprocess, python-textutils, rtmpdump, uchardet, wget
+Section: multimedia
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: cd4703c6314c5e7163c20ec2f24dd742
+SHA256sum: a5471d26e01d2af2274182914f4c6567d3e4f520525374b4cb5a8805ee155848
+Size: 5803598
+Filename: enigma2-plugin-extensions-e2iplayer_git3501+1046494-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2
+OE: enigma2-plugin-extensions-e2iplayer
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgimport-rytec
+Version: 20200104-r0
+Replaces: enigma2-plugin-extensions-xmltvimport-rytec
+Conflicts: enigma2-plugin-extensions-xmltvimport-rytec
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 22048fd7a4a7ad3a5361289b33471693
+SHA256sum: 67fb297866f1d51daf709767dc180c02be31c8238d835b2a9f83ece0fca3c950
+Size: 4338
+Filename: enigma2-plugin-extensions-epgimport-rytec_20200104-r0_all.ipk
+Source: enigma2-plugin-extensions-epgimport-rytec.bb
+Description: enigma2-plugin-extensions-epgimport-rytec version 20200104-r0
+OE: enigma2-plugin-extensions-epgimport-rytec
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-fonts-opensans-dbg
+Version: git6+fc7065c-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: b239d91918817db2b9d6ce902753f72b
+SHA256sum: 1de420908527b398c6aa3f00f23fba77286e3da8df388324dfb08cc793cb2281
+Size: 674
+Filename: enigma2-plugin-fonts-opensans-dbg_git6+fc7065c-r0_all.ipk
+Source: enigma2-plugin-fonts-opensans.bb
+Description: Enigma2 font opensans - Debugging files
+OE: enigma2-plugin-fonts-opensans
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-fonts-opensans-dev
+Version: git6+fc7065c-r0
+Depends: enigma2-plugin-fonts-opensans (= git6+fc7065c-r0)
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 093759b78d901a3d189409614afa6aed
+SHA256sum: c686075af30cd12d792ec171962e36875eefd328a247b402f451c34b5b2d4781
+Size: 708
+Filename: enigma2-plugin-fonts-opensans-dev_git6+fc7065c-r0_all.ipk
+Source: enigma2-plugin-fonts-opensans.bb
+Description: Enigma2 font opensans - Development files
+OE: enigma2-plugin-fonts-opensans
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-fonts-opensans
+Version: git6+fc7065c-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: b31767f5c750fdc01979181d5d8f3de9
+SHA256sum: ac9b5cf4ef3ba956565b880438ccf6682e04ac803fa43d0c440eb132c3160149
+Size: 112230
+Filename: enigma2-plugin-fonts-opensans_git6+fc7065c-r0_all.ipk
+Source: enigma2-plugin-fonts-opensans.bb
+Description: Enigma2 font opensans
+OE: enigma2-plugin-fonts-opensans
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-fonts-segoe-dbg
+Version: git6+fc7065c-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: f16ef90ddbd35d9abee7dbd458154b47
+SHA256sum: 41b210f820997b6a007eab9506385431a281a7bb29ee06cf018c2a33dacf7ecb
+Size: 672
+Filename: enigma2-plugin-fonts-segoe-dbg_git6+fc7065c-r0_all.ipk
+Source: enigma2-plugin-fonts-segoe.bb
+Description: Enigma2 font segoe - Debugging files
+OE: enigma2-plugin-fonts-segoe
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-fonts-segoe-dev
+Version: git6+fc7065c-r0
+Depends: enigma2-plugin-fonts-segoe (= git6+fc7065c-r0)
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 51b93dfa6d1c789a83cf2f5f9adc0b7e
+SHA256sum: 1d1a87b0a90cfe39b90aa12c9d164bafb7be373bc65b97764067edd8dfd469a7
+Size: 706
+Filename: enigma2-plugin-fonts-segoe-dev_git6+fc7065c-r0_all.ipk
+Source: enigma2-plugin-fonts-segoe.bb
+Description: Enigma2 font segoe - Development files
+OE: enigma2-plugin-fonts-segoe
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-fonts-segoe
+Version: git6+fc7065c-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: cc2f6a3c932b50e5d9bb7b6ed2c0f089
+SHA256sum: 03b716000af5cfd3d5c695f66fb64c0f685506ade86dbf9a182a251cf77a19e0
+Size: 581916
+Filename: enigma2-plugin-fonts-segoe_git6+fc7065c-r0_all.ipk
+Source: enigma2-plugin-fonts-segoe.bb
+Description: Enigma2 font segoe
+OE: enigma2-plugin-fonts-segoe
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-magic
+Version: 1.2+git331+8b5fb84-r0
+Depends: font-valis-enigma
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: aed072c93ebcd032f1d4ed91d9ffc7e0
+SHA256sum: 10ea75547bca643c683b944bcf79f5e2acb0de6a439486591db86184a3068252
+Size: 117086
+Filename: enigma2-plugin-skins-magic_1.2+git331+8b5fb84-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.2+gitAUTOINC+8b5fb84750-r0
+OE: enigma2-plugin-skins-magic
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-octetfhd-dbg
+Version: git42+80e261e-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers
+MD5Sum: 1fd3809b4ea8fe191f3ea86447f06abd
+SHA256sum: e90054b755b2836bdf2b6cb4fbfa64f270eb2a0bfd137ea4dee7c752d259e919
+Size: 664
+Filename: enigma2-plugin-skins-octetfhd-dbg_git42+80e261e-r0_all.ipk
+Source: enigma2-plugin-skins-octetfhd.bb
+Description: Enigma2 Skin OctEtFHD - Debugging files
+OE: enigma2-plugin-skins-octetfhd
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-octetfhd-dev
+Version: git42+80e261e-r0
+Depends: enigma2-plugin-skins-octetfhd (= git42+80e261e-r0)
+Recommends: enigma2-plugin-extensions-weatherplugin2-dev, enigma2-plugin-fonts-opensans-dev, enigma2-plugin-fonts-segoe-dev
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers
+MD5Sum: 9f8f2934774c1aa9508efde66a5599ba
+SHA256sum: 8ff84eb4889e4239803b03360080cdfa2612e3f38ec5890cd55a7a09b6ad3140
+Size: 742
+Filename: enigma2-plugin-skins-octetfhd-dev_git42+80e261e-r0_all.ipk
+Source: enigma2-plugin-skins-octetfhd.bb
+Description: Enigma2 Skin OctEtFHD - Development files
+OE: enigma2-plugin-skins-octetfhd
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-octetfhd
+Version: git42+80e261e-r0
+Depends: enigma2-plugin-extensions-weatherplugin2, enigma2-plugin-fonts-opensans, enigma2-plugin-fonts-segoe
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers
+MD5Sum: afe9c0e61f41ae261c9ed629270ac6e0
+SHA256sum: 98928f80b6299e05691b7fd7e36ccfc2294f8e19b01ea375c5a70d1b56929ca6
+Size: 1269424
+Filename: enigma2-plugin-skins-octetfhd_git42+80e261e-r0_all.ipk
+Source: enigma2-plugin-skins-octetfhd.bb
+Description: Enigma2 Skin OctEtFHD
+OE: enigma2-plugin-skins-octetfhd
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-pli-hd-dbg
+Version: 0.1+git2019+7ed1697-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 08f6095b0de6c9d19fd9696d61886140
+SHA256sum: 5aac814644bb584e7f3673cb3fc0fc76f45a37d66d5bace1b08b4813076d82c4
+Size: 674
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2019+7ed1697-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+7ed1697850-r0 - Debugging files
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dev
+Version: 0.1+git2019+7ed1697-r0
+Depends: enigma2-plugin-skins-pli-hd (= 0.1+git2019+7ed1697-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 11bbc4f09f2c46245ed135cec240dbd9
+SHA256sum: 135c1a02448383ed437d4896a9036f27924d41e3a9aa3b6f274dd98684aa66ad
+Size: 710
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2019+7ed1697-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+7ed1697850-r0 - Development files
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git2019+7ed1697-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 75fc8e5b0fab2156866384d9e7f977d5
+SHA256sum: 66bbfe364c861e82ca8704125817e75be22e546dac4bcbf184c8b0582ac3f0a2
+Size: 382156
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2019+7ed1697-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+7ed1697850-r0
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: firmware-carl9170
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: ca4fe688c4e22e3eecaa2ed15481b8ea
+SHA256sum: b987d9441d9e51b91cb67abfd06d9b34e070d0e7b7860fda212138a760b8fcd4
+Size: 9976
+Filename: firmware-carl9170_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-carl9170_1.9.5.bb
+Description: firmware-carl9170 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-carl9170
+License: CLOSED
+Priority: optional
+
+Package: firmware-htc7010
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: cffeb28dc82f6824d506364a971418a6
+SHA256sum: 10eb52795c1ff2fa43e5888c3f9599a36b474d7dc529a022c2289a0205ac409a
+Size: 30158
+Filename: firmware-htc7010_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-htc7010.bb
+Description: firmware-htc7010 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-htc7010
+License: CLOSED
+Priority: optional
+
+Package: firmware-htc9271
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 750807a342cedf524f4d51abf3be07cb
+SHA256sum: 93478b0cf8b90f9728b562902a0275afeba0418f34732b292f3282601c96d38b
+Size: 26546
+Filename: firmware-htc9271_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-htc9271.bb
+Description: firmware-htc9271 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-htc9271
+License: CLOSED
+Priority: optional
+
+Package: firmware-mt7601u
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 65d844a0877b7d080738c3ffc99ddcb1
+SHA256sum: 2d01de0098eb9f53fe1f9a99fb319adc834a4ddf5c9907679b61cdef8408dee9
+Size: 24138
+Filename: firmware-mt7601u_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-mt7601u.bb
+Description: firmware-mt7601u version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-mt7601u
+License: CLOSED
+Priority: optional
+
+Package: firmware-rt2870
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 89f35320fceb706a517b289504c89d78
+SHA256sum: 5511af2a57168955090efcbc859928090c5018db67710429d5e055f0d151c786
+Size: 3288
+Filename: firmware-rt2870_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rt2870.bb
+Description: firmware-rt2870 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-rt2870
+License: CLOSED
+Priority: optional
+
+Package: firmware-rt73
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: fc94db2351921bb2a664bb925da1bf85
+SHA256sum: 6085bf2207bb750f32a1a28e083e139d68ab531167345ec4a77ea89dbcd398b6
+Size: 1826
+Filename: firmware-rt73_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rt73.bb
+Description: firmware-rt73 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-rt73
+License: CLOSED
+Priority: optional
+
+Package: firmware-rtl8188eu
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 690bda29fb826273c5f0742ca6179481
+SHA256sum: 8bf21d417bf53882920a43bc0efc8889a1ed66197f30cdb09f65b1514c975110
+Size: 8246
+Filename: firmware-rtl8188eu_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rtl8188eu.bb
+Description: firmware-rtl8188eu version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-rtl8188eu
+License: CLOSED
+Priority: optional
+
+Package: firmware-rtl8192cu
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 7f81bda93b07fd6cb98338d740057698
+SHA256sum: 7e72840074912f171a8efa6c9b3cf9e8991acb6c7e17bdb26dd9f66c33443684
+Size: 7838
+Filename: firmware-rtl8192cu_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rtl8192cu.bb
+Description: firmware-rtl8192cu version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-rtl8192cu
+License: CLOSED
+Priority: optional
+
+Package: firmware-rtl8712u
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 75ad23c2c3097c9f0134f08c8fa91efe
+SHA256sum: 14eba93608cb407142fdede17f63f4d34a5dd76eec4fa87ff5a52f81120c28a7
+Size: 51888
+Filename: firmware-rtl8712u_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rtl8712u.bb
+Description: firmware-rtl8712u version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-rtl8712u
+License: CLOSED
+Priority: optional
+
+Package: firmware-zd1211
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 1a9b513732d389093419683f2c06f11e
+SHA256sum: f9c349aa3ff37e4b728ab612e41c4c9c8c1dfd3e09546fa65f936d65ab7376e1
+Size: 31094
+Filename: firmware-zd1211_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-zd1211.bb
+Description: firmware-zd1211 version 1.1+gitAUTOINC+4b2b151e18-r0
+OE: firmware-zd1211
+License: CLOSED
+Priority: optional
+
+Package: font-valis-enigma
+Version: 2009.11.12-r0
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: 40d8f6bcf21bfd07fc48d48b1e8d9a8e
+SHA256sum: 6629cf5bf8f73933481050f71d1e9c9191824847cccd26acf34bacceeff7feda
+Size: 31552
+Filename: font-valis-enigma_2009.11.12-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.2+gitAUTOINC+8b5fb84750-r0
+OE: enigma2-plugin-skins-magic
+License: GPLv2+
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r10
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 77694b8fe6c9dd034f67d11334de722a
+SHA256sum: f7cc743e1bd104ac4dce0e20ed370e512492dd1bddf677cda082cd7fe071c92b
+Size: 682
+Filename: run-postinsts-dbg_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Debugging files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r10
+Depends: run-postinsts (= 1.0-r10)
+Recommends: initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: c00acc64d08be7081b6e06abd23ef48c
+SHA256sum: 290e2ce9285359fe37a93633584c72a85a6fbf0c2791c9aaf8a8978ed78b21ad
+Size: 740
+Filename: run-postinsts-dev_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Development files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r10
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: cbbcaef334cc7fbd5b00d208005ce725
+SHA256sum: b8a77bb19ee3999fe912c287010348ed24739e21c62bd4bb1f871b9eae97a1fb
+Size: 1894
+Filename: run-postinsts_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: settings-autorestore
+Version: 2018102501-r0
+Section: base
+Architecture: all
+Maintainer: OpenPLi team
+MD5Sum: 2248badd59e683323433ac1cb36dca21
+SHA256sum: 0935df88811c9e4858110847bf2211bb798ced28f0be74ee6d68bc7fb1d7719a
+Size: 5010
+Filename: settings-autorestore_2018102501-r0_all.ipk
+Source: settings-autorestore.bb
+Description: settings-autorestore version 2018102501-r0
+OE: settings-autorestore
+License: GPLv2+
+Priority: optional
+
+Package: softcam-support
+Version: 2-r0
+Recommends: update-rc.d
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: b3878f03cd4ffcd24f853f6a28921506
+SHA256sum: 2ca9d630b4f4638e3226dfc3d60ae7dc3069d9011c3e7504284e51685bbf5081
+Size: 978
+Filename: softcam-support_2-r0_all.ipk
+Source: softcam-support.bb
+Description: Start, stop and select softcams.
+OE: softcam-support
+License: GPLv2+
+Priority: optional
+
+Package: stlinux24-sh4-stmfb-firmware-stx7111
+Version: 1.20-1-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 191ed787d7259fb2d4a3a5e6caad7093
+SHA256sum: a1ac0772cd0e01234723951e4cdce2e761d1e224bec8a08e737a32567de5d22d
+Size: 1296
+Filename: stlinux24-sh4-stmfb-firmware-stx7111_1.20-1-r0_all.ipk
+Source: stlinux24-sh4-stmfb-firmware-stx7111_1.20-1.bb
+Description: stlinux24-sh4-stmfb-firmware-stx7111 version 1.20-1-r0
+OE: stlinux24-sh4-stmfb-firmware-stx7111
+License: CLOSED
+Priority: optional
+
+Package: stlinux24-sh4-stx7111-fdma-firmware
+Version: 20150612-15-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: ead66d0243ec041f792493e0193f3b88
+SHA256sum: 0848fdd2aee89f5b82e471f290c95b10ba409d42fed342bf57708311e8f82f22
+Size: 13090
+Filename: stlinux24-sh4-stx7111-fdma-firmware_20150612-15-r0_all.ipk
+Source: stlinux24-sh4-stx7111-fdma-firmware_20150612-15.bb
+Description: stlinux24-sh4-stx7111-fdma-firmware version 20150612-15-r0
+OE: stlinux24-sh4-stx7111-fdma-firmware
+License: CLOSED
+Priority: optional
+
+Package: stslave-fw-dbg
+Version: 0.1-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 6b32bdac35e95246465ebb6024360e51
+SHA256sum: 8300ddfce94ccfb137f520063261e454122b96dc3b56e393fcc276ddae66099e
+Size: 670
+Filename: stslave-fw-dbg_0.1-r0_all.ipk
+Source: stslave-fw_0.1.bb
+Description: stslave-fw version 0.1-r0 - Debugging files
+OE: stslave-fw
+License: CLOSED
+Priority: optional
+
+Package: stslave-fw-dev
+Version: 0.1-r0
+Depends: stslave-fw (= 0.1-r0)
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 7bcde2ec01e33cd21d80e226c900337d
+SHA256sum: fbed53dce6eeba76bfa91d820f1f4dac28fc1437e78aa637bf03be21fde5bb6d
+Size: 698
+Filename: stslave-fw-dev_0.1-r0_all.ipk
+Source: stslave-fw_0.1.bb
+Description: stslave-fw version 0.1-r0 - Development files
+OE: stslave-fw
+License: CLOSED
+Priority: optional
+
+Package: stslave-fw
+Version: 0.1-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: ad8d6ead84eb04700589f5bef4d8612b
+SHA256sum: 4cac667b803fb51be5482352eaca6def0eb97d4acf95838d066c22f49f5cf11d
+Size: 1136154
+Filename: stslave-fw_0.1-r0_all.ipk
+Source: stslave-fw_0.1.bb
+Description: stslave-fw version 0.1-r0
+OE: stslave-fw
+License: CLOSED
+Priority: optional
+
+Package: tuxbox-common-dbg
+Version: 2+git197+c83e740-r0
+Section: devel
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 59f806489c24832be5c3697c54bb8b6e
+SHA256sum: 9e45def1782a4f0170ec46b65d45e98c35aec7f8dfb3d776420609eff3c0597f
+Size: 664
+Filename: tuxbox-common-dbg_2+git197+c83e740-r0_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+gitAUTOINC+c83e740543-r0 - Debugging files
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common-dev
+Version: 2+git197+c83e740-r0
+Depends: tuxbox-common (= 2+git197+c83e740-r0)
+Section: devel
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 7915f033431866def92223d840279004
+SHA256sum: a4b02be92f27a22172e541883b7b8081c6f77a4ca85a2552f341a6a35ac767ef
+Size: 700
+Filename: tuxbox-common-dev_2+git197+c83e740-r0_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+gitAUTOINC+c83e740543-r0 - Development files
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common
+Version: 2+git197+c83e740-r0
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 21c1d66a7f1b2c731b0972716d82dc38
+SHA256sum: 2929f23233556ab72219df37d93b3e1cb4654b54feb219a8252b7bb2df5b60fb
+Size: 53936
+Filename: tuxbox-common_2+git197+c83e740-r0_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+gitAUTOINC+c83e740543-r0
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tzdata
+Version: 2019c-r0
+Conflicts: timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab, timezones
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 4d840386cc8962be71915fd6c20e34db
+SHA256sum: 60ba68b0a15f08a7fe87c7aad64cb1e962c24b564cb469442bf4b5f4c0f33430
+Size: 83890
+Filename: tzdata_2019c-r0_all.ipk
+Source: tzdata_2019c.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.8-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: acfd47064196cca259a71254b76663b8
+SHA256sum: 1bbe48fbb66e34bd8e84e8981317827f32a88d1e0efa191b7b964237ea4151a2
+Size: 756
+Filename: update-rc.d-dbg_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Debugging files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.8-r0
+Depends: update-rc.d (= 0.8-r0)
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: d97934268785571787d6eb7fa52696c2
+SHA256sum: 4447814b1a14b43905e24997f9cd33b89197e5a5b6d4c3f5e87be2e3174bd218
+Size: 780
+Filename: update-rc.d-dev_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Development files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.8-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: d07a0b0938a0445015ff865023d75b10
+SHA256sum: 0d1c95c98e7557cd9c7556d675e11aa8535f07bbbb21f3a51f921e9214731f35
+Size: 3022
+Filename: update-rc.d_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPLv2+
+Priority: optional
+
+Package: usb-modeswitch-data-dbg
+Version: 20191128-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 1fdb447c805922d75adf045ff0aca675
+SHA256sum: fe73763352e1685adfc357e345dc329f1e482e10b93a8cbb078cd5a959dc1cb2
+Size: 670
+Filename: usb-modeswitch-data-dbg_20191128-r0_all.ipk
+Source: usb-modeswitch-data_20191128.bb
+Description: Data files for usbmodeswitch - Debugging files
+OE: usb-modeswitch-data
+License: GPLv2
+Priority: optional
+
+Package: usb-modeswitch-data-dev
+Version: 20191128-r0
+Depends: usb-modeswitch-data (= 20191128-r0)
+Recommends: usb-modeswitch-dev
+Section: devel
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 08f26819f422b2df7db81d7d2dffc057
+SHA256sum: 940ae2a71ba7e23addb7e7a5a304c2a9db406c0ddefcf4da6dcebf67428e4c5d
+Size: 710
+Filename: usb-modeswitch-data-dev_20191128-r0_all.ipk
+Source: usb-modeswitch-data_20191128.bb
+Description: Data files for usbmodeswitch - Development files
+OE: usb-modeswitch-data
+License: GPLv2
+Priority: optional
+
+Package: usb-modeswitch-data
+Version: 20191128-r0
+Depends: usb-modeswitch (>= 2.4.0)
+Section: base
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: d71f8e331cfad1d28a33ef8560b27caf
+SHA256sum: 6f5aef7fcf97fe509fd35a9e449adb9902e1544767a1286d21ecaaaa1e27a693
+Size: 17452
+Filename: usb-modeswitch-data_20191128-r0_all.ipk
+Source: usb-modeswitch-data_20191128.bb
+Description: Data files for usbmodeswitch
+OE: usb-modeswitch-data
+License: GPLv2
+Priority: optional
+
+Package: volatile-media
+Version: 2-r0
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 28201aa3df91cf80ae16ee5687969c3c
+SHA256sum: 407ad690aa0297f612c2bcafacc1d404cec13a3f5108bdfa67c2441fa079f7a0
+Size: 938
+Filename: volatile-media_2-r0_all.ipk
+Source: volatile-media.bb
+Description: volatile-media version 2-r0
+OE: volatile-media
+License: GPLv2+
+Priority: optional
+
+Package: wireless-regdb-static
+Version: 2019.06.03-r0
+Section: net
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 135fbb685849a4e02141105559201876
+SHA256sum: aa44f9755623b5b675da86156717e27e9abfe77a751649c36c1d72c11ac186d2
+Size: 3400
+Filename: wireless-regdb-static_2019.06.03-r0_all.ipk
+Source: wireless-regdb_2019.06.03.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
+Package: wireless-regdb
+Version: 2019.06.03-r0
+Conflicts: wireless-regdb-static
+Suggests: crda
+Section: net
+Architecture: all
+Maintainer: Open Vision Developers <forum.openvision.tech>
+MD5Sum: 904373703a9423196d5312e12fc3ecbc
+SHA256sum: 105970162b97ff2b7cf32349f8c7d8b0f0a93c528cee4e583fb3046d86cdf056
+Size: 3274
+Filename: wireless-regdb_2019.06.03-r0_all.ipk
+Source: wireless-regdb_2019.06.03.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
