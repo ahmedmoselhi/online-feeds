@@ -1,0 +1,5305 @@
+Package: base-files-dbg
+Version: 3.0.14-r89
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 30b2e4a3e5cc44fb5bc0796b5c88af36
+Size: 742
+Filename: base-files-dbg_3.0.14-r89_spark.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89
+Depends: base-files (= 3.0.14-r89)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8d7e8746c033542da59fb4dcc4d213c2
+Size: 772
+Filename: base-files-dev_3.0.14-r89_spark.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89
+Section: doc
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: da4867d7615def625e23f53629371d44
+Size: 852
+Filename: base-files-doc_3.0.14-r89_spark.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8944e1e745f3d1f3d454a2f779771d2
+Size: 3260
+Filename: base-files_3.0.14-r89_spark.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: directfb-dbg
+Version: 1.7.7-r100
+Recommends: libc6-dbg, libfreetype-dbg, libgcc-s-dbg, libjpeg-dbg, libpng16-dbg, libstdc++-dbg, libz-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4046315f7933e23b24a202cb39ef710a
+Size: 2703020
+Filename: directfb-dbg_1.7.7-r100_spark.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
+OE: directfb
+HomePage: http://directfb.org
+License: LGPLv2.1
+Priority: optional
+
+Package: directfb-dev
+Version: 1.7.7-r100
+Depends: directfb (= 1.7.7-r100)
+Recommends: fulan-dvb-modules-spark-dev, jpeg-dev, libc6-dev, libfreetype-dev, libgcc-s-dev, libjpeg-dev, libmme-host-dev, libpng16-dev, libstdc++-dev, libz-dev, stlirc-dev, sysfsutils-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a95d0d5ec85d0cf034f512cb842b01ae
+Size: 192860
+Filename: directfb-dev_1.7.7-r100_spark.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device - Development files
+OE: directfb
+HomePage: http://directfb.org
+License: LGPLv2.1
+Priority: optional
+
+Package: directfb-doc
+Version: 1.7.7-r100
+Section: doc
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d10f902d7401222d915550ea9cda517c
+Size: 8084
+Filename: directfb-doc_1.7.7-r100_spark.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device - Documentation files
+OE: directfb
+HomePage: http://directfb.org
+License: LGPLv2.1
+Priority: optional
+
+Package: directfb-src
+Version: 1.7.7-r100
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f46e8a7d47a5b8618267d5617d5020ea
+Size: 726348
+Filename: directfb-src_1.7.7-r100_spark.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device - Source files
+OE: directfb
+HomePage: http://directfb.org
+License: LGPLv2.1
+Priority: optional
+
+Package: directfb-stgfx2-dbg
+Version: 15.2.1.41.5.12.2-r0
+Recommends: directfb-dbg, libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa3855f1d46cd578fe7eaf03f3507ab2
+Size: 1596
+Filename: directfb-stgfx2-dbg_15.2.1.41.5.12.2-r0_spark.ipk
+Source: directfb-stgfx2_15.2.1.41.5.12.2.bb
+Description: directfb-stgfx2 version 15.2.1.41.5.12.2-r0 - Debugging files
+OE: directfb-stgfx2
+HomePage: https://github.com/OpenVisionE2/stgfx2
+License: GPLv2+
+Priority: optional
+
+Package: directfb-stgfx2-dev
+Version: 15.2.1.41.5.12.2-r0
+Depends: directfb-stgfx2 (= 15.2.1.41.5.12.2-r0)
+Recommends: directfb-dev, fulan-dvb-modules-spark-dev, libc6-dev, libgcc-s-dev, libstdc++-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7d58de6845084e8cde39d3ca6c5607b5
+Size: 788
+Filename: directfb-stgfx2-dev_15.2.1.41.5.12.2-r0_spark.ipk
+Source: directfb-stgfx2_15.2.1.41.5.12.2.bb
+Description: directfb-stgfx2 version 15.2.1.41.5.12.2-r0 - Development files
+OE: directfb-stgfx2
+HomePage: https://github.com/OpenVisionE2/stgfx2
+License: GPLv2+
+Priority: optional
+
+Package: directfb-stgfx2
+Version: 15.2.1.41.5.12.2-r0
+Depends: directfb (>= 1.7.7), libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11f8113f17d47614f28d6ec47759a4ac
+Size: 45838
+Filename: directfb-stgfx2_15.2.1.41.5.12.2-r0_spark.ipk
+Source: directfb-stgfx2_15.2.1.41.5.12.2.bb
+Description: directfb-stgfx2 version 15.2.1.41.5.12.2-r0
+OE: directfb-stgfx2
+HomePage: https://github.com/OpenVisionE2/stgfx2
+License: GPLv2+
+Priority: optional
+
+Package: directfb
+Version: 1.7.7-r100
+Depends: libc6 (>= 2.25), libfreetype6 (>= 2.10.1), libgcc1 (>= 4.9.4), libjpeg62 (>= 2.0.3), libpng16-16 (>= 1.6.37), libstdc++6 (>= 4.9.4), libz1 (>= 1.2.11)
+Recommends: directfb-stgfx2
+Section: libs
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e075e9553857ff05f4165151448cf85c
+Size: 887038
+Filename: directfb_1.7.7-r100_spark.ipk
+Source: directfb_1.7.7.bb
+Description: Graphics abstraction library for the Linux Framebuffer Device
+OE: directfb
+HomePage: http://directfb.org
+License: LGPLv2.1
+Priority: optional
+
+Package: distro-feed-configs-dbg
+Version: 1.0-r6
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9bfb715d66d3ebefa155db5792269013
+Size: 684
+Filename: distro-feed-configs-dbg_1.0-r6_spark.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Debugging files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs-dev
+Version: 1.0-r6
+Depends: distro-feed-configs (= 1.0-r6)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f4ede697bfaed0763977c5645c2ca8c
+Size: 720
+Filename: distro-feed-configs-dev_1.0-r6_spark.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds - Development files
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: distro-feed-configs
+Version: 1.0-r6
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c38c04aa89d6d33cffb1752fc47163c0
+Size: 884
+Filename: distro-feed-configs_1.0-r6_spark.ipk
+Source: distro-feed-configs.bb
+Description: Configuration files for online package repositories aka feeds
+OE: distro-feed-configs
+License: MIT
+Priority: optional
+
+Package: enigma2-dbg
+Version: 2.7+git18503+04700e5-r0
+Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: devel
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: f64b564b3ecf1cc39f371cbd1284a791
+Size: 856
+Filename: enigma2-dbg_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Debugging files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dev
+Version: 2.7+git18503+04700e5-r0
+Depends: enigma2 (= 2.7+git18503+04700e5-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-iso8859-15-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-imaging-dev, python-lang-dev, python-logging-dev, python-mmap-dev, python-netclient-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-re-dev, python-shell-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: acc3f772b91e2a838a3452ad5bc47067
+Size: 98856
+Filename: enigma2-dev_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-fonts
+Version: 2018.08.15-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 7be3292f92df3be8638dc15971cf737e
+Size: 2325372
+Filename: enigma2-fonts_2018.08.15-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-meta
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 90a98138427b53b85ab5ff488048e375
+Size: 4442
+Filename: enigma2-meta_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6a6194bd7ea39db216e38204ce6a7f4c
+Size: 5278
+Filename: enigma2-plugin-extensions-cutlisteditor-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 2.7+git18503+04700e5-r0
+Depends: aio-grab
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 178693aa16fc5f449a7793cae54880b7
+Size: 7634
+Filename: enigma2-plugin-extensions-cutlisteditor_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: fd1eae12210c216d13ca60a43ce18ae4
+Size: 21728
+Filename: enigma2-plugin-extensions-dvdburn-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn
+Version: 2.7+git18503+04700e5-r0
+Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, python-imaging, replex
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 75ef3a55c888cd9ecdf35c9d96812274
+Size: 796562
+Filename: enigma2-plugin-extensions-dvdburn_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 4dd111782044803d8bb986f13ceeb501
+Size: 1884
+Filename: enigma2-plugin-extensions-dvdplayer-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 2.7+git18503+04700e5-r0
+Recommends: kernel-module-udf
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ade911c5f8b0f174e135899027c33852
+Size: 2614
+Filename: enigma2-plugin-extensions-dvdplayer_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: f939e28a58f9e5480d12758bf58dfeda
+Size: 14766
+Filename: enigma2-plugin-extensions-graphmultiepg-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-graphmultiepg
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: fbb7de124041a0c29619833270b2af74
+Size: 21992
+Filename: enigma2-plugin-extensions-graphmultiepg_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-graphmultiepg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 26c671685a07ee042d891324507e4b59
+Size: 11100
+Filename: enigma2-plugin-extensions-mediaplayer-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 7e2cd990825e54603d3c33321d9fa83b
+Size: 20432
+Filename: enigma2-plugin-extensions-mediaplayer_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 7c552d3b2ad4e75105136f420af2310c
+Size: 1970
+Filename: enigma2-plugin-extensions-mediascanner-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ee89e29d6a50dc7fc09d6a9fb7c76886
+Size: 5318
+Filename: enigma2-plugin-extensions-mediascanner_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dbg
+Version: 1+git3537+a9adbfe-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce68b80ba72ae2bb34305f9f94453e8a
+Size: 728
+Filename: enigma2-plugin-extensions-openwebif-dbg_1+git3537+a9adbfe-r0_spark.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+a9adbfe822-r0 - Debugging files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dev
+Version: 1+git3537+a9adbfe-r0
+Depends: enigma2-plugin-extensions-openwebif (= 1+git3537+a9adbfe-r0)
+Recommends: aio-grab-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-unixadmin-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fa5c4a9c0e68ca9f7fa791bacbfde708
+Size: 842
+Filename: enigma2-plugin-extensions-openwebif-dev_1+git3537+a9adbfe-r0_spark.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+a9adbfe822-r0 - Development files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 1+git3537+a9adbfe-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f675b90680e425ad32f29875a49a4298
+Size: 1232414
+Filename: enigma2-plugin-extensions-openwebif-vxg_1+git3537+a9adbfe-r0_spark.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+a9adbfe822-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif
+Version: 1+git3537+a9adbfe-r0
+Depends: aio-grab, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-unixadmin
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6bc016b51de2af4aa0c6ef9ac098aab2
+Size: 2793320
+Filename: enigma2-plugin-extensions-openwebif_1+git3537+a9adbfe-r0_spark.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1+gitAUTOINC+a9adbfe822-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 01efcdcf8fe54f9ad447099ce608657c
+Size: 6556
+Filename: enigma2-plugin-extensions-pictureplayer-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 0682cd91e7dcc76cadd410c9072bf934
+Size: 13188
+Filename: enigma2-plugin-extensions-pictureplayer_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dbg
+Version: 2.0+git6+0b2e06b-r1
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d437f3f296474f836775224356582a8
+Size: 720
+Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git6+0b2e06b-r1_spark.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Debugging files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dev
+Version: 2.0+git6+0b2e06b-r1
+Depends: enigma2-plugin-extensions-screenposition (= 2.0+git6+0b2e06b-r1)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc73bb310bf8a94d1d5e9d19360c3d33
+Size: 772
+Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git6+0b2e06b-r1_spark.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1 - Development files
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git6+0b2e06b-r1
+Depends: python-core
+Replaces: enigma2-plugin-pli-screenposition
+Conflicts: enigma2-plugin-pli-screenposition
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2e468781da23a1d057221b62ba75cfff
+Size: 3938
+Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b-r1_spark.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+gitAUTOINC+0b2e06b258-r1
+OE: enigma2-plugin-extensions-screenposition
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dbg
+Version: 0.2+git12+abdfb2b-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7751e028365232d00fbca44cfb61534
+Size: 736
+Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git12+abdfb2b-r0_spark.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Debugging files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dev
+Version: 0.2+git12+abdfb2b-r0
+Depends: enigma2-plugin-extensions-shootyourscreen (= 0.2+git12+abdfb2b-r0)
+Recommends: aio-grab-dev, python-core-dev, python-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e541114e4939c4a169c23d8698bcd7a2
+Size: 792
+Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git12+abdfb2b-r0_spark.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0 - Development files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git12+abdfb2b-r0
+Depends: aio-grab, python-core
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc6fda9db1d3e1c74e3f608b6856e217
+Size: 11776
+Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git12+abdfb2b-r0_spark.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+gitAUTOINC+abdfb2bd48-r0
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 2.7+git18503+04700e5-r0
+Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: e53d06200c3fd7a6bc1dac3219c24387
+Size: 124428
+Filename: enigma2-plugin-extensions-socketmmi-dbg_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 1e946c022a11ce14e3d973bf23220807
+Size: 1494
+Filename: enigma2-plugin-extensions-socketmmi-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a2d7afdfaf901d89455cfc4111f5af06
+Size: 215292
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 2.7+git18503+04700e5-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.0.0+git98+d091bf5), libxml2 (>= 2.9.9)
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 4aba6165efd5bdcdb9d71d9921d3f728
+Size: 9628
+Filename: enigma2-plugin-extensions-socketmmi_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-sparkvfd-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 7333f3f86bc4a333f4e5e4dcac11e351
+Size: 3926
+Filename: enigma2-plugin-extensions-sparkvfd-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-sparkvfd (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-sparkvfd
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: ce6ab4e5e6e546e0f52cdf40af3dfa72
+Size: 5692
+Filename: enigma2-plugin-extensions-sparkvfd_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: extensions-sparkvfd
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dbg
+Version: 0.6+git40+c9150af-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd49e6813224cb5c64045b73f475e805
+Size: 724
+Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git40+c9150af-r0_spark.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dev
+Version: 0.6+git40+c9150af-r0
+Depends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git40+c9150af-r0)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a2b647f615d3250a9e6737bd305ebd36
+Size: 754
+Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git40+c9150af-r0_spark.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0 - Development files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git40+c9150af-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 56294a969700f5276dc60ec3c4d8f795
+Size: 24824
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git40+c9150af-r0_spark.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+gitAUTOINC+c9150af2b1-r0
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 3cb00e2d36e0042761e801b309e62926
+Size: 3914
+Filename: enigma2-plugin-systemplugins-cablescan-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: b669ffa46e1bc4ac18fb5ff96af86664
+Size: 5792
+Filename: enigma2-plugin-systemplugins-cablescan_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 23084d07a49d1eed669a76fcec7a4ad0
+Size: 6230
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6e71aeb2538b6916001af7e2709b6835
+Size: 9634
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: b1a3d4722a3acae10527ed6e5b70ac82
+Size: 2564
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-defaultservicesscanner
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 2b0cbc3cc7957b3abdded528a86c10fd
+Size: 3352
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-defaultservicesscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 847fcea888191c74a21f851cf4a17f56
+Size: 6252
+Filename: enigma2-plugin-systemplugins-diseqctester-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: b814f779c5c5195b83e4b0a1e200a5c5
+Size: 8804
+Filename: enigma2-plugin-systemplugins-diseqctester_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 497dad86c69457ca98a9d8e95369b280
+Size: 4962
+Filename: enigma2-plugin-systemplugins-fastscan-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 1384b8247eb63d970d8e505842b5513b
+Size: 7526
+Filename: enigma2-plugin-systemplugins-fastscan_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: d9e9684aa77169cec4a9b25e1dbf6989
+Size: 2798
+Filename: enigma2-plugin-systemplugins-hdmicec-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 33693e763ac2c2344c0147c92d6e7221
+Size: 3804
+Filename: enigma2-plugin-systemplugins-hdmicec_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: aebf7ce36953e4cd43a34be479713360
+Size: 1978
+Filename: enigma2-plugin-systemplugins-hotplug-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 2.7+git18503+04700e5-r0
+Depends: hotplug-e2-helper
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: c39a4421939bf4c8f08ff3e3b280591e
+Size: 2568
+Filename: enigma2-plugin-systemplugins-hotplug_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 461b698b176349bab37270928b37699c
+Size: 4240
+Filename: enigma2-plugin-systemplugins-networkwizard-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 47345ebc571396921dc77e10ad7d1608
+Size: 7284
+Filename: enigma2-plugin-systemplugins-networkwizard_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: f605aa3e31d39b59ca26a86cc4a267ee
+Size: 2456
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osd3dsetup
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6f909ff99c4bb4b9d5ef3576579ec00f
+Size: 3450
+Filename: enigma2-plugin-systemplugins-osd3dsetup_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-osd3dsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 975b4752f04083e57159948bf529cb73
+Size: 3982
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-osdpositionsetup
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 120404d85964fdc2033b2629ab445729
+Size: 5472
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-osdpositionsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 5418d60c8385f41ec4754117a14cab45
+Size: 14446
+Filename: enigma2-plugin-systemplugins-positionersetup-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 031d617ee5a348f0b48bd3ea5127618e
+Size: 21120
+Filename: enigma2-plugin-systemplugins-positionersetup_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 52f62f3c5de4a76e32800812df31f01d
+Size: 2104
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 03b8559bdb4f963607b8da89feac8799
+Size: 2854
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: d082a71a3f47d94e3af1655b26d96d7b
+Size: 6012
+Filename: enigma2-plugin-systemplugins-satfinder-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a5abc2a2c26634210ab992031a75f654
+Size: 7830
+Filename: enigma2-plugin-systemplugins-satfinder_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dbg
+Version: 1+git161+02956ea-r0
+Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, uchardet-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ed2bb6a81b04e7a71f8674ed1c506d0
+Size: 17864
+Filename: enigma2-plugin-systemplugins-serviceapp-dbg_1+git161+02956ea-r0_spark.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dev
+Version: 1+git161+02956ea-r0
+Depends: enigma2-plugin-systemplugins-serviceapp (= 1+git161+02956ea-r0)
+Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, libstdc++-dev, openssl-dev, python-json-dev, uchardet-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4df08b8c5314ab88d248318e6fd29573
+Size: 5672
+Filename: enigma2-plugin-systemplugins-serviceapp-dev_1+git161+02956ea-r0_spark.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0 - Development files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp
+Version: 1+git161+02956ea-r0
+Depends: enigma2, libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1g), libgcc1 (>= 4.9.4), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 4.9.4), openssl, python-json, uchardet (>= 0.0.7+git266+c8a3572)
+Recommends: exteplayer3, gstplayer
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 043452755e1024128727bd821c7d2518
+Size: 97646
+Filename: enigma2-plugin-systemplugins-serviceapp_1+git161+02956ea-r0_spark.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sh4boostercontrol-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 086b678cfdf2a287eeebcc55cd305c03
+Size: 2618
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-sh4boostercontrol (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sh4boostercontrol
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: e5c45f8034a4fdf487f68419c2867011
+Size: 3788
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-sh4boostercontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sh4osdadjustment-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: c02a063003f40cfc2c513ff3fa4e8f8a
+Size: 3736
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-sh4osdadjustment (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sh4osdadjustment
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 662460d362af9d9429e6092ae1468702
+Size: 4698
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-sh4osdadjustment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 1777276aea44866f91551f9d0bdc6766
+Size: 16246
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 2.7+git18503+04700e5-r0
+Depends: python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 297580afc53b35775b33f3d6e8994d1e
+Size: 42628
+Filename: enigma2-plugin-systemplugins-softwaremanager_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 37d6417e7736af4bf8f5f839ead7ebaa
+Size: 2214
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 70e092969ef5e02df06a9f1a81ced73c
+Size: 2950
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 374ce16aad960156059265d39d77e152
+Size: 5492
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a2bb00a35a1ffd18e91401b618f67bf0
+Size: 8194
+Filename: enigma2-plugin-systemplugins-videoenhancement_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: a7596c8c2a048a42e1ec05de8284d2de
+Size: 8804
+Filename: enigma2-plugin-systemplugins-videomode-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videomode
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 9fe797b654692c09898acf1c6dad6b02
+Size: 58076
+Filename: enigma2-plugin-systemplugins-videomode_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videomode
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 1d92999ee3f7469f98b62430a049e934
+Size: 4492
+Filename: enigma2-plugin-systemplugins-videotune-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 1a569f42bdbba02e63a8bc8313a0f656
+Size: 64924
+Filename: enigma2-plugin-systemplugins-videotune_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 2.7+git18503+04700e5-r0
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 2fa200a67b6927cdbb6441e329775485
+Size: 7580
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (sources)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 2.7+git18503+04700e5-r0
+Depends: python-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: d47a694e8ebc1fd7e3ca2bae4d194eb5
+Size: 11110
+Filename: enigma2-plugin-systemplugins-wirelesslan_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 2.7+git18503+04700e5-r0
+Depends: enigma2-dev (= 2.7+git18503+04700e5-r0)
+Section: devel
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 2ae4d7f6318da255c4dc4524042c8d1c
+Size: 2018
+Filename: enigma2-staticdev_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2
+Version: 2.7+git18503+04700e5-r0
+Depends: alsa-conf, alsa-utils-amixer-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.25), libcrypt2 (>= 4.4.8), libcrypto1.1 (>= 1.1.1g), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.8), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.5), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.60.7), libjpeg62 (>= 2.0.3), libmme-host0, libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.2), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libudfread0 (>= 1.0.0+git98+d091bf5), libxml2 (>= 2.9.9), python-codecs, python-core, python-crypt, python-fcntl, python-lang, python-logging, python-mmap, python-netclient, python-netserver, python-numbers, python-pickle, python-re, python-shell, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface
+Replaces: enigma2-plugin-pli-softcamsetup
+Conflicts: enigma2-plugin-pli-softcamsetup
+Recommends: enigma2-plugin-skins-satdreamgr-hd-transpba, glib-networking, glibc-gconv-utf-16, hotplug-e2-helper, python-sendfile, tzdata
+Section: base
+Architecture: spark
+Maintainer: OpenPLi team <info@openpli.org>
+MD5Sum: 6ef7a28f19dbbb362b5b855d39b70e66
+Size: 4336414
+Filename: enigma2_2.7+git18503+04700e5-r0_spark.ipk
+Source: enigma2.bb
+Description: GUI frontend for Open Source Linux based receivers
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: fulan-dvb-modules-spark-dev
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: fulan-dvb-modules-spark (= 2.6.32.71-stm24-0217+20200519-r6)
+Recommends: kernel-2.6.32.71_stm24_0217-dev, kernel-module-aotom-dev, kernel-module-avs-dev, kernel-module-boxtype-dev, kernel-module-bpamem-dev, kernel-module-cec-dev, kernel-module-cpu-frequ-dev, kernel-module-e2-proc-dev, kernel-module-embxmailbox-dev, kernel-module-embxshell-dev, kernel-module-embxshm-dev, kernel-module-kreplay-dev, kernel-module-kreplay-fdma-dev, kernel-module-ksound-dev, kernel-module-ktone-dev, kernel-module-lnb-dev, kernel-module-mme-host-dev, kernel-module-mmelog-dev, kernel-module-mpeg2hw-dev, kernel-module-p2div64-dev, kernel-module-pcm-transcoder-dev, kernel-module-platform-dev, kernel-module-player2-dev, kernel-module-player2-unified-dev, kernel-module-pseudocard-dev, kernel-module-pti-dev, kernel-module-silencegen-dev, kernel-module-simu-button-dev, kernel-module-smartcard-dev, kernel-module-sth264pp-dev, kernel-module-stm-monitor-dev, kernel-module-stm-v4l2-dev, kernel-module-stmalloc-dev, kernel-module-stmcore-display-sti7111-dev, kernel-module-stmdvb-dev, kernel-module-stmfb-dev, kernel-module-stmsysfs-dev, kernel-module-stmvbi-dev, kernel-module-stmvout-dev, kernel-module-stv090x-dev, kernel-module-zram-dev, stinit-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4623f2b3d065c81cc8dac07bc01a9631
+Size: 13760
+Filename: fulan-dvb-modules-spark-dev_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: Fulan driver modules from TDT - Development files
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: fulan-dvb-modules-spark
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-module-aotom, kernel-module-avs, kernel-module-boxtype, kernel-module-bpamem, kernel-module-cec, kernel-module-cpu-frequ, kernel-module-e2-proc, kernel-module-embxmailbox, kernel-module-embxshell, kernel-module-embxshm, kernel-module-kreplay, kernel-module-kreplay-fdma, kernel-module-ksound, kernel-module-ktone, kernel-module-lnb, kernel-module-mme-host, kernel-module-mmelog, kernel-module-mpeg2hw, kernel-module-p2div64, kernel-module-pcm-transcoder, kernel-module-platform, kernel-module-player2, kernel-module-player2-unified, kernel-module-pseudocard, kernel-module-pti, kernel-module-silencegen, kernel-module-simu-button, kernel-module-smartcard, kernel-module-sth264pp, kernel-module-stm-monitor, kernel-module-stm-v4l2, kernel-module-stmalloc, kernel-module-stmcore-display-sti7111, kernel-module-stmdvb, kernel-module-stmfb, kernel-module-stmsysfs, kernel-module-stmvbi, kernel-module-stmvout, kernel-module-stv090x, kernel-module-zram, stinit
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 189bce7dff93ae017dcecf52f54758ae
+Size: 1870
+Filename: fulan-dvb-modules-spark_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: Fulan driver modules from TDT
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-base
+Version: 2.6.32-r4.3
+Depends: kernel-image
+Provides: kernel-2.6.32.71_stm24_0217
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88a33c9212c12781076eec09761389cc
+Size: 2274
+Filename: kernel-base_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-dev
+Version: 2.6.32-r4.3
+Recommends: kernel-2.6.32.71_stm24_0217-dev, kernel-base-dev, kernel-image-dev, kernel-image-uimage-dev, kernel-module-aes-generic-dev, kernel-module-ar9170usb-dev, kernel-module-arc4-dev, kernel-module-ath-dev, kernel-module-ati-remote2-dev, kernel-module-belkin-sa-dev, kernel-module-block2mtd-dev, kernel-module-bsd-comp-dev, kernel-module-cdc-acm-dev, kernel-module-cdc-wdm-dev, kernel-module-ch341-dev, kernel-module-coda-dev, kernel-module-crc-ccitt-dev, kernel-module-ecb-dev, kernel-module-eeprom-93cx6-dev, kernel-module-ftdi-sio-dev, kernel-module-keyspan-dev, kernel-module-mac80211-dev, kernel-module-michael-mic-dev, kernel-module-nandsim-dev, kernel-module-nls-cp1250-dev, kernel-module-nls-cp1251-dev, kernel-module-nls-cp1255-dev, kernel-module-nls-cp737-dev, kernel-module-nls-cp775-dev, kernel-module-nls-cp850-dev, kernel-module-nls-cp852-dev, kernel-module-nls-cp855-dev, kernel-module-nls-cp857-dev, kernel-module-nls-cp860-dev, kernel-module-nls-cp861-dev, kernel-module-nls-cp862-dev, kernel-module-nls-cp863-dev, kernel-module-nls-cp864-dev, kernel-module-nls-cp865-dev, kernel-module-nls-cp866-dev, kernel-module-nls-cp869-dev, kernel-module-nls-cp874-dev, kernel-module-nls-cp932-dev, kernel-module-nls-cp936-dev, kernel-module-nls-cp949-dev, kernel-module-nls-cp950-dev, kernel-module-nls-euc-jp-dev, kernel-module-nls-iso8859-13-dev, kernel-module-nls-iso8859-14-dev, kernel-module-nls-iso8859-2-dev, kernel-module-nls-iso8859-3-dev, kernel-module-nls-iso8859-4-dev, kernel-module-nls-iso8859-5-dev, kernel-module-nls-iso8859-6-dev, kernel-module-nls-iso8859-7-dev, kernel-module-nls-iso8859-9-dev, kernel-module-nls-koi8-r-dev, kernel-module-nls-koi8-ru-dev, kernel-module-nls-koi8-u-dev, kernel-module-option-dev, kernel-module-p54common-dev, kernel-module-p54usb-dev, kernel-module-pl2303-dev, kernel-module-ppp-async-dev, kernel-module-ppp-deflate-dev, kernel-module-ppp-generic-dev, kernel-module-ppp-mppe-dev, kernel-module-ppp-synctty-dev, kernel-module-pppoe-dev, kernel-module-pppol2tp-dev, kernel-module-pppox-dev, kernel-module-rt2500usb-dev, kernel-module-rt2800usb-dev, kernel-module-rt2x00lib-dev, kernel-module-rt2x00usb-dev, kernel-module-rt73usb-dev, kernel-module-rtl8187-dev, kernel-module-scsi-wait-scan-dev, kernel-module-sha1-generic-dev, kernel-module-slhc-dev, kernel-module-tun-dev, kernel-module-usb-wwan-dev, kernel-module-usbserial-dev, kernel-module-yaffs-dev, kernel-module-zd1211rw-dev, stlinux24-sh4-stx7111-fdma-firmware-dev
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 26274dd96d6eb4c0398c18b9ebed50f7
+Size: 216306
+Filename: kernel-dev_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-headers
+Version: 2.6.32-r4.3
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f457e4da54cc0cbd5cd881c475a443ce
+Size: 535016
+Filename: kernel-headers_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-image-uimage-2.6.32.71-stm24-0217
+Version: 2.6.32-r4.3
+Provides: kernel-image-uimage
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a4672857de1c1a970ef39b035a910a2
+Size: 636
+Filename: kernel-image-uimage-2.6.32.71-stm24-0217_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-image
+Version: 2.6.32-r4.3
+Depends: kernel-image-uimage-2.6.32.71-stm24-0217
+Provides: kernel-image-2.6.32.71_stm24_0217
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a068f4682a27a0d18e4c0be5138da6cb
+Size: 2433366
+Filename: kernel-image_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8188eu
+Version: 1.0-r0
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-8188eu
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a74809ac4927ad6935a47e3f87809580
+Size: 274776
+Filename: kernel-module-8188eu_1.0-r0_spark.ipk
+Source: kernel-module-r8188eu_1.0.bb
+Description: 8188eu kernel module
+OE: kernel-module-r8188eu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192cu
+Version: 4.0.2-9000
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-8192cu
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca5064f4682139a9b8e0c15df1de3065
+Size: 198406
+Filename: kernel-module-8192cu_4.0.2-9000_spark.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: 8192cu kernel module
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-aes-generic
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-aes-generic
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20d2accc0a84c5deae1e35c4d1f25cc9
+Size: 8956
+Filename: kernel-module-aes-generic_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: aes-generic kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-aotom
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-e2-proc
+Provides: kernel-module-aotom
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38b2df15dff2bb18b4be9c1e476d6506
+Size: 22022
+Filename: kernel-module-aotom_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: aotom kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-ar9170usb
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ath, kernel-module-mac80211
+Provides: kernel-module-ar9170usb
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9793f6facf0ba47cc6cbe03fdf7f840
+Size: 24526
+Filename: kernel-module-ar9170usb_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ar9170usb kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-arc4
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-arc4
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3128891415071e38a2f2d7e549521f6d
+Size: 1828
+Filename: kernel-module-arc4_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: arc4 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ath
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-ath
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: acc8f0b71bc2af32ae7b895bca8171cf
+Size: 4636
+Filename: kernel-module-ath_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ath kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ati-remote2
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-ati-remote2
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb83519e6c865afc4377b560c5614579
+Size: 6104
+Filename: kernel-module-ati-remote2_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ati-remote2 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-avs
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-avs
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28d27f848ab5dabc0b1d39f12cd2bd51
+Size: 18138
+Filename: kernel-module-avs_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: avs kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-belkin-sa
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-usbserial
+Provides: kernel-module-belkin-sa
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dee18111cd902f71e6f34d726be7ce04
+Size: 5142
+Filename: kernel-module-belkin-sa_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: belkin-sa kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-block2mtd
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-block2mtd
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d72543d6da4f168d9aa1a018ebbfdebc
+Size: 3990
+Filename: kernel-module-block2mtd_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: block2mtd kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-boxtype
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-boxtype
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 590444b16fb9862476df95e4e7f14a0d
+Size: 1852
+Filename: kernel-module-boxtype_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: boxtype kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-bpamem
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-bpamem
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 18e22256d21030a00665517c66a90411
+Size: 3468
+Filename: kernel-module-bpamem_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: bpamem kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-bsd-comp
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ppp-generic
+Provides: kernel-module-bsd-comp
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 53f59e903ae9ba88de8c01ebca1bfa99
+Size: 4162
+Filename: kernel-module-bsd-comp_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: bsd-comp kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cdc-acm
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-cdc-acm
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12ec35c8a8133ce4affac00a700f12a3
+Size: 9986
+Filename: kernel-module-cdc-acm_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: cdc-acm kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cdc-wdm
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-cdc-wdm
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ea509236f680813114e2f4c21fa7154a
+Size: 6148
+Filename: kernel-module-cdc-wdm_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: cdc-wdm kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cec
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-e2-proc, kernel-module-stmcore-display-sti7111
+Provides: kernel-module-cec
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2c8b3fee479f61c2501f5c358de37656
+Size: 12560
+Filename: kernel-module-cec_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: cec kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-ch341
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-usbserial
+Provides: kernel-module-ch341
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1bbeb8f2783975c350924e37141696b7
+Size: 5772
+Filename: kernel-module-ch341_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ch341 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-coda
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-coda
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2c4e9c40c6ed87154cbb43032b9e9a0
+Size: 13702
+Filename: kernel-module-coda_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: coda kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cpu-frequ
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-cpu-frequ
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cfd599f4e63933ec86e7af6623d93c56
+Size: 3384
+Filename: kernel-module-cpu-frequ_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: cpu-frequ kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-crc-ccitt
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-crc-ccitt
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb6f367c14cc61c3c5352f75e4722d15
+Size: 2108
+Filename: kernel-module-crc-ccitt_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: crc-ccitt kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-e2-proc
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-e2-proc
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aee0ad558b24fd9f19377cff1a6537e8
+Size: 6110
+Filename: kernel-module-e2-proc_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: e2-proc kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-ecb
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-ecb
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eab35a83c40fc7c61477c200e55dd86a
+Size: 2270
+Filename: kernel-module-ecb_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ecb kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-eeprom-93cx6
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-eeprom-93cx6
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5787e343458ac4afff60d195a616eca0
+Size: 2010
+Filename: kernel-module-eeprom-93cx6_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: eeprom-93cx6 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-embxmailbox
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-embxshell
+Provides: kernel-module-embxmailbox
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d89da607f959654cb5eb637d52693ef
+Size: 5738
+Filename: kernel-module-embxmailbox_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: embxmailbox kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-embxshell
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-embxshell
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5af1ac873004749321f7d96a80bf372f
+Size: 11108
+Filename: kernel-module-embxshell_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: embxshell kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-embxshm
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-embxmailbox, kernel-module-embxshell
+Provides: kernel-module-embxshm
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d05d052ffc24e570215f8e05e9824e6f
+Size: 15272
+Filename: kernel-module-embxshm_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: embxshm kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-ftdi-sio
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-usbserial
+Provides: kernel-module-ftdi-sio
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e09a0199d0fb57c47d9adce976c6550
+Size: 16836
+Filename: kernel-module-ftdi-sio_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ftdi-sio kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-keyspan
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-usbserial
+Provides: kernel-module-keyspan
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 303cad6b845bd985de49c8a3537c0621
+Size: 13946
+Filename: kernel-module-keyspan_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: keyspan kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-kreplay-fdma
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ksound
+Provides: kernel-module-kreplay-fdma
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e15cc9811d8c091b554e655774941cc6
+Size: 4216
+Filename: kernel-module-kreplay-fdma_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: kreplay-fdma kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-kreplay
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ksound
+Provides: kernel-module-kreplay
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93977305a95ed7815e866e1349968f34
+Size: 3216
+Filename: kernel-module-kreplay_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: kreplay kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-ksound
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-ksound
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 632c7c7f8fe6975c11c5979c3e99aff1
+Size: 7032
+Filename: kernel-module-ksound_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: ksound kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-ktone
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ksound
+Provides: kernel-module-ktone
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5c367cc776e900fddf0393b971fa4561
+Size: 3128
+Filename: kernel-module-ktone_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: ktone kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-lnb
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-e2-proc
+Provides: kernel-module-lnb
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0d903e48738688698a37181b7d85ee7
+Size: 5316
+Filename: kernel-module-lnb_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: lnb kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-mac80211
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-mac80211
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db6ddeb0ab83476ff9ec4b1a54853ef2
+Size: 65516
+Filename: kernel-module-mac80211_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: mac80211 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-michael-mic
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-michael-mic
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f8a2ef0a1d18cf64451afcff17773360
+Size: 2144
+Filename: kernel-module-michael-mic_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: michael-mic kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mme-host
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-embxshell
+Provides: kernel-module-mme-host
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6db148b2428206ee461b66624ab49266
+Size: 16958
+Filename: kernel-module-mme-host_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: mme-host kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-mmelog
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mme-host
+Provides: kernel-module-mmelog
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c54b729b6b2f2a218c93d2dfc4fca52
+Size: 2778
+Filename: kernel-module-mmelog_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: mmelog kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-mpeg2hw
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mme-host
+Provides: kernel-module-mpeg2hw
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3359b9ac79ca331574ac58d59715e45e
+Size: 5152
+Filename: kernel-module-mpeg2hw_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: mpeg2hw kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-mt7601usta-dbg
+Version: 3.0.0.4-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9c63df893c5d90d17aef2cd86387a7e5
+Size: 696
+Filename: kernel-module-mt7601usta-dbg_3.0.0.4-r0_spark.ipk
+Source: kernel-module-mt7601usta_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Debugging files
+OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7601usta-dev
+Version: 3.0.0.4-r0
+Depends: kernel-module-mt7601usta (= 3.0.0.4-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 564b37ce5e4737adf433566475d78dec
+Size: 750
+Filename: kernel-module-mt7601usta-dev_3.0.0.4-r0_spark.ipk
+Source: kernel-module-mt7601usta_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Development files
+OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7601usta
+Version: 3.0.0.4-r0
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mt7601usta
+Provides: kernel-module-mt7601usta
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4ff02b92578ed98ec03365a85b76572
+Size: 318098
+Filename: kernel-module-mt7601usta_3.0.0.4-r0_spark.ipk
+Source: kernel-module-mt7601usta_3.0.0.4.bb
+Description: mt7601usta kernel module
+OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nandsim
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nandsim
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 817a58ea4edc30ccbcc75595a7fed685
+Size: 15078
+Filename: kernel-module-nandsim_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nandsim kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp1250
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp1250
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78d4e733e0a7de88a1ad69299d9f7f73
+Size: 2630
+Filename: kernel-module-nls-cp1250_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp1250 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp1251
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp1251
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd6c79860e4c3c36528670b53e4a9811
+Size: 2470
+Filename: kernel-module-nls-cp1251_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp1251 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp1255
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp1255
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91f49891199abe39d291d9050194213d
+Size: 2454
+Filename: kernel-module-nls-cp1255_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp1255 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp737
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp737
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 732ef05be3bfc18ebab53c2c3f11a09e
+Size: 2566
+Filename: kernel-module-nls-cp737_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp737 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp775
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp775
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 682daab3fb7a19c67e9b594035632588
+Size: 2728
+Filename: kernel-module-nls-cp775_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp775 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp850
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp850
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 18d5e592b660d4805df7f431536273c1
+Size: 2612
+Filename: kernel-module-nls-cp850_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp850 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp852
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp852
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd7ecb6a34c122f0ee129e9822d7a2ca
+Size: 2696
+Filename: kernel-module-nls-cp852_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp852 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp855
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp855
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 324f70065621f465da3d36bc4d6faabf
+Size: 2632
+Filename: kernel-module-nls-cp855_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp855 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp857
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp857
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39f9a4bbd50e173478fbc8797f23e453
+Size: 2540
+Filename: kernel-module-nls-cp857_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp857 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp860
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp860
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bad58ca06991738749b0402037ceb8c3
+Size: 2634
+Filename: kernel-module-nls-cp860_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp860 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp861
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp861
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 782a9f06bc6390cb78cc4024944242c3
+Size: 2664
+Filename: kernel-module-nls-cp861_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp861 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp862
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp862
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e608ed4aa3d99e3d0fa3d910dc04675f
+Size: 2630
+Filename: kernel-module-nls-cp862_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp862 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp863
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp863
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19197859c9f179aeffa8dccbcf9e6d1f
+Size: 2658
+Filename: kernel-module-nls-cp863_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp863 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp864
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp864
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e8bb38fa8ab596344a138a5f4a1aa55b
+Size: 2594
+Filename: kernel-module-nls-cp864_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp864 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp865
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp865
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ad07ac910a4a057b9517513495b5a234
+Size: 2656
+Filename: kernel-module-nls-cp865_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp865 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp866
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp866
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a484d2fe7db193880dda00fc3862737
+Size: 2522
+Filename: kernel-module-nls-cp866_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp866 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp869
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp869
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ddd3957896fd86c23db9be9d0cd77f48
+Size: 2652
+Filename: kernel-module-nls-cp869_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp869 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp874
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp874
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e495752dd8cf6add192db8939bb44d3
+Size: 2318
+Filename: kernel-module-nls-cp874_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp874 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp932
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp932
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e9d4e758d4a8184e899c98a98724df5
+Size: 32422
+Filename: kernel-module-nls-cp932_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp932 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp936
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp936
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb6c45d9f977cdf369b135a8c797f222
+Size: 69328
+Filename: kernel-module-nls-cp936_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp936 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp949
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp949
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8ecc09e85d7e1f6c55ec33026c073056
+Size: 56540
+Filename: kernel-module-nls-cp949_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp949 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp950
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-cp950
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7a99256a0e000e819b73d677060446e
+Size: 53948
+Filename: kernel-module-nls-cp950_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-cp950 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-euc-jp
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-euc-jp
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 85f3ea40078a8c2e93bffd4ec6ad7973
+Size: 4504
+Filename: kernel-module-nls-euc-jp_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-euc-jp kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-13
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-13
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 991e73779aad411197a03ffe216f6bb5
+Size: 2548
+Filename: kernel-module-nls-iso8859-13_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-13 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-14
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-14
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ea1561e62bde0ac17a4b9b8f8815575b
+Size: 2424
+Filename: kernel-module-nls-iso8859-14_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-14 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-2
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-2
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 062b9e6a7de55876cce6819e71ea8402
+Size: 2542
+Filename: kernel-module-nls-iso8859-2_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-2 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-3
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-3
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e5e57a73b16abc575e7a21b68fb10e7
+Size: 2470
+Filename: kernel-module-nls-iso8859-3_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-3 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-4
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-4
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0fbf936b166e876a9af53808712709b7
+Size: 2534
+Filename: kernel-module-nls-iso8859-4_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-4 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-5
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-5
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e07b57415c0b75a66757c1530e8c8222
+Size: 2358
+Filename: kernel-module-nls-iso8859-5_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-5 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-6
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-6
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 46f41d75f06548622f2342f60ea84da3
+Size: 2230
+Filename: kernel-module-nls-iso8859-6_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-6 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-7
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-7
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2db2fe98a3ff329ede6051b54c837de
+Size: 2426
+Filename: kernel-module-nls-iso8859-7_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-7 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-9
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-iso8859-9
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70c7625cbb2b46046b19f1b2755f7c8f
+Size: 2306
+Filename: kernel-module-nls-iso8859-9_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-iso8859-9 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-koi8-r
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-koi8-r
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 89ba9b1ec994bc2f636b14db04ded3fe
+Size: 2468
+Filename: kernel-module-nls-koi8-r_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-koi8-r kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-koi8-ru
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-koi8-ru
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 07de6cb93463f261f130fa1901ea8b5f
+Size: 1816
+Filename: kernel-module-nls-koi8-ru_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-koi8-ru kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-koi8-u
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-nls-koi8-u
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b2d32f4cbf8ad8230788a3ddd31186e
+Size: 2552
+Filename: kernel-module-nls-koi8-u_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: nls-koi8-u kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-option
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-usb-wwan, kernel-module-usbserial
+Provides: kernel-module-option
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d0ba281abf573683219af56e365c2ea0
+Size: 7166
+Filename: kernel-module-option_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: option kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-p2div64
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-p2div64
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 914c9db3cd12f6cb7d8e737386ff2853
+Size: 2064
+Filename: kernel-module-p2div64_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: p2div64 kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-p54common
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mac80211
+Provides: kernel-module-p54common
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 269aae59ad9b16a9b81da9885369b0e4
+Size: 14226
+Filename: kernel-module-p54common_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: p54common kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-p54usb
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mac80211, kernel-module-p54common
+Provides: kernel-module-p54usb
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de9ca498963d4bba55e7636692a603ff
+Size: 8038
+Filename: kernel-module-p54usb_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: p54usb kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pcm-transcoder
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mme-host
+Provides: kernel-module-pcm-transcoder
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: faba24692e558a0dd86691bc71d37057
+Size: 3358
+Filename: kernel-module-pcm-transcoder_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: pcm-transcoder kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-pl2303
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-usbserial
+Provides: kernel-module-pl2303
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 761e7e6a4098f66445a4e5e468edcdfc
+Size: 9434
+Filename: kernel-module-pl2303_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: pl2303 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-platform
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-platform
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fb9719c84881b4c19e2e06bd1ee6138e
+Size: 1800
+Filename: kernel-module-platform_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: platform kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-player2-unified
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-player2-unified
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 587ebe9a304200e00c41ae703a172e86
+Size: 1926
+Filename: kernel-module-player2-unified_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: player2-unified kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-player2
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-e2-proc, kernel-module-ksound, kernel-module-mme-host, kernel-module-p2div64, kernel-module-pseudocard, kernel-module-stm-monitor, kernel-module-stmcore-display-sti7111, kernel-module-stmdvb, kernel-module-stmsysfs
+Provides: kernel-module-player2
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 22d611b0c3a497780775850ea5e85b91
+Size: 287836
+Filename: kernel-module-player2_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: player2 kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-ppp-async
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-crc-ccitt, kernel-module-ppp-generic
+Provides: kernel-module-ppp-async
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c008488247f91941338b0b3eb9321f1
+Size: 5990
+Filename: kernel-module-ppp-async_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ppp-async kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-deflate
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ppp-generic
+Provides: kernel-module-ppp-deflate
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a53747686989df41303c31c53776008
+Size: 3328
+Filename: kernel-module-ppp-deflate_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ppp-deflate kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-generic
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-slhc
+Provides: kernel-module-ppp-generic
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f54d0a09ba6f4c968c67e124aacea6ed
+Size: 13210
+Filename: kernel-module-ppp-generic_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ppp-generic kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-mppe
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ppp-generic
+Provides: kernel-module-ppp-mppe
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e757f20941c9d1d3d4e387a255420fa8
+Size: 4664
+Filename: kernel-module-ppp-mppe_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ppp-mppe kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ppp-synctty
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ppp-generic
+Provides: kernel-module-ppp-synctty
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cecf42d14a06486ffb4b7dddb61ad447
+Size: 4956
+Filename: kernel-module-ppp-synctty_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: ppp-synctty kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pppoe
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ppp-generic, kernel-module-pppox
+Provides: kernel-module-pppoe
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 186d56275abddeee7ad7497b3faa11cd
+Size: 6838
+Filename: kernel-module-pppoe_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: pppoe kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pppol2tp
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ppp-generic, kernel-module-pppox
+Provides: kernel-module-pppol2tp
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee225d76a6ee0583e0bdffdd430757bb
+Size: 12360
+Filename: kernel-module-pppol2tp_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: pppol2tp kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pppox
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-ppp-generic
+Provides: kernel-module-pppox
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 50e0ab182375f8164da0a909f53a8032
+Size: 2484
+Filename: kernel-module-pppox_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: pppox kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-pseudocard
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-stmcore-display-sti7111
+Provides: kernel-module-pseudocard
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c5feee55dcd0fef66155264018819569
+Size: 10022
+Filename: kernel-module-pseudocard_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: pseudocard kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-pti
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-pti
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 758729c1963a029d0017533beb870243
+Size: 22448
+Filename: kernel-module-pti_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: pti kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-r8188eu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 358e978b8b15defd8931d79869e05f00
+Size: 702
+Filename: kernel-module-r8188eu-dbg_1.0-r0_spark.ipk
+Source: kernel-module-r8188eu_1.0.bb
+Description: Ralink 8188EU v1.0 - Debugging files
+OE: kernel-module-r8188eu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-r8188eu-dev
+Version: 1.0-r0
+Depends: kernel-module-r8188eu (= 1.0-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev, kernel-module-8188eu-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4bcb5b114f30f2c3e4a98917979e2f59
+Size: 762
+Filename: kernel-module-r8188eu-dev_1.0-r0_spark.ipk
+Source: kernel-module-r8188eu_1.0.bb
+Description: Ralink 8188EU v1.0 - Development files
+OE: kernel-module-r8188eu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-r8188eu
+Version: 1.0-r0
+Depends: kernel-module-8188eu
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7d977c7f5aecbb3a53360e3cadd3ad8
+Size: 648
+Filename: kernel-module-r8188eu_1.0-r0_spark.ipk
+Source: kernel-module-r8188eu_1.0.bb
+Description: Ralink 8188EU v1.0
+OE: kernel-module-r8188eu
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt2500usb
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-rt2x00lib, kernel-module-rt2x00usb
+Provides: kernel-module-rt2500usb
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 729d0047a5b587d30ccc916e0a18cd6e
+Size: 9002
+Filename: kernel-module-rt2500usb_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: rt2500usb kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt2800usb
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-crc-ccitt, kernel-module-rt2x00lib, kernel-module-rt2x00usb
+Provides: kernel-module-rt2800usb
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 104135b485b1edb6282a640b5c8ebd70
+Size: 14964
+Filename: kernel-module-rt2800usb_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: rt2800usb kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt2x00lib
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mac80211
+Provides: kernel-module-rt2x00lib
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d782797ba848eb0718c14c2b67e5cb34
+Size: 12724
+Filename: kernel-module-rt2x00lib_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: rt2x00lib kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt2x00usb
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mac80211, kernel-module-rt2x00lib
+Provides: kernel-module-rt2x00usb
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af632c108df7237c67779fed8f2ced6f
+Size: 5144
+Filename: kernel-module-rt2x00usb_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: rt2x00usb kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt3573sta-dbg
+Version: 2.5.0.0-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6fe0e020f4faaef8734a686b4a80928c
+Size: 708
+Filename: kernel-module-rt3573sta-dbg_2.5.0.0-r0_spark.ipk
+Source: kernel-module-rt3573sta_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Debugging files
+OE: kernel-module-rt3573sta
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt3573sta-dev
+Version: 2.5.0.0-r0
+Depends: kernel-module-rt3573sta (= 2.5.0.0-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 37148524a97f32a049ed118375ef4c44
+Size: 758
+Filename: kernel-module-rt3573sta-dev_2.5.0.0-r0_spark.ipk
+Source: kernel-module-rt3573sta_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Development files
+OE: kernel-module-rt3573sta
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt3573sta
+Version: 2.5.0.0-r0
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-rt3573sta
+Provides: kernel-module-rt3573sta
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20d734f3f9389dcd116a41b6a65aabc4
+Size: 276940
+Filename: kernel-module-rt3573sta_2.5.0.0-r0_spark.ipk
+Source: kernel-module-rt3573sta_2.5.0.0.bb
+Description: rt3573sta kernel module
+OE: kernel-module-rt3573sta
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt5370sta
+Version: 2.5.0.4-r0
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-rt5370sta
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef89e098e34945347e20d116ae1a91ab
+Size: 299036
+Filename: kernel-module-rt5370sta_2.5.0.4-r0_spark.ipk
+Source: rt3070_2.5.0.4.bb
+Description: rt5370sta kernel module
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-rt73usb
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-rt2x00lib, kernel-module-rt2x00usb
+Provides: kernel-module-rt73usb
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c066276c212480a3314ecd42d9794cc1
+Size: 11094
+Filename: kernel-module-rt73usb_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: rt73usb kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rtl8187
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-eeprom-93cx6, kernel-module-mac80211
+Provides: kernel-module-rtl8187
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 40ec9880e1a45b88e10119a2e45fa22b
+Size: 22066
+Filename: kernel-module-rtl8187_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: rtl8187 kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-scsi-wait-scan
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-scsi-wait-scan
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ec90f8f5e4c0c2c724d11a5a13d800bd
+Size: 1610
+Filename: kernel-module-scsi-wait-scan_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: scsi-wait-scan kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-sha1-generic
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-sha1-generic
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c60de4b913d939c8bfdd1c20afbb8f8
+Size: 2196
+Filename: kernel-module-sha1-generic_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: sha1-generic kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-silencegen
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mme-host
+Provides: kernel-module-silencegen
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c66fbea2c5b307fcc9df358c72a8e74d
+Size: 2306
+Filename: kernel-module-silencegen_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: silencegen kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-simu-button
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-simu-button
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 653a3cb5166da7a634ae59cf96208d98
+Size: 2192
+Filename: kernel-module-simu-button_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: simu-button kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-slhc
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-slhc
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3129c18300c2bf780a7999e6fdf1f78e
+Size: 3822
+Filename: kernel-module-slhc_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: slhc kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-smartcard
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-smartcard
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 29514ad31695efccae90e662eae0cae3
+Size: 15946
+Filename: kernel-module-smartcard_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: smartcard kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-sth264pp
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-player2
+Provides: kernel-module-sth264pp
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5d008a636ebb5f73729f72286091a36
+Size: 5656
+Filename: kernel-module-sth264pp_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: sth264pp kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stm-monitor
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mme-host, kernel-module-p2div64
+Provides: kernel-module-stm-monitor
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1aa13e2fe6f00697e748ee3d65c4d0e1
+Size: 7030
+Filename: kernel-module-stm-monitor_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stm-monitor kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stm-v4l2
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-stm-v4l2
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb2d60a31bc759165e4dc735ba165325
+Size: 4836
+Filename: kernel-module-stm-v4l2_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stm-v4l2 kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stmalloc
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-player2
+Provides: kernel-module-stmalloc
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 571cf9794155c20dbf96a51ef3ea9c25
+Size: 3264
+Filename: kernel-module-stmalloc_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stmalloc kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stmcore-display-sti7111
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-stmcore-display-sti7111
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6a02ae1aab25cc067c22675fe1a7a337
+Size: 100978
+Filename: kernel-module-stmcore-display-sti7111_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stmcore-display-sti7111 kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stmdvb
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-avs, kernel-module-e2-proc, kernel-module-pseudocard, kernel-module-pti, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111, kernel-module-stmfb, kernel-module-stv090x
+Provides: kernel-module-stmdvb
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 661b3e3e278ab1c4b66c8dc41b69ad03
+Size: 42252
+Filename: kernel-module-stmdvb_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stmdvb kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stmfb
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-stmfb
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ff1908d67e98314b2c2682fac6f21ae2
+Size: 18992
+Filename: kernel-module-stmfb_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stmfb kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stmsysfs
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-stmsysfs
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 899217d05aa1e2dad8cdf8fdc818767b
+Size: 5590
+Filename: kernel-module-stmsysfs_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stmsysfs kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stmvbi
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111
+Provides: kernel-module-stmvbi
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6956fafc5b13b609263db3033589afe
+Size: 4876
+Filename: kernel-module-stmvbi_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stmvbi kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stmvout
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111
+Provides: kernel-module-stmvout
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e04ce7c17ad9a6432a7cb742a6629117
+Size: 18060
+Filename: kernel-module-stmvout_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stmvout kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-stv090x
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-p2div64
+Provides: kernel-module-stv090x
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cfb4280136031c9505a64d030f0eb140
+Size: 35616
+Filename: kernel-module-stv090x_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: stv090x kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-module-tun
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-tun
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b6b763b9bcc115309be995dfac0f330
+Size: 7928
+Filename: kernel-module-tun_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: tun kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-usb-wwan
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-usbserial
+Provides: kernel-module-usb-wwan
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac6bba11e82d0a606fd63664ce1071a2
+Size: 5534
+Filename: kernel-module-usb-wwan_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: usb-wwan kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-usbserial
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-usbserial
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 782c4de8a55ff4bcbf6245ef97c6d160
+Size: 15062
+Filename: kernel-module-usbserial_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: usbserial kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-yaffs
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-yaffs
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: da5aee176cb7054fe5d26ce22e68ac8b
+Size: 50720
+Filename: kernel-module-yaffs_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: yaffs kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-zd1211rw
+Version: 2.6.32-r4.3
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-mac80211
+Provides: kernel-module-zd1211rw
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 717e6d184f717a0ea4e1862e534c990b
+Size: 21772
+Filename: kernel-module-zd1211rw_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: zd1211rw kernel module
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-zram
+Version: 2.6.32.71-stm24-0217+20200519-r6
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-zram
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8bc923efa03118818250ecdf535b1c8a
+Size: 8362
+Filename: kernel-module-zram_2.6.32.71-stm24-0217+20200519-r6_spark.ipk
+Source: fulan-dvb-modules-spark.bb
+Description: zram kernel module
+OE: fulan-dvb-modules-spark
+HomePage: http://github.com/Duckbox-Developers
+License: GPLv2
+Priority: required
+
+Package: kernel-modules
+Version: 2.6.32-r4.3
+Depends: kernel-module-aes-generic, kernel-module-ar9170usb, kernel-module-arc4, kernel-module-ath, kernel-module-ati-remote2, kernel-module-belkin-sa, kernel-module-block2mtd, kernel-module-bsd-comp, kernel-module-cdc-acm, kernel-module-cdc-wdm, kernel-module-ch341, kernel-module-coda, kernel-module-crc-ccitt, kernel-module-ecb, kernel-module-eeprom-93cx6, kernel-module-ftdi-sio, kernel-module-keyspan, kernel-module-mac80211, kernel-module-michael-mic, kernel-module-nandsim, kernel-module-nls-cp1250, kernel-module-nls-cp1251, kernel-module-nls-cp1255, kernel-module-nls-cp737, kernel-module-nls-cp775, kernel-module-nls-cp850, kernel-module-nls-cp852, kernel-module-nls-cp855, kernel-module-nls-cp857, kernel-module-nls-cp860, kernel-module-nls-cp861, kernel-module-nls-cp862, kernel-module-nls-cp863, kernel-module-nls-cp864, kernel-module-nls-cp865, kernel-module-nls-cp866, kernel-module-nls-cp869, kernel-module-nls-cp874, kernel-module-nls-cp932, kernel-module-nls-cp936, kernel-module-nls-cp949, kernel-module-nls-cp950, kernel-module-nls-euc-jp, kernel-module-nls-iso8859-13, kernel-module-nls-iso8859-14, kernel-module-nls-iso8859-2, kernel-module-nls-iso8859-3, kernel-module-nls-iso8859-4, kernel-module-nls-iso8859-5, kernel-module-nls-iso8859-6, kernel-module-nls-iso8859-7, kernel-module-nls-iso8859-9, kernel-module-nls-koi8-r, kernel-module-nls-koi8-ru, kernel-module-nls-koi8-u, kernel-module-option, kernel-module-p54common, kernel-module-p54usb, kernel-module-pl2303, kernel-module-ppp-async, kernel-module-ppp-deflate, kernel-module-ppp-generic, kernel-module-ppp-mppe, kernel-module-ppp-synctty, kernel-module-pppoe, kernel-module-pppol2tp, kernel-module-pppox, kernel-module-rt2500usb, kernel-module-rt2800usb, kernel-module-rt2x00lib, kernel-module-rt2x00usb, kernel-module-rt73usb, kernel-module-rtl8187, kernel-module-scsi-wait-scan, kernel-module-sha1-generic, kernel-module-slhc, kernel-module-tun, kernel-module-usb-wwan, kernel-module-usbserial, kernel-module-yaffs, kernel-module-zd1211rw
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 01d077a8151f027be763bcd223bbcd94
+Size: 1014
+Filename: kernel-modules_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel-vmlinux
+Version: 2.6.32-r4.3
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7f9fae70307122eb35fc1f42bc16fa8
+Size: 2259460
+Filename: kernel-vmlinux_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: kernel
+Version: 2.6.32-r4.3
+Depends: kernel-base
+Section: kernel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 10cabdabf2bb2d19e85423a8c5a7a204
+Size: 618
+Filename: kernel_2.6.32-r4.3_spark.ipk
+Source: linux-fulan_2.6.32.bb
+Description: Linux kernel for spark
+OE: linux-fulan
+License: GPLv2
+Priority: optional
+
+Package: libcap-bin
+Version: 2.27-r0
+Depends: libc6 (>= 2.25), libcap2 (>= 2.27)
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ae8a2e562c6ac6453262dc095a278248
+Size: 12666
+Filename: libcap-bin_2.27-r0_spark.ipk
+Source: libcap_2.27.bb
+Description: Library for getting/setting POSIX.1e capabilities
+OE: libcap
+HomePage: http://sites.google.com/site/fullycapable/
+License: BSD | GPLv2
+Priority: optional
+
+Package: libcap-dbg
+Version: 2.27-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0189f1591a83732cddafa6c1406f2c09
+Size: 32204
+Filename: libcap-dbg_2.27-r0_spark.ipk
+Source: libcap_2.27.bb
+Description: Library for getting/setting POSIX.1e capabilities - Debugging files
+OE: libcap
+HomePage: http://sites.google.com/site/fullycapable/
+License: BSD | GPLv2
+Priority: optional
+
+Package: libcap-dev
+Version: 2.27-r0
+Depends: libcap2 (= 2.27-r0)
+Recommends: libc6-dev, libpam-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d4fca990c830a3a97a025e80173645f
+Size: 2246
+Filename: libcap-dev_2.27-r0_spark.ipk
+Source: libcap_2.27.bb
+Description: Library for getting/setting POSIX.1e capabilities - Development files
+OE: libcap
+HomePage: http://sites.google.com/site/fullycapable/
+License: BSD | GPLv2
+Priority: optional
+
+Package: libcap-doc
+Version: 2.27-r0
+Section: doc
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bb154d06b1ca73b11fe5d30e4db10b06
+Size: 10776
+Filename: libcap-doc_2.27-r0_spark.ipk
+Source: libcap_2.27.bb
+Description: Library for getting/setting POSIX.1e capabilities - Documentation files
+OE: libcap
+HomePage: http://sites.google.com/site/fullycapable/
+License: BSD | GPLv2
+Priority: optional
+
+Package: libcap-src
+Version: 2.27-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 68b90f26034771890f222a9b5b7c88e9
+Size: 24448
+Filename: libcap-src_2.27-r0_spark.ipk
+Source: libcap_2.27.bb
+Description: Library for getting/setting POSIX.1e capabilities - Source files
+OE: libcap
+HomePage: http://sites.google.com/site/fullycapable/
+License: BSD | GPLv2
+Priority: optional
+
+Package: libcap-staticdev
+Version: 2.27-r0
+Depends: libcap-dev (= 2.27-r0)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a78f3dedd3b1e727042bc80a4749853c
+Size: 20210
+Filename: libcap-staticdev_2.27-r0_spark.ipk
+Source: libcap_2.27.bb
+Description: Library for getting/setting POSIX.1e capabilities - Development files (Static Libraries)
+OE: libcap
+HomePage: http://sites.google.com/site/fullycapable/
+License: BSD | GPLv2
+Priority: optional
+
+Package: libcap2
+Version: 2.27-r0
+Depends: libc6 (>= 2.25)
+Provides: libcap
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38e3cfa64abf80b7372c977c35e20880
+Size: 9378
+Filename: libcap2_2.27-r0_spark.ipk
+Source: libcap_2.27.bb
+Description: Library for getting/setting POSIX.1e capabilities
+OE: libcap
+HomePage: http://sites.google.com/site/fullycapable/
+License: BSD | GPLv2
+Priority: optional
+
+Package: libcrypto1.1
+Version: 1.1.1g-r0
+Depends: libc6 (>= 2.25)
+Provides: libcrypto
+Recommends: openssl-conf
+Section: libs/network
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7468a81bf47f0b166c456f6d06df995c
+Size: 794502
+Filename: libcrypto1.1_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: libssl1.1
+Version: 1.1.1g-r0
+Depends: libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1g)
+Provides: libssl
+Section: libs/network
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6839dae0039d0f9af7c454e5efa7b74f
+Size: 184786
+Filename: libssl1.1_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: libtuxtxt-dbg
+Version: 2.0+git71+fa18f77-r0
+Recommends: libc6-dbg, libfreetype-dbg, libz-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8f0ae44a33140114880dc04f486be86d
+Size: 4354
+Filename: libtuxtxt-dbg_2.0+git71+fa18f77-r0_spark.ipk
+Source: libtuxtxt.bb
+Description: tuxbox libtuxtxt - Debugging files
+OE: libtuxtxt
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt-dev
+Version: 2.0+git71+fa18f77-r0
+Depends: libtuxtxt0 (= 2.0+git71+fa18f77-r0)
+Recommends: libc6-dev, libfreetype-dev, libpng16-dev, libz-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd0978774c2359b86c0f1e42c2ee70eb
+Size: 40472
+Filename: libtuxtxt-dev_2.0+git71+fa18f77-r0_spark.ipk
+Source: libtuxtxt.bb
+Description: tuxbox libtuxtxt - Development files
+OE: libtuxtxt
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt0
+Version: 2.0+git71+fa18f77-r0
+Depends: libc6 (>= 2.25), libfreetype6 (>= 2.10.1), libz1 (>= 1.2.11)
+Provides: libtuxtxt
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7fee2722508060bd7b61b3a5e737afd3
+Size: 38300
+Filename: libtuxtxt0_2.0+git71+fa18f77-r0_spark.ipk
+Source: libtuxtxt.bb
+Description: tuxbox libtuxtxt
+OE: libtuxtxt
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-dbg
+Version: 2.0+git71+fa18f77-r0
+Provides: tuxtxt-enigma2-dbg
+Recommends: libc6-dbg, libfreetype-dbg, libtuxtxt-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d0c9a16a6dfb6382a74f5b1a1802cdf7
+Size: 3316
+Filename: libtuxtxt32bpp-dbg_2.0+git71+fa18f77-r0_spark.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Debugging files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp-dev
+Version: 2.0+git71+fa18f77-r0
+Depends: libtuxtxt32bpp0 (= 2.0+git71+fa18f77-r0)
+Provides: tuxtxt-enigma2-dev
+Recommends: libc6-dev, libfreetype-dev, libtuxtxt-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f48f23ca441f5e655010b706cae39cde
+Size: 872
+Filename: libtuxtxt32bpp-dev_2.0+git71+fa18f77-r0_spark.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer - Development files
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: libtuxtxt32bpp0
+Version: 2.0+git71+fa18f77-r0
+Depends: libc6 (>= 2.25), libfreetype6 (>= 2.10.1), libtuxtxt0 (>= 2.0+git71+fa18f77)
+Provides: tuxtxt-enigma2
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a741ff3830cc67e05a1aec70677c6b59
+Size: 62134
+Filename: libtuxtxt32bpp0_2.0+git71+fa18f77-r0_spark.ipk
+Source: tuxtxt-enigma2.bb
+Description: tuxbox tuxtxt for 32bit framebuffer
+OE: tuxtxt-enigma2
+License: LGPLv2.1
+Priority: optional
+
+Package: make-mod-scripts-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28cb217f54e24787fd80cb682d662282
+Size: 684
+Filename: make-mod-scripts-dbg_1.0-r0_spark.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Debugging files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: make-mod-scripts-dev
+Version: 1.0-r0
+Depends: make-mod-scripts (= 1.0-r0)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b4ef56e7c4204f6b26c0a7f607039044
+Size: 716
+Filename: make-mod-scripts-dev_1.0-r0_spark.ipk
+Source: make-mod-scripts_1.0.bb
+Description: Build tools needed by external modules - Development files
+OE: make-mod-scripts
+License: GPLv2
+Priority: optional
+
+Package: oe-alliance-branding-dbg
+Version: 2.3+git886+bd7d4d8-r17
+Recommends: libc6-dbg
+Section: devel
+Architecture: spark
+Maintainer: oe-alliance team
+MD5Sum: 57a000caa6d09d7980e9c376bc5acdfd
+Size: 56944
+Filename: oe-alliance-branding-dbg_2.3+git886+bd7d4d8-r17_spark.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 2.3+gitAUTOINC+bd7d4d852a-r17 - Debugging files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-dev
+Version: 2.3+git886+bd7d4d8-r17
+Depends: oe-alliance-branding (= 2.3+git886+bd7d4d8-r17)
+Recommends: libc6-dev, python-dev
+Section: devel
+Architecture: spark
+Maintainer: oe-alliance team
+MD5Sum: a1e503254a9a4f36eaf3aa0dbeb056c0
+Size: 730
+Filename: oe-alliance-branding-dev_2.3+git886+bd7d4d8-r17_spark.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 2.3+gitAUTOINC+bd7d4d852a-r17 - Development files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-src
+Version: 2.3+git886+bd7d4d8-r17
+Section: devel
+Architecture: spark
+Maintainer: oe-alliance team
+MD5Sum: 569f4c89471827e1c252d12e000ad5af
+Size: 6204
+Filename: oe-alliance-branding-src_2.3+git886+bd7d4d8-r17_spark.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 2.3+gitAUTOINC+bd7d4d852a-r17 - Source files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding
+Version: 2.3+git886+bd7d4d8-r17
+Depends: libc6 (>= 2.25)
+Section: base
+Architecture: spark
+Maintainer: oe-alliance team
+MD5Sum: 1bb21c394999fff604a63a524213bf1f
+Size: 6358
+Filename: oe-alliance-branding_2.3+git886+bd7d4d8-r17_spark.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 2.3+gitAUTOINC+bd7d4d852a-r17
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: openmultiboot-dbg
+Version: 1.0+git107+e2d97a4-r32
+Recommends: libc6-dbg, libfreetype-dbg
+Section: devel
+Architecture: spark
+Maintainer: oe-alliance
+MD5Sum: dd84d9736e574154edb4815d9b591224
+Size: 4240
+Filename: openmultiboot-dbg_1.0+git107+e2d97a4-r32_spark.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Debugging files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot-dev
+Version: 1.0+git107+e2d97a4-r32
+Depends: openmultiboot (= 1.0+git107+e2d97a4-r32)
+Recommends: libc6-dev, libfreetype-dev
+Section: devel
+Architecture: spark
+Maintainer: oe-alliance
+MD5Sum: 3a0eb3db2b44ab08beff4c49e3ac0b1d
+Size: 710
+Filename: openmultiboot-dev_1.0+git107+e2d97a4-r32_spark.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Development files
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openmultiboot
+Version: 1.0+git107+e2d97a4-r32
+Depends: libc6 (>= 2.25), libfreetype6 (>= 2.10.1)
+Section: base
+Architecture: spark
+Maintainer: oe-alliance
+MD5Sum: 40042fe45ff6de62b1e2464e3f480f53
+Size: 37634
+Filename: openmultiboot_1.0+git107+e2d97a4-r32_spark.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2
+OE: openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: openssl-bin
+Version: 1.1.1g-r0
+Depends: libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1g), libssl1.1 (>= 1.1.1g)
+Section: libs/network
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f862235ea68d2be164e6798cf4786ee6
+Size: 222266
+Filename: openssl-bin_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl-conf
+Version: 1.1.1g-r0
+Section: libs/network
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: afec6597acb49231b86487d6ced33643
+Size: 4422
+Filename: openssl-conf_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl-dbg
+Version: 1.1.1g-r0
+Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 82510af76e84325148658a972f2cb0b6
+Size: 119916
+Filename: openssl-dbg_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer - Debugging files
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl-dev
+Version: 1.1.1g-r0
+Depends: libcrypto1.1, libssl1.1, openssl (= 1.1.1g-r0)
+Recommends: libc6-dev, libcrypto-dev, libssl-dev, openssl-conf-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: afc214aea656c082074fd5881abd0846
+Size: 194874
+Filename: openssl-dev_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer - Development files
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl-doc
+Version: 1.1.1g-r0
+Section: doc
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5ea4d6b2df4b6238c8f811e89a0d0a8
+Size: 838590
+Filename: openssl-doc_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer - Documentation files
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl-engines
+Version: 1.1.1g-r0
+Depends: libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1g)
+Section: libs/network
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: da55e2546452d90893f40398f4d1729a
+Size: 6522
+Filename: openssl-engines_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl-misc
+Version: 1.1.1g-r0
+Section: libs/network
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e81c921b8f8ac045485f5d69350259f0
+Size: 5176
+Filename: openssl-misc_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl-staticdev
+Version: 1.1.1g-r0
+Depends: openssl-dev (= 1.1.1g-r0)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 75439987fbb4787115b5513bf70ac64b
+Size: 1091146
+Filename: openssl-staticdev_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer - Development files (Static Libraries)
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: openssl
+Version: 1.1.1g-r0
+Depends: openssl-conf
+Section: libs/network
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35ab94294718b1beac03114085d2d5a1
+Size: 4718
+Filename: openssl_1.1.1g-r0_spark.ipk
+Source: openssl_1.1.1g.bb
+Description: Secure Socket Layer
+OE: openssl
+HomePage: http://www.openssl.org/
+License: openssl
+Priority: optional
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 53234b41d612f36ebc7e3a384c5b94d6
+Size: 708
+Filename: opkg-arch-config-dbg_1.0-r1_spark.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a336d713738ccdea55d8e8a3d0feb703
+Size: 738
+Filename: opkg-arch-config-dev_1.0-r1_spark.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 453931aa909ab2afb77a84bae63a6a6f
+Size: 856
+Filename: opkg-arch-config_1.0-r1_spark.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dbg
+Version: 1.0-r83
+Recommends: alsa-state-dbg, alsa-utils-alsactl-dbg, alsa-utils-alsamixer-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9dc2adfb882ecb795281180f3f73fa11
+Size: 672
+Filename: packagegroup-base-alsa-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa-dev
+Version: 1.0-r83
+Recommends: alsa-state-dev, alsa-utils-alsactl-dev, alsa-utils-alsamixer-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9b4e83c5e088a11c8e6e3c9252007715
+Size: 672
+Filename: packagegroup-base-alsa-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-alsa
+Version: 1.0-r83
+Depends: alsa-state, alsa-utils-alsactl, alsa-utils-alsamixer
+Recommends: kernel-module-snd-mixer-oss, kernel-module-snd-pcm-oss
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 89b03509cc12b3213e6e52f66c28523f
+Size: 706
+Filename: packagegroup-base-alsa_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: ALSA sound support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dbg
+Version: 1.0-r83
+Recommends: bluez5-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0952dfec5474c4fddabe444a6e51af80
+Size: 656
+Filename: packagegroup-base-bluetooth-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth-dev
+Version: 1.0-r83
+Recommends: bluez5-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf51768b9e1450bd410a6c7a3e8bbfaf
+Size: 656
+Filename: packagegroup-base-bluetooth-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth
+Version: 1.0-r83
+Depends: bluez5
+Recommends: kernel-module-bluetooth, kernel-module-bnep, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap, kernel-module-rfcomm, kernel-module-sco
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 861ff63a0202d2915095a2b7d0ce148a
+Size: 712
+Filename: packagegroup-base-bluetooth_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Bluetooth support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dbg
+Version: 1.0-r83
+Recommends: module-init-tools-dbg, packagegroup-base-alsa-dbg, packagegroup-base-ext2-dbg, packagegroup-base-ipv6-dbg, packagegroup-base-nfs-dbg, packagegroup-base-zeroconf-dbg, packagegroup-distro-base-dbg, packagegroup-machine-base-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 95cfc95689414f14bee6835ade7125a7
+Size: 760
+Filename: packagegroup-base-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Debugging files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dev
+Version: 1.0-r83
+Depends: packagegroup-base (= 1.0-r83)
+Recommends: module-init-tools-dev, packagegroup-base-alsa-dev, packagegroup-base-ext2-dev, packagegroup-base-ipv6-dev, packagegroup-base-nfs-dev, packagegroup-base-zeroconf-dev, packagegroup-distro-base-dev, packagegroup-machine-base-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6a38b7130f7af8a230f6565f90bafa0d
+Size: 786
+Filename: packagegroup-base-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package - Development files
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ext2-dbg
+Version: 1.0-r83
+Recommends: e2fsprogs-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, hdparm-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6a05e0d51a19517c16db7a232d93e5eb
+Size: 676
+Filename: packagegroup-base-ext2-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ext2-dev
+Version: 1.0-r83
+Recommends: e2fsprogs-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, hdparm-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 33785fc14c2443ca4b96494ce9a3be26
+Size: 676
+Filename: packagegroup-base-ext2-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ext2
+Version: 1.0-r83
+Depends: e2fsprogs, e2fsprogs-e2fsck, e2fsprogs-mke2fs, hdparm
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39eb4b698e5fd35684c99af5607c0d2b
+Size: 680
+Filename: packagegroup-base-ext2_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: ext2 filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dbg
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dbg, packagegroup-base-dbg, packagegroup-base-wifi-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3bc71e8a4aa82e571d61d35b66d76ed2
+Size: 670
+Filename: packagegroup-base-extended-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended-dev
+Version: 1.0-r83
+Recommends: packagegroup-base-bluetooth-dev, packagegroup-base-dev, packagegroup-base-wifi-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ffd62e016e4c902c81b6d470ea3454c
+Size: 670
+Filename: packagegroup-base-extended-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended
+Version: 1.0-r83
+Depends: packagegroup-base, packagegroup-base-bluetooth, packagegroup-base-wifi
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 387c2c9804a4fb4d9ad25ab6dcf4953a
+Size: 660
+Filename: packagegroup-base-extended_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dbg
+Version: 1.0-r83
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c849c9602e3ea09cc6cb13b8f15fefd4
+Size: 638
+Filename: packagegroup-base-ipv6-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6-dev
+Version: 1.0-r83
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e90466b01ece1a9f2fea5fb8f5d97784
+Size: 638
+Filename: packagegroup-base-ipv6-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r83
+Recommends: kernel-module-ipv6
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 469eef437e6db4426de7ca0887a84419
+Size: 658
+Filename: packagegroup-base-ipv6_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: IPv6 support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dbg
+Version: 1.0-r83
+Recommends: rpcbind-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b411c7f5ecd0e82e9553f11dcd6b057a
+Size: 652
+Filename: packagegroup-base-nfs-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs-dev
+Version: 1.0-r83
+Recommends: rpcbind-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f9aed1bc7d2179590a0bd0c7d9d119c
+Size: 650
+Filename: packagegroup-base-nfs-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs
+Version: 1.0-r83
+Depends: rpcbind
+Recommends: kernel-module-nfs
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5b1c239f008f8697d4eec0db04d395d
+Size: 684
+Filename: packagegroup-base-nfs_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: NFS network filesystem support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-serial-dbg
+Version: 1.0-r83
+Recommends: lrzsz-dbg, setserial-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17d437c9ed89b2fb60f8f4116b26dff7
+Size: 658
+Filename: packagegroup-base-serial-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-serial-dev
+Version: 1.0-r83
+Recommends: lrzsz-dev, setserial-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6223e479f626e50556c10c5e9a1a3d55
+Size: 658
+Filename: packagegroup-base-serial-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-serial
+Version: 1.0-r83
+Depends: lrzsz, setserial
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 30d3ea7695b16f5fccc59045061d32c1
+Size: 658
+Filename: packagegroup-base-serial_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Serial port support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dbg
+Version: 1.0-r83
+Recommends: usbutils-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0d54feb586617d5267453441af69acb
+Size: 656
+Filename: packagegroup-base-usbhost-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost-dev
+Version: 1.0-r83
+Recommends: usbutils-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8111eccd1c1e10ade580d0a95d25169d
+Size: 656
+Filename: packagegroup-base-usbhost-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-usbhost
+Version: 1.0-r83
+Depends: usbutils
+Recommends: kernel-module-ehci-hcd, kernel-module-mousedev, kernel-module-ohci-hcd, kernel-module-scsi-mod, kernel-module-sd-mod, kernel-module-uhci-hcd, kernel-module-usb-storage, kernel-module-usbcore, kernel-module-usbhid, kernel-module-usbmouse, kernel-module-usbnet, kernel-module-usbserial
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 51b332842ef2745da2ebc489ea9c1447
+Size: 736
+Filename: packagegroup-base-usbhost_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: USB host support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dbg
+Version: 1.0-r83
+Recommends: iw-dbg, wireless-regdb-static-dbg, wpa-supplicant-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8f08963bd331e874e378ce699e53411f
+Size: 682
+Filename: packagegroup-base-wifi-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi-dev
+Version: 1.0-r83
+Recommends: iw-dev, wireless-regdb-static-dev, wpa-supplicant-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: baee82a17dcbcb576a8e7b4c04cc652b
+Size: 682
+Filename: packagegroup-base-wifi-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi
+Version: 1.0-r83
+Depends: iw, wireless-regdb-static, wpa-supplicant
+Recommends: kernel-module-aes, kernel-module-aes-generic, kernel-module-arc4, kernel-module-crypto_algapi, kernel-module-cryptomgr, kernel-module-ecb, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-ccmp, kernel-module-ieee80211-crypt-tkip, kernel-module-ieee80211-crypt-wep, kernel-module-michael-mic
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1dfbcfa336d90b6beecc38ece2c6d716
+Size: 760
+Filename: packagegroup-base-wifi_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: WiFi support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dbg
+Version: 1.0-r83
+Recommends: avahi-daemon-dbg, libnss-mdns-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78994aa6143e708e7c4aebc9c8de69cb
+Size: 672
+Filename: packagegroup-base-zeroconf-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf-dev
+Version: 1.0-r83
+Recommends: avahi-daemon-dev, libnss-mdns-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c26f3831c0235a859ef41993d07fe066
+Size: 676
+Filename: packagegroup-base-zeroconf-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf
+Version: 1.0-r83
+Depends: avahi-daemon, libnss-mdns
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ab92300d104e0c00db0d0e29548ccbf0
+Size: 674
+Filename: packagegroup-base-zeroconf_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Zeroconf support
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base
+Version: 1.0-r83
+Depends: module-init-tools, packagegroup-base-alsa, packagegroup-base-ext2, packagegroup-base-ipv6, packagegroup-base-nfs, packagegroup-base-zeroconf, packagegroup-distro-base, packagegroup-machine-base
+Recommends: kernel-module-input, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-rtc-proc, kernel-module-rtc-sysfs, kernel-module-uinput, kernel-module-unix
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ad101627699e2eebee9e39b15e9cec9d
+Size: 742
+Filename: packagegroup-base_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dbg
+Version: 1.0-r17
+Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, busybox-mdev-dbg, flash-tools-dbg, fp-control-dbg, fulan-dvb-modules-spark-dbg, init-ifupdown-dbg, initscripts-dbg, libmme-host-dbg, libmmeimage-dbg, modutils-initscripts-dbg, mountspark-dbg, mtd-utils-jffs2-dbg, netbase-dbg, stfbcontrol-dbg, stinit-dbg, stlinux24-sh4-stmfb-firmware-stx7111-dbg, stlinux24-sh4-stx7111-fdma-firmware-dbg, stlirc-dbg, stslave-fw-dbg, sysvinit-dbg, update-alternatives-opkg-dbg, ustslave-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d6a474c239500e1dff17504c338e8e3
+Size: 908
+Filename: packagegroup-core-boot-dbg_1.0-r17_spark.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Debugging files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dev
+Version: 1.0-r17
+Depends: packagegroup-core-boot (= 1.0-r17)
+Recommends: base-files-dev, base-passwd-dev, busybox-dev, busybox-mdev-dev, flash-tools-dev, fp-control-dev, fulan-dvb-modules-spark-dev, init-ifupdown-dev, initscripts-dev, libmme-host-dev, libmmeimage-dev, modutils-initscripts-dev, mountspark-dev, mtd-utils-jffs2-dev, netbase-dev, stfbcontrol-dev, stinit-dev, stlinux24-sh4-stmfb-firmware-stx7111-dev, stlinux24-sh4-stx7111-fdma-firmware-dev, stlirc-dev, stslave-fw-dev, sysvinit-dev, update-alternatives-opkg-dev, ustslave-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2221fce5166d30203d0fa2d65c025898
+Size: 932
+Filename: packagegroup-core-boot-dev_1.0-r17_spark.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements - Development files
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: base-files, base-passwd, busybox, busybox-mdev, flash-tools, fp-control, fulan-dvb-modules-spark, init-ifupdown, initscripts, libmme-host0, libmmeimage0, modutils-initscripts, mountspark, mtd-utils-jffs2, netbase, stfbcontrol, stinit, stlinux24-sh4-stmfb-firmware-stx7111, stlinux24-sh4-stx7111-fdma-firmware, stlirc, stslave-fw, sysvinit, update-alternatives-opkg, ustslave
+Recommends: busybox-syslog
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c4608c6842c0bd60c97fff05a56a105
+Size: 852
+Filename: packagegroup-core-boot_1.0-r17_spark.ipk
+Source: packagegroup-core-boot.bb
+Description: Minimal boot requirements
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dbg
+Version: 1.0-r83
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 534643a92c7cd9cdf88d5340ed47f74c
+Size: 638
+Filename: packagegroup-distro-base-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base-dev
+Version: 1.0-r83
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aeef6d6e69927658b609fd568003b45d
+Size: 638
+Filename: packagegroup-distro-base-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0c4b76a1dd6dca655fe3377f6ebbf3e3
+Size: 640
+Filename: packagegroup-distro-base_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: openpli extras
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dbg
+Version: 1.0-r83
+Recommends: aio-grab-dbg, libpcre-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 766fb451a643d46e9a1042887edcd2d9
+Size: 662
+Filename: packagegroup-machine-base-dbg_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base-dev
+Version: 1.0-r83
+Recommends: aio-grab-dev, libpcre-dev
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94448b94d01ad55dd17cc6470cd90ab9
+Size: 662
+Filename: packagegroup-machine-base-dev_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Merge machine and distro options to create a basic machine task/package
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Depends: aio-grab, libpcre1
+Recommends: enigma2-plugin-extensions-sparkvfd, enigma2-plugin-systemplugins-servicemp3, enigma2-plugin-systemplugins-sh4boostercontrol, enigma2-plugin-systemplugins-sh4osdadjustment, enigma2-plugin-systemplugins-skinselector
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d10a0f712f9419d089c160294fd874a
+Size: 764
+Filename: packagegroup-machine-base_1.0-r83_spark.ipk
+Source: packagegroup-base.bb
+Description: Extra packages required to fully support spark hardware
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: rt3070-dbg
+Version: 2.5.0.4-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8d5aff006db1174c159c104b663b2e89
+Size: 708
+Filename: rt3070-dbg_2.5.0.4-r0_spark.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Debugging files
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: rt3070-dev
+Version: 2.5.0.4-r0
+Depends: rt3070 (= 2.5.0.4-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev, kernel-module-rt5370sta-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31226f1e5e09cc330f4fbcf599c70732
+Size: 782
+Filename: rt3070-dev_2.5.0.4-r0_spark.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Development files
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: rt3070
+Version: 2.5.0.4-r0
+Depends: kernel-module-rt5370sta
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd16c93a9589bb3cd3cb13b5887d0f4f
+Size: 1438
+Filename: rt3070_2.5.0.4-r0_spark.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks
+OE: rt3070
+License: GPLv2+
+Priority: optional
+
+Package: rtl8192cu-dbg
+Version: 4.0.2-9000
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be72374d18c120aa5f4dcf85373d8102
+Size: 714
+Filename: rtl8192cu-dbg_4.0.2-9000_spark.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Debugging files
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192cu-dev
+Version: 4.0.2-9000
+Depends: rtl8192cu (= 4.0.2-9000)
+Recommends: kernel-2.6.32.71_stm24_0217-dev, kernel-module-8192cu-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28cda86d0c491143dd6fddbd39d06131
+Size: 782
+Filename: rtl8192cu-dev_4.0.2-9000_spark.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Development files
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: rtl8192cu
+Version: 4.0.2-9000
+Depends: kernel-module-8192cu
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 71feea54ea3d85744fd55ce146bce229
+Size: 666
+Filename: rtl8192cu_4.0.2-9000_spark.ipk
+Source: rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices
+OE: rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: satdreamgr-extra-feed-configs-dbg
+Version: 1.0-r6
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 868f326412a3335fd9415321b4a593bd
+Size: 688
+Filename: satdreamgr-extra-feed-configs-dbg_1.0-r6_spark.ipk
+Source: satdreamgr-extra-feed-configs.bb
+Description: satdreamgr-extra-feed-configs version 1.0-r6 - Debugging files
+OE: satdreamgr-extra-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: satdreamgr-extra-feed-configs-dev
+Version: 1.0-r6
+Depends: satdreamgr-extra-feed-configs (= 1.0-r6)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 930e9dd7849da120a1139b9ba74d2bc1
+Size: 718
+Filename: satdreamgr-extra-feed-configs-dev_1.0-r6_spark.ipk
+Source: satdreamgr-extra-feed-configs.bb
+Description: satdreamgr-extra-feed-configs version 1.0-r6 - Development files
+OE: satdreamgr-extra-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: satdreamgr-extra-feed-configs
+Version: 1.0-r6
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4070e01483d8522fde86b268bcfa96c7
+Size: 922
+Filename: satdreamgr-extra-feed-configs_1.0-r6_spark.ipk
+Source: satdreamgr-extra-feed-configs.bb
+Description: satdreamgr-extra-feed-configs version 1.0-r6
+OE: satdreamgr-extra-feed-configs
+License: GPLv2+
+Priority: optional
+
+Package: satipclient-dbg
+Version: 1.0+git64+9c4338a-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e69e9654f02fc0ffd34599b7a152850
+Size: 6860
+Filename: satipclient-dbg_1.0+git64+9c4338a-r0_spark.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Debugging files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient-dev
+Version: 1.0+git64+9c4338a-r0
+Depends: satipclient (= 1.0+git64+9c4338a-r0)
+Recommends: initscripts-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, update-rc.d-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 23158cab361f39871319d73a0bb623a3
+Size: 750
+Filename: satipclient-dev_1.0+git64+9c4338a-r0_spark.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Development files
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: satipclient
+Version: 1.0+git64+9c4338a-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Recommends: update-rc.d
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38c783e0e250b74dd4acb51af0a2e0c8
+Size: 27066
+Filename: satipclient_1.0+git64+9c4338a-r0_spark.ipk
+Source: satipclient.bb
+Description: satip client using vtuner
+OE: satipclient
+License: GPLv2
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.6-r3
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8a4a29e5d2fbb0df7b72854ab76e6815
+Size: 686
+Filename: shadow-securetty-dbg_4.6-r3_spark.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Debugging files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.6-r3
+Depends: shadow-securetty (= 4.6-r3)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 51ba535ad3903da403328c70f3c4516d
+Size: 714
+Filename: shadow-securetty-dev_4.6-r3_spark.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file - Development files
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.6-r3
+Section: base utils
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1999926cbfcf2d3079eb7fe59268b14
+Size: 1368
+Filename: shadow-securetty_4.6-r3_spark.ipk
+Source: shadow-securetty_4.6.bb
+Description: Provider of the machine specific securetty file
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: stlirc-dbg
+Version: 0.9.0-r8
+Recommends: libc6-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19d74efb339ac498de610884726cebd3
+Size: 11624
+Filename: stlirc-dbg_0.9.0-r8_spark.ipk
+Source: stlirc_0.9.0.bb
+Description: stlirc version 0.9.0-r8 - Debugging files
+OE: stlirc
+HomePage: http://www.lirc.org
+License: GPLv2
+Priority: optional
+
+Package: stlirc-dev
+Version: 0.9.0-r8
+Depends: stlirc (= 0.9.0-r8)
+Recommends: initscripts-dev, libc6-dev, libusb-1.0-dev, update-rc.d-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 030c3395c1c603e835c32a299f53347c
+Size: 1742
+Filename: stlirc-dev_0.9.0-r8_spark.ipk
+Source: stlirc_0.9.0.bb
+Description: stlirc version 0.9.0-r8 - Development files
+OE: stlirc
+HomePage: http://www.lirc.org
+License: GPLv2
+Priority: optional
+
+Package: stlirc-staticdev
+Version: 0.9.0-r8
+Depends: stlirc-dev (= 0.9.0-r8)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a6c990060c17175db4ab6058d61158d8
+Size: 8644
+Filename: stlirc-staticdev_0.9.0-r8_spark.ipk
+Source: stlirc_0.9.0.bb
+Description: stlirc version 0.9.0-r8 - Development files (Static Libraries)
+OE: stlirc
+HomePage: http://www.lirc.org
+License: GPLv2
+Priority: optional
+
+Package: stlirc
+Version: 0.9.0-r8
+Depends: libc6 (>= 2.25)
+Replaces: lirc
+Conflicts: lirc
+Recommends: update-rc.d
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 14cf80fb7dd97bb6937c8e89934b6cea
+Size: 72086
+Filename: stlirc_0.9.0-r8_spark.ipk
+Source: stlirc_0.9.0.bb
+Description: stlirc version 0.9.0-r8
+OE: stlirc
+HomePage: http://www.lirc.org
+License: GPLv2
+Priority: optional
+
+Package: stslave-fw-dbg
+Version: 0.1-r7
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 228143f68f1cc6ff8ab19f4a8db89bf7
+Size: 686
+Filename: stslave-fw-dbg_0.1-r7_spark.ipk
+Source: stslave-fw_0.1.bb
+Description: stslave-fw version 0.1-r7 - Debugging files
+OE: stslave-fw
+License: GPLv2+
+Priority: optional
+
+Package: stslave-fw-dev
+Version: 0.1-r7
+Depends: stslave-fw (= 0.1-r7)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4275a8256b97d7f8b44b3dc2f9195bc5
+Size: 712
+Filename: stslave-fw-dev_0.1-r7_spark.ipk
+Source: stslave-fw_0.1.bb
+Description: stslave-fw version 0.1-r7 - Development files
+OE: stslave-fw
+License: GPLv2+
+Priority: optional
+
+Package: stslave-fw
+Version: 0.1-r7
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8318cbe61ad26ea1801d5c82af8688e
+Size: 1661760
+Filename: stslave-fw_0.1-r7_spark.ipk
+Source: stslave-fw_0.1.bb
+Description: stslave-fw version 0.1-r7
+OE: stslave-fw
+License: GPLv2+
+Priority: optional
+
