@@ -97,7 +97,7 @@ Depends: dab-cmdline-sdgradio-aac, dab-cmdline-sdgradio-pcm, dab-cmdline-sdgradi
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a996fc52fe68c375a981414ff95b1b29
+MD5Sum: d6912f5ff4cb5541d6f6b590ae736708
 Size: 642
 Filename: dab-cmdline-sdgradio_1.3-r0_all.ipk
 Source: dab-cmdline-sdgradio.bb
@@ -120,6 +120,20 @@ Source: dabstreamer.bb
 Description: dabstreamer version 0.1+gitAUTOINC+ab65e1ec6b-r0
 OE: dabstreamer
 HomePage: www.satdreamgr.com
+License: GPLv2+
+Priority: optional
+
+Package: dvb-usb-drivers-meta
+Version: 1.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca9e7544c250f8cacc10c9464bba586e
+Size: 614
+Filename: dvb-usb-drivers-meta_1.1-r0_all.ipk
+Source: dvb-usb-drivers-meta.bb
+Description: dvb-usb-drivers-meta version 1.1-r0
+OE: dvb-usb-drivers-meta
 License: GPLv2+
 Priority: optional
 
@@ -423,6 +437,50 @@ OE: enigma2-plugin-drivers-s2-usb-dvbsky-s960
 License: GPLv2+
 Priority: optional
 
+Package: enigma2-plugin-extensions-e2iplayer-deps-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e865374d865dad44eb266a4a1770cf36
+Size: 710
+Filename: enigma2-plugin-extensions-e2iplayer-deps-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' E2i Player - Debugging files
+OE: enigma2-plugin-extensions-e2iplayer-deps
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-deps-dev
+Version: 1.0-r0
+Depends: enigma2-plugin-extensions-e2iplayer-deps (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a0929b232cb77a49f7aa6a0930031f4
+Size: 742
+Filename: enigma2-plugin-extensions-e2iplayer-deps-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' E2i Player - Development files
+OE: enigma2-plugin-extensions-e2iplayer-deps
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-deps
+Version: 1.0-r0
+Recommends: duktape, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, rtmpdump, uchardet, wget
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d30d9cefc1857e95171ac31f1db2e54
+Size: 728
+Filename: enigma2-plugin-extensions-e2iplayer-deps_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' E2i Player
+OE: enigma2-plugin-extensions-e2iplayer-deps
+License: GPLv2+
+Priority: optional
+
 Package: enigma2-plugin-extensions-epgimport-rytec
 Version: 20200413-r0
 Replaces: enigma2-plugin-extensions-xmltvimport-rytec
@@ -444,8 +502,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1811cd575e484c4ca5dc17bfd5d103a9
-Size: 690
+MD5Sum: 060aab671becb480e1045dccca94c1ce
+Size: 692
 Filename: enigma2-plugin-extensions-install-ffmpeg-dbg_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-ffmpeg.bb
 Description: Meta package for installing FFmpeg - Debugging files
@@ -459,7 +517,7 @@ Depends: enigma2-plugin-extensions-install-ffmpeg (= 1.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 17fe90be2fdc0b33d0d864a7c36e9589
+MD5Sum: 10adafceb70cdedb45bd43b050823d53
 Size: 720
 Filename: enigma2-plugin-extensions-install-ffmpeg-dev_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-ffmpeg.bb
@@ -474,8 +532,8 @@ Recommends: ffmpeg
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b55f68d96c39347883ef98494d2560c6
-Size: 638
+MD5Sum: f4fa1af80989d0c18b7f3d8e80a5316b
+Size: 636
 Filename: enigma2-plugin-extensions-install-ffmpeg_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-ffmpeg.bb
 Description: Meta package for installing FFmpeg
@@ -1175,6 +1233,49 @@ Description: Enigma2 Skin OctagonEightFhd
 OE: enigma2-plugin-skins-octagoneightfhd
 License: GPLv2+
 Priority: required
+
+Package: enigma2-plugin-skins-pd1loi-hd-night-dbg
+Version: 2.6.1+git361+2c5e63f-r0
+Section: devel
+Architecture: all
+Maintainer: pd1loi1
+MD5Sum: 128cdd02b378df7f70bfa181690205d2
+Size: 678
+Filename: enigma2-plugin-skins-pd1loi-hd-night-dbg_2.6.1+git361+2c5e63f-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+gitAUTOINC+2c5e63fcdb-r0 - Debugging files
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-skins-pd1loi-hd-night-dev
+Version: 2.6.1+git361+2c5e63f-r0
+Depends: enigma2-plugin-skins-pd1loi-hd-night (= 2.6.1+git361+2c5e63f-r0)
+Section: devel
+Architecture: all
+Maintainer: pd1loi1
+MD5Sum: 2b421086917ab6fb8acede68f8f376df
+Size: 714
+Filename: enigma2-plugin-skins-pd1loi-hd-night-dev_2.6.1+git361+2c5e63f-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+gitAUTOINC+2c5e63fcdb-r0 - Development files
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-skins-pd1loi-hd-night
+Version: 2.6.1+git361+2c5e63f-r0
+Section: base
+Architecture: all
+Maintainer: pd1loi1
+MD5Sum: 111fa81cc59fcaa50bb7c8f08c970aa3
+Size: 5581616
+Filename: enigma2-plugin-skins-pd1loi-hd-night_2.6.1+git361+2c5e63f-r0_all.ipk
+Source: enigma2-plugin-skins-pd1loi-hd-night.bb
+Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+gitAUTOINC+2c5e63fcdb-r0
+OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPLv3
+Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dbg
 Version: 0.1+git2128+0f059bf-r0
@@ -5006,44 +5107,44 @@ License: CLOSED
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git219+9482567-r0
+Version: 2+git220+10829fd-r0
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7da0cd5eb27a88cedb9e93af81b2c85c
-Size: 664
-Filename: tuxbox-common-dbg_2+git219+9482567-r0_all.ipk
+MD5Sum: a7f7740f85f7f0ffc154abc5ca6315af
+Size: 666
+Filename: tuxbox-common-dbg_2+git220+10829fd-r0_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+9482567278-r0 - Debugging files
+Description: tuxbox-common version 2+gitAUTOINC+10829fda41-r0 - Debugging files
 OE: tuxbox-common
 License: GPLv2+
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git219+9482567-r0
-Depends: tuxbox-common (= 2+git219+9482567-r0)
+Version: 2+git220+10829fd-r0
+Depends: tuxbox-common (= 2+git220+10829fd-r0)
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 18e65b0dff518f1fc3849354822fd51d
+MD5Sum: 63d7b148a2de3109ea1854ba49080c88
 Size: 700
-Filename: tuxbox-common-dev_2+git219+9482567-r0_all.ipk
+Filename: tuxbox-common-dev_2+git220+10829fd-r0_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+9482567278-r0 - Development files
+Description: tuxbox-common version 2+gitAUTOINC+10829fda41-r0 - Development files
 OE: tuxbox-common
 License: GPLv2+
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git219+9482567-r0
+Version: 2+git220+10829fd-r0
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: f94916ef4872a4f9ff264b9a1f1f581a
-Size: 53068
-Filename: tuxbox-common_2+git219+9482567-r0_all.ipk
+MD5Sum: b37924ab2f98e73a48c143dc99ca7f3d
+Size: 53064
+Filename: tuxbox-common_2+git220+10829fd-r0_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+9482567278-r0
+Description: tuxbox-common version 2+gitAUTOINC+10829fda41-r0
 OE: tuxbox-common
 License: GPLv2+
 Priority: optional

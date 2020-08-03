@@ -189,8 +189,8 @@ Version: 1.0-r6
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9bfb715d66d3ebefa155db5792269013
-Size: 684
+MD5Sum: bfaca3a2719131dbb3fd46d4bfe6efcd
+Size: 692
 Filename: distro-feed-configs-dbg_1.0-r6_spark.ipk
 Source: distro-feed-configs.bb
 Description: Configuration files for online package repositories aka feeds - Debugging files
@@ -204,8 +204,8 @@ Depends: distro-feed-configs (= 1.0-r6)
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3f4ede697bfaed0763977c5645c2ca8c
-Size: 720
+MD5Sum: 32a949daedb462fc1a2c693950d3a251
+Size: 722
 Filename: distro-feed-configs-dev_1.0-r6_spark.ipk
 Source: distro-feed-configs.bb
 Description: Configuration files for online package repositories aka feeds - Development files
@@ -218,8 +218,8 @@ Version: 1.0-r6
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c38c04aa89d6d33cffb1752fc47163c0
-Size: 884
+MD5Sum: 06ab6ba56397cc870b74ccd781f9a55b
+Size: 902
 Filename: distro-feed-configs_1.0-r6_spark.ipk
 Source: distro-feed-configs.bb
 Description: Configuration files for online package repositories aka feeds
@@ -228,14 +228,14 @@ License: MIT
 Priority: optional
 
 Package: enigma2-dbg
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: devel
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f64b564b3ecf1cc39f371cbd1284a791
+MD5Sum: ff24880733d6e44eb294bebd978be13d
 Size: 856
-Filename: enigma2-dbg_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-dbg_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
 OE: enigma2
@@ -243,15 +243,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: 2.7+git18503+04700e5-r0
-Depends: enigma2 (= 2.7+git18503+04700e5-r0)
+Version: 2.7+git18500+452c4a4-r0
+Depends: enigma2 (= 2.7+git18500+452c4a4-r0)
 Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-iso8859-15-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-imaging-dev, python-lang-dev, python-logging-dev, python-mmap-dev, python-netclient-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-re-dev, python-shell-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: acc3f772b91e2a838a3452ad5bc47067
+MD5Sum: 6f4f5ea78ace800f7bfeb73264045ad1
 Size: 98856
-Filename: enigma2-dev_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-dev_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
 OE: enigma2
@@ -263,8 +263,8 @@ Version: 2018.08.15-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7be3292f92df3be8638dc15971cf737e
-Size: 2325372
+MD5Sum: c1c8ab9de07cc631136d0f09239a73f3
+Size: 2324292
 Filename: enigma2-fonts_2018.08.15-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -273,13 +273,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 90a98138427b53b85ab5ff488048e375
-Size: 4442
-Filename: enigma2-meta_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 97145ba73d8363b1778ab4d7586e498a
+Size: 4432
+Filename: enigma2-meta_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
@@ -287,13 +287,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6a6194bd7ea39db216e38204ce6a7f4c
-Size: 5278
-Filename: enigma2-plugin-extensions-cutlisteditor-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 7e94d99ead426d1b2698e9f19adb1c87
+Size: 5282
+Filename: enigma2-plugin-extensions-cutlisteditor-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor (sources)
 OE: enigma2
@@ -301,14 +301,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Depends: aio-grab
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 178693aa16fc5f449a7793cae54880b7
-Size: 7634
-Filename: enigma2-plugin-extensions-cutlisteditor_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 7bd39ae75cb035a149ef54524a0f9697
+Size: 7638
+Filename: enigma2-plugin-extensions-cutlisteditor_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
@@ -316,13 +316,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fd1eae12210c216d13ca60a43ce18ae4
-Size: 21728
-Filename: enigma2-plugin-extensions-dvdburn-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 58d15c7710ad40a85814303d8910663b
+Size: 21742
+Filename: enigma2-plugin-extensions-dvdburn-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn (sources)
 OE: enigma2
@@ -330,14 +330,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, python-imaging, replex
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 75ef3a55c888cd9ecdf35c9d96812274
-Size: 796562
-Filename: enigma2-plugin-extensions-dvdburn_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 45705849233cbdcac0c0a8384933b32e
+Size: 796566
+Filename: enigma2-plugin-extensions-dvdburn_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
 OE: enigma2
@@ -345,13 +345,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4dd111782044803d8bb986f13ceeb501
-Size: 1884
-Filename: enigma2-plugin-extensions-dvdplayer-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 2be1e2d75785f73f90a1d205dd77f9ea
+Size: 1888
+Filename: enigma2-plugin-extensions-dvdplayer-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer (sources)
 OE: enigma2
@@ -359,14 +359,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Recommends: kernel-module-udf
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ade911c5f8b0f174e135899027c33852
-Size: 2614
-Filename: enigma2-plugin-extensions-dvdplayer_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 5dba812b1e468db0b2008a3cdab2a736
+Size: 2618
+Filename: enigma2-plugin-extensions-dvdplayer_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
 OE: enigma2
@@ -374,13 +374,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f939e28a58f9e5480d12758bf58dfeda
+MD5Sum: 2a0c304995776e46e1caf75a90a95690
 Size: 14766
-Filename: enigma2-plugin-extensions-graphmultiepg-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-extensions-graphmultiepg-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg (sources)
 OE: enigma2
@@ -388,13 +388,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fbb7de124041a0c29619833270b2af74
-Size: 21992
-Filename: enigma2-plugin-extensions-graphmultiepg_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 7b2fdf82254ae291d2fd12c56aca4a46
+Size: 21988
+Filename: enigma2-plugin-extensions-graphmultiepg_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
 OE: enigma2
@@ -402,13 +402,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 26c671685a07ee042d891324507e4b59
+MD5Sum: 40e4f9afb0611827ab7a5fb00e8f3a52
 Size: 11100
-Filename: enigma2-plugin-extensions-mediaplayer-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-extensions-mediaplayer-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer (sources)
 OE: enigma2
@@ -416,13 +416,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7e2cd990825e54603d3c33321d9fa83b
-Size: 20432
-Filename: enigma2-plugin-extensions-mediaplayer_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 8fc18f1fb4fe80fd0959ebe498723849
+Size: 20418
+Filename: enigma2-plugin-extensions-mediaplayer_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
 OE: enigma2
@@ -430,13 +430,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7c552d3b2ad4e75105136f420af2310c
+MD5Sum: 3bc637aef2df84726ff7f034a4060e5f
 Size: 1970
-Filename: enigma2-plugin-extensions-mediascanner-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-extensions-mediascanner-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner (sources)
 OE: enigma2
@@ -444,16 +444,76 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ee89e29d6a50dc7fc09d6a9fb7c76886
-Size: 5318
-Filename: enigma2-plugin-extensions-mediascanner_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: eccb7a244d83674db21661df483c8342
+Size: 5312
+Filename: enigma2-plugin-extensions-mediascanner_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
 OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openmultiboot-dbg
+Version: 1.0+git183+483a644-r5
+Section: devel
+Architecture: spark
+Maintainer: oe-alliance
+MD5Sum: f2b14ac947ac15f89e0d92d1cbe38020
+Size: 670
+Filename: enigma2-plugin-extensions-openmultiboot-dbg_1.0+git183+483a644-r5_spark.ipk
+Source: enigma2-plugin-extensions-openmultiboot.bb
+Description: Multi boot loader for enigma2 - Debugging files
+OE: enigma2-plugin-extensions-openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openmultiboot-dev
+Version: 1.0+git183+483a644-r5
+Depends: enigma2-plugin-extensions-openmultiboot (= 1.0+git183+483a644-r5)
+Recommends: oe-alliance-branding-dev, openmultiboot-dev, python-dev, unjffs2-dev
+Section: devel
+Architecture: spark
+Maintainer: oe-alliance
+MD5Sum: a7f39699ded83961d35755f4acef9bc7
+Size: 740
+Filename: enigma2-plugin-extensions-openmultiboot-dev_1.0+git183+483a644-r5_spark.ipk
+Source: enigma2-plugin-extensions-openmultiboot.bb
+Description: Multi boot loader for enigma2 - Development files
+OE: enigma2-plugin-extensions-openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openmultiboot-po
+Version: 1.0+git183+483a644-r5
+Depends: enigma2-plugin-extensions-openmultiboot
+Section: base
+Architecture: spark
+Maintainer: oe-alliance
+MD5Sum: 90a5d9b7ef78d5dd23b117e57e37e5be
+Size: 10260
+Filename: enigma2-plugin-extensions-openmultiboot-po_1.0+git183+483a644-r5_spark.ipk
+Source: enigma2-plugin-extensions-openmultiboot.bb
+Description: extensions-openmultiboot (translations)
+OE: enigma2-plugin-extensions-openmultiboot
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openmultiboot
+Version: 1.0+git183+483a644-r5
+Depends: enigma2-plugin-extensions-openmultiboot, oe-alliance-branding, openmultiboot, unjffs2
+Section: base
+Architecture: spark
+Maintainer: oe-alliance
+MD5Sum: 034484884fdb17d1331d43755003019d
+Size: 69440
+Filename: enigma2-plugin-extensions-openmultiboot_1.0+git183+483a644-r5_spark.ipk
+Source: enigma2-plugin-extensions-openmultiboot.bb
+Description: extensions-openmultiboot
+OE: enigma2-plugin-extensions-openmultiboot
 License: GPLv2
 Priority: optional
 
@@ -518,13 +578,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 01efcdcf8fe54f9ad447099ce608657c
+MD5Sum: 4e50ed62f4f3cb644081998986b891c2
 Size: 6556
-Filename: enigma2-plugin-extensions-pictureplayer-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-extensions-pictureplayer-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer (sources)
 OE: enigma2
@@ -532,13 +592,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0682cd91e7dcc76cadd410c9072bf934
+MD5Sum: d2acdfe8606133aef3134f39ec75b774
 Size: 13188
-Filename: enigma2-plugin-extensions-pictureplayer_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-extensions-pictureplayer_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
@@ -638,14 +698,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-dbg
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e53d06200c3fd7a6bc1dac3219c24387
-Size: 124428
-Filename: enigma2-plugin-extensions-socketmmi-dbg_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 075f6b7f7dcbb8c1d4cb4768ad89f258
+Size: 124360
+Filename: enigma2-plugin-extensions-socketmmi-dbg_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
 OE: enigma2
@@ -653,13 +713,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1e946c022a11ce14e3d973bf23220807
+MD5Sum: 4fb0a35a6847acf77439d9a9b0c151d1
 Size: 1494
-Filename: enigma2-plugin-extensions-socketmmi-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-extensions-socketmmi-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (sources)
 OE: enigma2
@@ -667,13 +727,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a2d7afdfaf901d89455cfc4111f5af06
-Size: 215292
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 3678bfdc02ec517f6c900eed5090dd20
+Size: 215262
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
 OE: enigma2
@@ -681,14 +741,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.0.0+git98+d091bf5), libxml2 (>= 2.9.9)
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4aba6165efd5bdcdb9d71d9921d3f728
-Size: 9628
-Filename: enigma2-plugin-extensions-socketmmi_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: e3b75dfc8db8ae3a19d2c0c1604a3dd0
+Size: 9604
+Filename: enigma2-plugin-extensions-socketmmi_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
 OE: enigma2
@@ -696,13 +756,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-sparkvfd-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7333f3f86bc4a333f4e5e4dcac11e351
+MD5Sum: 27897f7fd03e555ae118cc5478951496
 Size: 3926
-Filename: enigma2-plugin-extensions-sparkvfd-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-extensions-sparkvfd-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-sparkvfd (sources)
 OE: enigma2
@@ -710,13 +770,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-sparkvfd
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ce6ab4e5e6e546e0f52cdf40af3dfa72
-Size: 5692
-Filename: enigma2-plugin-extensions-sparkvfd_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 2e91b52f06f0dc90e5c6e524bc098502
+Size: 5696
+Filename: enigma2-plugin-extensions-sparkvfd_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-sparkvfd
 OE: enigma2
@@ -767,13 +827,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3cb00e2d36e0042761e801b309e62926
-Size: 3914
-Filename: enigma2-plugin-systemplugins-cablescan-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 87fddc91948c0167e019d819f18e52c2
+Size: 3918
+Filename: enigma2-plugin-systemplugins-cablescan-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan (sources)
 OE: enigma2
@@ -781,13 +841,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b669ffa46e1bc4ac18fb5ff96af86664
+MD5Sum: be62135d64281cabfe3b0e1431621e55
 Size: 5792
-Filename: enigma2-plugin-systemplugins-cablescan_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-cablescan_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
 OE: enigma2
@@ -795,13 +855,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 23084d07a49d1eed669a76fcec7a4ad0
-Size: 6230
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: c85c181dc08ce4fb92712e67c31b732d
+Size: 6234
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment (sources)
 OE: enigma2
@@ -809,13 +869,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6e71aeb2538b6916001af7e2709b6835
-Size: 9634
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 4b9d91ba1151a9ae3483a8111c6166d6
+Size: 9642
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
@@ -823,13 +883,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b1a3d4722a3acae10527ed6e5b70ac82
+MD5Sum: ec8f677e75da3cd7ffc89b1a790a6c97
 Size: 2564
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner (sources)
 OE: enigma2
@@ -837,13 +897,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2b0cbc3cc7957b3abdded528a86c10fd
-Size: 3352
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 8c0a8590800617309097da84302ed648
+Size: 3358
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
 OE: enigma2
@@ -851,13 +911,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 847fcea888191c74a21f851cf4a17f56
+MD5Sum: 5e6ad8ed3c048aece6e3386ff0140453
 Size: 6252
-Filename: enigma2-plugin-systemplugins-diseqctester-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester (sources)
 OE: enigma2
@@ -865,13 +925,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b814f779c5c5195b83e4b0a1e200a5c5
-Size: 8804
-Filename: enigma2-plugin-systemplugins-diseqctester_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 3038472a466e2a63720a3e0092f97467
+Size: 8814
+Filename: enigma2-plugin-systemplugins-diseqctester_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
 OE: enigma2
@@ -879,13 +939,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 497dad86c69457ca98a9d8e95369b280
-Size: 4962
-Filename: enigma2-plugin-systemplugins-fastscan-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: fdcb562f551bf2a786a60c50bb9730d3
+Size: 4966
+Filename: enigma2-plugin-systemplugins-fastscan-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan (sources)
 OE: enigma2
@@ -893,13 +953,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1384b8247eb63d970d8e505842b5513b
-Size: 7526
-Filename: enigma2-plugin-systemplugins-fastscan_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: b4720ddc53c701e3e029d88eb0b3096d
+Size: 7536
+Filename: enigma2-plugin-systemplugins-fastscan_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
@@ -907,13 +967,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d9e9684aa77169cec4a9b25e1dbf6989
-Size: 2798
-Filename: enigma2-plugin-systemplugins-hdmicec-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: d6e699dfe2044f5b42b8b43dc5dae188
+Size: 2802
+Filename: enigma2-plugin-systemplugins-hdmicec-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec (sources)
 OE: enigma2
@@ -921,13 +981,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 33693e763ac2c2344c0147c92d6e7221
+MD5Sum: d39ecb8072cd58f9c7e261efbb5baaa5
 Size: 3804
-Filename: enigma2-plugin-systemplugins-hdmicec_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-hdmicec_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
 OE: enigma2
@@ -935,13 +995,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: aebf7ce36953e4cd43a34be479713360
-Size: 1978
-Filename: enigma2-plugin-systemplugins-hotplug-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 29c549a938dce78225269e9a48475028
+Size: 1980
+Filename: enigma2-plugin-systemplugins-hotplug-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug (sources)
 OE: enigma2
@@ -949,14 +1009,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Depends: hotplug-e2-helper
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c39a4421939bf4c8f08ff3e3b280591e
-Size: 2568
-Filename: enigma2-plugin-systemplugins-hotplug_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 2a967922ab0facb7126800ba4b9d7862
+Size: 2572
+Filename: enigma2-plugin-systemplugins-hotplug_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
 OE: enigma2
@@ -964,13 +1024,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 461b698b176349bab37270928b37699c
-Size: 4240
-Filename: enigma2-plugin-systemplugins-networkwizard-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: bdc19ca56d32e2f179a47e973ffab2d4
+Size: 4244
+Filename: enigma2-plugin-systemplugins-networkwizard-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard (sources)
 OE: enigma2
@@ -978,13 +1038,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 47345ebc571396921dc77e10ad7d1608
-Size: 7284
-Filename: enigma2-plugin-systemplugins-networkwizard_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: a6928125937e5728a5cfe111db5de539
+Size: 7290
+Filename: enigma2-plugin-systemplugins-networkwizard_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
 OE: enigma2
@@ -992,13 +1052,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f605aa3e31d39b59ca26a86cc4a267ee
+MD5Sum: f138b63ff703bc492f1043433d93e608
 Size: 2456
-Filename: enigma2-plugin-systemplugins-osd3dsetup-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup (sources)
 OE: enigma2
@@ -1006,13 +1066,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6f909ff99c4bb4b9d5ef3576579ec00f
-Size: 3450
-Filename: enigma2-plugin-systemplugins-osd3dsetup_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 33bb30d901e129e155f1cf3495b54d31
+Size: 3454
+Filename: enigma2-plugin-systemplugins-osd3dsetup_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
 OE: enigma2
@@ -1020,13 +1080,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 975b4752f04083e57159948bf529cb73
-Size: 3982
-Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 3e9d6e56dbe3b7ec5f88a64d4fdb035d
+Size: 3988
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup (sources)
 OE: enigma2
@@ -1034,13 +1094,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 120404d85964fdc2033b2629ab445729
-Size: 5472
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: fd3572db7c3fce225aac6f810a494e61
+Size: 5476
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
 OE: enigma2
@@ -1048,13 +1108,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5418d60c8385f41ec4754117a14cab45
-Size: 14446
-Filename: enigma2-plugin-systemplugins-positionersetup-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 5aa99a8db2c7a9e117d4dd56919b13ec
+Size: 14454
+Filename: enigma2-plugin-systemplugins-positionersetup-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup (sources)
 OE: enigma2
@@ -1062,13 +1122,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 031d617ee5a348f0b48bd3ea5127618e
-Size: 21120
-Filename: enigma2-plugin-systemplugins-positionersetup_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: e56e3479177e444c6f7b0a7868110a2d
+Size: 21130
+Filename: enigma2-plugin-systemplugins-positionersetup_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
 OE: enigma2
@@ -1076,13 +1136,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 52f62f3c5de4a76e32800812df31f01d
-Size: 2104
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: fa9c75ac1a8fd39af646ed744413bdf7
+Size: 2106
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol (sources)
 OE: enigma2
@@ -1090,13 +1150,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 03b8559bdb4f963607b8da89feac8799
-Size: 2854
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: ee34b8ac7264616e7fe0fc7e6d0ec417
+Size: 2852
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
@@ -1104,13 +1164,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d082a71a3f47d94e3af1655b26d96d7b
-Size: 6012
-Filename: enigma2-plugin-systemplugins-satfinder-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 8ce90f6ccb88bfe3f8fb164007507bf1
+Size: 6008
+Filename: enigma2-plugin-systemplugins-satfinder-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder (sources)
 OE: enigma2
@@ -1118,13 +1178,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a5abc2a2c26634210ab992031a75f654
+MD5Sum: efe7e82a785b2b66cce04fc9a06bb0de
 Size: 7830
-Filename: enigma2-plugin-systemplugins-satfinder_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-satfinder_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
 OE: enigma2
@@ -1137,8 +1197,8 @@ Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, u
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3ed2bb6a81b04e7a71f8674ed1c506d0
-Size: 17864
+MD5Sum: 69efc74bafad7f4568fa4f69bcc36089
+Size: 17866
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_1+git161+02956ea-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0 - Debugging files
@@ -1153,7 +1213,7 @@ Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, lib
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4df08b8c5314ab88d248318e6fd29573
+MD5Sum: 92c4a9e8ca785faa1c75f0fdfe3ea95a
 Size: 5672
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_1+git161+02956ea-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -1169,8 +1229,8 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 043452755e1024128727bd821c7d2518
-Size: 97646
+MD5Sum: 8c323eb4d7404e159e8529f064ade71a
+Size: 97438
 Filename: enigma2-plugin-systemplugins-serviceapp_1+git161+02956ea-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 1+gitAUTOINC+02956ea6b0-r0
@@ -1179,13 +1239,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4boostercontrol-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 086b678cfdf2a287eeebcc55cd305c03
-Size: 2618
-Filename: enigma2-plugin-systemplugins-sh4boostercontrol-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 4c1ffb934b5261d6e3be19965e50f1ce
+Size: 2622
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4boostercontrol (sources)
 OE: enigma2
@@ -1193,13 +1253,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4boostercontrol
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e5c45f8034a4fdf487f68419c2867011
+MD5Sum: bba3e0ab2b22920b515a973021b171db
 Size: 3788
-Filename: enigma2-plugin-systemplugins-sh4boostercontrol_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4boostercontrol
 OE: enigma2
@@ -1207,13 +1267,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4osdadjustment-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c02a063003f40cfc2c513ff3fa4e8f8a
-Size: 3736
-Filename: enigma2-plugin-systemplugins-sh4osdadjustment-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 5fbedc1811c976869a7441762e67d8f8
+Size: 3738
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4osdadjustment (sources)
 OE: enigma2
@@ -1221,13 +1281,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4osdadjustment
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 662460d362af9d9429e6092ae1468702
-Size: 4698
-Filename: enigma2-plugin-systemplugins-sh4osdadjustment_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 28c3ba8b85f76e60643aca530ae2c50e
+Size: 4706
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4osdadjustment
 OE: enigma2
@@ -1235,13 +1295,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1777276aea44866f91551f9d0bdc6766
-Size: 16246
-Filename: enigma2-plugin-systemplugins-softwaremanager-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: e93e2bee9f7731f694c976e49d7e12ac
+Size: 16238
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager (sources)
 OE: enigma2
@@ -1249,14 +1309,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Depends: python-twisted-web
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 297580afc53b35775b33f3d6e8994d1e
-Size: 42628
-Filename: enigma2-plugin-systemplugins-softwaremanager_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: bd3d6de624908d4602fdb711905b70ee
+Size: 42640
+Filename: enigma2-plugin-systemplugins-softwaremanager_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
 OE: enigma2
@@ -1264,13 +1324,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 37d6417e7736af4bf8f5f839ead7ebaa
+MD5Sum: 49154bc671836fd1406d1e83c16d648a
 Size: 2214
-Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup (sources)
 OE: enigma2
@@ -1278,13 +1338,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 70e092969ef5e02df06a9f1a81ced73c
+MD5Sum: 164cb4f2c89258b54e2561a993fc911a
 Size: 2950
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
@@ -1292,13 +1352,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 374ce16aad960156059265d39d77e152
+MD5Sum: c7bfbcf5310330cd14b61eda619b8e73
 Size: 5492
-Filename: enigma2-plugin-systemplugins-videoenhancement-src_2.7+git18503+04700e5-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement (sources)
 OE: enigma2
@@ -1306,13 +1366,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a2bb00a35a1ffd18e91401b618f67bf0
-Size: 8194
-Filename: enigma2-plugin-systemplugins-videoenhancement_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: fef8b989dd27991c284b44e17137b30f
+Size: 8202
+Filename: enigma2-plugin-systemplugins-videoenhancement_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
 OE: enigma2
@@ -1320,13 +1380,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a7596c8c2a048a42e1ec05de8284d2de
-Size: 8804
-Filename: enigma2-plugin-systemplugins-videomode-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: c077fa56ac8f92b0d2b62bbc639a9702
+Size: 8812
+Filename: enigma2-plugin-systemplugins-videomode-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode (sources)
 OE: enigma2
@@ -1334,13 +1394,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9fe797b654692c09898acf1c6dad6b02
-Size: 58076
-Filename: enigma2-plugin-systemplugins-videomode_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 7b28303aee49140e8bc314c3ca8d79fa
+Size: 58080
+Filename: enigma2-plugin-systemplugins-videomode_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
 OE: enigma2
@@ -1348,13 +1408,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1d92999ee3f7469f98b62430a049e934
-Size: 4492
-Filename: enigma2-plugin-systemplugins-videotune-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 5ffa6acf5278cbfa0750567dd676821b
+Size: 4496
+Filename: enigma2-plugin-systemplugins-videotune-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune (sources)
 OE: enigma2
@@ -1362,13 +1422,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1a569f42bdbba02e63a8bc8313a0f656
-Size: 64924
-Filename: enigma2-plugin-systemplugins-videotune_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 4b516dbf1c3c04fc1b3684b84e72dbd9
+Size: 64928
+Filename: enigma2-plugin-systemplugins-videotune_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
 OE: enigma2
@@ -1376,13 +1436,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan-src
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2fa200a67b6927cdbb6441e329775485
-Size: 7580
-Filename: enigma2-plugin-systemplugins-wirelesslan-src_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: dbee659d90d265c13f429d5dc4d7e110
+Size: 7584
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan (sources)
 OE: enigma2
@@ -1390,14 +1450,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Depends: python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d47a694e8ebc1fd7e3ca2bae4d194eb5
-Size: 11110
-Filename: enigma2-plugin-systemplugins-wirelesslan_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: c2f8cb226ac651e152d209a59ff9730c
+Size: 11114
+Filename: enigma2-plugin-systemplugins-wirelesslan_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
 OE: enigma2
@@ -1405,14 +1465,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-staticdev
-Version: 2.7+git18503+04700e5-r0
-Depends: enigma2-dev (= 2.7+git18503+04700e5-r0)
+Version: 2.7+git18500+452c4a4-r0
+Depends: enigma2-dev (= 2.7+git18500+452c4a4-r0)
 Section: devel
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2ae4d7f6318da255c4dc4524042c8d1c
-Size: 2018
-Filename: enigma2-staticdev_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 82ef1eb1f20ad4e156087219dda4f75d
+Size: 2014
+Filename: enigma2-staticdev_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
 OE: enigma2
@@ -1420,7 +1480,7 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: 2.7+git18503+04700e5-r0
+Version: 2.7+git18500+452c4a4-r0
 Depends: alsa-conf, alsa-utils-amixer-conf, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.25), libcrypt2 (>= 4.4.8), libcrypto1.1 (>= 1.1.1g), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.8), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.5), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.60.7), libjpeg62 (>= 2.0.3), libmme-host0, libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.2), libssl1.1 (>= 1.1.1g), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libudfread0 (>= 1.0.0+git98+d091bf5), libxml2 (>= 2.9.9), python-codecs, python-core, python-crypt, python-fcntl, python-lang, python-logging, python-mmap, python-netclient, python-netserver, python-numbers, python-pickle, python-re, python-shell, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
@@ -1428,9 +1488,9 @@ Recommends: enigma2-plugin-skins-satdreamgr-hd-transpba, glib-networking, glibc-
 Section: base
 Architecture: spark
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6ef7a28f19dbbb362b5b855d39b70e66
-Size: 4336414
-Filename: enigma2_2.7+git18503+04700e5-r0_spark.ipk
+MD5Sum: 12dad3f971a703725b12ca6683f948a8
+Size: 4337766
+Filename: enigma2_2.7+git18500+452c4a4-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
@@ -1577,6 +1637,120 @@ Source: rtl8192cu_4.0.2_9000.bb
 Description: 8192cu kernel module
 OE: rtl8192cu
 HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d9d10266f75a18104be5ee92c79faf01
+Size: 714
+Filename: kernel-module-8192eu-dbg_1.0-r0_spark.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Debugging files
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu-dev
+Version: 1.0-r0
+Depends: kernel-module-8192eu (= 1.0-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f36d8fabf4b5db6757a6d2895fdb2efb
+Size: 770
+Filename: kernel-module-8192eu-dev_1.0-r0_spark.ipk
+Source: kernel-module-8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Development files
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu
+Version: 1.0-r0
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-8192eu
+Provides: kernel-module-8192eu
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a65e52a2b1e1aa46112390b2d14e0340
+Size: 378062
+Filename: kernel-module-8192eu_1.0-r0_spark.ipk
+Source: kernel-module-8192eu.bb
+Description: 8192eu kernel module
+OE: kernel-module-8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8723a-dbg
+Version: 4.1.6-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 323461e0043f13f3ab92a1c47000f122
+Size: 704
+Filename: kernel-module-8723a-dbg_4.1.6-r0_spark.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Debugging files
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8723a-dev
+Version: 4.1.6-r0
+Depends: kernel-module-8723a (= 4.1.6-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev, kernel-module-8723au-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 533b7814f5104f0b4043e8e8e0dcc31a
+Size: 762
+Filename: kernel-module-8723a-dev_4.1.6-r0_spark.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Development files
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8723a
+Version: 4.1.6-r0
+Depends: kernel-module-8723au
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd1df4057ac5745ee61c45e0d1ed025c
+Size: 648
+Filename: kernel-module-8723a_4.1.6-r0_spark.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: Realtek 8723A v1.0
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8723au
+Version: 4.1.6-r0
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-8723au
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d79c1a744068d87dca151078f00d0998
+Size: 316628
+Filename: kernel-module-8723au_4.1.6-r0_spark.ipk
+Source: kernel-module-8723a_4.1.6.bb
+Description: 8723au kernel module
+OE: kernel-module-8723a
+HomePage: http://www.realtek.com.tw
 License: GPLv2
 Priority: optional
 
@@ -2235,6 +2409,71 @@ Filename: kernel-module-mt7601usta_3.0.0.4-r0_spark.ipk
 Source: kernel-module-mt7601usta_3.0.0.4.bb
 Description: mt7601usta kernel module
 OE: kernel-module-mt7601usta
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7610u-dbg
+Version: 3.0.0.2-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccdca2deff4ff18f83ec16dcee599eaa
+Size: 734
+Filename: kernel-module-mt7610u-dbg_3.0.0.2-r0_spark.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: kernel-module-mt7610u version 3.0.0.2-r0 - Debugging files
+OE: kernel-module-mt7610u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7610u-dev
+Version: 3.0.0.2-r0
+Depends: kernel-module-mt7610u (= 3.0.0.2-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev, kernel-module-mt7650u-sta-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f19fd34ee192379797d9a4950c0a693
+Size: 800
+Filename: kernel-module-mt7610u-dev_3.0.0.2-r0_spark.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: kernel-module-mt7610u version 3.0.0.2-r0 - Development files
+OE: kernel-module-mt7610u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7610u
+Version: 3.0.0.2-r0
+Depends: kernel-module-mt7650u-sta
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7df5806ad90ba6671222ccb8218f9169
+Size: 2064
+Filename: kernel-module-mt7610u_3.0.0.2-r0_spark.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: kernel-module-mt7610u version 3.0.0.2-r0
+OE: kernel-module-mt7610u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7650u-sta
+Version: 3.0.0.2-r0
+Depends: kernel-2.6.32.71_stm24_0217
+Provides: kernel-module-mt7650u-sta
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 783a27e93f09389f77058741d7814567
+Size: 342916
+Filename: kernel-module-mt7650u-sta_3.0.0.2-r0_spark.ipk
+Source: kernel-module-mt7610u_3.0.0.2.bb
+Description: mt7650u-sta kernel module
+OE: kernel-module-mt7610u
 HomePage: www.mediatek.com
 License: GPLv2
 Priority: optional
@@ -3301,6 +3540,55 @@ Source: rt3070_2.5.0.4.bb
 Description: rt5370sta kernel module
 OE: rt3070
 License: GPLv2+
+Priority: optional
+
+Package: kernel-module-rt5572sta-dbg
+Version: 2.6.1.3-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cdfd51476f659c79ede9c0e9a4b72882
+Size: 732
+Filename: kernel-module-rt5572sta-dbg_2.6.1.3-r0_spark.ipk
+Source: kernel-module-rt5572sta_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Debugging files
+OE: kernel-module-rt5572sta
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt5572sta-dev
+Version: 2.6.1.3-r0
+Depends: kernel-module-rt5572sta (= 2.6.1.3-r0)
+Recommends: kernel-2.6.32.71_stm24_0217-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 033cf511e3f59b1ce5f4a5d3a0af9b68
+Size: 784
+Filename: kernel-module-rt5572sta-dev_2.6.1.3-r0_spark.ipk
+Source: kernel-module-rt5572sta_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Development files
+OE: kernel-module-rt5572sta
+HomePage: http://www.realtek.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt5572sta
+Version: 2.6.1.3-r0
+Depends: kernel-2.6.32.71_stm24_0217, kernel-module-rt5572sta
+Provides: kernel-module-rt5572sta
+Section: kernel/modules
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 59fa4d9ce786283a573f7749465d0ade
+Size: 326202
+Filename: kernel-module-rt5572sta_2.6.1.3-r0_spark.ipk
+Source: kernel-module-rt5572sta_2.6.1.3.bb
+Description: rt5572sta kernel module
+OE: kernel-module-rt5572sta
+HomePage: http://www.realtek.com.tw
+License: GPLv2
 Priority: optional
 
 Package: kernel-module-rt73usb
@@ -5057,49 +5345,6 @@ Description: Driver for Realtek USB wireless devices
 OE: rtl8192cu
 HomePage: http://www.realtek.com/
 License: GPLv2
-Priority: optional
-
-Package: satdreamgr-extra-feed-configs-dbg
-Version: 1.0-r6
-Section: devel
-Architecture: spark
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 868f326412a3335fd9415321b4a593bd
-Size: 688
-Filename: satdreamgr-extra-feed-configs-dbg_1.0-r6_spark.ipk
-Source: satdreamgr-extra-feed-configs.bb
-Description: satdreamgr-extra-feed-configs version 1.0-r6 - Debugging files
-OE: satdreamgr-extra-feed-configs
-License: GPLv2+
-Priority: optional
-
-Package: satdreamgr-extra-feed-configs-dev
-Version: 1.0-r6
-Depends: satdreamgr-extra-feed-configs (= 1.0-r6)
-Section: devel
-Architecture: spark
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 930e9dd7849da120a1139b9ba74d2bc1
-Size: 718
-Filename: satdreamgr-extra-feed-configs-dev_1.0-r6_spark.ipk
-Source: satdreamgr-extra-feed-configs.bb
-Description: satdreamgr-extra-feed-configs version 1.0-r6 - Development files
-OE: satdreamgr-extra-feed-configs
-License: GPLv2+
-Priority: optional
-
-Package: satdreamgr-extra-feed-configs
-Version: 1.0-r6
-Section: base
-Architecture: spark
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4070e01483d8522fde86b268bcfa96c7
-Size: 922
-Filename: satdreamgr-extra-feed-configs_1.0-r6_spark.ipk
-Source: satdreamgr-extra-feed-configs.bb
-Description: satdreamgr-extra-feed-configs version 1.0-r6
-OE: satdreamgr-extra-feed-configs
-License: GPLv2+
 Priority: optional
 
 Package: satipclient-dbg
