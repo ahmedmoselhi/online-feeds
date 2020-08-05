@@ -1,0 +1,1980 @@
+Package: base-files-dbg
+Version: 3.0.14-r89.4
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e26d7b48c7da0f1dbc56582238f1af2
+Size: 802
+Filename: base-files-dbg_3.0.14-r89.4_sparktriplex.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Debugging files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r89.4
+Depends: base-files (= 3.0.14-r89.4)
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7103090de59b250f9d0a5c7fa9cd7009
+Size: 832
+Filename: base-files-dev_3.0.14-r89.4_sparktriplex.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Development files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r89.4
+Section: doc
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6c69077ce442f4a594b41cf8344f64f4
+Size: 878
+Filename: base-files-doc_3.0.14-r89.4_sparktriplex.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system - Documentation files
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r89.4
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dcc5ccc356e6df43773cdc51fe0b6daf
+Size: 5712
+Filename: base-files_3.0.14-r89.4_sparktriplex.ipk
+Source: base-files_3.0.14.bb
+Description: Miscellaneous files for the base system
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dbg
+Version: 6.5+git3387+ecd5df8-r0
+Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libxml2-dbg
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 8f00a77b54c8f62a700c3ff6684efca6
+Size: 26358
+Filename: enigma2-dbg_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-dev
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2 (= 6.5+git3387+ecd5df8-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dreambox-modem-ppp-scripts-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, enigma2-locale-ar-dev, enigma2-locale-en-dev, enigma2-locale-ru-dev, enigma2-plugin-font-wqy-microhei-dev, enigma2-plugin-opennfrskins-smokedefault-hd-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto10-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-dev, libmad-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl10-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-dev, python-email-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mime-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-shell-dev, python-six-dev, python-smtpd-dev, python-subprocess-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, wireless-tools-dev, wpa-supplicant-dev
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 8b779cbf749a5985b443847f31caab61
+Size: 103722
+Filename: enigma2-dev_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-fonts
+Version: 6.5+git3387+ecd5df8-r0
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: f00f6b5be9b2ff2d80547230f6b80258
+Size: 551968
+Filename: enigma2-fonts_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ar
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 1c6d83a64cbb51914c912b9541a9d689
+Size: 20934
+Filename: enigma2-locale-ar_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: ar
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-bg
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 7650df1f11eca0b2c5108c2f7b5f9d98
+Size: 18628
+Filename: enigma2-locale-bg_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: bg
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ca
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: a97f8cf97138650342a839ea6431a91f
+Size: 10334
+Filename: enigma2-locale-ca_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: ca
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-cs
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: e37800db499a82d0d1ad8d126ca1c792
+Size: 39422
+Filename: enigma2-locale-cs_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: cs
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-da
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 62fc2e3149697b71b0dd5c19716b661b
+Size: 26246
+Filename: enigma2-locale-da_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: da
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-de
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 3f4db4f8004c19f89e8edf20c6f11e38
+Size: 87410
+Filename: enigma2-locale-de_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: de
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-el
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: cd7fd95a6f860dc24d04ced07a2b4810
+Size: 28262
+Filename: enigma2-locale-el_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: el
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-en-gb
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: a9a6c24b121dae18f3697722133dab03
+Size: 37948
+Filename: enigma2-locale-en-gb_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: en-gb
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-en
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 7c42560d9be6900c49edea7db44feacc
+Size: 37590
+Filename: enigma2-locale-en_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: en
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-es
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 2afa752a88da8812b7d34c81a14bef49
+Size: 57050
+Filename: enigma2-locale-es_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: es
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-et
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 6cd3da87ffd7293d47352c95f9b7562b
+Size: 55918
+Filename: enigma2-locale-et_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: et
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fa
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 6cb5e4dd6a3a08e409d8c1296cdebcf7
+Size: 22250
+Filename: enigma2-locale-fa_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: fa
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fi
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 1fb4286ed39649e35ec08fc02d329aa1
+Size: 23478
+Filename: enigma2-locale-fi_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: fi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fr
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 177f8f0b05a68f0f165adf2efaf51aa8
+Size: 27190
+Filename: enigma2-locale-fr_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: fr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-fy
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: b52112a3ee923c562a4c197bb1df7552
+Size: 16898
+Filename: enigma2-locale-fy_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: fy
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-he
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: b0e2017495cfcd5d0b8811bd0082e726
+Size: 17546
+Filename: enigma2-locale-he_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: he
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hr
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 0f05134535e43b3231bbd5a1fda00ef8
+Size: 11582
+Filename: enigma2-locale-hr_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: hr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-hu
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 2f80a54c0d82d4c37a223cac9fb1232b
+Size: 25230
+Filename: enigma2-locale-hu_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: hu
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-is
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 2fac15dfded574459686bdd1d32097a6
+Size: 23706
+Filename: enigma2-locale-is_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: is
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-it
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: d8c6d701d0fcc730c0dc8f8515f2cb8d
+Size: 22902
+Filename: enigma2-locale-it_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: it
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ku
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 69ce7e79d5ad12ab95f0eca63ddf3129
+Size: 26846
+Filename: enigma2-locale-ku_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: ku
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lt
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: c72337e07c4bb37bf5d8a508407944b1
+Size: 24818
+Filename: enigma2-locale-lt_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: lt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-lv
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: f5dc636c79b62c23feceb28e310b0bb3
+Size: 18546
+Filename: enigma2-locale-lv_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: lv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nb
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 63ed7587495c1616826f88b1254e5192
+Size: 1078
+Filename: enigma2-locale-nb_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: nb
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-nl
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: bca9aa9ad068c35d6229e4dbdaa4aac9
+Size: 63050
+Filename: enigma2-locale-nl_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: nl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-no
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 74c8afa6b6425893971615f8c648d3b6
+Size: 13422
+Filename: enigma2-locale-no_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: no
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pl
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: e33ec3f04fae3ea62b6bb59d995ae0c3
+Size: 27582
+Filename: enigma2-locale-pl_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: pl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt-br
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 862355981978e9efea01667684ae950c
+Size: 38344
+Filename: enigma2-locale-pt-br_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: pt-br
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-pt
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 239c5373de29f8aaff0634dd42e5de8c
+Size: 26742
+Filename: enigma2-locale-pt_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: pt
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ro
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 5ab46c51a5316258fa8c82059ac59851
+Size: 18582
+Filename: enigma2-locale-ro_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: ro
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-ru
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: b3863422fd6c8360979fa7ef02f8d281
+Size: 67506
+Filename: enigma2-locale-ru_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: ru
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sk
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 97ec23aba8d0c8d3fa04e3a115344819
+Size: 24022
+Filename: enigma2-locale-sk_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: sk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sl
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: b0410c265382879c75992b8d51a9c1d8
+Size: 26406
+Filename: enigma2-locale-sl_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: sl
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sr
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: ff458dbf1d51b2b08a70940050d3bf9e
+Size: 23886
+Filename: enigma2-locale-sr_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: sr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-sv
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 7880c6b3a58997a6a4c30f930f71b351
+Size: 56174
+Filename: enigma2-locale-sv_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: sv
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-th
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: f80d18484417407b470e5262149045cc
+Size: 21854
+Filename: enigma2-locale-th_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: th
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-tr
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 01e13ce47844e55edeb758cac8b6d74c
+Size: 69050
+Filename: enigma2-locale-tr_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: tr
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-locale-uk
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 75dbfdd2f5cc31ac182d2ca08482b3b6
+Size: 21018
+Filename: enigma2-locale-uk_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: uk
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-meta
+Version: 6.5+git3387+ecd5df8-r0
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 38756db337478d1242cc238b53ebf2f6
+Size: 4228
+Filename: enigma2-meta_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-accuweather-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: b29a2beb210edf1d6df95cdcdd5a8387
+Size: 14708
+Filename: enigma2-plugin-extensions-accuweather-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-accuweather (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-accuweather
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 585f3578ad5518173796c95dd85b4391
+Size: 1798722
+Filename: enigma2-plugin-extensions-accuweather_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-accuweather
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-bmediacenter-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 9a3eca91a4198cc9e2ff8eef97ce3562
+Size: 35018
+Filename: enigma2-plugin-extensions-bmediacenter-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-bmediacenter (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-bmediacenter
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 0bb21a3e4d111838efea95f95806ab09
+Size: 5491478
+Filename: enigma2-plugin-extensions-bmediacenter_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-bmediacenter
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-customsubservices-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 82ddeca752596ea59d68a3b20f7a231b
+Size: 5326
+Filename: enigma2-plugin-extensions-customsubservices-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-customsubservices (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-customsubservices
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 8e871922ec9e7cfda8bdfc36482942f9
+Size: 7642
+Filename: enigma2-plugin-extensions-customsubservices_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-customsubservices
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 483a06802541934139cde3fe5848034f
+Size: 5002
+Filename: enigma2-plugin-extensions-cutlisteditor-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 6.5+git3387+ecd5df8-r0
+Depends: aio-grab, enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 64733c40aa3e89c06376cee79028899f
+Size: 7072
+Filename: enigma2-plugin-extensions-cutlisteditor_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-cutlisteditor
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 815a825beda77b5aba24da5f4c202e83
+Size: 28814
+Filename: enigma2-plugin-extensions-dvdburn-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdburn
+Version: 6.5+git3387+ecd5df8-r0
+Depends: cdrkit, dvd+rw-tools, dvdauthor, enigma2, mjpegtools, python-imaging, replex
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: f12233eda7199309369b88b2e75357b7
+Size: 806814
+Filename: enigma2-plugin-extensions-dvdburn_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-dvdburn
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 138af8e3aede37ce15ff7d80586b24b2
+Size: 1936
+Filename: enigma2-plugin-extensions-dvdplayer-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdplayer
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 490448feabb12dd01a0abed21ca353bd
+Size: 2600
+Filename: enigma2-plugin-extensions-dvdplayer_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-dvdplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-fileload-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 1d9d785a61890ae081d6a576c31769f1
+Size: 5830
+Filename: enigma2-plugin-extensions-fileload-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-fileload (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-fileload
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: bc128bc2ebbaa6a7f371f296560dca86
+Size: 88254
+Filename: enigma2-plugin-extensions-fileload_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-fileload
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-infopanel-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 266caf8e35955a498b21a4827f8a8c37
+Size: 76762
+Filename: enigma2-plugin-extensions-infopanel-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-infopanel (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-infopanel
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 5b422304ee04cca7a22a744d0f97beae
+Size: 1277996
+Filename: enigma2-plugin-extensions-infopanel_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-infopanel
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mainmenu2-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: bcae9761c045c659b159208ae0b85961
+Size: 4852
+Filename: enigma2-plugin-extensions-mainmenu2-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-mainmenu2 (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mainmenu2
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 4b36898788ba302b55920fdd8a42a010
+Size: 3235608
+Filename: enigma2-plugin-extensions-mainmenu2_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-mainmenu2
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: dbca8e0d70243de59c2dfe957fe6f9e9
+Size: 10308
+Filename: enigma2-plugin-extensions-mediaplayer-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: d9a57a237c3f4f8fd328369f92bf4b5f
+Size: 21814
+Filename: enigma2-plugin-extensions-mediaplayer_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-mediaplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 4105b1432a4cd93449a2af1969c4a75f
+Size: 3150
+Filename: enigma2-plugin-extensions-mediascanner-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 748506dbb4a8e02ec7e2e0ef70f9c9f0
+Size: 14410
+Filename: enigma2-plugin-extensions-mediascanner_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-mediascanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-menusort-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 75b6f2193198dd2737fae98831518883
+Size: 4366
+Filename: enigma2-plugin-extensions-menusort-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-menusort (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-menusort
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 97c9d9bbf2293a7570c3ca0f5e981fbb
+Size: 10298
+Filename: enigma2-plugin-extensions-menusort_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-menusort
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-modem-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 1f55f4dcaab3d7db57b00f7301788eb5
+Size: 3176
+Filename: enigma2-plugin-extensions-modem-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-modem (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-modem
+Version: 6.5+git3387+ecd5df8-r0
+Depends: dreambox-modem-ppp-scripts, enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 4234e1cfe24ce8b3c9e5b5541bac3dbb
+Size: 5038
+Filename: enigma2-plugin-extensions-modem_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-modem
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-nfr4xboot-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 3687615ee6b53f7985082b2268277eae
+Size: 12800
+Filename: enigma2-plugin-extensions-nfr4xboot-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-nfr4xboot (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-nfr4xboot
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2, libc6 (>= 2.25)
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 58af60dd3805eedbd32c4b85438dd32a
+Size: 185194
+Filename: enigma2-plugin-extensions-nfr4xboot_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-nfr4xboot
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 5d4205c6ae1c6b4e1ae2d6a7c9584ba4
+Size: 6690
+Filename: enigma2-plugin-extensions-pictureplayer-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 2696303b291cc85f04133504e73deb0c
+Size: 16390
+Filename: enigma2-plugin-extensions-pictureplayer_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-pictureplayer
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-dbg
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libxml2-dbg
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 005b58e29c4a5eb5009412ebc55e029e
+Size: 7021424
+Filename: enigma2-plugin-extensions-socketmmi-dbg_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (debug)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 84f84719df6a77b3c8d0ae229d5fb43d
+Size: 1536
+Filename: enigma2-plugin-extensions-socketmmi-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi-staticdev
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 362c11a1946d46455abb9cf5267c4d09
+Size: 145438
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi (static development)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-socketmmi
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libxml2 (>= 2.9.9)
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 53a64d8772e8c0c3b353297d665f7e0b
+Size: 10650
+Filename: enigma2-plugin-extensions-socketmmi_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-socketmmi
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-tuxboxplugins-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 4baf6179731d2cc27b791ee1bafed33c
+Size: 1834
+Filename: enigma2-plugin-extensions-tuxboxplugins-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-tuxboxplugins (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-tuxboxplugins
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: d12d81062fce06748eefc1e0588215b8
+Size: 4148
+Filename: enigma2-plugin-extensions-tuxboxplugins_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: extensions-tuxboxplugins
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-font-wqy-microhei
+Version: 6.5+git3387+ecd5df8-r0
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 2541056d863eedd24bda8cb39476b15f
+Size: 724
+Filename: enigma2-plugin-font-wqy-microhei_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: da9b483273315a22c711a195e80b0add
+Size: 2972
+Filename: enigma2-plugin-systemplugins-cablescan-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-cablescan
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: f81dfffc63d6e14d1ed7af31f338ca14
+Size: 4204
+Filename: enigma2-plugin-systemplugins-cablescan_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-cablescan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: c4bc9296926d0cf85728d98add1332ad
+Size: 6052
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-commoninterfaceassignment
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 14bf88217e0151d988191e92b4b3a585
+Size: 9056
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-commoninterfaceassignment
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 1bf283a7237b9f18fca57c965fe8a967
+Size: 6598
+Filename: enigma2-plugin-systemplugins-diseqctester-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-diseqctester
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 908f5dcf86cdd880ecf10fed032fda07
+Size: 8842
+Filename: enigma2-plugin-systemplugins-diseqctester_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-diseqctester
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 010f8eec07b82ded6212ff1e5359a26b
+Size: 8166
+Filename: enigma2-plugin-systemplugins-fastscan-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fastscan
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 41eda48e4cacc7f4ae0de5d8902f6854
+Size: 19640
+Filename: enigma2-plugin-systemplugins-fastscan_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-fastscan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 1acb8142d841e899b61c8210ae7b16cb
+Size: 4886
+Filename: enigma2-plugin-systemplugins-hdmicec-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hdmicec
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 820e0622ecb88c8df81d7713a906281a
+Size: 6228
+Filename: enigma2-plugin-systemplugins-hdmicec_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-hdmicec
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 01bff171efbdaf8e132e5b6e0f1308f4
+Size: 1990
+Filename: enigma2-plugin-systemplugins-hotplug-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2, hotplug-e2-helper
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: e1088f9ca48e77618c1a68e0e6e4b9d0
+Size: 2706
+Filename: enigma2-plugin-systemplugins-hotplug_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-hotplug
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: b907427b9ad3a6f53de0ab905821a406
+Size: 4028
+Filename: enigma2-plugin-systemplugins-lcnscanner-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-lcnscanner
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: dac6c742c433e76a181c5d6a1ac6ffbf
+Size: 6240
+Filename: enigma2-plugin-systemplugins-lcnscanner_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-lcnscanner
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: d92df9153c1854f4c0d33ec931cfacf7
+Size: 4576
+Filename: enigma2-plugin-systemplugins-networkwizard-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkwizard
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: fea58ac2e347230a86c52a66721e4139
+Size: 7830
+Filename: enigma2-plugin-systemplugins-networkwizard_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-networkwizard
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 5ea3b57ae3c22623df8d20683d998cfa
+Size: 12838
+Filename: enigma2-plugin-systemplugins-positionersetup-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: f584e63395ed2506b9e5f6dab7b33e60
+Size: 18470
+Filename: enigma2-plugin-systemplugins-positionersetup_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-positionersetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sabnzbd-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 0dc3647b03cd8ffd71d80a283645100c
+Size: 2632
+Filename: enigma2-plugin-systemplugins-sabnzbd-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-sabnzbd (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-sabnzbd
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 357b5bb6ea28ea6bb406c17f8451f83f
+Size: 3682
+Filename: enigma2-plugin-systemplugins-sabnzbd_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-sabnzbd
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 0addb1f8afe16c5702f4cf2dfcd176fd
+Size: 1998
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: a7dc41d4bda1db40fc16eb5841e48906
+Size: 2602
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-satelliteequipmentcontrol
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 5d6d6e855ccdfc728960967e2d0e2589
+Size: 4928
+Filename: enigma2-plugin-systemplugins-satfinder-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 1f31ca2724b7b97cf202c5b10b6d25de
+Size: 6730
+Filename: enigma2-plugin-systemplugins-satfinder_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-satfinder
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: cf9574e888dda6a5d075a24f28a0dbf2
+Size: 31122
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2, python-twisted-web
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 2f8b52270e13fbdfbc35d0d81446dad8
+Size: 78712
+Filename: enigma2-plugin-systemplugins-softwaremanager_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-softwaremanager
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: b0ed3ae2be8cca377cb8e57f8ee7da78
+Size: 2294
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoclippingsetup
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 62bcfbf7230c1d3e6cdec8fe505a2ecc
+Size: 3048
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-videoclippingsetup
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: d2fb6d438fa4952009bd31e37fb278af
+Size: 5720
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 934dea679950470d86453b605b340d32
+Size: 8570
+Filename: enigma2-plugin-systemplugins-videoenhancement_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-videoenhancement
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: bfe3d6eaa7992a2e11e781fc0e971959
+Size: 3628
+Filename: enigma2-plugin-systemplugins-videotune-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: e49349b1deb9b1a2a7f035c0089c6e6d
+Size: 5306
+Filename: enigma2-plugin-systemplugins-videotune_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-videotune
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan-src
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: fb34c9b36cb42b1126fc6280505b654a
+Size: 7556
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan (source files)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2, python-wifi, wireless-tools, wpa-supplicant
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: eeab07df0b05e55dc1bcb2f60c4bc6d2
+Size: 11158
+Filename: enigma2-plugin-systemplugins-wirelesslan_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: systemplugins-wirelesslan
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-po
+Version: 6.5+git3387+ecd5df8-r0
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 14f52c5504125b4518c418357ffcc8ad
+Size: 2041080
+Filename: enigma2-po_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-src
+Version: 6.5+git3387+ecd5df8-r0
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: da389f8d3f92100a10de0c8084c79085
+Size: 512604
+Filename: enigma2-src_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Source files
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2-staticdev
+Version: 6.5+git3387+ecd5df8-r0
+Depends: enigma2-dev (= 6.5+git3387+ecd5df8-r0)
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: fe3d68e096b3ece133d10368fafaaaf2
+Size: 25392
+Filename: enigma2-staticdev_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: enigma2
+Version: 6.5+git3387+ecd5df8-r0
+Depends: alsa-conf, enigma2-fonts, enigma2-locale-ar, enigma2-locale-en, enigma2-locale-ru, enigma2-plugin-font-wqy-microhei, enigma2-plugin-opennfrskins-smokedefault-hd, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.17.0.1+git19003+9961398), hotplug-e2-helper, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.25), libcrypt2 (>= 4.4.8), libcrypto1.0.2 (>= 1.0.2r), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git128+515a1b6), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.5), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.60.7), libgomp1 (>= 4.9.4), libgstpbutils-1.0-0 (>= 1.17.0.1+git20467+66ff1ee), libjpeg62 (>= 2.0.3), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.16), libsigc-2.0-0 (>= 2.10.2), libssl1.0.2 (>= 1.0.2r), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libxml2 (>= 2.9.9), oe-alliance-branding, python-codecs, python-core, python-crypt, python-email, python-fcntl, python-image, python-imaging, python-lang, python-mime, python-mmap, python-netclient, python-netifaces, python-netserver, python-pickle, python-process, python-pyusb, python-re, python-shell, python-six, python-smtpd, python-subprocess, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface
+Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, libdvdcss2
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Alliance
+MD5Sum: 2f473393a6e3d6af9c76f19bbebea8af
+Size: 3064470
+Filename: enigma2_6.5+git3387+ecd5df8-r0_sparktriplex.ipk
+Source: enigma2.bb
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+OE: enigma2
+License: GPLv2
+Priority: optional
+
+Package: oe-alliance-base-dbg
+Version: 6.5-r0
+Recommends: alsa-utils-amixer-conf-dbg, avahi-daemon-dbg, bash-dbg, cronie-dbg, dropbear-dbg, e2fsprogs-e2fsck-dbg, e2fsprogs-mke2fs-dbg, e2fsprogs-tune2fs-dbg, early-configure-dbg, libavahi-client-dbg, libcrypto-compat-0.9.7-dbg, libcrypto-compat-1.0.0-dbg, libxcrypt-compat-dbg, llmnrd-dbg, minilocale-dbg, modutils-loadscript-dbg, ntpdate-dbg, oe-alliance-branding-dbg, opkg-dbg, p7zip-dbg, packagegroup-base-dbg, packagegroup-core-boot-dbg, python-argparse-dbg, python-numbers-dbg, python-twisted-protocols-dbg, rc-local-dbg, sdparm-dbg, tzdata-africa-dbg, tzdata-americas-dbg, tzdata-asia-dbg, tzdata-australia-dbg, tzdata-dbg, tzdata-europe-dbg, tzdata-pacific-dbg, util-linux-blkid-dbg, util-linux-flock-dbg, util-linux-sfdisk-dbg, volatile-media-dbg, vsftpd-dbg, wget-dbg
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6754f251aeedff9d485aa7ba2860162c
+Size: 1048
+Filename: oe-alliance-base-dbg_6.5-r0_sparktriplex.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Debugging files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base-dev
+Version: 6.5-r0
+Depends: oe-alliance-base (= 6.5-r0)
+Recommends: alsa-utils-amixer-conf-dev, avahi-daemon-dev, bash-dev, cronie-dev, dropbear-dev, e2fsprogs-e2fsck-dev, e2fsprogs-mke2fs-dev, e2fsprogs-tune2fs-dev, early-configure-dev, libavahi-client-dev, libcrypto-compat-0.9.7-dev, libcrypto-compat-1.0.0-dev, libxcrypt-compat-dev, llmnrd-dev, minilocale-dev, modutils-loadscript-dev, ntpdate-dev, oe-alliance-branding-dev, opkg-dev, p7zip-dev, packagegroup-base-dev, packagegroup-core-boot-dev, python-argparse-dev, python-numbers-dev, python-twisted-protocols-dev, rc-local-dev, sdparm-dev, tzdata-africa-dev, tzdata-americas-dev, tzdata-asia-dev, tzdata-australia-dev, tzdata-dev, tzdata-europe-dev, tzdata-pacific-dev, util-linux-blkid-dev, util-linux-flock-dev, util-linux-sfdisk-dev, volatile-media-dev, vsftpd-dev, wget-dev
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db53e00dfe5fdbe9de9068d3fe94eacf
+Size: 1072
+Filename: oe-alliance-base-dev_6.5-r0_sparktriplex.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image. - Development files
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-base
+Version: 6.5-r0
+Depends: alsa-utils-amixer-conf, avahi-daemon, bash, cronie, dropbear, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs-tune2fs, early-configure, libavahi-client3, libcrypto-compat-0.9.7, libcrypto-compat-1.0.0, libxcrypt-compat, llmnrd, minilocale, modutils-loadscript, ntpdate, oe-alliance-branding, opkg, p7zip, packagegroup-base, packagegroup-core-boot, python-argparse, python-numbers, python-twisted-protocols, rc-local, sdparm, tzdata, tzdata-africa, tzdata-americas, tzdata-asia, tzdata-australia, tzdata-europe, tzdata-pacific, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, vsftpd, wget
+Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-nls-iso8859-15, kernel-module-vfat, kernel-module-xfs
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e498ad0e2fd065314e03469566a2daa
+Size: 1030
+Filename: oe-alliance-base_6.5-r0_sparktriplex.ipk
+Source: oe-alliance-base.bb
+Description: Base packages require for image.
+OE: oe-alliance-base
+License: MIT
+Priority: optional
+
+Package: oe-alliance-branding-dbg
+Version: 6.5+git886+bd7d4d8-r20200805-sparktriplex
+Recommends: libc6-dbg
+Section: devel
+Architecture: sparktriplex
+Maintainer: oe-alliance team
+MD5Sum: 70426b79399a6fb566f4186e8edb7123
+Size: 57022
+Filename: oe-alliance-branding-dbg_6.5+git886+bd7d4d8-r20200805-sparktriplex_sparktriplex.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.5+gitAUTOINC+bd7d4d852a-r20200805-sparktriplex - Debugging files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-dev
+Version: 6.5+git886+bd7d4d8-r20200805-sparktriplex
+Depends: oe-alliance-branding (= 6.5+git886+bd7d4d8-r20200805-sparktriplex)
+Recommends: libc6-dev, python-dev
+Section: devel
+Architecture: sparktriplex
+Maintainer: oe-alliance team
+MD5Sum: c66038786c32aa4e86a1d0f6e2c5f046
+Size: 798
+Filename: oe-alliance-branding-dev_6.5+git886+bd7d4d8-r20200805-sparktriplex_sparktriplex.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.5+gitAUTOINC+bd7d4d852a-r20200805-sparktriplex - Development files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding-src
+Version: 6.5+git886+bd7d4d8-r20200805-sparktriplex
+Section: devel
+Architecture: sparktriplex
+Maintainer: oe-alliance team
+MD5Sum: a197356bdab0c8510d0056a66852539e
+Size: 3422
+Filename: oe-alliance-branding-src_6.5+git886+bd7d4d8-r20200805-sparktriplex_sparktriplex.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.5+gitAUTOINC+bd7d4d852a-r20200805-sparktriplex - Source files
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: oe-alliance-branding
+Version: 6.5+git886+bd7d4d8-r20200805-sparktriplex
+Depends: libc6 (>= 2.25)
+Section: base
+Architecture: sparktriplex
+Maintainer: oe-alliance team
+MD5Sum: 03cc266ddc5b46ba6ab1d3f898232a24
+Size: 173396
+Filename: oe-alliance-branding_6.5+git886+bd7d4d8-r20200805-sparktriplex_sparktriplex.ipk
+Source: oe-alliance-branding.bb
+Description: oe-alliance-branding version 6.5+gitAUTOINC+bd7d4d852a-r20200805-sparktriplex
+OE: oe-alliance-branding
+License: GPLv2+
+Priority: optional
+
+Package: opennfr-version-info
+Version: 6.5-001
+Section: base
+Architecture: sparktriplex
+Maintainer: OpenNFR
+MD5Sum: 4794c841806b76f5c5c8d51430029c87
+Size: 1198
+Filename: opennfr-version-info_6.5-001_sparktriplex.ipk
+Source: opennfr-version-info.bb
+Description: OpenNFR version info
+OE: opennfr-version-info
+License: GPLv2+
+Priority: required
+
+Package: opkg-arch-config-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3a24929bdd895dd23e80c8d50054d1d9
+Size: 768
+Filename: opkg-arch-config-dbg_1.0-r1_sparktriplex.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Debugging files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config-dev
+Version: 1.0-r1
+Depends: opkg-arch-config (= 1.0-r1)
+Section: devel
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5837e3e4c9f94257f5334c5bd90cfa85
+Size: 796
+Filename: opkg-arch-config-dev_1.0-r1_sparktriplex.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg - Development files
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
+Package: opkg-arch-config
+Version: 1.0-r1
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Section: base
+Architecture: sparktriplex
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 51affced50d82b968caf68b7657c6491
+Size: 932
+Filename: opkg-arch-config_1.0-r1_sparktriplex.ipk
+Source: opkg-arch-config_1.0.bb
+Description: Architecture-dependent configuration for opkg
+OE: opkg-arch-config
+HomePage: http://code.google.com/p/opkg/
+License: MIT
+Priority: optional
+
