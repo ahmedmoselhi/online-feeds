@@ -3,8 +3,8 @@ Version: 2019.01.06-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6aa64fc9c461f57db744c6ffa0055280
-Size: 151904
+MD5Sum: de34dda0b7593999ecd8fba61527b259
+Size: 151660
 Filename: autoconf-archive-doc_2019.01.06-r0_all.ipk
 Source: autoconf-archive_2019.01.06.bb
 Description: a collection of freely re-usable Autoconf macros - Documentation files
@@ -18,8 +18,8 @@ Version: 2019.01.06-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4b3a9e9c583ab2fd657a972ff851967
-Size: 312040
+MD5Sum: 623138ea77f494fb772ec9ec489ef6db
+Size: 312078
 Filename: autoconf-archive_2019.01.06-r0_all.ipk
 Source: autoconf-archive_2019.01.06.bb
 Description: a collection of freely re-usable Autoconf macros
@@ -33,7 +33,7 @@ Version: 20190110-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af750e1a9c36219a12de8d4c5b85eb19
+MD5Sum: 6be11cd06fa34736cda91ef6cdb6f90a
 Size: 850
 Filename: ca-certificates-dbg_20190110-r0_all.ipk
 Source: ca-certificates_20190110.bb
@@ -49,7 +49,7 @@ Depends: ca-certificates (= 20190110-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8238d2338fdc5562be679e15fbfcdffc
+MD5Sum: bfca4c764a9b9228b2a407a566cb4a49
 Size: 878
 Filename: ca-certificates-dev_20190110-r0_all.ipk
 Source: ca-certificates_20190110.bb
@@ -64,7 +64,7 @@ Version: 20190110-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8937544f07a516da030264265bd21f7a
+MD5Sum: a5715986c76dbcb145514f5d6355c55f
 Size: 2104
 Filename: ca-certificates-doc_20190110-r0_all.ipk
 Source: ca-certificates_20190110.bb
@@ -79,8 +79,8 @@ Version: 20190110-r0
 Section: misc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf949b52ff36b44dc9d4d9d59606d510
-Size: 118138
+MD5Sum: 685e64cf0c5228bf56c05223115c2110
+Size: 118168
 Filename: ca-certificates_20190110-r0_all.ipk
 Source: ca-certificates_20190110.bb
 Description: Common CA certificates
@@ -94,8 +94,8 @@ Version: 2009.11.12-r0
 Section: devel
 Architecture: all
 Maintainer: valis
-MD5Sum: 33487d0302a8296195038ece38b14ddc
-Size: 682
+MD5Sum: 6f6b9e624700cad58e37ead4c436fd92
+Size: 680
 Filename: font-valis-enigma-dbg_2009.11.12-r0_all.ipk
 Source: font-valis-enigma.bb
 Description: font-valis-enigma - Debugging files
@@ -109,8 +109,8 @@ Depends: font-valis-enigma (= 2009.11.12-r0)
 Section: devel
 Architecture: all
 Maintainer: valis
-MD5Sum: 41c6b081315d8ed79bfc2c2a43b26e5c
-Size: 716
+MD5Sum: cbe5b2ca46d2740f3719d0e8fe08efcc
+Size: 714
 Filename: font-valis-enigma-dev_2009.11.12-r0_all.ipk
 Source: font-valis-enigma.bb
 Description: font-valis-enigma - Development files
@@ -123,8 +123,8 @@ Version: 2009.11.12-r0
 Section: base
 Architecture: all
 Maintainer: valis
-MD5Sum: 77589bbd0809c5e2e07f077136299504
-Size: 31510
+MD5Sum: 3bd9a7c5878b38aed5e266f383ee9653
+Size: 31526
 Filename: font-valis-enigma_2009.11.12-r0_all.ipk
 Source: font-valis-enigma.bb
 Description: font-valis-enigma
@@ -137,8 +137,8 @@ Version: 4.3-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7297680c70bcb7d8e252cc1de6d5f952
-Size: 786
+MD5Sum: 61f145f5b0fbdc2b19547d38fdd9aa01
+Size: 782
 Filename: iso-codes-dbg_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - Debugging files
@@ -153,8 +153,8 @@ Depends: iso-codes (= 4.3-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4f161ddb079d4901950e84f837ee3e7
-Size: 1028
+MD5Sum: bc42bc55b8f18ef719b2ad7745154b93
+Size: 1032
 Filename: iso-codes-dev_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - Development files
@@ -170,8 +170,8 @@ Recommends: virtual-locale-ab
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5b7bd8ecc9132b7d14ed5d75d604bea6
-Size: 1296
+MD5Sum: bf975126dfb4eddcbb2d3693e906cca0
+Size: 1304
 Filename: iso-codes-locale-ab_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ab translations
@@ -187,8 +187,8 @@ Recommends: virtual-locale-ace
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7740374e597c026b19a86f20b0c9912d
-Size: 1290
+MD5Sum: 1750faea1691a30da8dd819db2490f72
+Size: 1298
 Filename: iso-codes-locale-ace_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ace translations
@@ -204,7 +204,7 @@ Recommends: virtual-locale-ach
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c64645245b79f11c50892c921f1b1bb3
+MD5Sum: 39ea267f6d9342e56066ce40965017af
 Size: 4138
 Filename: iso-codes-locale-ach_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -221,7 +221,7 @@ Recommends: virtual-locale-af
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d70224b198ab714a903784fea145d9a
+MD5Sum: e4b6cd409d83b733ac12bfeb646dce7f
 Size: 10624
 Filename: iso-codes-locale-af_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -238,8 +238,8 @@ Recommends: virtual-locale-ak
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a7f1b8e081ec0e6ec009b6d8ec2587a
-Size: 1298
+MD5Sum: e67779950a9f231aaf44fcd9569aae6e
+Size: 1296
 Filename: iso-codes-locale-ak_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ak translations
@@ -255,8 +255,8 @@ Recommends: virtual-locale-am
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81aed6184af214498a1a345db82dc083
-Size: 6000
+MD5Sum: 201e1568a1cc1268d777105c6dcc5403
+Size: 6032
 Filename: iso-codes-locale-am_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - am translations
@@ -272,8 +272,8 @@ Recommends: virtual-locale-an
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 193be53ec4f24ce80360b20e63528e84
-Size: 1296
+MD5Sum: a7e2b04a299fce1d522b52e10cf3ea2a
+Size: 1300
 Filename: iso-codes-locale-an_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - an translations
@@ -289,8 +289,8 @@ Recommends: virtual-locale-ar
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3b37a2b684f7e1385404c53a6d268693
-Size: 15626
+MD5Sum: 843b7dc39d236e85c77cfb9accfb4e44
+Size: 15610
 Filename: iso-codes-locale-ar_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ar translations
@@ -306,8 +306,8 @@ Recommends: virtual-locale-as
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c44e302a729b3e99a8b95272f0d4ca67
-Size: 18156
+MD5Sum: 1df2c0f86f638d6bedf2a3792ac39b27
+Size: 18120
 Filename: iso-codes-locale-as_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - as translations
@@ -323,8 +323,8 @@ Recommends: virtual-locale-ast
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81483bd813088d0ebeda1b0b3890fca8
-Size: 79170
+MD5Sum: 68ebd46cfca2edca1a5a43068da82854
+Size: 79038
 Filename: iso-codes-locale-ast_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ast translations
@@ -340,7 +340,7 @@ Recommends: virtual-locale-ay
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62fcb76efb5bcee7382244a1ad618aae
+MD5Sum: 075fb23cd02559c7d4279a3bb0e01f86
 Size: 1292
 Filename: iso-codes-locale-ay_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -357,8 +357,8 @@ Recommends: virtual-locale-az
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ccabf9ce8807569fe65606e2ce7b8a5
-Size: 6226
+MD5Sum: 393d642686eaa7365b01038845ddf84c
+Size: 6218
 Filename: iso-codes-locale-az_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - az translations
@@ -374,8 +374,8 @@ Recommends: virtual-locale-ba
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 86b4e9adb84d41c26d5f91320c19e9fb
-Size: 1296
+MD5Sum: 9d849a88052cc0a56c96194018538efc
+Size: 1300
 Filename: iso-codes-locale-ba_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ba translations
@@ -391,8 +391,8 @@ Recommends: virtual-locale-bar
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1aea75048fcf3ad4dba1ef4e112a434
-Size: 3438
+MD5Sum: 31eadabb176ddad72d856fa849756b9a
+Size: 3450
 Filename: iso-codes-locale-bar_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - bar translations
@@ -408,8 +408,8 @@ Recommends: virtual-locale-be
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3b397200e7712749832bf207319381fd
-Size: 98368
+MD5Sum: c7882262db80f95eeced0df6c8ecf22a
+Size: 98280
 Filename: iso-codes-locale-be_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - be translations
@@ -425,8 +425,8 @@ Recommends: virtual-locale-bg
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cdd8d4dd656dcaebe8479eff9623fe5e
-Size: 24220
+MD5Sum: f69c8f54a44ca1354a15266793625abf
+Size: 24236
 Filename: iso-codes-locale-bg_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - bg translations
@@ -442,7 +442,7 @@ Recommends: virtual-locale-bi
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6cfcca62f2705e93491ec99848cae55
+MD5Sum: 7391020edf19594dc60f632d14a8e2a7
 Size: 1300
 Filename: iso-codes-locale-bi_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -459,8 +459,8 @@ Recommends: virtual-locale-bn-in
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 536f2b5d97b9455070a0a89de6d71629
-Size: 10004
+MD5Sum: c00384d3c0d6952e0cacd7dd470b5259
+Size: 10016
 Filename: iso-codes-locale-bn-in_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - bn_IN translations
@@ -476,8 +476,8 @@ Recommends: virtual-locale-bn
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 206fb860de7105f75cf8762722a36c64
-Size: 37952
+MD5Sum: 552b1bd5ffa4c92d8b7e1861e137d2b5
+Size: 37996
 Filename: iso-codes-locale-bn_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - bn translations
@@ -493,8 +493,8 @@ Recommends: virtual-locale-br
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c1d720a4644f37879cc09caec37bacd1
-Size: 18878
+MD5Sum: c3ad18169a4ec522bb32187ac2ad444f
+Size: 18830
 Filename: iso-codes-locale-br_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - br translations
@@ -510,8 +510,8 @@ Recommends: virtual-locale-bs
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c056d02f6667a02575867f68d04279a2
-Size: 10136
+MD5Sum: e22247cad1f9ca2e6806c46a2f74d9f3
+Size: 10120
 Filename: iso-codes-locale-bs_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - bs translations
@@ -527,8 +527,8 @@ Recommends: virtual-locale-byn
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9802398b2c79663eae41d1cf53a27dd9
-Size: 5660
+MD5Sum: f611a80f5ec3beab9531242a13dd4700
+Size: 5670
 Filename: iso-codes-locale-byn_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - byn translations
@@ -544,8 +544,8 @@ Recommends: virtual-locale-ca
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 461282af2ab74aa62ef5721aa39603be
-Size: 26276
+MD5Sum: 5b944fa94a6d0490c414dd0d5dc2f64d
+Size: 26432
 Filename: iso-codes-locale-ca_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ca translations
@@ -561,7 +561,7 @@ Recommends: virtual-locale-ce
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fc1de7c6f545a06cc5b5c20aba133ca5
+MD5Sum: d6a28433fd9b6762e437d346f96e685b
 Size: 4908
 Filename: iso-codes-locale-ce_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -578,8 +578,8 @@ Recommends: virtual-locale-ch
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 997a6372e9017c703f29628180f98425
-Size: 1702
+MD5Sum: b36830cc8043fef0fcccfd89ccde5f04
+Size: 1696
 Filename: iso-codes-locale-ch_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ch translations
@@ -595,8 +595,8 @@ Recommends: virtual-locale-chr
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c43da1daecea9371fb0bc1b8c44a1c3
-Size: 3034
+MD5Sum: 855d546a766b235358df17703b6dcee4
+Size: 3038
 Filename: iso-codes-locale-chr_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - chr translations
@@ -612,8 +612,8 @@ Recommends: virtual-locale-ckb
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb203e4a6d721feaf8a7137305297a63
-Size: 4628
+MD5Sum: 274e4c95367372cc070608323664d6e0
+Size: 4612
 Filename: iso-codes-locale-ckb_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ckb translations
@@ -629,8 +629,8 @@ Recommends: virtual-locale-crh
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7bd9a54fe35237ea0b270429ca402b83
-Size: 70066
+MD5Sum: 3f154758d39c60e553a24ff7d7c6eecc
+Size: 70082
 Filename: iso-codes-locale-crh_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - crh translations
@@ -646,8 +646,8 @@ Recommends: virtual-locale-cs
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ca3b04b4e008595d827763828649627
-Size: 26876
+MD5Sum: 7d657df5b73d89e9ffb99bae36bcae5b
+Size: 26840
 Filename: iso-codes-locale-cs_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - cs translations
@@ -663,8 +663,8 @@ Recommends: virtual-locale-csb
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: edf988bc54dc7bceeb0d0979ed86e0c4
-Size: 2806
+MD5Sum: 6f7d0d546a921f8ed699d361a2a67db9
+Size: 2810
 Filename: iso-codes-locale-csb_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - csb translations
@@ -680,8 +680,8 @@ Recommends: virtual-locale-cv
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89888e03afce4fce140e7e718755fe9e
-Size: 4914
+MD5Sum: 3f93163bb361609dfae0416fe8aa4b8b
+Size: 4908
 Filename: iso-codes-locale-cv_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - cv translations
@@ -697,8 +697,8 @@ Recommends: virtual-locale-cy
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e57001764b4a0eaeb96bd0188ab2aa2d
-Size: 10478
+MD5Sum: d9904c9d0497cf1ed47aebcb8335a8a3
+Size: 10450
 Filename: iso-codes-locale-cy_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - cy translations
@@ -714,8 +714,8 @@ Recommends: virtual-locale-da
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 487b983bff560e69b5614f8b95df3eef
-Size: 65850
+MD5Sum: 0cc4b3ab969d8965faaf487ca82c6017
+Size: 65764
 Filename: iso-codes-locale-da_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - da translations
@@ -731,8 +731,8 @@ Recommends: virtual-locale-de
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d585ce7454f0411f5e99b9d4212d7e42
-Size: 167080
+MD5Sum: d0b2fbcb92601659eb0a3713c6be30cf
+Size: 167184
 Filename: iso-codes-locale-de_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - de translations
@@ -748,8 +748,8 @@ Recommends: virtual-locale-dv
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80ba453d8ba1a96157ca500b251192ea
-Size: 4870
+MD5Sum: 44de8e0d2014739a9b70008cc8786892
+Size: 4872
 Filename: iso-codes-locale-dv_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - dv translations
@@ -765,8 +765,8 @@ Recommends: virtual-locale-dz
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 58a2ab0e6980e3952d066ce9a6f5291a
-Size: 10150
+MD5Sum: 8a307c633172bc37a1ba97f5f53bef64
+Size: 10146
 Filename: iso-codes-locale-dz_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - dz translations
@@ -782,8 +782,8 @@ Recommends: virtual-locale-ee
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97cde2348d27f184763acdc139246398
-Size: 1296
+MD5Sum: eb1c9c3f2a3e87b5398c4f863518e9bf
+Size: 1300
 Filename: iso-codes-locale-ee_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ee translations
@@ -799,8 +799,8 @@ Recommends: virtual-locale-el
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7bdf5ac6195c57f43acc505d11e930a4
-Size: 32706
+MD5Sum: 24fbdc97c918cf04063a9ef18f833f14
+Size: 32624
 Filename: iso-codes-locale-el_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - el translations
@@ -816,8 +816,8 @@ Recommends: virtual-locale-en
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 272dd46624649223ad1b7e6d9ce33a9a
-Size: 24730
+MD5Sum: 5212c5e808ef99f7da087fb0b4fdd97b
+Size: 24712
 Filename: iso-codes-locale-en_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - en translations
@@ -833,8 +833,8 @@ Recommends: virtual-locale-eo
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5b31fdb73d39a08444d1520e4f99e16d
-Size: 21020
+MD5Sum: 358fca806f53e7458e0bc942e968e42d
+Size: 20992
 Filename: iso-codes-locale-eo_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - eo translations
@@ -850,8 +850,8 @@ Recommends: virtual-locale-es
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6fce12b3dadd80fdcbea484b15f08d92
-Size: 30120
+MD5Sum: 74959fbdca8877d08de69f83fa1e7df0
+Size: 30084
 Filename: iso-codes-locale-es_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - es translations
@@ -867,8 +867,8 @@ Recommends: virtual-locale-et
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4108ff59a8663a163b7a942a61351fcd
-Size: 29754
+MD5Sum: 346a6219dc6fa2e60bb05eed1f3c1b04
+Size: 29732
 Filename: iso-codes-locale-et_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - et translations
@@ -884,8 +884,8 @@ Recommends: virtual-locale-eu
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d63413f2cd113264339a5cab8f7ae66
-Size: 18338
+MD5Sum: 15e009b655619198dadb8300e2a917d7
+Size: 18332
 Filename: iso-codes-locale-eu_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - eu translations
@@ -901,8 +901,8 @@ Recommends: virtual-locale-fa
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8709db01ea0d421f65fe2e3683d10418
-Size: 16082
+MD5Sum: 604ba530fc84760531eec2b1e0de0bde
+Size: 16094
 Filename: iso-codes-locale-fa_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - fa translations
@@ -918,7 +918,7 @@ Recommends: virtual-locale-ff
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7bd9014b78e6988fd8989a3359c1a5b8
+MD5Sum: c596804bfbb9397df92c07f64c5edca6
 Size: 2506
 Filename: iso-codes-locale-ff_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -935,8 +935,8 @@ Recommends: virtual-locale-fi
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dd7c4ce6d3598a92035e9062d04ce785
-Size: 24594
+MD5Sum: 4f786a5697d8c7cf6a519a56d046314e
+Size: 24602
 Filename: iso-codes-locale-fi_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - fi translations
@@ -952,7 +952,7 @@ Recommends: virtual-locale-fo
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2072333e4bfee989aff28e9740461a8c
+MD5Sum: 1f46930c1ba0f7d4f56577dd464c4d2d
 Size: 2976
 Filename: iso-codes-locale-fo_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -969,8 +969,8 @@ Recommends: virtual-locale-fr
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: afc1d0cf2b843240102581af0e47041e
-Size: 179976
+MD5Sum: d0c309b7974f25608e69f24089fe9714
+Size: 180172
 Filename: iso-codes-locale-fr_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - fr translations
@@ -986,8 +986,8 @@ Recommends: virtual-locale-frp
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b6053ff8c5f3cdcaf7577d1d100737c5
-Size: 4380
+MD5Sum: 56141a34f3a244982ef93b53a5087a96
+Size: 4382
 Filename: iso-codes-locale-frp_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - frp translations
@@ -1003,8 +1003,8 @@ Recommends: virtual-locale-fur
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 00592b87f3e8afcc114ba7bd9f9ed2c7
-Size: 2088
+MD5Sum: 763e1bf8f201c22848fa52fdeda1de6c
+Size: 2106
 Filename: iso-codes-locale-fur_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - fur translations
@@ -1020,8 +1020,8 @@ Recommends: virtual-locale-fy
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c955eefc2a152b77a284377ca99d973
-Size: 4362
+MD5Sum: 35fb075d527fbab80ed430a4057e6c58
+Size: 4364
 Filename: iso-codes-locale-fy_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - fy translations
@@ -1037,8 +1037,8 @@ Recommends: virtual-locale-ga
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0be8c0929eea2ee6292e37517e7267b7
-Size: 17042
+MD5Sum: dcc52146b7da2b2989af4c8923bf8953
+Size: 17060
 Filename: iso-codes-locale-ga_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ga translations
@@ -1054,8 +1054,8 @@ Recommends: virtual-locale-gez
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 521035574986f1fb6a08d286d92804dd
-Size: 5752
+MD5Sum: 761b8684528c6bc9f94171ea56f270ef
+Size: 5656
 Filename: iso-codes-locale-gez_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - gez translations
@@ -1071,8 +1071,8 @@ Recommends: virtual-locale-gl
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99132c75c76a0abc97bea942e3c19f22
-Size: 88278
+MD5Sum: 9b50e195f99e0e1ab97ee9e2e918ea40
+Size: 88368
 Filename: iso-codes-locale-gl_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - gl translations
@@ -1088,8 +1088,8 @@ Recommends: virtual-locale-gn
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80a2723c094fefa9e07a2d747cb6d304
-Size: 3438
+MD5Sum: 6a0a9854dbeb64e27ccc2aee06162d1c
+Size: 3440
 Filename: iso-codes-locale-gn_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - gn translations
@@ -1105,8 +1105,8 @@ Recommends: virtual-locale-gu
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: edab75b4abb4077222a2701b8169a9dd
-Size: 27622
+MD5Sum: 22c9c42662da307175e46da792944bb7
+Size: 27600
 Filename: iso-codes-locale-gu_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - gu translations
@@ -1122,7 +1122,7 @@ Recommends: virtual-locale-gv
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62e3fb737de71f97ad51ec9095536ee3
+MD5Sum: 91ae14fa29857932b59344094aae8aa4
 Size: 4222
 Filename: iso-codes-locale-gv_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -1139,8 +1139,8 @@ Recommends: virtual-locale-ha
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1d731bda00d521dfe2d876b83c0c0c19
-Size: 2910
+MD5Sum: dc3d3edb742c91faf1e41af475487bc7
+Size: 2884
 Filename: iso-codes-locale-ha_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ha translations
@@ -1156,8 +1156,8 @@ Recommends: virtual-locale-haw
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96b58b79d3a47ab4b26caddd9d84135c
-Size: 1768
+MD5Sum: 6ad3b2ba84bf824a886c8589b253ebee
+Size: 1772
 Filename: iso-codes-locale-haw_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - haw translations
@@ -1173,8 +1173,8 @@ Recommends: virtual-locale-he
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1757f1f3f3e6de1266cf0c260d4b9d3
-Size: 11008
+MD5Sum: 9b7918c6011db6d8bdd6e0cb3603a956
+Size: 10992
 Filename: iso-codes-locale-he_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - he translations
@@ -1190,8 +1190,8 @@ Recommends: virtual-locale-hi
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5ee4c722e9a1686bd9e5484aa871cf4
-Size: 12390
+MD5Sum: 70fe08dcda105439899deed8753161c2
+Size: 12396
 Filename: iso-codes-locale-hi_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - hi translations
@@ -1207,8 +1207,8 @@ Recommends: virtual-locale-hr
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 39713e48ac4f31b3ef2e6c86d8da26c7
-Size: 21792
+MD5Sum: ff0a488a6497b4dacf42344b91b0c403
+Size: 21872
 Filename: iso-codes-locale-hr_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - hr translations
@@ -1224,8 +1224,8 @@ Recommends: virtual-locale-ht
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 336342573e49593cd799f7c7ae256665
-Size: 3928
+MD5Sum: 84986a094acaf3c204b0842030b912de
+Size: 3924
 Filename: iso-codes-locale-ht_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ht translations
@@ -1241,8 +1241,8 @@ Recommends: virtual-locale-hu
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b96d8abdbb2c46fe60b124775e8b7af
-Size: 55966
+MD5Sum: be22923d025d7daacf54c1fa7855e921
+Size: 56016
 Filename: iso-codes-locale-hu_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - hu translations
@@ -1258,8 +1258,8 @@ Recommends: virtual-locale-hy
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0efadab67c92a85f96556c5cdbd1f811
-Size: 9574
+MD5Sum: 5665fd8ebe782221e654370536fd4c14
+Size: 9592
 Filename: iso-codes-locale-hy_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - hy translations
@@ -1275,8 +1275,8 @@ Recommends: virtual-locale-ia
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fed2f356e17ea843d6f9bc4792ecef7d
-Size: 10622
+MD5Sum: bfae9f3bc6886e2e4cca3e91aed5035a
+Size: 10624
 Filename: iso-codes-locale-ia_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ia translations
@@ -1292,8 +1292,8 @@ Recommends: virtual-locale-id
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 936dd0dbefb318e32cf888291ee24d48
-Size: 129694
+MD5Sum: 7c8a1fa2cdf42b232db1a99d6aae6d59
+Size: 129396
 Filename: iso-codes-locale-id_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - id translations
@@ -1309,8 +1309,8 @@ Recommends: virtual-locale-io
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 78c212e3860ba17e93b08a0560ff53f9
-Size: 4084
+MD5Sum: f0d34e25998709b6124d81837e988c82
+Size: 4076
 Filename: iso-codes-locale-io_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - io translations
@@ -1326,8 +1326,8 @@ Recommends: virtual-locale-is
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3383569641546f70389bf9ca16ea038d
-Size: 60164
+MD5Sum: 8f76786bda7f4e52c1e789744a1f8f5d
+Size: 60144
 Filename: iso-codes-locale-is_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - is translations
@@ -1343,8 +1343,8 @@ Recommends: virtual-locale-it
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e3f2512993c3b21b6a7b773aebb674b
-Size: 164744
+MD5Sum: 22f84ffb87224d683ea6693b6fb33b5a
+Size: 164916
 Filename: iso-codes-locale-it_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - it translations
@@ -1360,7 +1360,7 @@ Recommends: virtual-locale-iu
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ab483183169be272d6735cc8138700b
+MD5Sum: f67960f802aeab313caa83cd310ae9e2
 Size: 1864
 Filename: iso-codes-locale-iu_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -1377,8 +1377,8 @@ Recommends: virtual-locale-ja
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 87cbd3e0508f4bbdb56ddf5802507612
-Size: 58780
+MD5Sum: 784e89d07b84b88b4544107d0c59aa81
+Size: 58892
 Filename: iso-codes-locale-ja_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ja translations
@@ -1394,8 +1394,8 @@ Recommends: virtual-locale-jam
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 07be9741a356d155611650ef4746ad14
-Size: 3946
+MD5Sum: 2ede9f31f86aad29f99be8c74d698610
+Size: 3958
 Filename: iso-codes-locale-jam_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - jam translations
@@ -1411,8 +1411,8 @@ Recommends: virtual-locale-ka
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddc02b5479772c657b5cb2628ea2cb2b
-Size: 9172
+MD5Sum: 7ae422727164d2c9b36a9cf860241bc6
+Size: 9176
 Filename: iso-codes-locale-ka_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ka translations
@@ -1428,8 +1428,8 @@ Recommends: virtual-locale-kab
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d284874d833e98319bb90125750c832
-Size: 3370
+MD5Sum: e1b505c5c298b07a09322e30117bd017
+Size: 3374
 Filename: iso-codes-locale-kab_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - kab translations
@@ -1445,8 +1445,8 @@ Recommends: virtual-locale-ki
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6750ced5ee5a79a0cef5e24205961bb5
-Size: 2728
+MD5Sum: 512609ac2dbe1c4d733c81c8a018b077
+Size: 2696
 Filename: iso-codes-locale-ki_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ki translations
@@ -1462,8 +1462,8 @@ Recommends: virtual-locale-kk
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8e533532a190da2e64a82d1a106cb51f
-Size: 9536
+MD5Sum: e7619827594922d4155b28987540c35e
+Size: 9540
 Filename: iso-codes-locale-kk_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - kk translations
@@ -1479,7 +1479,7 @@ Recommends: virtual-locale-kl
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff84dad491dde4f96b11b85bd5275e13
+MD5Sum: cab327011c71a743af6fbc3d61fa96cf
 Size: 1300
 Filename: iso-codes-locale-kl_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -1496,8 +1496,8 @@ Recommends: virtual-locale-km
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0fdf02ae32aa88b79f32eab93935548e
-Size: 9988
+MD5Sum: 16e0b58158e4008bdac03f0759c81045
+Size: 9976
 Filename: iso-codes-locale-km_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - km translations
@@ -1513,8 +1513,8 @@ Recommends: virtual-locale-kn
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c65bfe142e8e0ce2cebc4a6f810dd38
-Size: 105896
+MD5Sum: 8bd101358e890637e532348143d93f54
+Size: 105964
 Filename: iso-codes-locale-kn_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - kn translations
@@ -1530,8 +1530,8 @@ Recommends: virtual-locale-ko
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2a255c5d780a4c2c7202fc55c9a66b7a
-Size: 24008
+MD5Sum: 98d91d41b7dfb2fc88316cc8f1a9ebe5
+Size: 23972
 Filename: iso-codes-locale-ko_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ko translations
@@ -1547,8 +1547,8 @@ Recommends: virtual-locale-kok
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2085c9a07f3a37d5f3139a0e540dcc4e
-Size: 3950
+MD5Sum: 96b73b816ac9333d1f95fe12e3b7e736
+Size: 3938
 Filename: iso-codes-locale-kok_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - kok translations
@@ -1564,8 +1564,8 @@ Recommends: virtual-locale-ku
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 26e1da7a238663c9d3ef1e352bd713c2
-Size: 8540
+MD5Sum: e52f25d73fdb88c9698892834ced71ea
+Size: 8548
 Filename: iso-codes-locale-ku_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ku translations
@@ -1581,8 +1581,8 @@ Recommends: virtual-locale-kv
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e27a2f78f3087ae9cbfad0bfdb2bd15
-Size: 3312
+MD5Sum: 23a8c1d9e5f5366295126fbf4f81ada5
+Size: 3316
 Filename: iso-codes-locale-kv_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - kv translations
@@ -1598,8 +1598,8 @@ Recommends: virtual-locale-kw
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b698d03c72d43c3da8d8d3a73d84b19a
-Size: 4338
+MD5Sum: 3c8be35475109368aacd5b6ea36c439a
+Size: 4342
 Filename: iso-codes-locale-kw_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - kw translations
@@ -1615,8 +1615,8 @@ Recommends: virtual-locale-ky
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c1d48dd56337bd3a00134126d12117fb
-Size: 9108
+MD5Sum: 32ea6f2a8dc30fafafe59f838707dbc5
+Size: 9204
 Filename: iso-codes-locale-ky_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ky translations
@@ -1632,8 +1632,8 @@ Recommends: virtual-locale-lo
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 34cd06bc6c495ab293136320386a22fa
-Size: 2878
+MD5Sum: b07331514df5ced483f567dbd5420a0e
+Size: 2882
 Filename: iso-codes-locale-lo_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - lo translations
@@ -1649,8 +1649,8 @@ Recommends: virtual-locale-lt
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1fdec5f7cfc29a5d86a75bfb096ce0aa
-Size: 55112
+MD5Sum: c855e853bee7f096e2632453143ef418
+Size: 55264
 Filename: iso-codes-locale-lt_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - lt translations
@@ -1666,8 +1666,8 @@ Recommends: virtual-locale-lv
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2f9306c968bf36b9879b84158d5e1f3
-Size: 23288
+MD5Sum: ded291fe1659e66e5f0ab5928f2533a2
+Size: 23316
 Filename: iso-codes-locale-lv_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - lv translations
@@ -1683,8 +1683,8 @@ Recommends: virtual-locale-mai
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfbfbfdcb7121a7f76b123c8ba47352e
-Size: 2690
+MD5Sum: ca823ec09ec9204af2fd4126c5185a19
+Size: 2694
 Filename: iso-codes-locale-mai_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - mai translations
@@ -1700,8 +1700,8 @@ Recommends: virtual-locale-mhr
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79edca753f28400d1afb676f57367a2f
-Size: 3266
+MD5Sum: c9c5792ba3a21c19764e33f0f3354517
+Size: 3254
 Filename: iso-codes-locale-mhr_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - mhr translations
@@ -1717,7 +1717,7 @@ Recommends: virtual-locale-mi
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ef22fe6d45adf5ccfb1a34c08f69bdb8
+MD5Sum: 6a533defbb4a2af19d6abb6e8ff5cf2f
 Size: 5256
 Filename: iso-codes-locale-mi_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -1734,7 +1734,7 @@ Recommends: virtual-locale-mk
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aed4acd6648dd36c534ff06544dc3131
+MD5Sum: 86d1dd21bd549d8c43a1232e0ac64589
 Size: 10160
 Filename: iso-codes-locale-mk_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -1751,8 +1751,8 @@ Recommends: virtual-locale-ml
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bc66c19f4020eadb68a064e1ca961a12
-Size: 18656
+MD5Sum: cd322fe09c9e118d0abece0207d2de53
+Size: 18632
 Filename: iso-codes-locale-ml_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ml translations
@@ -1768,8 +1768,8 @@ Recommends: virtual-locale-mn
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 996cd47555f68f2465e3e0206efa907d
-Size: 9040
+MD5Sum: 573211674290f27168de60a4ffa79a6d
+Size: 9032
 Filename: iso-codes-locale-mn_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - mn translations
@@ -1785,7 +1785,7 @@ Recommends: virtual-locale-mo
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23ca810d7f4c59d568d013b8eb4810de
+MD5Sum: 45125985c4a97983d98fa7675e19e452
 Size: 1876
 Filename: iso-codes-locale-mo_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -1802,8 +1802,8 @@ Recommends: virtual-locale-mr
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1a8dc68a06b6649c76f7cb96633ab47e
-Size: 118256
+MD5Sum: d573768d7619fcf9222ba53dcf3ef7e2
+Size: 118422
 Filename: iso-codes-locale-mr_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - mr translations
@@ -1819,8 +1819,8 @@ Recommends: virtual-locale-ms
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aadf3a3e8ee2809ebd6b18c123c727c0
-Size: 5668
+MD5Sum: 40f4935727f1c40f073ca5b745ee9063
+Size: 5732
 Filename: iso-codes-locale-ms_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ms translations
@@ -1836,8 +1836,8 @@ Recommends: virtual-locale-mt
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd20911021e567e9bfdd89a839bfd7c9
-Size: 9028
+MD5Sum: 0fbd92ac52091b5a3385b6e025284c6b
+Size: 8880
 Filename: iso-codes-locale-mt_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - mt translations
@@ -1853,8 +1853,8 @@ Recommends: virtual-locale-my
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 737d870fde60f6e60f9f33e482b4e409
-Size: 4840
+MD5Sum: c7802d8ea77dc916c2e3dde29ecd8bc1
+Size: 4844
 Filename: iso-codes-locale-my_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - my translations
@@ -1870,8 +1870,8 @@ Recommends: virtual-locale-na
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 48b274f1eb1acdda97f0d006d251f7cf
-Size: 3464
+MD5Sum: 3fe2517dd0144ede67fc6bb6fc47572a
+Size: 3468
 Filename: iso-codes-locale-na_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - na translations
@@ -1887,8 +1887,8 @@ Recommends: virtual-locale-nah
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9d092a9178df52394cf8c748d4a4e00
-Size: 3862
+MD5Sum: fad268bc66d9ddc300a022621808d5f9
+Size: 3866
 Filename: iso-codes-locale-nah_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - nah translations
@@ -1904,8 +1904,8 @@ Recommends: virtual-locale-nb-no
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af1f2d71ad3b994c7d27ed13e8a6724b
-Size: 1688
+MD5Sum: 129edd6398250ebc33a61c2fa7a8ec64
+Size: 1692
 Filename: iso-codes-locale-nb-no_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - nb_NO translations
@@ -1921,8 +1921,8 @@ Recommends: virtual-locale-nb
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b826c481fab9f85e73667219849b3cd3
-Size: 14760
+MD5Sum: 5765106008f3ff03bc5e4b55f9cf5c7b
+Size: 14816
 Filename: iso-codes-locale-nb_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - nb translations
@@ -1938,8 +1938,8 @@ Recommends: virtual-locale-ne
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 848ef79a0a79698c91fe7396ff6bd224
-Size: 9692
+MD5Sum: 09ea65c88c3f6d35005d1775e4ba2dfc
+Size: 9700
 Filename: iso-codes-locale-ne_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ne translations
@@ -1955,8 +1955,8 @@ Recommends: virtual-locale-nl
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c80f0e4a6f4ca2f7be6a3d6227bd8186
-Size: 90576
+MD5Sum: db74fbe259747510d8d4d27e2c57817b
+Size: 90736
 Filename: iso-codes-locale-nl_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - nl translations
@@ -1972,8 +1972,8 @@ Recommends: virtual-locale-nn
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1cb08114356a23edde86c899abe2dc9c
-Size: 15092
+MD5Sum: 0c4a1104446c595986538b293338787a
+Size: 15044
 Filename: iso-codes-locale-nn_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - nn translations
@@ -1989,8 +1989,8 @@ Recommends: virtual-locale-nso
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1bb3c1ed8455eefe3699cfe7b854d88
-Size: 4582
+MD5Sum: 3f9ae897cba52597b674c46ea0992be6
+Size: 4566
 Filename: iso-codes-locale-nso_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - nso translations
@@ -2006,8 +2006,8 @@ Recommends: virtual-locale-nv
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 538e54f732aa86f362f850930d5f25ee
-Size: 3320
+MD5Sum: 8377f27753e81b486f46dabe72d19c8f
+Size: 3316
 Filename: iso-codes-locale-nv_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - nv translations
@@ -2023,8 +2023,8 @@ Recommends: virtual-locale-oc
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f68218acde89382c8714c027ed0fbf8f
-Size: 11744
+MD5Sum: a8154f37e3b8871dc3824c81789205f0
+Size: 11760
 Filename: iso-codes-locale-oc_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - oc translations
@@ -2040,8 +2040,8 @@ Recommends: virtual-locale-or
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c3a4de3ef83f022f13f87f8f2e24f89
-Size: 67684
+MD5Sum: 36fe6614ce0b6a204492034ff9f39721
+Size: 67842
 Filename: iso-codes-locale-or_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - or translations
@@ -2057,8 +2057,8 @@ Recommends: virtual-locale-pa
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ff3742213e1cc3416aeece4cd4cfe4b
-Size: 115824
+MD5Sum: 3c66492ffbf648668118877679ee3578
+Size: 115748
 Filename: iso-codes-locale-pa_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - pa translations
@@ -2074,7 +2074,7 @@ Recommends: virtual-locale-pap
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ca2a04470fcd9fa3df23fc5ca07db19c
+MD5Sum: 742238f8439a7f1fd7cc09c9c7e74632
 Size: 1302
 Filename: iso-codes-locale-pap_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -2091,8 +2091,8 @@ Recommends: virtual-locale-pi
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f38eb31a1be198bc057d436671aaf803
-Size: 4116
+MD5Sum: b11d73fcb3d83a6d5f7f05a9c53717b3
+Size: 4108
 Filename: iso-codes-locale-pi_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - pi translations
@@ -2108,8 +2108,8 @@ Recommends: virtual-locale-pl
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8381fe10c61b0f6aa3eeb19aa05bc503
-Size: 111412
+MD5Sum: 44f428b24dd5e77e64b89f15bd5ac4de
+Size: 111644
 Filename: iso-codes-locale-pl_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - pl translations
@@ -2125,8 +2125,8 @@ Recommends: virtual-locale-ps
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 43763524fc6fc3ff543a1bb6e49c10f2
-Size: 4452
+MD5Sum: 7cae2f3ff1931a340517b131f1d85077
+Size: 4456
 Filename: iso-codes-locale-ps_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ps translations
@@ -2142,8 +2142,8 @@ Recommends: virtual-locale-pt-br
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55e2f52af708e3d7afb6052e63f28f9f
-Size: 24764
+MD5Sum: 2dba44d25465702d972a85aa1ea5e01d
+Size: 24716
 Filename: iso-codes-locale-pt-br_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - pt_BR translations
@@ -2159,8 +2159,8 @@ Recommends: virtual-locale-pt
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 867843d19d18511e1121312d70332bae
-Size: 18732
+MD5Sum: 62264bb8a718f383c9da238141cac727
+Size: 18712
 Filename: iso-codes-locale-pt_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - pt translations
@@ -2176,8 +2176,8 @@ Recommends: virtual-locale-ro
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e290f58cd683f2babb9495cd6453b20b
-Size: 28908
+MD5Sum: 586ff9c00242690f24ecdfd47473d067
+Size: 29066
 Filename: iso-codes-locale-ro_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ro translations
@@ -2193,8 +2193,8 @@ Recommends: virtual-locale-ru
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd554e56306d3c69b13f8c213fc0e8b6
-Size: 27436
+MD5Sum: 2d56007ecce49411763c0a2372baacd0
+Size: 27568
 Filename: iso-codes-locale-ru_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ru translations
@@ -2210,8 +2210,8 @@ Recommends: virtual-locale-rw
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55f24d721bc275f95a61e4b0ad9962b9
-Size: 16330
+MD5Sum: 334a225682a8adf1a97bc2e8ad5e9691
+Size: 16272
 Filename: iso-codes-locale-rw_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - rw translations
@@ -2227,8 +2227,8 @@ Recommends: virtual-locale-sc
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba74414c7c4d6fee5f3e55dc81142a71
-Size: 61740
+MD5Sum: 380f46df46a34a6919c5ea13c06503a2
+Size: 61742
 Filename: iso-codes-locale-sc_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sc translations
@@ -2244,8 +2244,8 @@ Recommends: virtual-locale-sd
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0b518af5b6b8b70ecff111a7eca41b3
-Size: 2592
+MD5Sum: 45fe7164a541faea1e973694b3768382
+Size: 2594
 Filename: iso-codes-locale-sd_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sd translations
@@ -2261,8 +2261,8 @@ Recommends: virtual-locale-si
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d095c99a9c91996f5cf8560ccac9dde6
-Size: 9696
+MD5Sum: 537d3c7a96a5edd5b91762d4d9b511cc
+Size: 9706
 Filename: iso-codes-locale-si_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - si translations
@@ -2278,8 +2278,8 @@ Recommends: virtual-locale-sk
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 596517ac58114630728bb931e0e8620f
-Size: 25652
+MD5Sum: 9b7f528811c5eb8ccf223b76eb6a3e95
+Size: 25736
 Filename: iso-codes-locale-sk_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sk translations
@@ -2295,8 +2295,8 @@ Recommends: virtual-locale-sl
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cea51d78869161e4f05968532f8cc497
-Size: 45416
+MD5Sum: da7beb49355be07e7c3442a51415e343
+Size: 45174
 Filename: iso-codes-locale-sl_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sl translations
@@ -2312,8 +2312,8 @@ Recommends: virtual-locale-so
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d2443e47411d63a189184fb7492d054
-Size: 3450
+MD5Sum: d6b46d9a730b6d5799441ac485af6fb2
+Size: 3422
 Filename: iso-codes-locale-so_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - so translations
@@ -2329,8 +2329,8 @@ Recommends: virtual-locale-son
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a429fc751acee08d544c66c3a26091ea
-Size: 4538
+MD5Sum: d3f1192c1982b776a77a80ca1df09584
+Size: 4546
 Filename: iso-codes-locale-son_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - son translations
@@ -2346,8 +2346,8 @@ Recommends: virtual-locale-sq
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0fb20a4afabfa2ee10f0fa161f6dbf62
-Size: 8164
+MD5Sum: f755fdade0a5c77558e5e02082f02517
+Size: 8148
 Filename: iso-codes-locale-sq_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sq translations
@@ -2363,8 +2363,8 @@ Recommends: virtual-locale-sr+latin
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cb5c070daee01cb47fe3588858e12227
-Size: 67366
+MD5Sum: 7ea24b5524b68af091c4c7efa1a01862
+Size: 67318
 Filename: iso-codes-locale-sr+latin_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sr@latin translations
@@ -2380,8 +2380,8 @@ Recommends: virtual-locale-sr
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e590fe5714756f49ca9286e162365f53
-Size: 79038
+MD5Sum: b91939c7d6144706cad20394e70521ba
+Size: 78242
 Filename: iso-codes-locale-sr_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sr translations
@@ -2397,8 +2397,8 @@ Recommends: virtual-locale-sv
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6706bb925021c49f9a94202f4c4d9ea8
-Size: 158032
+MD5Sum: f1df45d110106853ba4ff6f88f264868
+Size: 157556
 Filename: iso-codes-locale-sv_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sv translations
@@ -2414,8 +2414,8 @@ Recommends: virtual-locale-sw
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 926e127f6a5e9714016e6d564482318f
-Size: 3604
+MD5Sum: 88220dc96b293998520ab959f0f74cf5
+Size: 3628
 Filename: iso-codes-locale-sw_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - sw translations
@@ -2431,8 +2431,8 @@ Recommends: virtual-locale-ta
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b9b9770a07bad8463c64191826d3dfcf
-Size: 117168
+MD5Sum: e9d4381d42e42b0f85c5b6ac1daf6522
+Size: 117142
 Filename: iso-codes-locale-ta_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ta translations
@@ -2448,8 +2448,8 @@ Recommends: virtual-locale-te
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 04f39a78dbd837ce26f44a72f2d4a8a6
-Size: 18536
+MD5Sum: 789c0f41d1738124587db0a0804f08ff
+Size: 18482
 Filename: iso-codes-locale-te_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - te translations
@@ -2465,8 +2465,8 @@ Recommends: virtual-locale-tg
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f146fb4bc9e8ad1a335bd29dd55e367
-Size: 8728
+MD5Sum: f402bd9fc379aaf2ba10a4bc2a48df1c
+Size: 8764
 Filename: iso-codes-locale-tg_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - tg translations
@@ -2482,8 +2482,8 @@ Recommends: virtual-locale-th
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c110b08d6713184c1e27723d43ace36
-Size: 57636
+MD5Sum: 05457db77f917bcdb3e9673635fcd5a8
+Size: 57738
 Filename: iso-codes-locale-th_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - th translations
@@ -2499,8 +2499,8 @@ Recommends: virtual-locale-ti
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ed6e69f611fe0ecdabbced97d5fe25af
-Size: 6152
+MD5Sum: b95ebad726bd3a6339472e0ea7388fb8
+Size: 6134
 Filename: iso-codes-locale-ti_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ti translations
@@ -2516,8 +2516,8 @@ Recommends: virtual-locale-tig
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e06fccfcbe091a571eca50b2011293b
-Size: 5582
+MD5Sum: 3be3906ec6f1c3748c735d8198c7893f
+Size: 5650
 Filename: iso-codes-locale-tig_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - tig translations
@@ -2533,7 +2533,7 @@ Recommends: virtual-locale-tk
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 890e14f14804313596966b137824d7f7
+MD5Sum: 06e144cb8f253af8ee1cbd347de429dc
 Size: 6476
 Filename: iso-codes-locale-tk_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -2550,8 +2550,8 @@ Recommends: virtual-locale-tl
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3d0d301faa78fd8c76f33f93c4544136
-Size: 6804
+MD5Sum: a09355c767aaa9f897e7ae16b0578113
+Size: 6826
 Filename: iso-codes-locale-tl_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - tl translations
@@ -2567,8 +2567,8 @@ Recommends: virtual-locale-tr
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 58dcdacca50b37ebbf9e5a35a3379c41
-Size: 85330
+MD5Sum: 56a5e9930711c6b6557c532f19d007b4
+Size: 85682
 Filename: iso-codes-locale-tr_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - tr translations
@@ -2584,8 +2584,8 @@ Recommends: virtual-locale-tt+iqtelif
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 822d8de20079a2c7aeeb73cdff837952
-Size: 9218
+MD5Sum: 7657683c84989522421705bc629758c7
+Size: 9246
 Filename: iso-codes-locale-tt+iqtelif_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - tt@iqtelif translations
@@ -2601,8 +2601,8 @@ Recommends: virtual-locale-tt
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3f7bb61be6324f0700bce5023a582ae7
-Size: 10444
+MD5Sum: df84c67f95f58b7ef178d4b188b9dc5b
+Size: 10514
 Filename: iso-codes-locale-tt_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - tt translations
@@ -2618,8 +2618,8 @@ Recommends: virtual-locale-ug
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ea0bee43ff952a12747f90e497f1812f
-Size: 9476
+MD5Sum: 022546ba7e9534f50ba8622473c3601b
+Size: 9456
 Filename: iso-codes-locale-ug_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ug translations
@@ -2635,8 +2635,8 @@ Recommends: virtual-locale-uk
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b42410c021a9cf30a13cb8a3631e97e6
-Size: 221436
+MD5Sum: 60e08711422663833b34f7c480af6fe9
+Size: 221212
 Filename: iso-codes-locale-uk_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - uk translations
@@ -2652,8 +2652,8 @@ Recommends: virtual-locale-ur
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab9de7ee8c05aafd587012a4506ee9e1
-Size: 5272
+MD5Sum: 5f5791feff27329c6d73f5804a572bd3
+Size: 5210
 Filename: iso-codes-locale-ur_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - ur translations
@@ -2669,8 +2669,8 @@ Recommends: virtual-locale-uz
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d5daf70f1bca701a82bc0149abb85401
-Size: 4106
+MD5Sum: f2889bbb712d09c62b5c836cfbb59207
+Size: 4100
 Filename: iso-codes-locale-uz_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - uz translations
@@ -2686,7 +2686,7 @@ Recommends: virtual-locale-ve
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: be4db45e1754e3a9f067654264efa655
+MD5Sum: bf5d6f1a8e529df1e4617dcc11de790a
 Size: 4268
 Filename: iso-codes-locale-ve_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -2703,8 +2703,8 @@ Recommends: virtual-locale-vi
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e813be6529010eb8b3219c970c625c45
-Size: 65316
+MD5Sum: 0f63807f5e8a17559aa1e16588380893
+Size: 65252
 Filename: iso-codes-locale-vi_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - vi translations
@@ -2720,8 +2720,8 @@ Recommends: virtual-locale-wa
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ef38d2e3db3e98ecb753a1d91f25270
-Size: 18252
+MD5Sum: 75e2dd4426d8433ee3fae4489163dfc5
+Size: 18204
 Filename: iso-codes-locale-wa_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - wa translations
@@ -2737,8 +2737,8 @@ Recommends: virtual-locale-wal
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6aee612f99d6a2f094534e3cb041820
-Size: 3310
+MD5Sum: 5781120dfbf2348241df760a136cc029
+Size: 3320
 Filename: iso-codes-locale-wal_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - wal translations
@@ -2754,8 +2754,8 @@ Recommends: virtual-locale-wo
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: caf4b756dd82b4704b03a686be661fc4
-Size: 8000
+MD5Sum: e0308bb39c50e432d0480a3d0000d562
+Size: 8004
 Filename: iso-codes-locale-wo_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - wo translations
@@ -2771,8 +2771,8 @@ Recommends: virtual-locale-xh
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 21eccd15f4eab00d89d06c0ff0665170
-Size: 3098
+MD5Sum: 9ae4c62c910662eea7af92afe35b5b9c
+Size: 3152
 Filename: iso-codes-locale-xh_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - xh translations
@@ -2788,8 +2788,8 @@ Recommends: virtual-locale-yo
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ecfa6f3b5394fc0ba157dcb1f649d50
-Size: 5116
+MD5Sum: dc1ba625ba16b6d09294dd19d6027397
+Size: 5100
 Filename: iso-codes-locale-yo_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - yo translations
@@ -2805,8 +2805,8 @@ Recommends: virtual-locale-zh-cn
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 487927a37589bb97c95d1f9ebb7d3910
-Size: 68422
+MD5Sum: d7cead479d3c8aa98baba09eb6c52932
+Size: 68188
 Filename: iso-codes-locale-zh-cn_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - zh_CN translations
@@ -2822,7 +2822,7 @@ Recommends: virtual-locale-zh-hant
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cad532585bb71a531200a9507834afa7
+MD5Sum: 9ccb746567a4cd7eb2b2b7cfd345d13e
 Size: 3412
 Filename: iso-codes-locale-zh-hant_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
@@ -2839,8 +2839,8 @@ Recommends: virtual-locale-zh-hk
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f3861be871526e81d751e607986e19a
-Size: 16530
+MD5Sum: 95a63e0bdf3d37d70738341b6ca5bc71
+Size: 16590
 Filename: iso-codes-locale-zh-hk_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - zh_HK translations
@@ -2856,8 +2856,8 @@ Recommends: virtual-locale-zh-tw
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7726382cacf54ee52ff40c1b5ddfc328
-Size: 36462
+MD5Sum: 4ce90dffe45cf37eb9aa75f4cad83eac
+Size: 36574
 Filename: iso-codes-locale-zh-tw_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - zh_TW translations
@@ -2873,8 +2873,8 @@ Recommends: virtual-locale-zu
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d51f42f5dcd4410db2e6587a53cbbe98
-Size: 4138
+MD5Sum: b1c34e3a621606df0847eee1bbb7b5b1
+Size: 4124
 Filename: iso-codes-locale-zu_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations - zu translations
@@ -2888,8 +2888,8 @@ Version: 4.3-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 767c1ecd094f51f0ee9ef7bc3031c30a
-Size: 251410
+MD5Sum: c9451cf75b1d9ae128e5e5f51bd3c577
+Size: 251526
 Filename: iso-codes_4.3-r0_all.ipk
 Source: iso-codes_4.3.bb
 Description: ISO language, territory, currency, script codes and their translations
@@ -2904,8 +2904,8 @@ Recommends: ca-certificates-dbg, dvbsnoop-dbg, enigma2-plugin-drivers-usbserial-
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c628bdd959f17b3a655a046602bea71b
-Size: 980
+MD5Sum: 5aad2e3582f27945091d6610d454dbf1
+Size: 978
 Filename: opennfr-base-dbg_1.0-r21_all.ipk
 Source: opennfr-base.bb
 Description: Base packages require for image. - Debugging files
@@ -2920,7 +2920,7 @@ Recommends: ca-certificates-dev, dvbsnoop-dev, enigma2-plugin-drivers-usbserial-
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f59967e1d4b479dc48e7a63c1265573b
+MD5Sum: ee6b1724ff50e69998863e30ae217d29
 Size: 1004
 Filename: opennfr-base-dev_1.0-r21_all.ipk
 Source: opennfr-base.bb
@@ -2935,8 +2935,8 @@ Depends: ca-certificates, dvbsnoop, enigma2-plugin-drivers-usbserial, enigma2-pl
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f8aa64d40184ac825062809feb2b883c
-Size: 912
+MD5Sum: 181dd31f47b267f4841aac59c5ff1183
+Size: 910
 Filename: opennfr-base_1.0-r21_all.ipk
 Source: opennfr-base.bb
 Description: Base packages require for image.
@@ -2949,8 +2949,8 @@ Version: 1.0-r10
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c6eda30e3a3b90c8f7a476dd62eff86
-Size: 740
+MD5Sum: a586733e99a357dde62f9fc00d11cd35
+Size: 742
 Filename: run-postinsts-dbg_1.0-r10_all.ipk
 Source: run-postinsts_1.0.bb
 Description: Runs postinstall scripts on first boot of the target device - Debugging files
@@ -2965,7 +2965,7 @@ Recommends: initscripts-dev, update-rc.d-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8eaefafb149a4b140ff7960123523f75
+MD5Sum: cdbe34eec8b34335751c4d8e7e9d4ddc
 Size: 798
 Filename: run-postinsts-dev_1.0-r10_all.ipk
 Source: run-postinsts_1.0.bb
@@ -2980,8 +2980,8 @@ Recommends: update-rc.d
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a307ee42609b0425df25b8815a1addcd
-Size: 1908
+MD5Sum: a18cbee491dd1f58cb1fe561dba6c868
+Size: 1912
 Filename: run-postinsts_1.0-r10_all.ipk
 Source: run-postinsts_1.0.bb
 Description: Runs postinstall scripts on first boot of the target device
@@ -2994,8 +2994,8 @@ Version: 1.20-1-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c8d31972ab2807458a3eca1503b593b
-Size: 1320
+MD5Sum: 54f24170d02015201a7dd4aabd2e4a60
+Size: 1326
 Filename: stlinux24-sh4-stmfb-firmware-stx7111_1.20-1-r0_all.ipk
 Source: stlinux24-sh4-stmfb-firmware-stx7111_1.20-1.bb
 Description: stlinux24-sh4-stmfb-firmware-stx7111 version 1.20-1-r0
@@ -3008,12 +3008,55 @@ Version: 20150612-15-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d6cfcec969a6ebe09e4175a7accd386
+MD5Sum: 2db7f47506e4205b9a6ecef6fefb0477
 Size: 13138
 Filename: stlinux24-sh4-stx7111-fdma-firmware_20150612-15-r0_all.ipk
 Source: stlinux24-sh4-stx7111-fdma-firmware_20150612-15.bb
 Description: stlinux24-sh4-stx7111-fdma-firmware version 20150612-15-r0
 OE: stlinux24-sh4-stx7111-fdma-firmware
+License: Proprietary
+Priority: optional
+
+Package: tuxbox-common-dbg
+Version: 1.0+git644+5a87ded-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Alliance team
+MD5Sum: cb90f7a7c83d5cc1c10fe64f5557ab60
+Size: 708
+Filename: tuxbox-common-dbg_1.0+git644+5a87ded-r0_all.ipk
+Source: tuxbox-common_0.1.1.bb
+Description: Tuxbox common files - Debugging files
+OE: tuxbox-common
+License: Proprietary
+Priority: optional
+
+Package: tuxbox-common-dev
+Version: 1.0+git644+5a87ded-r0
+Depends: tuxbox-common (= 1.0+git644+5a87ded-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Alliance team
+MD5Sum: 0db3e1583740a768bed2faa331e9dbc5
+Size: 740
+Filename: tuxbox-common-dev_1.0+git644+5a87ded-r0_all.ipk
+Source: tuxbox-common_0.1.1.bb
+Description: Tuxbox common files - Development files
+OE: tuxbox-common
+License: Proprietary
+Priority: optional
+
+Package: tuxbox-common
+Version: 1.0+git644+5a87ded-r0
+Section: base
+Architecture: all
+Maintainer: OE-Alliance team
+MD5Sum: 0db58fc9f9c06c7314f1237e71ea1a56
+Size: 58824
+Filename: tuxbox-common_1.0+git644+5a87ded-r0_all.ipk
+Source: tuxbox-common_0.1.1.bb
+Description: Tuxbox common files
+OE: tuxbox-common
 License: Proprietary
 Priority: optional
 
@@ -3023,7 +3066,7 @@ Provides: tzdata-africa
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 041fc8fbdda672eded662d85925baffc
+MD5Sum: 9b209494aafbeff76811fc9bd986f0cc
 Size: 5768
 Filename: tzdata-africa_2020a-r1_all.ipk
 Source: tzdata.bb
@@ -3039,8 +3082,8 @@ Provides: tzdata-americas
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddc5d58d0c0dda4162ae3e6f77d5ba7a
-Size: 28660
+MD5Sum: 9e669e5dad3c381a314610775505d868
+Size: 28646
 Filename: tzdata-americas_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3055,8 +3098,8 @@ Provides: tzdata-antarctica
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e42ee263e6c49f989b03b0d134ef618e
-Size: 3922
+MD5Sum: c88b66fcf781c43d1dba789ed5b97abf
+Size: 3920
 Filename: tzdata-antarctica_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3071,8 +3114,8 @@ Provides: tzdata-arctic
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5267b62dcc8453a6543fa7229b02f2b6
-Size: 1708
+MD5Sum: 537a5637a01a5f6b55045d939da03505
+Size: 1710
 Filename: tzdata-arctic_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3087,8 +3130,8 @@ Provides: tzdata-asia
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 032e9e7de642c14ba515f2d21e91b113
-Size: 17820
+MD5Sum: 2708f287f88539e008aac00e31d68b25
+Size: 17798
 Filename: tzdata-asia_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3103,8 +3146,8 @@ Provides: tzdata-atlantic
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb47baa26c9f9f519a404d014d741a30
-Size: 5244
+MD5Sum: 712b8e7c2af2d8ea51ecbbd1d662a495
+Size: 5242
 Filename: tzdata-atlantic_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3119,7 +3162,7 @@ Provides: tzdata-australia
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9d226ac20460d5a376d1090a53864d34
+MD5Sum: 6bdbddebafc0d86ac6a209cfcc779356
 Size: 4300
 Filename: tzdata-australia_2020a-r1_all.ipk
 Source: tzdata.bb
@@ -3134,8 +3177,8 @@ Version: 2020a-r1
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55a10ac91551ab91837a9308483568bd
-Size: 27492
+MD5Sum: 6f5451db19aaac99072b05d1e825108b
+Size: 27514
 Filename: tzdata-core_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3150,8 +3193,8 @@ Provides: tzdata-europe
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8401db0c9f0371617080c04a0e54c44
-Size: 12484
+MD5Sum: d42df894e77dad6b2245a199d977dd6a
+Size: 12542
 Filename: tzdata-europe_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3166,8 +3209,8 @@ Provides: tzdata-misc
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 06606b49c8b3e2438882f48ab91a8a24
-Size: 10460
+MD5Sum: 3823af7d37c8b55b9211247a3bad83cf
+Size: 10468
 Filename: tzdata-misc_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3182,8 +3225,8 @@ Provides: tzdata-pacific
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e54a23417e78b94a49cb7c04bc64f772
-Size: 6276
+MD5Sum: 9ef999bbc47bdb935b0e2d6b3ea18cbb
+Size: 6278
 Filename: tzdata-pacific_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3198,8 +3241,8 @@ Provides: tzdata-posix
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d8909297eefd48a4b561a10609966b9
-Size: 72934
+MD5Sum: 62721ad4bbea388151ce5a5606453543
+Size: 72448
 Filename: tzdata-posix_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3214,8 +3257,8 @@ Provides: tzdata-right
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89f55415cdc6da9e1d8be249e3a4d3e8
-Size: 70022
+MD5Sum: ba5fa0823da43a766583b0bb18e7518b
+Size: 69970
 Filename: tzdata-right_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3231,8 +3274,8 @@ Conflicts: timezone-africa, timezone-america, timezone-antarctica, timezone-arct
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2835831f9dc666fcf7b8f40f1d309aeb
-Size: 1186
+MD5Sum: ec5605ec829716003130a2b6e8f992b3
+Size: 1184
 Filename: tzdata_2020a-r1_all.ipk
 Source: tzdata.bb
 Description: Timezone data
@@ -3246,7 +3289,7 @@ Version: 0.8-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bb5656f6624adebc09388dc7daa9e751
+MD5Sum: 76b1f5adbba0ce0d4fdba4d495121852
 Size: 812
 Filename: update-rc.d-dbg_0.8-r0_all.ipk
 Source: update-rc.d_0.8.bb
@@ -3262,7 +3305,7 @@ Depends: update-rc.d (= 0.8-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62b58af5106a717ea3e0f84d54df31be
+MD5Sum: af96764d2577d22f491d3ffe5d94e012
 Size: 838
 Filename: update-rc.d-dev_0.8-r0_all.ipk
 Source: update-rc.d_0.8.bb
@@ -3277,7 +3320,7 @@ Version: 0.8-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3c9d466da73f9d02d4fe96cb29906e0
+MD5Sum: b0435ad51526db0be5abddbbf4970823
 Size: 3042
 Filename: update-rc.d_0.8-r0_all.ipk
 Source: update-rc.d_0.8.bb
@@ -3292,8 +3335,8 @@ Version: 2.0-r0
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 3694cbe84a3d290b94f121f64537f092
-Size: 942
+MD5Sum: 168d6b2d0adc6c34ea9d50180d6cc2aa
+Size: 940
 Filename: volatile-media_2.0-r0_all.ipk
 Source: volatile-media.bb
 Description: Mounts and populates a tmpfs over /media
@@ -3306,7 +3349,7 @@ Version: 2018.10.24-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fe64dab085d6d98e65f2d1259beaef89
+MD5Sum: 423d9b9ed9be7473f6237b3e7876560e
 Size: 780
 Filename: wireless-regdb-dbg_2018.10.24-r0_all.ipk
 Source: wireless-regdb_2018.10.24.bb
@@ -3322,7 +3365,7 @@ Depends: wireless-regdb (= 2018.10.24-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba69611d78612b5890f2502ad674085f
+MD5Sum: 8d314dcc2d094ce59f14f26b536030aa
 Size: 808
 Filename: wireless-regdb-dev_2018.10.24-r0_all.ipk
 Source: wireless-regdb_2018.10.24.bb
@@ -3337,8 +3380,8 @@ Version: 2018.10.24-r0
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e562d004f1eb0a2201e919b46375a7a2
-Size: 3408
+MD5Sum: 7baa5af84d820d452db38181fc539af3
+Size: 3412
 Filename: wireless-regdb-static_2018.10.24-r0_all.ipk
 Source: wireless-regdb_2018.10.24.bb
 Description: Wireless Central Regulatory Domain Database
@@ -3354,8 +3397,8 @@ Suggests: crda
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 676093f42cd119aeb79f601b8100ab75
-Size: 3288
+MD5Sum: 6a43a4111ca7fd8e6b156c0067f48b49
+Size: 3304
 Filename: wireless-regdb_2018.10.24-r0_all.ipk
 Source: wireless-regdb_2018.10.24.bb
 Description: Wireless Central Regulatory Domain Database
