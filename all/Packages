@@ -438,9 +438,9 @@ Recommends: blindscan-s2, firmware-dvb-usb-technisat-skystar, kernel-module-dvb-
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ed48536a6351bd19b7b46c50f7a6936a
-SHA256sum: 10005b49d93cf58306f0495dd04482c17946d10ef020fd9cef44261ba7cdb554
-Size: 702
+MD5Sum: 020c7339ec8bdbe05464f36da5a35326
+SHA256sum: dd74dc20769f76dfc02c4cca7750049729066454d147b8498aa20e2c32d59f6e
+Size: 700
 Filename: enigma2-plugin-drivers-dvb-usb-technisat-skystar_1.0-r0_all.ipk
 Source: enigma2-plugin-drivers-dvb-usb-technisat-skystar.bb
 Description: enigma2-plugin-drivers-dvb-usb-technisat-skystar version 1.0-r0
@@ -462,6 +462,69 @@ Source: enigma2-plugin-drivers-s2-usb-dvbsky-s960.bb
 Description: enigma2-plugin-drivers-s2-usb-dvbsky-s960 version 1.0-r0
 OE: enigma2-plugin-drivers-s2-usb-dvbsky-s960
 License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-dbg
+Version: git3574+716982a-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 007c3a33fc25a04349a1603277c20d6f
+SHA256sum: 5fe0c241ed4b839a2529508f10e99f0cafa47d48147dc4a62299cdf07dfedf05
+Size: 688
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_git3574+716982a-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Debugging files
+OE: enigma2-plugin-extensions-e2iplayer
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-dev
+Version: git3574+716982a-r0
+Depends: enigma2-plugin-extensions-e2iplayer (= git3574+716982a-r0)
+Recommends: cmdwrap-dev, duktape-dev, f4mdump-dev, ffmpeg-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python-compression-dev, python-core-dev, python-dev, python-e2icjson-dev, python-html-dev, python-json-dev, python-pycurl-dev, python-shell-dev, python-subprocess-dev, python-textutils-dev, rtmpdump-dev, uchardet-dev, wget-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c06703fdb5dbac0864978ed5a45a8b5
+SHA256sum: ac715f827517f60ab3067fbd0ea218d95032102172735c6485eb4205d288c301
+Size: 848
+Filename: enigma2-plugin-extensions-e2iplayer-dev_git3574+716982a-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Development files
+OE: enigma2-plugin-extensions-e2iplayer
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-src
+Version: git3574+716982a-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c66c52a206713571b4b35e54f956f808
+SHA256sum: dfb9bf7b9c7abd924f676956a34569c0ae7e65c120b7081d36a85196ccd3e3a2
+Size: 836566
+Filename: enigma2-plugin-extensions-e2iplayer-src_git3574+716982a-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2 - Source files
+OE: enigma2-plugin-extensions-e2iplayer
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer
+Version: git3574+716982a-r0
+Depends: cmdwrap, duktape, f4mdump, ffmpeg, hlsdl, iptvsubparser, lsdir, python-compression, python-core, python-e2icjson, python-html, python-json, python-pycurl, python-shell, python-subprocess, python-textutils, rtmpdump, uchardet, wget
+Section: multimedia
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: baa9b8c179af942a5d6f4d3bde209f52
+SHA256sum: 40db928bf3fbc8636789238dfcc114749b617537793453bdc3edc67c171011ba
+Size: 5821720
+Filename: enigma2-plugin-extensions-e2iplayer_git3574+716982a-r0_all.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2i Player for E2
+OE: enigma2-plugin-extensions-e2iplayer
+License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgimport-rytec
@@ -486,9 +549,9 @@ Version: 1.0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6a6cf8a20f51d6f09f7aa2f53de7d3d1
-SHA256sum: 250dd47f0e625bfba3a48084d88a1c8d2138bfcc7461c2021f0a9226dd1ee244
-Size: 692
+MD5Sum: 93b10f9f6c3305d32ae9adef861bf22b
+SHA256sum: 789861e9e14913b570b06e28204fbe02a8db9c3f2477649047674a687d60b24b
+Size: 690
 Filename: enigma2-plugin-extensions-install-exteplayer3-dbg_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-exteplayer3.bb
 Description: Meta package for installing exteplayer3 - Debugging files
@@ -502,8 +565,8 @@ Depends: enigma2-plugin-extensions-install-exteplayer3 (= 1.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 935f7f183c765aacfcdd246690c310e9
-SHA256sum: 3ff77f96f2459f0acec807806172f66f5d8644544e567ddeb912f46c509d37c1
+MD5Sum: be0936dd65f2d5fce8789cb1688c106e
+SHA256sum: fc96bbe4e0bafcfdc9424ed7300e429140e666e37e0cb982f5afdf9dc99a1cd6
 Size: 720
 Filename: enigma2-plugin-extensions-install-exteplayer3-dev_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-exteplayer3.bb
@@ -518,8 +581,8 @@ Recommends: exteplayer3
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ecbdf9e4938a6fd53ff45e8b9fee432
-SHA256sum: b2715f4083919a06f8c3a8bfb1cb71fa491c98adee2586fa5aa8ba8d440f512a
+MD5Sum: eac9c0443d9d4cc0716adfa259a7e5f4
+SHA256sum: bc3d1feec0553b44df1167ee0f604ef6f5c7c3ceb5c7fd6a61f9cd5159760850
 Size: 636
 Filename: enigma2-plugin-extensions-install-exteplayer3_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-exteplayer3.bb
@@ -533,9 +596,9 @@ Version: 1.0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15e72d0a07afa1e611eadb4a9080b818
-SHA256sum: d7979f06a9aecd42390486ebafa6c12fb91c0a08383cad6c0285b6031b6e16b9
-Size: 692
+MD5Sum: 2fe8160c0eb5b0c6d2590c47a89dfff0
+SHA256sum: 5ff2992bb77a1ce21273c2dd61c12a7ce3a4939f2265d34bec89324aff60a1bd
+Size: 690
 Filename: enigma2-plugin-extensions-install-ffmpeg-dbg_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-ffmpeg.bb
 Description: Meta package for installing FFmpeg - Debugging files
@@ -549,8 +612,8 @@ Depends: enigma2-plugin-extensions-install-ffmpeg (= 1.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d72310460397fffdb9763292302b8ce2
-SHA256sum: 13e8b4955a50ccc74a7570cbdf0da9a14348efc3465ed07fe9cefe4f8853bf71
+MD5Sum: 14cd4470893744f3f209460a080718eb
+SHA256sum: c31e0fb81eda0f438069924c9b20f8b486afcdb9121292d24130d05bca1ef460
 Size: 720
 Filename: enigma2-plugin-extensions-install-ffmpeg-dev_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-ffmpeg.bb
@@ -565,9 +628,9 @@ Recommends: ffmpeg
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7ccfcda07b7f12f0942e2b36df2821f
-SHA256sum: e3cd2bb04b560b80bd2ee060e075e50fc47d0ca1908a3805b457f53629560af1
-Size: 636
+MD5Sum: 5bb795d9b0f26fac62da1bdde96092e4
+SHA256sum: b97db693bf35f1c96f9752785dd32178bc745e2b451f31ffb51bd9b95369bba8
+Size: 638
 Filename: enigma2-plugin-extensions-install-ffmpeg_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-ffmpeg.bb
 Description: Meta package for installing FFmpeg
@@ -580,9 +643,9 @@ Version: 1.0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: abc52cf1bdffaa6ffefe7dadb357612e
-SHA256sum: 6da52ac30e52fb887b06f1cf71c91a06c02d4109f2769c25c393f5ed9454e6f2
-Size: 692
+MD5Sum: e9078a399413905689b8156dd4f62d6a
+SHA256sum: 0e6474167818fa32c77de7dbc9769cd786e78a5a44bf650bd74e1befeb582d58
+Size: 690
 Filename: enigma2-plugin-extensions-install-gstplayer-dbg_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-gstplayer.bb
 Description: Meta package for installing gstplayer - Debugging files
@@ -596,9 +659,9 @@ Depends: enigma2-plugin-extensions-install-gstplayer (= 1.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c32e48a642d6a28d965db844b8b06da7
-SHA256sum: 504447092f8aa91b6300ad760364bc8ce1eb735fd8fff77f39c8d9cb18026c6a
-Size: 722
+MD5Sum: a7ff7c06008afe8f240a5b320c9f9f79
+SHA256sum: d98d65f3b2b82c6b983d61210e2fc1dc7c68fb6b2481159a64c818d77ef7bd79
+Size: 718
 Filename: enigma2-plugin-extensions-install-gstplayer-dev_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-gstplayer.bb
 Description: Meta package for installing gstplayer - Development files
@@ -612,8 +675,8 @@ Recommends: gstplayer
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd80f67e702013fba8f576ae97b29441
-SHA256sum: 905c17d1f0a041314657a324d64f78ccfcef4d510c137dbadec7d9dfcb43f6bf
+MD5Sum: f0a12ef4e0904748b51bfa6591cb2636
+SHA256sum: ed686f9dac238deda550bf997e74cdf76a2e2db28abf57642d0d1c30ad0d1315
 Size: 638
 Filename: enigma2-plugin-extensions-install-gstplayer_1.0-r0_all.ipk
 Source: enigma2-plugin-extensions-install-gstplayer.bb
@@ -628,8 +691,8 @@ Depends: python-argparse
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80f28fc1acbde5752bb300c94269c04b
-SHA256sum: ec4a279976fc57659618311985569ea079d29e6ef931884d8e8a68e3c79c8269
+MD5Sum: d8f4319fa9b2c96a23b24924294bf57b
+SHA256sum: 1694a6cff0f2ca023f3d5053939cc7af29611e730830aebe2d7ff67bc33f1cff
 Size: 36094
 Filename: enigma2-plugin-extensions-openuitzendinggemist_2+git199+1b5a393-r0_all.ipk
 Source: enigma2-pliplugins.bb
@@ -1176,8 +1239,8 @@ Version: git119+f82a689-r0
 Section: devel
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: 012b4aeaf0c7f1f898a7540a45a64e8d
-SHA256sum: e07fc933cf2198f7029f4c5a44b0e8d531a9cbe24dbb0f06dd27ac400f6ec1f2
+MD5Sum: 1b87693b831a61f976acf22f0eee3313
+SHA256sum: f9437973849ca8d41df4d705480baab08a010ef85b87e7e30eddaded97952b90
 Size: 668
 Filename: enigma2-plugin-skins-octetfhd-dbg_git119+f82a689-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
@@ -1193,9 +1256,9 @@ Recommends: enigma2-plugin-extensions-weatherplugin2-dev, enigma2-plugin-fonts-o
 Section: devel
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: d90882b35199eb8d0a3a446516821b64
-SHA256sum: dd95841b9f4eabd3b8a5a7affaf423d9028de7907f6dae0a5da1674bbfbe8ab0
-Size: 746
+MD5Sum: 6fd982770269fbe4919ef7884e38e551
+SHA256sum: 30d9ce1d66c628c2e9fa44fe014827879dc4b826db48fefba5237d9bc4fb2964
+Size: 744
 Filename: enigma2-plugin-skins-octetfhd-dev_git119+f82a689-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Development files
@@ -1209,9 +1272,9 @@ Depends: enigma2-plugin-extensions-weatherplugin2, enigma2-plugin-fonts-opensans
 Section: base
 Architecture: all
 Maintainer: Open Vision Developers
-MD5Sum: cfe9ce3dffb8b35ce91ff363ce7706c0
-SHA256sum: 9d814a7bb76ca35721492fcf1b43a2a2764cb2cc1ab36f0ae162c846ceed7cd1
-Size: 1270300
+MD5Sum: 8d43095a2cb9bdd305a091ac1d3edee1
+SHA256sum: 17b100c701008d03b815f0821dd7862ccaf8f73f3c8cd075a30e1aec82ea80f8
+Size: 1270298
 Filename: enigma2-plugin-skins-octetfhd_git119+f82a689-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD
