@@ -1,0 +1,4039 @@
+Package: autoconf-archive-doc
+Version: 2019.01.06-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 990e9e72ac40c13e09548ebaebbf21b2
+Size: 151642
+Filename: autoconf-archive-doc_2019.01.06-r0_all.ipk
+Source: autoconf-archive_2019.01.06.bb
+Description: a collection of freely re-usable Autoconf macros - Documentation files
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
+
+Package: autoconf-archive
+Version: 2019.01.06-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c1e7e147b5fe0bb09391cf489375a10
+Size: 312194
+Filename: autoconf-archive_2019.01.06-r0_all.ipk
+Source: autoconf-archive_2019.01.06.bb
+Description: a collection of freely re-usable Autoconf macros
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
+
+Package: ca-certificates-dbg
+Version: 20190110-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a26f7f07633c30b6305b4b8a754ef76
+Size: 850
+Filename: ca-certificates-dbg_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Debugging files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20190110-r0
+Depends: ca-certificates (= 20190110-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 910db8729c7d924d8392e05a33ea0a30
+Size: 878
+Filename: ca-certificates-dev_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Development files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20190110-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d2aacae183870cfec6df909cfc324a76
+Size: 2104
+Filename: ca-certificates-doc_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Documentation files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20190110-r0
+Section: misc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 123669b062e5f520091f55f7a2d069b5
+Size: 118172
+Filename: ca-certificates_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-gioppygio-dbg
+Version: 7.0+git34+900a4b8-r6
+Section: devel
+Architecture: all
+Maintainer: opendroid-Team
+MD5Sum: a77fcb44d8e8daf083c53d24561345e9
+Size: 736
+Filename: enigma2-plugin-extensions-gioppygio-dbg_7.0+git34+900a4b8-r6_all.ipk
+Source: enigma2-plugin-extensions-gioppygio.bb
+Description: enigma2-plugin-extensions-gioppygio version 7.0+gitAUTOINC+900a4b8d5a-r6 - Debugging files
+OE: enigma2-plugin-extensions-gioppygio
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-gioppygio-dev
+Version: 7.0+git34+900a4b8-r6
+Depends: enigma2-plugin-extensions-gioppygio (= 7.0+git34+900a4b8-r6)
+Section: devel
+Architecture: all
+Maintainer: opendroid-Team
+MD5Sum: e27bad03e6a659ae0b410b3b5277d92e
+Size: 770
+Filename: enigma2-plugin-extensions-gioppygio-dev_7.0+git34+900a4b8-r6_all.ipk
+Source: enigma2-plugin-extensions-gioppygio.bb
+Description: enigma2-plugin-extensions-gioppygio version 7.0+gitAUTOINC+900a4b8d5a-r6 - Development files
+OE: enigma2-plugin-extensions-gioppygio
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-gioppygio
+Version: 7.0+git34+900a4b8-r6
+Section: base
+Architecture: all
+Maintainer: opendroid-Team
+MD5Sum: 826333d68982273137f69a55a29bd8c3
+Size: 266538
+Filename: enigma2-plugin-extensions-gioppygio_7.0+git34+900a4b8-r6_all.ipk
+Source: enigma2-plugin-extensions-gioppygio.bb
+Description: enigma2-plugin-extensions-gioppygio version 7.0+gitAUTOINC+900a4b8d5a-r6
+OE: enigma2-plugin-extensions-gioppygio
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-vhannibal-autosettings-dbg
+Version: 1.4+git9+695e7dd-r4
+Section: devel
+Architecture: all
+Maintainer: opendroid
+MD5Sum: 92489cc30097840bc9350b6745828c6e
+Size: 742
+Filename: enigma2-plugin-extensions-vhannibal-autosettings-dbg_1.4+git9+695e7dd-r4_all.ipk
+Source: enigma2-plugin-extensions-vhannibal-autosettings.bb
+Description: enigma2-plugin-extensions-vhannibal-autosettings version 1.4+gitAUTOINC+695e7dd226-r4 - Debugging files
+OE: enigma2-plugin-extensions-vhannibal-autosettings
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-vhannibal-autosettings-dev
+Version: 1.4+git9+695e7dd-r4
+Depends: enigma2-plugin-extensions-vhannibal-autosettings (= 1.4+git9+695e7dd-r4)
+Section: devel
+Architecture: all
+Maintainer: opendroid
+MD5Sum: d72ba91444fa39623a3db0eeedf89e7d
+Size: 774
+Filename: enigma2-plugin-extensions-vhannibal-autosettings-dev_1.4+git9+695e7dd-r4_all.ipk
+Source: enigma2-plugin-extensions-vhannibal-autosettings.bb
+Description: enigma2-plugin-extensions-vhannibal-autosettings version 1.4+gitAUTOINC+695e7dd226-r4 - Development files
+OE: enigma2-plugin-extensions-vhannibal-autosettings
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-vhannibal-autosettings
+Version: 1.4+git9+695e7dd-r4
+Section: base
+Architecture: all
+Maintainer: opendroid
+MD5Sum: 7355b598ac89df709b409c0960a9af36
+Size: 20660
+Filename: enigma2-plugin-extensions-vhannibal-autosettings_1.4+git9+695e7dd-r4_all.ipk
+Source: enigma2-plugin-extensions-vhannibal-autosettings.bb
+Description: enigma2-plugin-extensions-vhannibal-autosettings version 1.4+gitAUTOINC+695e7dd226-r4
+OE: enigma2-plugin-extensions-vhannibal-autosettings
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-weatherplugin-opd-dbg
+Version: 3.0+git4+a200074-r1
+Section: devel
+Architecture: all
+Maintainer: opendroid
+MD5Sum: add9f3da6de90d430e2fda406719af82
+Size: 728
+Filename: enigma2-plugin-extensions-weatherplugin-opd-dbg_3.0+git4+a200074-r1_all.ipk
+Source: enigma2-plugin-extensions-weatherplugin-opd.bb
+Description: enigma2-plugin-extensions-weatherplugin-opd version 3.0+gitAUTOINC+a20007499e-r1 - Debugging files
+OE: enigma2-plugin-extensions-weatherplugin-opd
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-weatherplugin-opd-dev
+Version: 3.0+git4+a200074-r1
+Depends: enigma2-plugin-extensions-weatherplugin-opd (= 3.0+git4+a200074-r1)
+Section: devel
+Architecture: all
+Maintainer: opendroid
+MD5Sum: 6b3763f35909e0384bd6dea24a1a0925
+Size: 764
+Filename: enigma2-plugin-extensions-weatherplugin-opd-dev_3.0+git4+a200074-r1_all.ipk
+Source: enigma2-plugin-extensions-weatherplugin-opd.bb
+Description: enigma2-plugin-extensions-weatherplugin-opd version 3.0+gitAUTOINC+a20007499e-r1 - Development files
+OE: enigma2-plugin-extensions-weatherplugin-opd
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-extensions-weatherplugin-opd
+Version: 3.0+git4+a200074-r1
+Section: base
+Architecture: all
+Maintainer: opendroid
+MD5Sum: bd93158d6789cced453954a671df0c07
+Size: 64556
+Filename: enigma2-plugin-extensions-weatherplugin-opd_3.0+git4+a200074-r1_all.ipk
+Source: enigma2-plugin-extensions-weatherplugin-opd.bb
+Description: enigma2-plugin-extensions-weatherplugin-opd version 3.0+gitAUTOINC+a20007499e-r1
+OE: enigma2-plugin-extensions-weatherplugin-opd
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-army-moodblue-hd-dbg
+Version: 1.0+git32+8716a82-r0
+Section: devel
+Architecture: all
+Maintainer: Taykun345/OldSkulRide from OpenPLi/ViX forums
+MD5Sum: 9e8293ce521a06c9687055912e56db28
+Size: 802
+Filename: enigma2-plugin-skins-army-moodblue-hd-dbg_1.0+git32+8716a82-r0_all.ipk
+Source: enigma2-plugin-skins-army-moodblue-hd.bb
+Description: Modification is based on open-source skin from Army. It is adapted to work on OpenPLi, OpenViX, OpenATV images. - Debugging files
+OE: enigma2-plugin-skins-army-moodblue-hd
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-army-moodblue-hd-dev
+Version: 1.0+git32+8716a82-r0
+Depends: enigma2-plugin-skins-army-moodblue-hd (= 1.0+git32+8716a82-r0)
+Section: devel
+Architecture: all
+Maintainer: Taykun345/OldSkulRide from OpenPLi/ViX forums
+MD5Sum: 0a1ca15e729b82eabc4ec6a505c7da0d
+Size: 836
+Filename: enigma2-plugin-skins-army-moodblue-hd-dev_1.0+git32+8716a82-r0_all.ipk
+Source: enigma2-plugin-skins-army-moodblue-hd.bb
+Description: Modification is based on open-source skin from Army. It is adapted to work on OpenPLi, OpenViX, OpenATV images. - Development files
+OE: enigma2-plugin-skins-army-moodblue-hd
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-army-moodblue-hd
+Version: 1.0+git32+8716a82-r0
+Section: base
+Architecture: all
+Maintainer: Taykun345/OldSkulRide from OpenPLi/ViX forums
+MD5Sum: e17d2e5adfd9835dd36c27db9bf293ed
+Size: 1874034
+Filename: enigma2-plugin-skins-army-moodblue-hd_1.0+git32+8716a82-r0_all.ipk
+Source: enigma2-plugin-skins-army-moodblue-hd.bb
+Description: Modification is based on open-source skin from Army. It is adapted to work on OpenPLi, OpenViX, OpenATV images.
+OE: enigma2-plugin-skins-army-moodblue-hd
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-kravenhd-dbg
+Version: 7.6.x+git70+b0991fb-r0
+Section: devel
+Architecture: all
+Maintainer: Team Kraven
+MD5Sum: b90aa0809d4ed09c052b90da5e46d824
+Size: 720
+Filename: enigma2-plugin-skins-kravenhd-dbg_7.6.x+git70+b0991fb-r0_all.ipk
+Source: enigma2-plugin-skins-kravenhd.bb
+Description: KravenHD Skin for Enigma2 by Team Kraven - Debugging files
+OE: enigma2-plugin-skins-kravenhd
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-kravenhd-dev
+Version: 7.6.x+git70+b0991fb-r0
+Depends: enigma2-plugin-skins-kravenhd (= 7.6.x+git70+b0991fb-r0)
+Recommends: enigma2-plugin-systemplugins-mphelp-dev, python-imaging-dev, python-lxml-dev, python-requests-dev, python-subprocess-dev
+Section: devel
+Architecture: all
+Maintainer: Team Kraven
+MD5Sum: 5b3bccfa5181e1a0556eefdfd319f628
+Size: 810
+Filename: enigma2-plugin-skins-kravenhd-dev_7.6.x+git70+b0991fb-r0_all.ipk
+Source: enigma2-plugin-skins-kravenhd.bb
+Description: KravenHD Skin for Enigma2 by Team Kraven - Development files
+OE: enigma2-plugin-skins-kravenhd
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-kravenhd-src
+Version: 7.6.x+git70+b0991fb-r0
+Section: devel
+Architecture: all
+Maintainer: Team Kraven
+MD5Sum: fe0acd1c9f265228d7bb481f920e5a51
+Size: 87034
+Filename: enigma2-plugin-skins-kravenhd-src_7.6.x+git70+b0991fb-r0_all.ipk
+Source: enigma2-plugin-skins-kravenhd.bb
+Description: KravenHD Skin for Enigma2 by Team Kraven - Source files
+OE: enigma2-plugin-skins-kravenhd
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-kravenhd
+Version: 7.6.x+git70+b0991fb-r0
+Depends: enigma2-plugin-systemplugins-mphelp, python-imaging, python-lxml, python-requests, python-subprocess
+Provides: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
+Replaces: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
+Conflicts: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
+Section: base
+Architecture: all
+Maintainer: Team Kraven
+MD5Sum: b784461af4fef79a3b25809fe8fee226
+Size: 3618818
+Filename: enigma2-plugin-skins-kravenhd_7.6.x+git70+b0991fb-r0_all.ipk
+Source: enigma2-plugin-skins-kravenhd.bb
+Description: KravenHD Skin for Enigma2 by Team Kraven
+OE: enigma2-plugin-skins-kravenhd
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-mynovumhd2-dbg
+Version: 19.2+git259+600402d-r0
+Section: devel
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: 32da2e8088613682671667f88565ee71
+Size: 722
+Filename: enigma2-plugin-skins-mynovumhd2-dbg_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-mynovumhd2.bb
+Description: myNOVUM_HD2 by Nashu - Debugging files
+OE: enigma2-plugin-skins-mynovumhd2
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-mynovumhd2-dev
+Version: 19.2+git259+600402d-r0
+Depends: enigma2-plugin-skins-mynovumhd2 (= 19.2+git259+600402d-r0)
+Recommends: enigma2-plugin-skincomponents-novum-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
+Section: devel
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: f733a28d5404a034d90e8b862b7dec14
+Size: 798
+Filename: enigma2-plugin-skins-mynovumhd2-dev_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-mynovumhd2.bb
+Description: myNOVUM_HD2 by Nashu - Development files
+OE: enigma2-plugin-skins-mynovumhd2
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-mynovumhd2
+Version: 19.2+git259+600402d-r0
+Depends: enigma2-plugin-skincomponents-novum, enigma2-plugin-systemplugins-weathercomponenthandler
+Section: base
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: f9d4421184e7e380ff6cec7115e76590
+Size: 5187258
+Filename: enigma2-plugin-skins-mynovumhd2_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-mynovumhd2.bb
+Description: myNOVUM_HD2 by Nashu
+OE: enigma2-plugin-skins-mynovumhd2
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-mynovumhd2black-dbg
+Version: 19.2+git259+600402d-r0
+Section: devel
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: 57c655bfccddc1b6d66d6fe3b5339fbe
+Size: 728
+Filename: enigma2-plugin-skins-mynovumhd2black-dbg_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-mynovumhd2black.bb
+Description: myNOVUM_HD2_Black by Nashu - Debugging files
+OE: enigma2-plugin-skins-mynovumhd2black
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-mynovumhd2black-dev
+Version: 19.2+git259+600402d-r0
+Depends: enigma2-plugin-skins-mynovumhd2black (= 19.2+git259+600402d-r0)
+Recommends: enigma2-plugin-skincomponents-novum-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
+Section: devel
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: 004d56cce5e8d820e42b6d1e9bc8aa6d
+Size: 808
+Filename: enigma2-plugin-skins-mynovumhd2black-dev_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-mynovumhd2black.bb
+Description: myNOVUM_HD2_Black by Nashu - Development files
+OE: enigma2-plugin-skins-mynovumhd2black
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-mynovumhd2black
+Version: 19.2+git259+600402d-r0
+Depends: enigma2-plugin-skincomponents-novum, enigma2-plugin-systemplugins-weathercomponenthandler
+Section: base
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: 81350dc9eed8d9b9707ed8636ea4d4f7
+Size: 5295306
+Filename: enigma2-plugin-skins-mynovumhd2black_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-mynovumhd2black.bb
+Description: myNOVUM_HD2_Black by Nashu
+OE: enigma2-plugin-skins-mynovumhd2black
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-novum-fhd-light-dbg
+Version: 16.0+git259+600402d-r0
+Section: devel
+Architecture: all
+Maintainer: Nashu
+MD5Sum: 282a5973d8493467a314cd87820c10fd
+Size: 720
+Filename: enigma2-plugin-skins-novum-fhd-light-dbg_16.0+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-novum-fhd-light.bb
+Description: NOVUM_FHD_Light by Nashu - Debugging files
+OE: enigma2-plugin-skins-novum-fhd-light
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-novum-fhd-light-dev
+Version: 16.0+git259+600402d-r0
+Depends: enigma2-plugin-skins-novum-fhd-light (= 16.0+git259+600402d-r0)
+Recommends: enigma2-plugin-skincomponents-novum-dev
+Section: devel
+Architecture: all
+Maintainer: Nashu
+MD5Sum: 6598cb8958d7ec03b6c07eb249b0858b
+Size: 776
+Filename: enigma2-plugin-skins-novum-fhd-light-dev_16.0+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-novum-fhd-light.bb
+Description: NOVUM_FHD_Light by Nashu - Development files
+OE: enigma2-plugin-skins-novum-fhd-light
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-novum-fhd-light
+Version: 16.0+git259+600402d-r0
+Depends: enigma2-plugin-skincomponents-novum
+Section: base
+Architecture: all
+Maintainer: Nashu
+MD5Sum: 5c478296f102e0071ca1a3498a9cddc0
+Size: 1920836
+Filename: enigma2-plugin-skins-novum-fhd-light_16.0+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-novum-fhd-light.bb
+Description: NOVUM_FHD_Light by Nashu
+OE: enigma2-plugin-skins-novum-fhd-light
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-novum-hd-slim-dbg
+Version: 19.2+git259+600402d-r0
+Section: devel
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: e47347fb32609f6fbd7fd18c01b7b9ee
+Size: 724
+Filename: enigma2-plugin-skins-novum-hd-slim-dbg_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-novum-hd-slim.bb
+Description: NOVUM_HD_Slim by Nashu - Debugging files
+OE: enigma2-plugin-skins-novum-hd-slim
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-novum-hd-slim-dev
+Version: 19.2+git259+600402d-r0
+Depends: enigma2-plugin-skins-novum-hd-slim (= 19.2+git259+600402d-r0)
+Recommends: enigma2-plugin-skincomponents-novum-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
+Section: devel
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: 3d0211cb553d05df9d95b586bbc8f125
+Size: 802
+Filename: enigma2-plugin-skins-novum-hd-slim-dev_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-novum-hd-slim.bb
+Description: NOVUM_HD_Slim by Nashu - Development files
+OE: enigma2-plugin-skins-novum-hd-slim
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-novum-hd-slim
+Version: 19.2+git259+600402d-r0
+Depends: enigma2-plugin-skincomponents-novum, enigma2-plugin-systemplugins-weathercomponenthandler
+Section: base
+Architecture: all
+Maintainer: rossi2000
+MD5Sum: e77a4cde38735ad14cd6b6efc6a1aee6
+Size: 5191430
+Filename: enigma2-plugin-skins-novum-hd-slim_19.2+git259+600402d-r0_all.ipk
+Source: enigma2-plugin-skins-novum-hd-slim.bb
+Description: NOVUM_HD_Slim by Nashu
+OE: enigma2-plugin-skins-novum-hd-slim
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-odreamy-dbg
+Version: 1.1+git64+6223b5e-r2
+Section: devel
+Architecture: all
+Maintainer: openDroid Team
+MD5Sum: bf5378a8adbd418fa5f30a1616c4f770
+Size: 712
+Filename: enigma2-plugin-skins-odreamy-dbg_1.1+git64+6223b5e-r2_all.ipk
+Source: enigma2-plugin-skins-odreamy.bb
+Description: Enigma2 Skin oDreamy - Debugging files
+OE: enigma2-plugin-skins-odreamy
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-odreamy-dev
+Version: 1.1+git64+6223b5e-r2
+Depends: enigma2-plugin-skins-odreamy (= 1.1+git64+6223b5e-r2)
+Section: devel
+Architecture: all
+Maintainer: openDroid Team
+MD5Sum: 44e9d092383c0779300d1815d5804df0
+Size: 746
+Filename: enigma2-plugin-skins-odreamy-dev_1.1+git64+6223b5e-r2_all.ipk
+Source: enigma2-plugin-skins-odreamy.bb
+Description: Enigma2 Skin oDreamy - Development files
+OE: enigma2-plugin-skins-odreamy
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-odreamy
+Version: 1.1+git64+6223b5e-r2
+Section: base
+Architecture: all
+Maintainer: openDroid Team
+MD5Sum: 43796a1e2b628a589dd2a2ea0cece214
+Size: 2052262
+Filename: enigma2-plugin-skins-odreamy_1.1+git64+6223b5e-r2_all.ipk
+Source: enigma2-plugin-skins-odreamy.bb
+Description: Enigma2 Skin oDreamy
+OE: enigma2-plugin-skins-odreamy
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-opendroid-dbg
+Version: 1.1+git73+2630ddd-r17
+Section: devel
+Architecture: all
+Maintainer: openDroid Team
+MD5Sum: eca5db8f4d65f56f70402b3d3f25c7bb
+Size: 718
+Filename: enigma2-plugin-skins-opendroid-dbg_1.1+git73+2630ddd-r17_all.ipk
+Source: enigma2-plugin-skins-opendroid.bb
+Description: Enigma2 Skin oDreamy-FHD - Debugging files
+OE: enigma2-plugin-skins-opendroid
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-opendroid-dev
+Version: 1.1+git73+2630ddd-r17
+Depends: enigma2-plugin-skins-opendroid (= 1.1+git73+2630ddd-r17)
+Section: devel
+Architecture: all
+Maintainer: openDroid Team
+MD5Sum: b9ac8b2948438e1b6c9b291161cd3b47
+Size: 754
+Filename: enigma2-plugin-skins-opendroid-dev_1.1+git73+2630ddd-r17_all.ipk
+Source: enigma2-plugin-skins-opendroid.bb
+Description: Enigma2 Skin oDreamy-FHD - Development files
+OE: enigma2-plugin-skins-opendroid
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-opendroid
+Version: 1.1+git73+2630ddd-r17
+Section: base
+Architecture: all
+Maintainer: openDroid Team
+MD5Sum: 29730397cd744e1b58663dad7323cb89
+Size: 1763790
+Filename: enigma2-plugin-skins-opendroid_1.1+git73+2630ddd-r17_all.ipk
+Source: enigma2-plugin-skins-opendroid.bb
+Description: Enigma2 Skin oDreamy-FHD
+OE: enigma2-plugin-skins-opendroid
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-pli-hd-fullnight-dbg
+Version: 0.1+git107+3c271e8-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 70e207f5a920056423f2339fdfb76824
+Size: 718
+Filename: enigma2-plugin-skins-pli-hd-fullnight-dbg_0.1+git107+3c271e8-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: PLi HD FullNight skin - Debugging files
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-fullnight-dev
+Version: 0.1+git107+3c271e8-r0
+Depends: enigma2-plugin-skins-pli-hd-fullnight (= 0.1+git107+3c271e8-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 6dc37fd3c035f681f0242762008f3d32
+Size: 756
+Filename: enigma2-plugin-skins-pli-hd-fullnight-dev_0.1+git107+3c271e8-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: PLi HD FullNight skin - Development files
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-fullnight
+Version: 0.1+git107+3c271e8-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 5cbda28aa18a20444e86ab20f6ab2487
+Size: 131222
+Filename: enigma2-plugin-skins-pli-hd-fullnight_0.1+git107+3c271e8-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: PLi HD FullNight skin
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-skindefault
+Version: 1.0+git254+877349e-r0
+Depends: font-roboto-enigma
+Section: base
+Architecture: all
+Maintainer: OE-Alliance
+MD5Sum: b3daab7129b45fc8bf566d734000b74e
+Size: 662852
+Filename: enigma2-skindefault_1.0+git254+877349e-r0_all.ipk
+Source: enigma2-skindefault-master.bb
+Description: A default skin for Enigma2.
+OE: enigma2-skindefault-master
+License: GPLv2
+Priority: optional
+
+Package: epgimport-rytec
+Version: 20200504-r0
+Section: base
+Architecture: all
+Maintainer: oe-alliance
+MD5Sum: 0da3346df3d0d86a87287daa9422388e
+Size: 4156
+Filename: epgimport-rytec_20200504-r0_all.ipk
+Source: epgimport-rytec.bb
+Description: Rytec's sources and channels for the EPG importer
+OE: epgimport-rytec
+License: GPLv2+
+Priority: optional
+
+Package: font-roboto-enigma
+Version: 1.0+git254+877349e-r0
+Section: base
+Architecture: all
+Maintainer: OE-Alliance
+MD5Sum: 993b6c35b003b5b89afa08d65613eae7
+Size: 149156
+Filename: font-roboto-enigma_1.0+git254+877349e-r0_all.ipk
+Source: enigma2-skindefault-master.bb
+Description: A default skin for Enigma2.
+OE: enigma2-skindefault-master
+License: GPLv2
+Priority: optional
+
+Package: font-valis-enigma-dbg
+Version: 2009.11.12-r0
+Section: devel
+Architecture: all
+Maintainer: valis
+MD5Sum: e8529ec1e86041322cca4c47bd7cc112
+Size: 680
+Filename: font-valis-enigma-dbg_2009.11.12-r0_all.ipk
+Source: font-valis-enigma.bb
+Description: font-valis-enigma - Debugging files
+OE: font-valis-enigma
+License: GPLv2+
+Priority: optional
+
+Package: font-valis-enigma-dev
+Version: 2009.11.12-r0
+Depends: font-valis-enigma (= 2009.11.12-r0)
+Section: devel
+Architecture: all
+Maintainer: valis
+MD5Sum: 0913922e8e600305e10da1b46d729fbf
+Size: 718
+Filename: font-valis-enigma-dev_2009.11.12-r0_all.ipk
+Source: font-valis-enigma.bb
+Description: font-valis-enigma - Development files
+OE: font-valis-enigma
+License: GPLv2+
+Priority: optional
+
+Package: font-valis-enigma
+Version: 2009.11.12-r0
+Section: base
+Architecture: all
+Maintainer: valis
+MD5Sum: e5688ed08d16ef4ab93fd9391d622bc0
+Size: 31510
+Filename: font-valis-enigma_2009.11.12-r0_all.ipk
+Source: font-valis-enigma.bb
+Description: font-valis-enigma
+OE: font-valis-enigma
+License: GPLv2+
+Priority: optional
+
+Package: iso-codes-dbg
+Version: 4.3-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 474567205c389e07182af3b093516d66
+Size: 784
+Filename: iso-codes-dbg_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - Debugging files
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-dev
+Version: 4.3-r0
+Depends: iso-codes (= 4.3-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61e086fde3bf0f91628d07625db8f7b9
+Size: 1032
+Filename: iso-codes-dev_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - Development files
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ab
+Version: 4.3-r0
+Provides: ab-translation, iso-codes-locale
+Recommends: virtual-locale-ab
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd0690f2485171444ee4bdaf8fb5c052
+Size: 1306
+Filename: iso-codes-locale-ab_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ab translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ace
+Version: 4.3-r0
+Provides: ace-translation, iso-codes-locale
+Recommends: virtual-locale-ace
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa78e9e5a987c41cf033f946adf28862
+Size: 1298
+Filename: iso-codes-locale-ace_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ace translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ach
+Version: 4.3-r0
+Provides: ach-translation, iso-codes-locale
+Recommends: virtual-locale-ach
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3aee63938ebe6320103bec6ccd456813
+Size: 4186
+Filename: iso-codes-locale-ach_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ach translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-af
+Version: 4.3-r0
+Provides: af-translation, iso-codes-locale
+Recommends: virtual-locale-af
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d2efe9e03dbbe41f91ca0e8413ac3c3
+Size: 10614
+Filename: iso-codes-locale-af_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - af translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ak
+Version: 4.3-r0
+Provides: ak-translation, iso-codes-locale
+Recommends: virtual-locale-ak
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca299cff5196c00da10f809c4bbff612
+Size: 1302
+Filename: iso-codes-locale-ak_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ak translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-am
+Version: 4.3-r0
+Provides: am-translation, iso-codes-locale
+Recommends: virtual-locale-am
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ae2249f09221f37df2172c1786db42cf
+Size: 6006
+Filename: iso-codes-locale-am_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - am translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-an
+Version: 4.3-r0
+Provides: an-translation, iso-codes-locale
+Recommends: virtual-locale-an
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 62995be15f5dfb58bebe962ba2037073
+Size: 1300
+Filename: iso-codes-locale-an_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - an translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ar
+Version: 4.3-r0
+Provides: ar-translation, iso-codes-locale
+Recommends: virtual-locale-ar
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d17151354304492dbb851e06378d1c7
+Size: 15552
+Filename: iso-codes-locale-ar_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ar translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-as
+Version: 4.3-r0
+Provides: as-translation, iso-codes-locale
+Recommends: virtual-locale-as
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b3a6eeb2aa5463327a6e0ab546be8e7
+Size: 18178
+Filename: iso-codes-locale-as_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - as translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ast
+Version: 4.3-r0
+Provides: ast-translation, iso-codes-locale
+Recommends: virtual-locale-ast
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12b33f196fbf6fbc257a0dc835af4ebc
+Size: 79018
+Filename: iso-codes-locale-ast_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ast translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ay
+Version: 4.3-r0
+Provides: ay-translation, iso-codes-locale
+Recommends: virtual-locale-ay
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e9cdffb6862e7ab24d5ae7aa33ac0e8
+Size: 1298
+Filename: iso-codes-locale-ay_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ay translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-az
+Version: 4.3-r0
+Provides: az-translation, iso-codes-locale
+Recommends: virtual-locale-az
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c6f09d3eb7aae3b40b71d68a79bedca3
+Size: 6210
+Filename: iso-codes-locale-az_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - az translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ba
+Version: 4.3-r0
+Provides: ba-translation, iso-codes-locale
+Recommends: virtual-locale-ba
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7d64b7692bad9b9c9d5caf3f1201992
+Size: 1304
+Filename: iso-codes-locale-ba_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ba translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bar
+Version: 4.3-r0
+Provides: bar-translation, iso-codes-locale
+Recommends: virtual-locale-bar
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 14d7634ae96d658292ce19e57e8741db
+Size: 3446
+Filename: iso-codes-locale-bar_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - bar translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-be
+Version: 4.3-r0
+Provides: be-translation, iso-codes-locale
+Recommends: virtual-locale-be
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1622821e94832ed9a0b87ae5227415a
+Size: 97972
+Filename: iso-codes-locale-be_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - be translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bg
+Version: 4.3-r0
+Provides: bg-translation, iso-codes-locale
+Recommends: virtual-locale-bg
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b2cc29601add06cb16128265e48899cb
+Size: 24224
+Filename: iso-codes-locale-bg_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - bg translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bi
+Version: 4.3-r0
+Provides: bi-translation, iso-codes-locale
+Recommends: virtual-locale-bi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21ce7c801f61adf6591ce6b689ee3a7d
+Size: 1300
+Filename: iso-codes-locale-bi_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - bi translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bn-in
+Version: 4.3-r0
+Provides: bn-in-translation, iso-codes-locale
+Recommends: virtual-locale-bn-in
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c69d279823723bbf611993df9065b8c0
+Size: 10016
+Filename: iso-codes-locale-bn-in_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - bn_IN translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bn
+Version: 4.3-r0
+Provides: bn-translation, iso-codes-locale
+Recommends: virtual-locale-bn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 01bda74cf1b2dd122d94b75f0a51ff48
+Size: 37984
+Filename: iso-codes-locale-bn_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - bn translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-br
+Version: 4.3-r0
+Provides: br-translation, iso-codes-locale
+Recommends: virtual-locale-br
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f01b18d712a0ac9c0a1df5cd36742ad9
+Size: 18852
+Filename: iso-codes-locale-br_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - br translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bs
+Version: 4.3-r0
+Provides: bs-translation, iso-codes-locale
+Recommends: virtual-locale-bs
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b6b8fd82e9f41a10c28d7a48de7c742
+Size: 10132
+Filename: iso-codes-locale-bs_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - bs translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-byn
+Version: 4.3-r0
+Provides: byn-translation, iso-codes-locale
+Recommends: virtual-locale-byn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b4f1b809c8e1f74e9b85ea062672690f
+Size: 5618
+Filename: iso-codes-locale-byn_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - byn translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ca
+Version: 4.3-r0
+Provides: ca-translation, iso-codes-locale
+Recommends: virtual-locale-ca
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 65286ba2b810f10439e10400d8a3624e
+Size: 26344
+Filename: iso-codes-locale-ca_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ca translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ce
+Version: 4.3-r0
+Provides: ce-translation, iso-codes-locale
+Recommends: virtual-locale-ce
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6897d9f83b5315d75dccaa196f4e4cf
+Size: 4908
+Filename: iso-codes-locale-ce_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ce translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ch
+Version: 4.3-r0
+Provides: ch-translation, iso-codes-locale
+Recommends: virtual-locale-ch
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f65594ffee784c883ec22d1bb9be8992
+Size: 1696
+Filename: iso-codes-locale-ch_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ch translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-chr
+Version: 4.3-r0
+Provides: chr-translation, iso-codes-locale
+Recommends: virtual-locale-chr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1bc18f5a937c2bbf7420cefdec9d3483
+Size: 3034
+Filename: iso-codes-locale-chr_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - chr translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ckb
+Version: 4.3-r0
+Provides: ckb-translation, iso-codes-locale
+Recommends: virtual-locale-ckb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 916bec26ffcb263ccd6407d1c2703099
+Size: 4608
+Filename: iso-codes-locale-ckb_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ckb translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-crh
+Version: 4.3-r0
+Provides: crh-translation, iso-codes-locale
+Recommends: virtual-locale-crh
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 512c459b9ad90777eccaa625c64db4e9
+Size: 70030
+Filename: iso-codes-locale-crh_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - crh translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-cs
+Version: 4.3-r0
+Provides: cs-translation, iso-codes-locale
+Recommends: virtual-locale-cs
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1286e6b25d92dde6d49a3c73a0db9a6
+Size: 26808
+Filename: iso-codes-locale-cs_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - cs translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-csb
+Version: 4.3-r0
+Provides: csb-translation, iso-codes-locale
+Recommends: virtual-locale-csb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9c03918d31e5b476f075b62386aa4829
+Size: 2806
+Filename: iso-codes-locale-csb_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - csb translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-cv
+Version: 4.3-r0
+Provides: cv-translation, iso-codes-locale
+Recommends: virtual-locale-cv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b2dc2a3f0ef5dc74161eb5da81de8171
+Size: 4908
+Filename: iso-codes-locale-cv_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - cv translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-cy
+Version: 4.3-r0
+Provides: cy-translation, iso-codes-locale
+Recommends: virtual-locale-cy
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 862ceaeaa4b0e96417f77f6cca90fb17
+Size: 10456
+Filename: iso-codes-locale-cy_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - cy translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-da
+Version: 4.3-r0
+Provides: da-translation, iso-codes-locale
+Recommends: virtual-locale-da
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3fe2b3d2606ef72422e9cee443da78ec
+Size: 65832
+Filename: iso-codes-locale-da_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - da translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-de
+Version: 4.3-r0
+Provides: de-translation, iso-codes-locale
+Recommends: virtual-locale-de
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9fdbdf817af4531d7d8b60ac629a863c
+Size: 166864
+Filename: iso-codes-locale-de_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - de translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-dv
+Version: 4.3-r0
+Provides: dv-translation, iso-codes-locale
+Recommends: virtual-locale-dv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93d7801ee5d20a6e8b7d48d45e66497a
+Size: 4860
+Filename: iso-codes-locale-dv_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - dv translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-dz
+Version: 4.3-r0
+Provides: dz-translation, iso-codes-locale
+Recommends: virtual-locale-dz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b60441108255df8b2dd30aa45dcc2d9
+Size: 10146
+Filename: iso-codes-locale-dz_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - dz translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ee
+Version: 4.3-r0
+Provides: ee-translation, iso-codes-locale
+Recommends: virtual-locale-ee
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f1c209caa38a2ecab4fdc9c6c379dd1
+Size: 1292
+Filename: iso-codes-locale-ee_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ee translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-el
+Version: 4.3-r0
+Provides: el-translation, iso-codes-locale
+Recommends: virtual-locale-el
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: feeecb78c079354b4f58b5aa60d5da1e
+Size: 32672
+Filename: iso-codes-locale-el_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - el translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-en
+Version: 4.3-r0
+Provides: en-translation, iso-codes-locale
+Recommends: virtual-locale-en
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9c6ac94c29a6a26ee18d270d9e270c0d
+Size: 24736
+Filename: iso-codes-locale-en_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - en translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-eo
+Version: 4.3-r0
+Provides: eo-translation, iso-codes-locale
+Recommends: virtual-locale-eo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e583676f3ef0e2e357e882ed3ffcfbb6
+Size: 20980
+Filename: iso-codes-locale-eo_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - eo translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-es
+Version: 4.3-r0
+Provides: es-translation, iso-codes-locale
+Recommends: virtual-locale-es
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 898b64c16b7d114ae4fc3023de3b065f
+Size: 30092
+Filename: iso-codes-locale-es_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - es translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-et
+Version: 4.3-r0
+Provides: et-translation, iso-codes-locale
+Recommends: virtual-locale-et
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7769762a3572d22848d4b64d4d679f5e
+Size: 29716
+Filename: iso-codes-locale-et_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - et translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-eu
+Version: 4.3-r0
+Provides: eu-translation, iso-codes-locale
+Recommends: virtual-locale-eu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4109c2578b1348e78b29db25e8633cb5
+Size: 18364
+Filename: iso-codes-locale-eu_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - eu translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fa
+Version: 4.3-r0
+Provides: fa-translation, iso-codes-locale
+Recommends: virtual-locale-fa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c3c7707c26f4daa84031b56a91b0bb92
+Size: 16064
+Filename: iso-codes-locale-fa_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - fa translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ff
+Version: 4.3-r0
+Provides: ff-translation, iso-codes-locale
+Recommends: virtual-locale-ff
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80afbebe119e8f57c451a9e4578581cd
+Size: 2510
+Filename: iso-codes-locale-ff_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ff translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fi
+Version: 4.3-r0
+Provides: fi-translation, iso-codes-locale
+Recommends: virtual-locale-fi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 977d5bf79ffdcab5ff2da04d9e1549c9
+Size: 24632
+Filename: iso-codes-locale-fi_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - fi translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fo
+Version: 4.3-r0
+Provides: fo-translation, iso-codes-locale
+Recommends: virtual-locale-fo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc240c8adbe5fe6406378a1d840c5ee3
+Size: 2976
+Filename: iso-codes-locale-fo_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - fo translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fr
+Version: 4.3-r0
+Provides: fr-translation, iso-codes-locale
+Recommends: virtual-locale-fr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b9a6faf60f0a2c366e4f332dcaba6fb3
+Size: 179724
+Filename: iso-codes-locale-fr_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - fr translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-frp
+Version: 4.3-r0
+Provides: frp-translation, iso-codes-locale
+Recommends: virtual-locale-frp
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f1e8b199be283a2840792a989f477bfa
+Size: 4378
+Filename: iso-codes-locale-frp_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - frp translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fur
+Version: 4.3-r0
+Provides: fur-translation, iso-codes-locale
+Recommends: virtual-locale-fur
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdcc912c39375e6b42326099a2de1b2f
+Size: 2106
+Filename: iso-codes-locale-fur_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - fur translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fy
+Version: 4.3-r0
+Provides: fy-translation, iso-codes-locale
+Recommends: virtual-locale-fy
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 903faede1c5bcc5d75dc5f1fba0d2ab6
+Size: 4366
+Filename: iso-codes-locale-fy_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - fy translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ga
+Version: 4.3-r0
+Provides: ga-translation, iso-codes-locale
+Recommends: virtual-locale-ga
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 44e232a74bfbabf3b3a41ff59c64f1d4
+Size: 17052
+Filename: iso-codes-locale-ga_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ga translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gez
+Version: 4.3-r0
+Provides: gez-translation, iso-codes-locale
+Recommends: virtual-locale-gez
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d9c34548bc8c73b8aa3995fc25d7f1d
+Size: 5624
+Filename: iso-codes-locale-gez_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - gez translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gl
+Version: 4.3-r0
+Provides: gl-translation, iso-codes-locale
+Recommends: virtual-locale-gl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a0eeb6eae9795527322005e96894a6a
+Size: 88224
+Filename: iso-codes-locale-gl_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - gl translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gn
+Version: 4.3-r0
+Provides: gn-translation, iso-codes-locale
+Recommends: virtual-locale-gn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a5008c11f86c06d8d4e6832c1f0a5143
+Size: 3436
+Filename: iso-codes-locale-gn_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - gn translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gu
+Version: 4.3-r0
+Provides: gu-translation, iso-codes-locale
+Recommends: virtual-locale-gu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3fa7cfc41ee17cf435b394881a86e4ff
+Size: 27586
+Filename: iso-codes-locale-gu_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - gu translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gv
+Version: 4.3-r0
+Provides: gv-translation, iso-codes-locale
+Recommends: virtual-locale-gv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbcb2cb965ec39de38efeaff419ab370
+Size: 4216
+Filename: iso-codes-locale-gv_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - gv translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ha
+Version: 4.3-r0
+Provides: ha-translation, iso-codes-locale
+Recommends: virtual-locale-ha
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 396aa27d18b064f513868088f6a59b08
+Size: 2884
+Filename: iso-codes-locale-ha_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ha translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-haw
+Version: 4.3-r0
+Provides: haw-translation, iso-codes-locale
+Recommends: virtual-locale-haw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d2c970581b0a8865802d91ab75ee3c6
+Size: 1768
+Filename: iso-codes-locale-haw_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - haw translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-he
+Version: 4.3-r0
+Provides: he-translation, iso-codes-locale
+Recommends: virtual-locale-he
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 176f4548957ac47862746dc1af91f537
+Size: 11000
+Filename: iso-codes-locale-he_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - he translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hi
+Version: 4.3-r0
+Provides: hi-translation, iso-codes-locale
+Recommends: virtual-locale-hi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f0308964ef48b4b37d2cdbd349e1ba0
+Size: 12384
+Filename: iso-codes-locale-hi_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - hi translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hr
+Version: 4.3-r0
+Provides: hr-translation, iso-codes-locale
+Recommends: virtual-locale-hr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1ac758480ea66652a512cc07fac9e6a7
+Size: 21832
+Filename: iso-codes-locale-hr_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - hr translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ht
+Version: 4.3-r0
+Provides: ht-translation, iso-codes-locale
+Recommends: virtual-locale-ht
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b71c52715e1004c224cd82bd2453dce3
+Size: 3920
+Filename: iso-codes-locale-ht_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ht translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hu
+Version: 4.3-r0
+Provides: hu-translation, iso-codes-locale
+Recommends: virtual-locale-hu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ad2c036f6244a671c14bd42e6c15e39f
+Size: 55980
+Filename: iso-codes-locale-hu_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - hu translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hy
+Version: 4.3-r0
+Provides: hy-translation, iso-codes-locale
+Recommends: virtual-locale-hy
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b732b0ff0bc70d435787dde36654326b
+Size: 9584
+Filename: iso-codes-locale-hy_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - hy translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ia
+Version: 4.3-r0
+Provides: ia-translation, iso-codes-locale
+Recommends: virtual-locale-ia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e8c1593fb264974bd5a5c2e50ecf8d2a
+Size: 10612
+Filename: iso-codes-locale-ia_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ia translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-id
+Version: 4.3-r0
+Provides: id-translation, iso-codes-locale
+Recommends: virtual-locale-id
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c53358a6749a154862c0272bb9cefa12
+Size: 129672
+Filename: iso-codes-locale-id_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - id translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-io
+Version: 4.3-r0
+Provides: io-translation, iso-codes-locale
+Recommends: virtual-locale-io
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e233c0da966b32b32505b7fdec46cadc
+Size: 4072
+Filename: iso-codes-locale-io_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - io translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-is
+Version: 4.3-r0
+Provides: is-translation, iso-codes-locale
+Recommends: virtual-locale-is
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3104a9ff6c33152353984c8eb60681d1
+Size: 60216
+Filename: iso-codes-locale-is_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - is translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-it
+Version: 4.3-r0
+Provides: iso-codes-locale, it-translation
+Recommends: virtual-locale-it
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 867d141b3bc192229dbb4c14685aa5ed
+Size: 164812
+Filename: iso-codes-locale-it_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - it translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-iu
+Version: 4.3-r0
+Provides: iso-codes-locale, iu-translation
+Recommends: virtual-locale-iu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a2aa5ac767c9debb8ac0d6d88da74f71
+Size: 1860
+Filename: iso-codes-locale-iu_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - iu translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ja
+Version: 4.3-r0
+Provides: iso-codes-locale, ja-translation
+Recommends: virtual-locale-ja
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 65ac1ae42a71d821c6fc5312d57d8678
+Size: 58776
+Filename: iso-codes-locale-ja_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ja translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-jam
+Version: 4.3-r0
+Provides: iso-codes-locale, jam-translation
+Recommends: virtual-locale-jam
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 76b8c406d98a33e15f93a8499e81d0ef
+Size: 3966
+Filename: iso-codes-locale-jam_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - jam translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ka
+Version: 4.3-r0
+Provides: iso-codes-locale, ka-translation
+Recommends: virtual-locale-ka
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d69fa85f89770c3dfa96776a098b3e20
+Size: 9168
+Filename: iso-codes-locale-ka_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ka translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kab
+Version: 4.3-r0
+Provides: iso-codes-locale, kab-translation
+Recommends: virtual-locale-kab
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b28cab7c36b197e3b4318c224931c9a
+Size: 3374
+Filename: iso-codes-locale-kab_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - kab translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ki
+Version: 4.3-r0
+Provides: iso-codes-locale, ki-translation
+Recommends: virtual-locale-ki
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 462da245c097f9052a4baa6dd03f4d1e
+Size: 2692
+Filename: iso-codes-locale-ki_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ki translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kk
+Version: 4.3-r0
+Provides: iso-codes-locale, kk-translation
+Recommends: virtual-locale-kk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3da30ad94dd563cfd00942f78e8247cc
+Size: 9540
+Filename: iso-codes-locale-kk_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - kk translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kl
+Version: 4.3-r0
+Provides: iso-codes-locale, kl-translation
+Recommends: virtual-locale-kl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d9e8a0d85332353fb21ded50cd4f6e1
+Size: 1300
+Filename: iso-codes-locale-kl_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - kl translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-km
+Version: 4.3-r0
+Provides: iso-codes-locale, km-translation
+Recommends: virtual-locale-km
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d11e36626c8ba2ff5d4ef725c755a71
+Size: 9988
+Filename: iso-codes-locale-km_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - km translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kn
+Version: 4.3-r0
+Provides: iso-codes-locale, kn-translation
+Recommends: virtual-locale-kn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3322e33a99ef56377489039b49a6bb8e
+Size: 105896
+Filename: iso-codes-locale-kn_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - kn translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ko
+Version: 4.3-r0
+Provides: iso-codes-locale, ko-translation
+Recommends: virtual-locale-ko
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1fbefe9c43409b8a756ad2d6aec71182
+Size: 23972
+Filename: iso-codes-locale-ko_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ko translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kok
+Version: 4.3-r0
+Provides: iso-codes-locale, kok-translation
+Recommends: virtual-locale-kok
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: adee8f4da792a654813cfa445c4db8f6
+Size: 3954
+Filename: iso-codes-locale-kok_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - kok translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ku
+Version: 4.3-r0
+Provides: iso-codes-locale, ku-translation
+Recommends: virtual-locale-ku
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2140504620703d3cfa71c3b293f5274d
+Size: 8568
+Filename: iso-codes-locale-ku_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ku translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kv
+Version: 4.3-r0
+Provides: iso-codes-locale, kv-translation
+Recommends: virtual-locale-kv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: defc653cb8091af489d46788e2f5903b
+Size: 3328
+Filename: iso-codes-locale-kv_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - kv translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kw
+Version: 4.3-r0
+Provides: iso-codes-locale, kw-translation
+Recommends: virtual-locale-kw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 225f5c637f2f1b25c60e293f7f391bb7
+Size: 4342
+Filename: iso-codes-locale-kw_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - kw translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ky
+Version: 4.3-r0
+Provides: iso-codes-locale, ky-translation
+Recommends: virtual-locale-ky
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12d9f10622144a0121808205c37f2534
+Size: 9156
+Filename: iso-codes-locale-ky_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ky translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-lo
+Version: 4.3-r0
+Provides: iso-codes-locale, lo-translation
+Recommends: virtual-locale-lo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4a5c89ee88472958372d2e1c187bddb
+Size: 2882
+Filename: iso-codes-locale-lo_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - lo translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-lt
+Version: 4.3-r0
+Provides: iso-codes-locale, lt-translation
+Recommends: virtual-locale-lt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 76aa281f2e95cf7b49b7e99c3c5f2649
+Size: 55284
+Filename: iso-codes-locale-lt_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - lt translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-lv
+Version: 4.3-r0
+Provides: iso-codes-locale, lv-translation
+Recommends: virtual-locale-lv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e91edfe6afaa2f2b34c73e9b965f4f84
+Size: 23448
+Filename: iso-codes-locale-lv_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - lv translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mai
+Version: 4.3-r0
+Provides: iso-codes-locale, mai-translation
+Recommends: virtual-locale-mai
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 83d29a11798336ff8c99fe51566f929c
+Size: 2690
+Filename: iso-codes-locale-mai_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mai translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mhr
+Version: 4.3-r0
+Provides: iso-codes-locale, mhr-translation
+Recommends: virtual-locale-mhr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4d2947b9b7dc825b9a0646298887e568
+Size: 3258
+Filename: iso-codes-locale-mhr_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mhr translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mi
+Version: 4.3-r0
+Provides: iso-codes-locale, mi-translation
+Recommends: virtual-locale-mi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b9d6570b014da5599d9b83785a35193c
+Size: 5252
+Filename: iso-codes-locale-mi_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mi translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mk
+Version: 4.3-r0
+Provides: iso-codes-locale, mk-translation
+Recommends: virtual-locale-mk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f9348e6cb773f6b9f63c023460c56366
+Size: 10168
+Filename: iso-codes-locale-mk_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mk translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ml
+Version: 4.3-r0
+Provides: iso-codes-locale, ml-translation
+Recommends: virtual-locale-ml
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 04b6bb9e2967b9b9dc0f62c34e63175b
+Size: 18640
+Filename: iso-codes-locale-ml_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ml translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mn
+Version: 4.3-r0
+Provides: iso-codes-locale, mn-translation
+Recommends: virtual-locale-mn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bfed83844a325553a1d50e45131bfede
+Size: 9032
+Filename: iso-codes-locale-mn_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mn translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mo
+Version: 4.3-r0
+Provides: iso-codes-locale, mo-translation
+Recommends: virtual-locale-mo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e8346ba76b9df505c5ff501dce8a923
+Size: 1876
+Filename: iso-codes-locale-mo_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mo translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mr
+Version: 4.3-r0
+Provides: iso-codes-locale, mr-translation
+Recommends: virtual-locale-mr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a36a0ce7008a09df4eebe8d5cdacc6a5
+Size: 118386
+Filename: iso-codes-locale-mr_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mr translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ms
+Version: 4.3-r0
+Provides: iso-codes-locale, ms-translation
+Recommends: virtual-locale-ms
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f61ebae107ea88dd0188b8d2429946a5
+Size: 5668
+Filename: iso-codes-locale-ms_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ms translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mt
+Version: 4.3-r0
+Provides: iso-codes-locale, mt-translation
+Recommends: virtual-locale-mt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e8600acb31a6b86055b942672dc413be
+Size: 9004
+Filename: iso-codes-locale-mt_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - mt translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-my
+Version: 4.3-r0
+Provides: iso-codes-locale, my-translation
+Recommends: virtual-locale-my
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 538ed928d2a5f16b3ab8237886436bee
+Size: 4848
+Filename: iso-codes-locale-my_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - my translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-na
+Version: 4.3-r0
+Provides: iso-codes-locale, na-translation
+Recommends: virtual-locale-na
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 317670aa10a21619e6c6c85b0d7d9a05
+Size: 3456
+Filename: iso-codes-locale-na_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - na translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nah
+Version: 4.3-r0
+Provides: iso-codes-locale, nah-translation
+Recommends: virtual-locale-nah
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4981467375c8cc9cfb6604f6b8af1251
+Size: 3862
+Filename: iso-codes-locale-nah_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - nah translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nb-no
+Version: 4.3-r0
+Provides: iso-codes-locale, nb-no-translation
+Recommends: virtual-locale-nb-no
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d99f6644a08e37ec5913ac81dfdf5d58
+Size: 1688
+Filename: iso-codes-locale-nb-no_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - nb_NO translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nb
+Version: 4.3-r0
+Provides: iso-codes-locale, nb-translation
+Recommends: virtual-locale-nb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9fc1f98865a614616c17a4df6336573b
+Size: 14792
+Filename: iso-codes-locale-nb_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - nb translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ne
+Version: 4.3-r0
+Provides: iso-codes-locale, ne-translation
+Recommends: virtual-locale-ne
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 369661cb0dddefa5ec9f87b82fd79336
+Size: 9686
+Filename: iso-codes-locale-ne_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ne translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nl
+Version: 4.3-r0
+Provides: iso-codes-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12af2d3db5f8fa71b92f15705d8e15a0
+Size: 90588
+Filename: iso-codes-locale-nl_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - nl translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nn
+Version: 4.3-r0
+Provides: iso-codes-locale, nn-translation
+Recommends: virtual-locale-nn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a5dd16009ecf96dc37b5f891d3e644d
+Size: 15140
+Filename: iso-codes-locale-nn_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - nn translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nso
+Version: 4.3-r0
+Provides: iso-codes-locale, nso-translation
+Recommends: virtual-locale-nso
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: febcfb9d6791b4db05eb8048a78cfe04
+Size: 4590
+Filename: iso-codes-locale-nso_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - nso translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nv
+Version: 4.3-r0
+Provides: iso-codes-locale, nv-translation
+Recommends: virtual-locale-nv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc5112adf48cdac5c8985c77df314d66
+Size: 3308
+Filename: iso-codes-locale-nv_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - nv translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-oc
+Version: 4.3-r0
+Provides: iso-codes-locale, oc-translation
+Recommends: virtual-locale-oc
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0f5a1f4623750fe2d97776bc449d1982
+Size: 11734
+Filename: iso-codes-locale-oc_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - oc translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-or
+Version: 4.3-r0
+Provides: iso-codes-locale, or-translation
+Recommends: virtual-locale-or
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 571519ba3f4cbe7dc40a91d7cc91e7db
+Size: 67950
+Filename: iso-codes-locale-or_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - or translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pa
+Version: 4.3-r0
+Provides: iso-codes-locale, pa-translation
+Recommends: virtual-locale-pa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e447efba8c4acde773ee4442c8781035
+Size: 115800
+Filename: iso-codes-locale-pa_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - pa translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pap
+Version: 4.3-r0
+Provides: iso-codes-locale, pap-translation
+Recommends: virtual-locale-pap
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b00e926858eb0015a851af80ce0cfa5
+Size: 1306
+Filename: iso-codes-locale-pap_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - pap translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pi
+Version: 4.3-r0
+Provides: iso-codes-locale, pi-translation
+Recommends: virtual-locale-pi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58776c136adda89d814c7c545174464e
+Size: 4108
+Filename: iso-codes-locale-pi_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - pi translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pl
+Version: 4.3-r0
+Provides: iso-codes-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d4fe999f4c278f72b824a6afd5d7b716
+Size: 111280
+Filename: iso-codes-locale-pl_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - pl translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ps
+Version: 4.3-r0
+Provides: iso-codes-locale, ps-translation
+Recommends: virtual-locale-ps
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8e3de91fab9a3a14b634645fbb322ae
+Size: 4452
+Filename: iso-codes-locale-ps_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ps translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pt-br
+Version: 4.3-r0
+Provides: iso-codes-locale, pt-br-translation
+Recommends: virtual-locale-pt-br
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c6ecb39b40eab4147025ff9ae83831d5
+Size: 24732
+Filename: iso-codes-locale-pt-br_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - pt_BR translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pt
+Version: 4.3-r0
+Provides: iso-codes-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2f36046ccdf8448f0af1486e174c2ada
+Size: 18772
+Filename: iso-codes-locale-pt_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - pt translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ro
+Version: 4.3-r0
+Provides: iso-codes-locale, ro-translation
+Recommends: virtual-locale-ro
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8534465e395e7ec252dab582a6a3c2b8
+Size: 28936
+Filename: iso-codes-locale-ro_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ro translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ru
+Version: 4.3-r0
+Provides: iso-codes-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9114273d226549faeff65d4655a23061
+Size: 27516
+Filename: iso-codes-locale-ru_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ru translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-rw
+Version: 4.3-r0
+Provides: iso-codes-locale, rw-translation
+Recommends: virtual-locale-rw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2f8bdaec35c079a19552485d80c4f87b
+Size: 16328
+Filename: iso-codes-locale-rw_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - rw translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sc
+Version: 4.3-r0
+Provides: iso-codes-locale, sc-translation
+Recommends: virtual-locale-sc
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6dea55c2d7a742b1f85b231f8ba9dc94
+Size: 61706
+Filename: iso-codes-locale-sc_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sc translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sd
+Version: 4.3-r0
+Provides: iso-codes-locale, sd-translation
+Recommends: virtual-locale-sd
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4367fc215014009902764b7e4b8b37e3
+Size: 2592
+Filename: iso-codes-locale-sd_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sd translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-si
+Version: 4.3-r0
+Provides: iso-codes-locale, si-translation
+Recommends: virtual-locale-si
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88f02e82d19d8d12d9ff724366763f52
+Size: 9688
+Filename: iso-codes-locale-si_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - si translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sk
+Version: 4.3-r0
+Provides: iso-codes-locale, sk-translation
+Recommends: virtual-locale-sk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ded7161d7a4dcb5bb2c626d1a04d758a
+Size: 25720
+Filename: iso-codes-locale-sk_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sk translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sl
+Version: 4.3-r0
+Provides: iso-codes-locale, sl-translation
+Recommends: virtual-locale-sl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f704c28bc9f811ca5c97d1c1df7997b
+Size: 45392
+Filename: iso-codes-locale-sl_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sl translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-so
+Version: 4.3-r0
+Provides: iso-codes-locale, so-translation
+Recommends: virtual-locale-so
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 548852749830e6906d84667ea19b08d8
+Size: 3452
+Filename: iso-codes-locale-so_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - so translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-son
+Version: 4.3-r0
+Provides: iso-codes-locale, son-translation
+Recommends: virtual-locale-son
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa9e9d17b57894979646a1296fc1beb3
+Size: 4546
+Filename: iso-codes-locale-son_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - son translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sq
+Version: 4.3-r0
+Provides: iso-codes-locale, sq-translation
+Recommends: virtual-locale-sq
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db5fb0cc00ac00f61e80ad7e93803c90
+Size: 8164
+Filename: iso-codes-locale-sq_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sq translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sr+latin
+Version: 4.3-r0
+Provides: iso-codes-locale, sr+latin-translation
+Recommends: virtual-locale-sr+latin
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 79ac7ba39a142c5b6ae4aa70427abb46
+Size: 67330
+Filename: iso-codes-locale-sr+latin_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sr@latin translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sr
+Version: 4.3-r0
+Provides: iso-codes-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf6bacfc6e28173c683cca589debf8a6
+Size: 78306
+Filename: iso-codes-locale-sr_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sr translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sv
+Version: 4.3-r0
+Provides: iso-codes-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 379a7b4388cd0c3553187210b83279fd
+Size: 157688
+Filename: iso-codes-locale-sv_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sv translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sw
+Version: 4.3-r0
+Provides: iso-codes-locale, sw-translation
+Recommends: virtual-locale-sw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d2813b92731c971f3f0fc344d02bce0
+Size: 3600
+Filename: iso-codes-locale-sw_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - sw translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ta
+Version: 4.3-r0
+Provides: iso-codes-locale, ta-translation
+Recommends: virtual-locale-ta
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5b24b226c1bff3dfa0ed560609363128
+Size: 117186
+Filename: iso-codes-locale-ta_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ta translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-te
+Version: 4.3-r0
+Provides: iso-codes-locale, te-translation
+Recommends: virtual-locale-te
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b6dbb62c92e3538ed0b710d339bfa32
+Size: 18490
+Filename: iso-codes-locale-te_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - te translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tg
+Version: 4.3-r0
+Provides: iso-codes-locale, tg-translation
+Recommends: virtual-locale-tg
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39398b74a65178e923b82e5c908983f0
+Size: 8796
+Filename: iso-codes-locale-tg_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - tg translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-th
+Version: 4.3-r0
+Provides: iso-codes-locale, th-translation
+Recommends: virtual-locale-th
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9c9eefd5b28bb6280b2981054ddbdc5
+Size: 57724
+Filename: iso-codes-locale-th_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - th translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ti
+Version: 4.3-r0
+Provides: iso-codes-locale, ti-translation
+Recommends: virtual-locale-ti
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1556e0827cd9827f488709e035a68b6d
+Size: 6132
+Filename: iso-codes-locale-ti_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ti translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tig
+Version: 4.3-r0
+Provides: iso-codes-locale, tig-translation
+Recommends: virtual-locale-tig
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 689ea9b90ea6449fd64a44fa7cf04800
+Size: 5602
+Filename: iso-codes-locale-tig_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - tig translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tk
+Version: 4.3-r0
+Provides: iso-codes-locale, tk-translation
+Recommends: virtual-locale-tk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9a971ab688f86333ec1e4760b124854b
+Size: 6476
+Filename: iso-codes-locale-tk_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - tk translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tl
+Version: 4.3-r0
+Provides: iso-codes-locale, tl-translation
+Recommends: virtual-locale-tl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9379b7964c35f7b270d0eaf3ee7d417c
+Size: 6802
+Filename: iso-codes-locale-tl_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - tl translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tr
+Version: 4.3-r0
+Provides: iso-codes-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1ace48b57e065b86742729d9218ed50e
+Size: 85762
+Filename: iso-codes-locale-tr_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - tr translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tt+iqtelif
+Version: 4.3-r0
+Provides: iso-codes-locale, tt+iqtelif-translation
+Recommends: virtual-locale-tt+iqtelif
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9b0271c0ef4f70e74c33df93867b9481
+Size: 9224
+Filename: iso-codes-locale-tt+iqtelif_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - tt@iqtelif translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tt
+Version: 4.3-r0
+Provides: iso-codes-locale, tt-translation
+Recommends: virtual-locale-tt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c7e9e493464c808551f5ba70492db33
+Size: 10470
+Filename: iso-codes-locale-tt_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - tt translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ug
+Version: 4.3-r0
+Provides: iso-codes-locale, ug-translation
+Recommends: virtual-locale-ug
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e17cfa846de6a89d8fc74ce33df63cd0
+Size: 9484
+Filename: iso-codes-locale-ug_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ug translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-uk
+Version: 4.3-r0
+Provides: iso-codes-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1046f89efbb5f0415ee2e6a6f46152c
+Size: 221336
+Filename: iso-codes-locale-uk_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - uk translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ur
+Version: 4.3-r0
+Provides: iso-codes-locale, ur-translation
+Recommends: virtual-locale-ur
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a03da609044cb1844f862d92f8df7ff
+Size: 5218
+Filename: iso-codes-locale-ur_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ur translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-uz
+Version: 4.3-r0
+Provides: iso-codes-locale, uz-translation
+Recommends: virtual-locale-uz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a160a583f55db7d5121cda4d1280088b
+Size: 4108
+Filename: iso-codes-locale-uz_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - uz translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ve
+Version: 4.3-r0
+Provides: iso-codes-locale, ve-translation
+Recommends: virtual-locale-ve
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c0a0e16f18a5785bdd99ac38c38746b2
+Size: 4272
+Filename: iso-codes-locale-ve_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - ve translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-vi
+Version: 4.3-r0
+Provides: iso-codes-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 10a305dc41f25f852cddba3de9e421d9
+Size: 65156
+Filename: iso-codes-locale-vi_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - vi translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wa
+Version: 4.3-r0
+Provides: iso-codes-locale, wa-translation
+Recommends: virtual-locale-wa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0473d723fa69594b81b88d379d11dee
+Size: 18256
+Filename: iso-codes-locale-wa_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - wa translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wal
+Version: 4.3-r0
+Provides: iso-codes-locale, wal-translation
+Recommends: virtual-locale-wal
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9856565f32ad6b41e242afa9dec7a751
+Size: 3310
+Filename: iso-codes-locale-wal_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - wal translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wo
+Version: 4.3-r0
+Provides: iso-codes-locale, wo-translation
+Recommends: virtual-locale-wo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93c0aecf77557472a719cca9c1073587
+Size: 8000
+Filename: iso-codes-locale-wo_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - wo translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-xh
+Version: 4.3-r0
+Provides: iso-codes-locale, xh-translation
+Recommends: virtual-locale-xh
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 71560bed242b6d5216e6b910d4bc9314
+Size: 3096
+Filename: iso-codes-locale-xh_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - xh translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-yo
+Version: 4.3-r0
+Provides: iso-codes-locale, yo-translation
+Recommends: virtual-locale-yo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ec62821504b1966bc592f08c9d5c587a
+Size: 5112
+Filename: iso-codes-locale-yo_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - yo translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-cn
+Version: 4.3-r0
+Provides: iso-codes-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 369f5275bb53eb03097ab4e6d42107f7
+Size: 68280
+Filename: iso-codes-locale-zh-cn_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_CN translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-hant
+Version: 4.3-r0
+Provides: iso-codes-locale, zh-hant-translation
+Recommends: virtual-locale-zh-hant
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 045bb05cd5e47265aaf7d5f4483ed98c
+Size: 3412
+Filename: iso-codes-locale-zh-hant_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_Hant translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-hk
+Version: 4.3-r0
+Provides: iso-codes-locale, zh-hk-translation
+Recommends: virtual-locale-zh-hk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e998c998d7a43235e1a461a9945a1961
+Size: 16640
+Filename: iso-codes-locale-zh-hk_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_HK translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-tw
+Version: 4.3-r0
+Provides: iso-codes-locale, zh-tw-translation
+Recommends: virtual-locale-zh-tw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dc10fd55bb3c757ec4f3791346037753
+Size: 36486
+Filename: iso-codes-locale-zh-tw_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_TW translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zu
+Version: 4.3-r0
+Provides: iso-codes-locale, zu-translation
+Recommends: virtual-locale-zu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df77cd3f5c553fefc13405242596e39f
+Size: 4116
+Filename: iso-codes-locale-zu_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations - zu translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes
+Version: 4.3-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0897432078e0c35336529f1d3e728df9
+Size: 251482
+Filename: iso-codes_4.3-r0_all.ipk
+Source: iso-codes_4.3.bb
+Description: ISO language, territory, currency, script codes and their translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: oe-alliance-skins-dbg
+Version: 7.0-r2
+Recommends: enigma2-plugin-skins-army-moodblue-hd-dbg, enigma2-plugin-skins-kiddac-1080-slyk-q-dbg, enigma2-plugin-skins-kiddac-1080-slyk-r19-dbg, enigma2-plugin-skins-kravenhd-dbg, enigma2-plugin-skins-mynovumhd2-dbg, enigma2-plugin-skins-mynovumhd2black-dbg, enigma2-plugin-skins-novum-fhd-light-dbg, enigma2-plugin-skins-novum-hd-slim-dbg, enigma2-plugin-skins-pli-hd-fullnight-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 516c1c458fb2590bb849aa0346dc9477
+Size: 834
+Filename: oe-alliance-skins-dbg_7.0-r2_all.ipk
+Source: oe-alliance-skins.bb
+Description: Manage skins for OE-Alliance feeds. - Debugging files
+OE: oe-alliance-skins
+License: MIT
+Priority: optional
+
+Package: oe-alliance-skins-dev
+Version: 7.0-r2
+Depends: oe-alliance-skins (= 7.0-r2)
+Recommends: enigma2-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-kravenhd-dev, enigma2-plugin-skins-mynovumhd2-dev, enigma2-plugin-skins-mynovumhd2black-dev, enigma2-plugin-skins-novum-fhd-light-dev, enigma2-plugin-skins-novum-hd-slim-dev, enigma2-plugin-skins-pli-hd-fullnight-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b57b4656ee7ae3cf4396f5969758ecc
+Size: 864
+Filename: oe-alliance-skins-dev_7.0-r2_all.ipk
+Source: oe-alliance-skins.bb
+Description: Manage skins for OE-Alliance feeds. - Development files
+OE: oe-alliance-skins
+License: MIT
+Priority: optional
+
+Package: oe-alliance-skins
+Version: 7.0-r2
+Depends: enigma2-plugin-skins-army-moodblue-hd, enigma2-plugin-skins-kiddac-1080-slyk-q, enigma2-plugin-skins-kiddac-1080-slyk-r19, enigma2-plugin-skins-kravenhd, enigma2-plugin-skins-mynovumhd2, enigma2-plugin-skins-mynovumhd2black, enigma2-plugin-skins-novum-fhd-light, enigma2-plugin-skins-novum-hd-slim, enigma2-plugin-skins-pli-hd-fullnight
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e53115d4774280cf92d8befea6e368e3
+Size: 768
+Filename: oe-alliance-skins_7.0-r2_all.ipk
+Source: oe-alliance-skins.bb
+Description: Manage skins for OE-Alliance feeds.
+OE: oe-alliance-skins
+License: MIT
+Priority: optional
+
+Package: opendroid-spinner-dbg
+Version: 6.8-r4
+Section: devel
+Architecture: all
+Maintainer: OpenDroid Team
+MD5Sum: 6d674703619e9b621176e6dbf90c4b37
+Size: 684
+Filename: opendroid-spinner-dbg_6.8-r4_all.ipk
+Source: opendroid-spinner.bb
+Description: opendroid-spinner - Debugging files
+OE: opendroid-spinner
+License: GPLv2+
+Priority: optional
+
+Package: opendroid-spinner-dev
+Version: 6.8-r4
+Depends: opendroid-spinner (= 6.8-r4)
+Section: devel
+Architecture: all
+Maintainer: OpenDroid Team
+MD5Sum: a1bee866efb335ad181840e96e70e80e
+Size: 712
+Filename: opendroid-spinner-dev_6.8-r4_all.ipk
+Source: opendroid-spinner.bb
+Description: opendroid-spinner - Development files
+OE: opendroid-spinner
+License: GPLv2+
+Priority: optional
+
+Package: opendroid-spinner
+Version: 6.8-r4
+Section: base
+Architecture: all
+Maintainer: OpenDroid Team
+MD5Sum: 0cd1ad1808d7f7422c2943969ed78ada
+Size: 92794
+Filename: opendroid-spinner_6.8-r4_all.ipk
+Source: opendroid-spinner.bb
+Description: opendroid-spinner
+OE: opendroid-spinner
+License: GPLv2+
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r10
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e66ded2443accbd92892a19469ab424a
+Size: 738
+Filename: run-postinsts-dbg_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Debugging files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r10
+Depends: run-postinsts (= 1.0-r10)
+Recommends: initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ba9bda80dcaf724c874dc7cc37cf223f
+Size: 798
+Filename: run-postinsts-dev_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Development files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r10
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eabdd959501fdf0c1320c27d6fdb7b49
+Size: 1912
+Filename: run-postinsts_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: stlinux24-sh4-stmfb-firmware-stx7111
+Version: 1.20-1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ea6130afb7771e4e99a246ebd08c8471
+Size: 1324
+Filename: stlinux24-sh4-stmfb-firmware-stx7111_1.20-1-r0_all.ipk
+Source: stlinux24-sh4-stmfb-firmware-stx7111_1.20-1.bb
+Description: stlinux24-sh4-stmfb-firmware-stx7111 version 1.20-1-r0
+OE: stlinux24-sh4-stmfb-firmware-stx7111
+License: Proprietary
+Priority: optional
+
+Package: stlinux24-sh4-stx7111-fdma-firmware
+Version: 20150612-15-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3d3f13bd026c53b13360edbf9bbdd27b
+Size: 13132
+Filename: stlinux24-sh4-stx7111-fdma-firmware_20150612-15-r0_all.ipk
+Source: stlinux24-sh4-stx7111-fdma-firmware_20150612-15.bb
+Description: stlinux24-sh4-stx7111-fdma-firmware version 20150612-15-r0
+OE: stlinux24-sh4-stx7111-fdma-firmware
+License: Proprietary
+Priority: optional
+
+Package: tuxbox-common-dbg
+Version: 1.0+git648+f35e98f-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Alliance team
+MD5Sum: af45ed26eb2c0930cc7e4c540e899538
+Size: 708
+Filename: tuxbox-common-dbg_1.0+git648+f35e98f-r0_all.ipk
+Source: tuxbox-common_0.1.1.bb
+Description: Tuxbox common files - Debugging files
+OE: tuxbox-common
+License: Proprietary
+Priority: optional
+
+Package: tuxbox-common-dev
+Version: 1.0+git648+f35e98f-r0
+Depends: tuxbox-common (= 1.0+git648+f35e98f-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Alliance team
+MD5Sum: d05c04a87c58e6f054cf2ca1e49fae04
+Size: 742
+Filename: tuxbox-common-dev_1.0+git648+f35e98f-r0_all.ipk
+Source: tuxbox-common_0.1.1.bb
+Description: Tuxbox common files - Development files
+OE: tuxbox-common
+License: Proprietary
+Priority: optional
+
+Package: tuxbox-common
+Version: 1.0+git648+f35e98f-r0
+Section: base
+Architecture: all
+Maintainer: OE-Alliance team
+MD5Sum: a427ffda999e331f633478b8b53b8333
+Size: 58898
+Filename: tuxbox-common_1.0+git648+f35e98f-r0_all.ipk
+Source: tuxbox-common_0.1.1.bb
+Description: Tuxbox common files
+OE: tuxbox-common
+License: Proprietary
+Priority: optional
+
+Package: tzdata-africa
+Version: 2020a-r1
+Provides: tzdata-africa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6091585d92937157e4554da9e107046c
+Size: 5814
+Filename: tzdata-africa_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-americas
+Version: 2020a-r1
+Provides: tzdata-americas
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70a492a377cdf3d54a9f4c97de3133e6
+Size: 28748
+Filename: tzdata-americas_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-antarctica
+Version: 2020a-r1
+Provides: tzdata-antarctica
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a225fbe7f953f1f65dbcbd2c5ed0616e
+Size: 3924
+Filename: tzdata-antarctica_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-arctic
+Version: 2020a-r1
+Provides: tzdata-arctic
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd739bcc91afe41d39fd0e9be0202242
+Size: 1710
+Filename: tzdata-arctic_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-asia
+Version: 2020a-r1
+Provides: tzdata-asia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 68da959b6533469552bb97ea7bee9496
+Size: 17920
+Filename: tzdata-asia_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-atlantic
+Version: 2020a-r1
+Provides: tzdata-atlantic
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 321ac5417d01d10dac8b12811e8a4f5c
+Size: 5240
+Filename: tzdata-atlantic_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-australia
+Version: 2020a-r1
+Provides: tzdata-australia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a2c10ed309ec2c86ed6abd210b71cde
+Size: 4304
+Filename: tzdata-australia_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-core
+Version: 2020a-r1
+Depends: tzdata-europe
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3732812f40026563e15e605fe4d25ace
+Size: 27508
+Filename: tzdata-core_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-europe
+Version: 2020a-r1
+Provides: tzdata-europe
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bfa93f3f74299be2dc641df1dcc4d46f
+Size: 12542
+Filename: tzdata-europe_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-misc
+Version: 2020a-r1
+Provides: tzdata-misc
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1da7dea282b802e0e77fb637441a706e
+Size: 10468
+Filename: tzdata-misc_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-pacific
+Version: 2020a-r1
+Provides: tzdata-pacific
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7613d4058066a0380a8a54adb016d9a6
+Size: 6276
+Filename: tzdata-pacific_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-posix
+Version: 2020a-r1
+Provides: tzdata-posix
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5a5d8375d37f3be5b59555e9765c1dcf
+Size: 72448
+Filename: tzdata-posix_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-right
+Version: 2020a-r1
+Provides: tzdata-right
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7226fbf30d9731785eb6263623abc83c
+Size: 70024
+Filename: tzdata-right_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata
+Version: 2020a-r1
+Depends: tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-core, tzdata-europe, tzdata-misc, tzdata-pacific
+Conflicts: timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab, timezones
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 141e38b1e8f4ac96375d298202cf63e0
+Size: 1186
+Filename: tzdata_2020a-r1_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.8-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70dbd8fcc67a89f53d25880fdd329299
+Size: 812
+Filename: update-rc.d-dbg_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Debugging files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.8-r0
+Depends: update-rc.d (= 0.8-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c290d629795fc6bac90ffde791d78b22
+Size: 836
+Filename: update-rc.d-dev_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Development files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.8-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8f2d8407934c80ccfc01b8c212e0d14
+Size: 3042
+Filename: update-rc.d_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPLv2+
+Priority: optional
+
+Package: volatile-media
+Version: 2.0-r0
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 7504fd3b08922827cbb956fb9773bc73
+Size: 936
+Filename: volatile-media_2.0-r0_all.ipk
+Source: volatile-media.bb
+Description: Mounts and populates a tmpfs over /media
+OE: volatile-media
+License: GPLv2+
+Priority: optional
+
+Package: wireless-regdb-dbg
+Version: 2018.10.24-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b354101fa6bfa0bff09dce6637f6e8c
+Size: 780
+Filename: wireless-regdb-dbg_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database - Debugging files
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
+Package: wireless-regdb-dev
+Version: 2018.10.24-r0
+Depends: wireless-regdb (= 2018.10.24-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 13c8a0330e52555b94bca054c10d541f
+Size: 808
+Filename: wireless-regdb-dev_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database - Development files
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
+Package: wireless-regdb-static
+Version: 2018.10.24-r0
+Section: net
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 68b4d49acab77b51dfc70db611d96e9c
+Size: 3400
+Filename: wireless-regdb-static_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
+Package: wireless-regdb
+Version: 2018.10.24-r0
+Conflicts: wireless-regdb-static
+Suggests: crda
+Section: net
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 97736b680abfb877fff02db5cbeda7b0
+Size: 3302
+Filename: wireless-regdb_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
