@@ -234,6 +234,155 @@ OE: enigma2-oe-alliance-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-antiscrollbar-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: d8a96f91de083899b40b7a1273a8e116
+Size: 3222
+Filename: enigma2-plugin-extensions-antiscrollbar-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-antiscrollbar (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-antiscrollbar
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 67449116279b5d3d23f59248806ccd8a
+Size: 8900
+Filename: enigma2-plugin-extensions-antiscrollbar_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-antiscrollbar
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-audiosync-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 530cf49392ce4719564c1853abce60c3
+Size: 13514
+Filename: enigma2-plugin-extensions-audiosync-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-audiosync (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-audiosync-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: d0e68f0c2060b78abb7feb6c2ec0008d
+Size: 7716
+Filename: enigma2-plugin-extensions-audiosync-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-audiosync (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-audiosync
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: f554783a0db2c4bcb8af0dc98571ed28
+Size: 36420
+Filename: enigma2-plugin-extensions-audiosync_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-audiosync
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-autotimer-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a4a0c656abc895d7101b7e14fe27957c
+Size: 135650
+Filename: enigma2-plugin-extensions-autotimer-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-autotimer (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-autotimer-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a5d4c3ac9b0433707a0788ae4fbc5e3c
+Size: 43140
+Filename: enigma2-plugin-extensions-autotimer-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-autotimer (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-autotimer
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-systemplugins-mphelp, enigma2-plugin-systemplugins-toolkit, python-codecs, python-difflib, python-re, python-threading, python-xml
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: ff4bc6bc295764716112e424931f921e
+Size: 252902
+Filename: enigma2-plugin-extensions-autotimer_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-autotimer
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-bonjour-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 8ffda596c8057992d4a75cf21daee5d5
+Size: 3430
+Filename: enigma2-plugin-extensions-bonjour-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-bonjour (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-bonjour
+Version: 5.4+git6854+21ad860-r0
+Depends: avahi-daemon
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 3ce777586715d2dba5cfbcddf816ed68
+Size: 5064
+Filename: enigma2-plugin-extensions-bonjour_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-bonjour
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-btdevicesmanager-po
 Version: 5.4+git2614+090b426-r1
 Depends: enigma2-oe-alliance-plugins
@@ -276,6 +425,36 @@ Filename: enigma2-plugin-extensions-btdevicesmanager_5.4+git2614+090b426-r1_spar
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-btdevicesmanager
 OE: enigma2-oe-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-cdinfo-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 9572c73ade69c9cb4495856924933fd0
+Size: 3636
+Filename: enigma2-plugin-extensions-cdinfo-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-cdinfo (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-cdinfo
+Version: 5.4+git6854+21ad860-r0
+Depends: cdtextinfo
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 09ed62e5ab2806a900ccca3d2a0b2d07
+Size: 8716
+Filename: enigma2-plugin-extensions-cdinfo_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-cdinfo
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -369,6 +548,275 @@ OE: enigma2-oe-alliance-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-dreamexplorer-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: cf2605e97a531e924689dc57f369ee9f
+Size: 13578
+Filename: enigma2-plugin-extensions-dreamexplorer-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-dreamexplorer (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dreamexplorer
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e5b7c13f561b91709d04dee7a7bc11a1
+Size: 47312
+Filename: enigma2-plugin-extensions-dreamexplorer_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-dreamexplorer
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dreammediathek-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: fcd912c8a22f50e225adb907ebafc092
+Size: 5540
+Filename: enigma2-plugin-extensions-dreammediathek-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-dreammediathek (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dreammediathek
+Version: 5.4+git6854+21ad860-r0
+Depends: python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 9f8e5d3da046e5195cdc4bc0b1d43a6c
+Size: 8920
+Filename: enigma2-plugin-extensions-dreammediathek_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-dreammediathek
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdbackup-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 8b23f2761816e8b4c39b877bd283d1c6
+Size: 4372
+Filename: enigma2-plugin-extensions-dvdbackup-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-dvdbackup (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdbackup-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 035bdf0db2d65cf166cbd63782b4546e
+Size: 4684
+Filename: enigma2-plugin-extensions-dvdbackup-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-dvdbackup (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dvdbackup
+Version: 5.4+git6854+21ad860-r0
+Depends: cdrkit, dvdbackup, libdvdread4
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 6d51b17728c78a9ed1596a0820408c18
+Size: 15576
+Filename: enigma2-plugin-extensions-dvdbackup_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-dvdbackup
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-emailclient-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 11c85595c88068aeac979b098f2ed1f7
+Size: 11556
+Filename: enigma2-plugin-extensions-emailclient-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-emailclient (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-emailclient-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 3845af2def6a89133b269abc14c6c77d
+Size: 15436
+Filename: enigma2-plugin-extensions-emailclient-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-emailclient (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-emailclient
+Version: 5.4+git6854+21ad860-r0
+Depends: python-email, python-pyopenssl, python-shell, python-textutils, python-twisted-mail, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 2b24463d95612d839b05f503c5946763
+Size: 33980
+Filename: enigma2-plugin-extensions-emailclient_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-emailclient
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-emission-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: adeb80e231ff76fb157c8e9d525b2700
+Size: 9266
+Filename: enigma2-plugin-extensions-emission-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-emission (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-emission
+Version: 5.4+git6854+21ad860-r0
+Depends: python-transmissionrpc
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: d48dafcd5633612372b5e4492908ead5
+Size: 13208
+Filename: enigma2-plugin-extensions-emission_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-emission
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgrefresh-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 2fc680c28a9f56708c1422133a67fe00
+Size: 35216
+Filename: enigma2-plugin-extensions-epgrefresh-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-epgrefresh (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgrefresh-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: cafab772980848e680b562e6f9af3c66
+Size: 17932
+Filename: enigma2-plugin-extensions-epgrefresh-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-epgrefresh (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgrefresh
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-systemplugins-mphelp, python-codecs, python-lang, python-xml
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b63a2a84bdf8660e954f1e055713fea8
+Size: 59998
+Filename: enigma2-plugin-extensions-epgrefresh_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-epgrefresh
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgsearch-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 479ef738af3f560942af7f91054402ae
+Size: 22406
+Filename: enigma2-plugin-extensions-epgsearch-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-epgsearch (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgsearch-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 32b184f7623bcae1c03f71e0b69e792a
+Size: 13184
+Filename: enigma2-plugin-extensions-epgsearch-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-epgsearch (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgsearch
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-systemplugins-toolkit
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 0c9bfc31bd2570fb97318b624b015bbf
+Size: 38422
+Filename: enigma2-plugin-extensions-epgsearch_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-epgsearch
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-fempa-src
 Version: 5.4+git2614+090b426-r1
 Depends: enigma2-oe-alliance-plugins
@@ -396,6 +844,333 @@ Filename: enigma2-plugin-extensions-fempa_5.4+git2614+090b426-r1_spark.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-fempa
 OE: enigma2-oe-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-filebrowser-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 367462a2c08df437b65d685305b1b48f
+Size: 3648
+Filename: enigma2-plugin-extensions-filebrowser-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-filebrowser (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-filebrowser
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 5d2c30ee2adbac855b267ca416dd12d0
+Size: 5446
+Filename: enigma2-plugin-extensions-filebrowser_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-filebrowser
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-flashexpander-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 6479a4ea31cf574bd3073d7a89a9c534
+Size: 5054
+Filename: enigma2-plugin-extensions-flashexpander-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-flashexpander (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-flashexpander-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 88314727f634562128eab7ec0652cc07
+Size: 4164
+Filename: enigma2-plugin-extensions-flashexpander-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-flashexpander (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-flashexpander
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 9a26be85d2e5cdc49cd9216df6953e0a
+Size: 13916
+Filename: enigma2-plugin-extensions-flashexpander_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-flashexpander
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-fritzcall-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 950b1bb31ea3896f0930085f89f71901
+Size: 19536
+Filename: enigma2-plugin-extensions-fritzcall-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-fritzcall (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-fritzcall-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 8e7b9ac4478309ade15c8bd4eb48273c
+Size: 57924
+Filename: enigma2-plugin-extensions-fritzcall-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-fritzcall (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-fritzcall
+Version: 5.4+git6854+21ad860-r0
+Depends: python-html, python-textutils, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: f818ed46b59deded4967d3c2dc2964de
+Size: 310880
+Filename: enigma2-plugin-extensions-fritzcall_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-fritzcall
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ftpbrowser-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 75cd1c3c7154f0abd99aaaa543dbebd7
+Size: 8792
+Filename: enigma2-plugin-extensions-ftpbrowser-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-ftpbrowser (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ftpbrowser-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: fc909ebd65b73c80905717d191e6798e
+Size: 10394
+Filename: enigma2-plugin-extensions-ftpbrowser-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-ftpbrowser (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ftpbrowser
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-systemplugins-toolkit, python-shell, python-twisted-protocols
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: c4dc6265d3d653131eee65e877858d3f
+Size: 31684
+Filename: enigma2-plugin-extensions-ftpbrowser_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-ftpbrowser
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-googlemaps-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 5e3ef5647139be550caa0771f22b9c95
+Size: 13008
+Filename: enigma2-plugin-extensions-googlemaps-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-googlemaps (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-googlemaps
+Version: 5.4+git6854+21ad860-r0
+Depends: python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: dc8ff6667e731efcc758c57943bce04a
+Size: 40442
+Filename: enigma2-plugin-extensions-googlemaps_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-googlemaps
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-imdb-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 439fd40bd1079549c3163262b9b23500
+Size: 20458
+Filename: enigma2-plugin-extensions-imdb-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-imdb (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-imdb-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a0af7391cf09d5efa7e96240058abe83
+Size: 11074
+Filename: enigma2-plugin-extensions-imdb-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-imdb (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-imdb
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-systemplugins-toolkit, python-html, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: d5ee541e1b5448024176dab0993e1db0
+Size: 48318
+Filename: enigma2-plugin-extensions-imdb_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-imdb
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-infobartunerstate-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: bc14b0d059ac3f6f1316d39c050c2220
+Size: 6722
+Filename: enigma2-plugin-extensions-infobartunerstate-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-infobartunerstate (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-infobartunerstate-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 0283bfbd7c0c1b25dba8c03b43519371
+Size: 16564
+Filename: enigma2-plugin-extensions-infobartunerstate-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-infobartunerstate (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-infobartunerstate
+Version: 5.4+git6854+21ad860-r0
+Depends: python-re, python-shell
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: c4fda6f6f89e61ba62d22ecc56685fff
+Size: 40678
+Filename: enigma2-plugin-extensions-infobartunerstate_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-infobartunerstate
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-kiddytimer-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 90b9f3c55d4916427ed3eefb6871f55d
+Size: 7364
+Filename: enigma2-plugin-extensions-kiddytimer-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-kiddytimer (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-kiddytimer-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 14624d11e51aa9a82aff26ea409cedb6
+Size: 8786
+Filename: enigma2-plugin-extensions-kiddytimer-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-kiddytimer (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-kiddytimer
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 3d303ded201ee4bd5bdc415c3942cae5
+Size: 92734
+Filename: enigma2-plugin-extensions-kiddytimer_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-kiddytimer
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -444,6 +1219,171 @@ OE: enigma2-oe-alliance-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-mediadownloader-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e8e153bbeae6d3315ff52b5c4f61915c
+Size: 4538
+Filename: enigma2-plugin-extensions-mediadownloader-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-mediadownloader (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediadownloader-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 93b6bd52de8689322f8a103a32676cb1
+Size: 6042
+Filename: enigma2-plugin-extensions-mediadownloader-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-mediadownloader (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediadownloader
+Version: 5.4+git6854+21ad860-r0
+Depends: python-netclient, python-shell, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 7dca53b6544d30392d764b84727e25ba
+Size: 11726
+Filename: enigma2-plugin-extensions-mediadownloader_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-mediadownloader
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-merlinmusicplayer-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 7ef29f8980d2b59636a36e6871a481d5
+Size: 8538
+Filename: enigma2-plugin-extensions-merlinmusicplayer-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-merlinmusicplayer (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-merlinmusicplayer-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 8197ef6e88ca9ec729284558c8a21101
+Size: 22378
+Filename: enigma2-plugin-extensions-merlinmusicplayer-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-merlinmusicplayer (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-merlinmusicplayer
+Version: 5.4+git6854+21ad860-r0
+Depends: python-mutagen, python-sqlite3, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 7fa6d5fc1a1461815a5b79e5cbf5c407
+Size: 67768
+Filename: enigma2-plugin-extensions-merlinmusicplayer_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-merlinmusicplayer
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-moviecut-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 0fd53a2a12b81843cddebb4ebd2ac68c
+Size: 8146
+Filename: enigma2-plugin-extensions-moviecut-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-moviecut (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-moviecut-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 8607508813c2277e434b3a86b2333f2a
+Size: 4288
+Filename: enigma2-plugin-extensions-moviecut-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-moviecut (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-moviecut
+Version: 5.4+git6854+21ad860-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 6525d706b670d788f407879243adf517
+Size: 25096
+Filename: enigma2-plugin-extensions-moviecut_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-moviecut
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-moviesearch-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 4b066f12e04daaa14477dd348960a692
+Size: 1900
+Filename: enigma2-plugin-extensions-moviesearch-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-moviesearch (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-moviesearch
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-systemplugins-toolkit
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 9ff3d0e60c5244b26133b25edecfd2ca
+Size: 2828
+Filename: enigma2-plugin-extensions-moviesearch_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-moviesearch
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-mymetrix-src
 Version: 5.4+git2345+e9db9eb-r4
 Depends: enigma2
@@ -471,6 +1411,81 @@ Filename: enigma2-plugin-extensions-mymetrix_5.4+git2345+e9db9eb-r4_spark.ipk
 Source: enigma2-skins-openvix.bb
 Description: extensions-mymetrix
 OE: enigma2-skins-openvix
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-netcaster-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b70a99265ffe7237410dcf94f8c8de95
+Size: 8768
+Filename: enigma2-plugin-extensions-netcaster-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-netcaster (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-netcaster
+Version: 5.4+git6854+21ad860-r0
+Depends: gst-plugins-good-icydemux
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 1d50ed6aecd55b8ab3e45c00030428da
+Size: 14378
+Filename: enigma2-plugin-extensions-netcaster_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-netcaster
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ofdb-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: c1bb0c1e41450b8255d5dc5a97f4cbd4
+Size: 5206
+Filename: enigma2-plugin-extensions-ofdb-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-ofdb (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ofdb-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 11cafabefbc25b60613c87ca6d8a2303
+Size: 5638
+Filename: enigma2-plugin-extensions-ofdb-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-ofdb (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ofdb
+Version: 5.4+git6854+21ad860-r0
+Depends: python-html, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 1c874ce1fd38da15dfd0d87bec80a7da
+Size: 25386
+Filename: enigma2-plugin-extensions-ofdb_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-ofdb
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -516,6 +1531,272 @@ Filename: enigma2-plugin-extensions-ondemand_5.4+git2614+090b426-r1_spark.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-ondemand
 OE: enigma2-oe-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-orfat-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: c4b467825f058eca720cfd1ee1e24a81
+Size: 3824
+Filename: enigma2-plugin-extensions-orfat-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-orfat (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-orfat
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-extensions-vlcplayer, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e690d3f4fdea47571d83ab02e6e33152
+Size: 19284
+Filename: enigma2-plugin-extensions-orfat_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-orfat
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-orfteletext-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 7735b15ba8baaf3a246fc03a114c0c1e
+Size: 3100
+Filename: enigma2-plugin-extensions-orfteletext-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-orfteletext (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-orfteletext
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 36f43c0d37aca7424ad1bbc65cafbc75
+Size: 4726
+Filename: enigma2-plugin-extensions-orfteletext_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-orfteletext
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-permanentclock-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 739fbe9486f2c2428b918794fad5a7b3
+Size: 4190
+Filename: enigma2-plugin-extensions-permanentclock-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-permanentclock (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-permanentclock-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 13f4e0c288f2a9bf429ffa1268fd1153
+Size: 5200
+Filename: enigma2-plugin-extensions-permanentclock-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-permanentclock (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-permanentclock
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 1f6efb32ee24882535dbac8395e3bc4e
+Size: 28928
+Filename: enigma2-plugin-extensions-permanentclock_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-permanentclock
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-podcast-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 729af6ec9d23846962233ae8d8aceebe
+Size: 4708
+Filename: enigma2-plugin-extensions-podcast-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-podcast (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-podcast-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 35d1d92dde94dc839189ba63dd394d4e
+Size: 5378
+Filename: enigma2-plugin-extensions-podcast-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-podcast (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-podcast
+Version: 5.4+git6854+21ad860-r0
+Depends: python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a9667221f6536406473d7742a11afd5f
+Size: 15108
+Filename: enigma2-plugin-extensions-podcast_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-podcast
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-pushservice-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a83b6156d9626d67f0c6f40223bda358
+Size: 6048
+Filename: enigma2-plugin-extensions-pushservice-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-pushservice (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-pushservice-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: d111bda73a4aba7ad0634111c1a34074
+Size: 25280
+Filename: enigma2-plugin-extensions-pushservice-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-pushservice (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-pushservice
+Version: 5.4+git6854+21ad860-r0
+Depends: openssl, python-email, python-io, python-pyopenssl, python-twisted-core, python-twisted-mail, python-twisted-names, python-twisted-protocols, python-twisted-web, python-xml
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: de4473ec9c7075a4c7303465b1f70579
+Size: 41350
+Filename: enigma2-plugin-extensions-pushservice_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-pushservice
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickbutton-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e4d1c9ca36d87a3c9e77fc0baa2a3d5d
+Size: 5942
+Filename: enigma2-plugin-extensions-quickbutton-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-quickbutton (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickbutton-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 9d11e030f8bc459fa6731b5270b0d206
+Size: 4234
+Filename: enigma2-plugin-extensions-quickbutton-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-quickbutton (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickbutton
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 9c26a658a0236aa0b2d76ab64815469c
+Size: 13202
+Filename: enigma2-plugin-extensions-quickbutton_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-quickbutton
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-reconstructapsc-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: ae3d4627742549abd01b51cd169a08e4
+Size: 1768
+Filename: enigma2-plugin-extensions-reconstructapsc-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-reconstructapsc (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-reconstructapsc
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 444bb2550c02a90232ee43fdf1a48fc8
+Size: 2444
+Filename: enigma2-plugin-extensions-reconstructapsc_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-reconstructapsc
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -565,6 +1846,170 @@ OE: enigma2-oe-alliance-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-remotetimer-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 978f16cf6bf74f3c438b7b70781d9e6a
+Size: 5444
+Filename: enigma2-plugin-extensions-remotetimer-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-remotetimer (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-remotetimer
+Version: 5.4+git6854+21ad860-r0
+Depends: python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 9d65992bdb6076b46e9a8305ae8c8375
+Size: 9372
+Filename: enigma2-plugin-extensions-remotetimer_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-remotetimer
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-seriesplugin-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e02adeb1941d796c323c48fdf6444204
+Size: 7354
+Filename: enigma2-plugin-extensions-seriesplugin-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-seriesplugin (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-seriesplugin-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: ecab32e1282eb2ffa9530dcce13be1ee
+Size: 32652
+Filename: enigma2-plugin-extensions-seriesplugin-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-seriesplugin (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-seriesplugin
+Version: 5.4+git6854+21ad860-r0
+Depends: python-difflib, python-json, python-re, python-xml, python-xmlrpc
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a99bacd71f1aa427e1323f573993f997
+Size: 94990
+Filename: enigma2-plugin-extensions-seriesplugin_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-seriesplugin
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-shoutcast-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 255485b0dd9cc10dc639f6d21d846108
+Size: 8738
+Filename: enigma2-plugin-extensions-shoutcast-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-shoutcast (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-shoutcast-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a71a7d172736cf06c59316fd5129fdd9
+Size: 12472
+Filename: enigma2-plugin-extensions-shoutcast-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-shoutcast (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-shoutcast
+Version: 5.4+git6854+21ad860-r0
+Depends: python-twisted-web, streamripper
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 2514b00f25872f86dc188fb4e63f7d56
+Size: 34046
+Filename: enigma2-plugin-extensions-shoutcast_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-shoutcast
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-showclock-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e9814f87cbbdecc0cb87361f2c1b9c86
+Size: 6228
+Filename: enigma2-plugin-extensions-showclock-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-showclock (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-showclock-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 1a486fb842fca2a742212481655da01a
+Size: 5288
+Filename: enigma2-plugin-extensions-showclock-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-showclock (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-showclock
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 5b6417a00baa19405d44a07e96b364ce
+Size: 14154
+Filename: enigma2-plugin-extensions-showclock_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-showclock
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-streamtv-src
 Version: 5.4+git2614+090b426-r1
 Depends: enigma2-oe-alliance-plugins
@@ -592,6 +2037,80 @@ Filename: enigma2-plugin-extensions-streamtv_5.4+git2614+090b426-r1_spark.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-streamtv
 OE: enigma2-oe-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-subsdownloader2-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 046a6216ee83db86349cdd5a464a264c
+Size: 163204
+Filename: enigma2-plugin-extensions-subsdownloader2-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-subsdownloader2 (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-subsdownloader2
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-extensions-dvdplayer, enigma2-plugin-extensions-pictureplayer, python-compression, python-html, python-io, python-shell, python-subprocess, python-zlib
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 848005bc92c8e5a68943b9f91125a8ce
+Size: 224258
+Filename: enigma2-plugin-extensions-subsdownloader2_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-subsdownloader2
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tageditor-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: f3ea549c714d84a66e600ea9db269dfd
+Size: 4974
+Filename: enigma2-plugin-extensions-tageditor-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-tageditor (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tageditor-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 2c2ec5f9b032cca40d22442b04c93060
+Size: 4010
+Filename: enigma2-plugin-extensions-tageditor-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-tageditor (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tageditor
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b68bfe8daff2098f11c665d5f328a9ca
+Size: 10130
+Filename: enigma2-plugin-extensions-tageditor_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-tageditor
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -637,6 +2156,155 @@ Filename: enigma2-plugin-extensions-tunerserver_5.4+git2614+090b426-r1_spark.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-tunerserver
 OE: enigma2-oe-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-weatherplugin-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e02a3ea6994ac4587718c61481abb6c0
+Size: 6876
+Filename: enigma2-plugin-extensions-weatherplugin-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-weatherplugin (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-weatherplugin-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 136f6a83399374ee58ba738877142672
+Size: 8048
+Filename: enigma2-plugin-extensions-weatherplugin-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-weatherplugin (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-weatherplugin
+Version: 5.4+git6854+21ad860-r0
+Depends: python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: bdd85fee2789efe8aadfe63c4dee07ec
+Size: 56546
+Filename: enigma2-plugin-extensions-weatherplugin_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-weatherplugin
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-webcamviewer-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 4ca7a4bb758334d87dab840c1b60c2b4
+Size: 12146
+Filename: enigma2-plugin-extensions-webcamviewer-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-webcamviewer (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-webcamviewer
+Version: 5.4+git6854+21ad860-r0
+Depends: python-shell, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: f11745aad0b217fb6e9373292e6ee6b2
+Size: 29090
+Filename: enigma2-plugin-extensions-webcamviewer_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-webcamviewer
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-zapstatistic-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 888b1ae067e8da43697a7984100fb669
+Size: 4446
+Filename: enigma2-plugin-extensions-zapstatistic-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-zapstatistic (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-zapstatistic-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e0f3dbb3fab27bc236645cbaeac6aaf1
+Size: 4386
+Filename: enigma2-plugin-extensions-zapstatistic-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-zapstatistic (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-zapstatistic
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: e5a84d1a63be15d3478fa0abf4d07c04
+Size: 10656
+Filename: enigma2-plugin-extensions-zapstatistic_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-zapstatistic
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-zdfmediathek-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b91c2431f3c386a65c29792e40c9ea91
+Size: 8636
+Filename: enigma2-plugin-extensions-zdfmediathek-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-zdfmediathek (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-zdfmediathek
+Version: 5.4+git6854+21ad860-r0
+Depends: python-html, python-twisted-web
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: bcc7506c2b7367d1817aa91d264f3557
+Size: 24064
+Filename: enigma2-plugin-extensions-zdfmediathek_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: extensions-zdfmediathek
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -695,6 +2363,35 @@ Filename: enigma2-plugin-skincomponents-novum_5.4+git2345+e9db9eb-r4_spark.ipk
 Source: enigma2-skins-openvix.bb
 Description: skincomponents-novum
 OE: enigma2-skins-openvix
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-weathercomponent-src
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: ea7b1bf7c8bb725eb732e0d698f34cfa
+Size: 3786
+Filename: enigma2-plugin-skincomponents-weathercomponent-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: Additional plugins for Enigma2
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-weathercomponent
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-extensions-weatherplugin
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: cb452d50942ae5b957fce5761ef54e66
+Size: 6104
+Filename: enigma2-plugin-skincomponents-weathercomponent_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: skincomponents-weathercomponent
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -1283,6 +2980,95 @@ OE: enigma2-oe-alliance-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-automaticvolumeadjustment-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: bd7d76b87c61aa41fb7fb29264246a53
+Size: 5300
+Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-automaticvolumeadjustment (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-automaticvolumeadjustment-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: dd5bb47e0960c073b9b86ab7356e9801
+Size: 7364
+Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-automaticvolumeadjustment (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-automaticvolumeadjustment
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: d08e62263931ca13170027ab030a08b4
+Size: 14186
+Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-automaticvolumeadjustment
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoresolution-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 40d9f439d6cfac036ef177bcd0973aae
+Size: 8628
+Filename: enigma2-plugin-systemplugins-autoresolution-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-autoresolution (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoresolution-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: c7f703e175b98d5c5f56b32cd570b2b6
+Size: 7818
+Filename: enigma2-plugin-systemplugins-autoresolution-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-autoresolution (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoresolution
+Version: 5.4+git6854+21ad860-r0
+Recommends: enigma2-plugin-systemplugins-videomode
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: f5a57f8c322411e3ce52e64630f66f02
+Size: 20100
+Filename: enigma2-plugin-systemplugins-autoresolution_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-autoresolution
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-blindscan-po
 Version: 5.4+git2614+090b426-r1
 Depends: enigma2-oe-alliance-plugins
@@ -1446,6 +3232,125 @@ Filename: enigma2-plugin-systemplugins-misplslcnscan_5.4+git2614+090b426-r1_spar
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-misplslcnscan
 OE: enigma2-oe-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-mphelp-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 8ab9dd6269d70db41c2a861b7f13bbba
+Size: 19738
+Filename: enigma2-plugin-systemplugins-mphelp-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-mphelp (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-mphelp-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 156d1ef534d992207b51dbce1bd350ab
+Size: 3138
+Filename: enigma2-plugin-systemplugins-mphelp-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-mphelp (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-mphelp
+Version: 5.4+git6854+21ad860-r0
+Depends: python-xml
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a6ee18c02ccb702f229f0eb44c5498cf
+Size: 22924
+Filename: enigma2-plugin-systemplugins-mphelp_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-mphelp
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkbrowser-po
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 6b056d961636e21f3adf55b209c4cae9
+Size: 29748
+Filename: enigma2-plugin-systemplugins-networkbrowser-po_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-networkbrowser (translations)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkbrowser-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b7ba5f41fa40dac599d2567b426a9962
+Size: 17988
+Filename: enigma2-plugin-systemplugins-networkbrowser-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-networkbrowser (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-networkbrowser
+Version: 5.4+git6854+21ad860-r0
+Depends: autofs, libc6 (>= 2.25), libtirpc3 (>= 1.1.4), smbclient
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 7fa1801bd7c4fe697436c76dd399387b
+Size: 91840
+Filename: enigma2-plugin-systemplugins-networkbrowser_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-networkbrowser
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-pipservicerelation-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b550e871dc76b9d183d541aaec52f651
+Size: 3866
+Filename: enigma2-plugin-systemplugins-pipservicerelation-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-pipservicerelation (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-pipservicerelation
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b5741f56aa26ca8aea15a0c797319a66
+Size: 7436
+Filename: enigma2-plugin-systemplugins-pipservicerelation_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-pipservicerelation
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -1705,6 +3610,36 @@ OE: enigma2-oe-alliance-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-toolkit-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 15aa1a83554e407475f8f72645f55eaa
+Size: 2418
+Filename: enigma2-plugin-systemplugins-toolkit-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-toolkit (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-toolkit
+Version: 5.4+git6854+21ad860-r0
+Depends: python-html, python-re, python-threading, python-twisted-core
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 78bd0f295dbc290fc50866c8302d3f98
+Size: 3782
+Filename: enigma2-plugin-systemplugins-toolkit_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-toolkit
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-uniontunertype-src
 Version: 5.4+git2614+090b426-r1
 Depends: enigma2-oe-alliance-plugins
@@ -1780,6 +3715,84 @@ OE: enigma2-oe-alliance-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-vps-dbg
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 4b21b145d874524765e5195385740a6b
+Size: 10086
+Filename: enigma2-plugin-systemplugins-vps-dbg_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-vps (debug)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-vps-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: c417d849ccd1d9263299824102c9d4ac
+Size: 13126
+Filename: enigma2-plugin-systemplugins-vps-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-vps (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-vps
+Version: 5.4+git6854+21ad860-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Replaces: enigma2-plugin-extensions-vps
+Conflicts: enigma2-plugin-extensions-vps
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: b29a78b973034cef6dc0efda6b9e1531
+Size: 38996
+Filename: enigma2-plugin-systemplugins-vps_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-vps
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-weathercomponenthandler-src
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: f7845d4bd833fa81bfd9db43f4ad203b
+Size: 1366
+Filename: enigma2-plugin-systemplugins-weathercomponenthandler-src_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-weathercomponenthandler (source files)
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-weathercomponenthandler
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-skincomponents-weathercomponent
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: dd0b5db38c410579d9a301d41f109dde
+Size: 1292
+Filename: enigma2-plugin-systemplugins-weathercomponenthandler_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: systemplugins-weathercomponenthandler
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-xmlupdate-po
 Version: 5.4+git2614+090b426-r1
 Depends: enigma2-oe-alliance-plugins
@@ -1822,6 +3835,66 @@ Filename: enigma2-plugin-systemplugins-xmlupdate_5.4+git2614+090b426-r1_spark.ip
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-xmlupdate
 OE: enigma2-oe-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-dbg
+Version: 5.4+git6854+21ad860-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
+Section: devel
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 1355eb387ac78f6b2f7a01c325f3b3cd
+Size: 694
+Filename: enigma2-plugins-dbg_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: Additional plugins for Enigma2 - Debugging files
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-dev
+Version: 5.4+git6854+21ad860-r0
+Depends: enigma2-plugins (= 5.4+git6854+21ad860-r0)
+Recommends: autofs-dev, avahi-daemon-dev, cdrkit-dev, cdtextinfo-dev, dvdbackup-dev, enigma2-dev, enigma2-plugin-extensions-dvdplayer-dev, enigma2-plugin-extensions-pictureplayer-dev, enigma2-plugin-extensions-vlcplayer-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-mphelp-dev, enigma2-plugin-systemplugins-toolkit-dev, gst-plugins-good-icydemux-dev, libav-dev, libc6-dev, libcddb-dev, libdvdread-dev, libgcc-s-dev, libshowiframe-dev, libstdc++-dev, libtirpc-dev, nmap-dev, openssl-dev, python-codecs-dev, python-compression-dev, python-ctypes-dev, python-daap-dev, python-difflib-dev, python-email-dev, python-gdata-dev, python-google-api-client-dev, python-html-dev, python-httplib2-dev, python-io-dev, python-json-dev, python-lang-dev, python-mutagen-dev, python-netclient-dev, python-pyopenssl-dev, python-re-dev, python-shell-dev, python-sqlite3-dev, python-subprocess-dev, python-textutils-dev, python-threading-dev, python-transmissionrpc-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-mail-dev, python-twisted-names-dev, python-twisted-protocols-dev, python-twisted-web-dev, python-xml-dev, python-xmlrpc-dev, python-youtube-dl-dev, python-zlib-dev, smbclient-dev, streamripper-dev
+Section: devel
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: 38de4fa03240dbdb4eb1882854b2160b
+Size: 1086
+Filename: enigma2-plugins-dev_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: Additional plugins for Enigma2 - Development files
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-meta
+Version: 5.4+git6854+21ad860-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: d48a264ad929582c92ded9507e1e2f25
+Size: 9594
+Filename: enigma2-plugins-meta_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: Additional plugins for Enigma2
+OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins
+Version: 5.4+git6854+21ad860-r0
+Depends: python-ctypes
+Section: base
+Architecture: spark
+Maintainer: OE-Alliance team
+MD5Sum: a7e7f289111f0f0bc757a26f99848f92
+Size: 3270
+Filename: enigma2-plugins_5.4+git6854+21ad860-r0_spark.ipk
+Source: enigma2-plugins.bb
+Description: Additional plugins for Enigma2
+OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
@@ -4776,7 +6849,7 @@ Version: 5.4-r4
 Section: devel
 Architecture: spark
 Maintainer: OpenViX
-MD5Sum: bd9ebf86ab0999d7d3a1a76c68e3eaca
+MD5Sum: f210511c2bc0ae43583f10e81d845961
 Size: 626
 Filename: openvix-feeds-dbg_5.4-r4_spark.ipk
 Source: openvix-feeds.bb
@@ -4788,12 +6861,12 @@ Priority: optional
 Package: openvix-feeds-dev
 Version: 5.4-r4
 Depends: openvix-feeds (= 5.4-r4)
-Recommends: enigma2-display-skins-dev, enigma2-plugin-extensions-blurayplayer-dev, enigma2-plugin-skins-vix-turquoise-hd-dev, enigma2-skins-openvix-dev, hd-skins-meta-dev, oe-alliance-skins-dev, openvix-bootlogos-meta-dev
+Recommends: enigma2-3rdparty-plugins-dev, enigma2-display-skins-dev, enigma2-oe-alliance-plugins-dev, enigma2-pliplugins-dev, enigma2-plugin-extensions-blurayplayer-dev, enigma2-plugin-skins-vix-turquoise-hd-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugins-dev, enigma2-skins-openvix-dev, hd-skins-meta-dev, oe-alliance-skins-dev, openvix-bootlogos-meta-dev
 Section: devel
 Architecture: spark
 Maintainer: OpenViX
-MD5Sum: 81eceba9e8971a6938563baee31f8160
-Size: 758
+MD5Sum: 7b07326f0cb2047cd1ac9eda61bacfce
+Size: 794
 Filename: openvix-feeds-dev_5.4-r4_spark.ipk
 Source: openvix-feeds.bb
 Description: OpenViX Extras - Development files
@@ -4806,7 +6879,7 @@ Version: 5.4-r4
 Section: base
 Architecture: spark
 Maintainer: OpenViX
-MD5Sum: e3b3a1fe6f131bca0b9f01afb32bc32f
+MD5Sum: 56b823f31927e980d4ed41a7f3d9c99a
 Size: 560
 Filename: openvix-feeds_5.4-r4_spark.ipk
 Source: openvix-feeds.bb
@@ -5685,6 +7758,49 @@ Filename: packagegroup-machine-base_1.0-r83_spark.ipk
 Source: packagegroup-base.bb
 Description: Extra packages required to fully support spark hardware
 OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: pointercal-dbg
+Version: 0.0-r0
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aeaf32231102b3fe5a661cf216bb1617
+Size: 668
+Filename: pointercal-dbg_0.0-r0_spark.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data - Debugging files
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal-dev
+Version: 0.0-r0
+Depends: pointercal (= 0.0-r0)
+Section: devel
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ded1b99fce1327d2014bea40242b558
+Size: 702
+Filename: pointercal-dev_0.0-r0_spark.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data - Development files
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal
+Version: 0.0-r0
+Section: base
+Architecture: spark
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdd9fdedf8c6ee50d011f9ab529e1598
+Size: 604
+Filename: pointercal_0.0-r0_spark.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data
+OE: pointercal
 License: MIT
 Priority: optional
 
