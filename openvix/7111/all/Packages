@@ -5506,7 +5506,7 @@ Recommends: enigma2-skindefault-dbg, openvix-core-dbg
 Section: devel
 Architecture: all
 Maintainer: OpenViX
-MD5Sum: 69598cf9ace70b36b4e2ac307faa341b
+MD5Sum: 6875b374fe86c4314134771d0664318e
 Size: 656
 Filename: openvix-enigma2-dbg_5.4-r21_all.ipk
 Source: openvix-enigma2.bb
@@ -5522,7 +5522,7 @@ Recommends: enigma2-skindefault-dev, openvix-core-dev, openvix-feeds-dev
 Section: devel
 Architecture: all
 Maintainer: OpenViX
-MD5Sum: b849b7c9971d8398a7b6852540f0c63c
+MD5Sum: 143b7fe3b1678361e2cd3ff4ed7dec96
 Size: 692
 Filename: openvix-enigma2-dev_5.4-r21_all.ipk
 Source: openvix-enigma2.bb
@@ -5536,12 +5536,12 @@ Version: 5.4-r21
 Depends: enigma2-skindefault, openvix-core
 Replaces: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
 Conflicts: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
-Recommends: aio-grab, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-mediascanner, enigma2-plugin-extensions-pictureplayer, enigma2-plugin-skins-openvix-magic-fhd, enigma2-plugin-skins-openvix-simple-ten-eighty, enigma2-plugin-skins-openvix-vix-day-hd, enigma2-plugin-skins-openvix-youvix-blue, enigma2-plugin-softcams-ncam-openvix, enigma2-plugin-softcams-oscam-emu-openvix, enigma2-plugin-systemplugins-hdmicec, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-osdpositionsetup, enigma2-plugin-systemplugins-satfinder, enigma2-plugin-systemplugins-softwaremanager, enigma2-plugin-systemplugins-wirelesslan, enigma2-plugin-systemplugins-xmlupdate, mtd-utils, parted, procps, tuxbox-common, tuxbox-links
+Recommends: aio-grab, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-mediascanner, enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-themes, enigma2-plugin-extensions-openwebif-vxg, enigma2-plugin-extensions-pictureplayer, enigma2-plugin-skins-openvix-magic-fhd, enigma2-plugin-skins-openvix-simple-ten-eighty, enigma2-plugin-skins-openvix-vix-day-hd, enigma2-plugin-skins-openvix-youvix-blue, enigma2-plugin-softcams-ncam-openvix, enigma2-plugin-softcams-oscam-emu-openvix, enigma2-plugin-systemplugins-hdmicec, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-osdpositionsetup, enigma2-plugin-systemplugins-satfinder, enigma2-plugin-systemplugins-softwaremanager, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-wirelesslan, enigma2-plugin-systemplugins-xmlupdate, mtd-utils, parted, procps, tuxbox-common, tuxbox-links
 Section: base
 Architecture: all
 Maintainer: OpenViX
-MD5Sum: 18e9a0661cd9d4d7ccb981a256b2113b
-Size: 864
+MD5Sum: 70901dc29a74f7d5ef0f1c3b48e898f7
+Size: 902
 Filename: openvix-enigma2_5.4-r21_all.ipk
 Source: openvix-enigma2.bb
 Description: OpenViX Enigma2

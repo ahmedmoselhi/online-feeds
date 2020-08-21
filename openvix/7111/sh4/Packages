@@ -5194,6 +5194,126 @@ OE: enigma2-plugin-extensions-epgimport
 License: GPLv2
 Priority: optional
 
+Package: enigma2-plugin-extensions-openwebif-dbg
+Version: 1.3.9+git3545+3d7e788-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b71205ee170f9afd907dba4fe56a7890
+Size: 730
+Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0 - Debugging files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dev
+Version: 1.3.9+git3545+3d7e788-r0
+Depends: enigma2-plugin-extensions-openwebif (= 1.3.9+git3545+3d7e788-r0)
+Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif-webtv-dev, oe-alliance-branding-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pprint-dev, python-pyopenssl-dev, python-shell-dev, python-twisted-web-dev, python-unixadmin-dev, shellinabox-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 741f08f519f2c62b690ce2053d32d567
+Size: 892
+Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0 - Development files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-src
+Version: 1.3.9+git3545+3d7e788-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f56d4b5fe27fd52a82462e10cf76f976
+Size: 184298
+Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0 - Source files
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-terminal
+Version: 1.3.9+git3545+3d7e788-r0
+Depends: enigma2-plugin-extensions-openwebif, shellinabox
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf96d675b3692950770921747d7344ff
+Size: 686
+Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-themes
+Version: 1.3.9+git3545+3d7e788-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 186121676842ad270c027f82bb10cb50
+Size: 1850298
+Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: extensions-openwebif (Additional themes for OpenWebif)
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 1.3.9+git3545+3d7e788-r0
+Depends: enigma2-plugin-extensions-openwebif-webtv
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c04d54b17ae8d7fb1c269440f36827a8
+Size: 1232342
+Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: extensions-openwebif (WebTV for Google Chrome)
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-webtv
+Version: 1.3.9+git3545+3d7e788-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf5e045ed957b6cb7f334d2cc307ab87
+Size: 4102
+Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: extensions-openwebif (WebTV for OpenWebif)
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif
+Version: 1.3.9+git3545+3d7e788-r0
+Depends: aio-grab, enigma2, oe-alliance-branding, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pprint, python-pyopenssl, python-shell, python-twisted-web, python-unixadmin
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a76097485af74c584ba7ce2a9ad76c00
+Size: 744054
+Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3545+3d7e788-r0_sh4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: extensions-openwebif
+OE: enigma2-plugin-extensions-openwebif
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-yahooweather-dbg
 Version: 1.2.+git35+f04f398-r0
 Section: devel
@@ -67531,6 +67651,80 @@ OE: python-chardet
 License: LGPL-2.1
 Priority: optional
 
+Package: python-cheetah-dbg
+Version: 2.4.4-r3
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6cfeb95300e871e0da1d237add9d7930
+Size: 55634
+Filename: python-cheetah-dbg_2.4.4-r3_sh4.ipk
+Source: python-cheetah_2.4.4.bb
+Description: Python template engine and code generation tool - Debugging files
+OE: python-cheetah
+License: MIT
+Priority: optional
+
+Package: python-cheetah-dev
+Version: 2.4.4-r3
+Depends: python-cheetah (= 2.4.4-r3)
+Recommends: libc6-dev, python-dev, python-pickle-dev, python-pprint-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0372b4ef24fb367ab7127e894956a85e
+Size: 744
+Filename: python-cheetah-dev_2.4.4-r3_sh4.ipk
+Source: python-cheetah_2.4.4.bb
+Description: Python template engine and code generation tool - Development files
+OE: python-cheetah
+License: MIT
+Priority: optional
+
+Package: python-cheetah-doc
+Version: 2.4.4-r3
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af9abc2d1d781c9169388e33f6c0545f
+Size: 5640
+Filename: python-cheetah-doc_2.4.4-r3_sh4.ipk
+Source: python-cheetah_2.4.4.bb
+Description: Python template engine and code generation tool - Documentation files
+OE: python-cheetah
+License: MIT
+Priority: optional
+
+Package: python-cheetah-src
+Version: 2.4.4-r3
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94bc49f90f5c4af957f30c9d98482d5c
+Size: 118946
+Filename: python-cheetah-src_2.4.4-r3_sh4.ipk
+Source: python-cheetah_2.4.4.bb
+Description: Python template engine and code generation tool - Source files
+OE: python-cheetah
+License: MIT
+Priority: optional
+
+Package: python-cheetah
+Version: 2.4.4-r3
+Depends: libc6 (>= 2.25), python-pickle, python-pprint
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 183cab9915f7974dad67661812b52532
+Size: 120296
+Filename: python-cheetah_2.4.4-r3_sh4.ipk
+Source: python-cheetah_2.4.4.bb
+Description: Python template engine and code generation tool
+OE: python-cheetah
+License: MIT
+Priority: optional
+
 Package: python-codecs-src
 Version: 2.7.17-r0
 Depends: python-codecs
@@ -75096,6 +75290,71 @@ Description: Shared MIME type database and specification
 OE: shared-mime-info
 HomePage: http://freedesktop.org/wiki/Software/shared-mime-info
 License: GPLv2
+Priority: optional
+
+Package: shellinabox-dbg
+Version: 2.21.0+git0+a2b7bc07c3-r0
+Recommends: libc6-dbg, libcrypto10-dbg, libpam-dbg, libssl10-dbg, libz-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ffefe4dab322ae4005373d2394b39471
+Size: 125108
+Filename: shellinabox-dbg_2.21.0+git0+a2b7bc07c3-r0_sh4.ipk
+Source: shellinabox.bb
+Description: publish command line shell through AJAX interface - Debugging files
+OE: shellinabox
+HomePage: https://github.com/shellinabox/shellinabox
+License: GPLv2+
+Priority: optional
+
+Package: shellinabox-dev
+Version: 2.21.0+git0+a2b7bc07c3-r0
+Depends: shellinabox (= 2.21.0+git0+a2b7bc07c3-r0)
+Recommends: initscripts-dev, libc6-dev, libcrypto10-dev, libpam-dev, libssl10-dev, libz-dev, openssl-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43ec220267e0dbe233bda2395264c986
+Size: 944
+Filename: shellinabox-dev_2.21.0+git0+a2b7bc07c3-r0_sh4.ipk
+Source: shellinabox.bb
+Description: publish command line shell through AJAX interface - Development files
+OE: shellinabox
+HomePage: https://github.com/shellinabox/shellinabox
+License: GPLv2+
+Priority: optional
+
+Package: shellinabox-doc
+Version: 2.21.0+git0+a2b7bc07c3-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db915e37722fc3c5ac10e6c328fdcac6
+Size: 15442
+Filename: shellinabox-doc_2.21.0+git0+a2b7bc07c3-r0_sh4.ipk
+Source: shellinabox.bb
+Description: publish command line shell through AJAX interface - Documentation files
+OE: shellinabox
+HomePage: https://github.com/shellinabox/shellinabox
+License: GPLv2+
+Priority: optional
+
+Package: shellinabox
+Version: 2.21.0+git0+a2b7bc07c3-r0
+Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libpam (>= 1.3.1), libssl1.0.2 (>= 1.0.2r), libz1 (>= 1.2.11)
+Recommends: update-rc.d
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dda62bef543193faea466c5beb37e3f3
+Size: 103142
+Filename: shellinabox_2.21.0+git0+a2b7bc07c3-r0_sh4.ipk
+Source: shellinabox.bb
+Description: publish command line shell through AJAX interface
+OE: shellinabox
+HomePage: https://github.com/shellinabox/shellinabox
+License: GPLv2+
 Priority: optional
 
 Package: sln
