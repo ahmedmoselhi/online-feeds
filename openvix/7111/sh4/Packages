@@ -581,6 +581,53 @@ HomePage: http://www.alsa-project.org
 License: GPLv2+
 Priority: optional
 
+Package: astra-sm-dbg
+Version: 0.2-r0
+Recommends: libaio-dbg, libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43db3dbf3210eeffb49847d7b9fd89f9
+Size: 32884
+Filename: astra-sm-dbg_0.2-r0_sh4.ipk
+Source: astra-sm_0.2.bb
+Description: Astra (Advanced Streamer) SlonikMod - Debugging files
+OE: astra-sm
+License: GPLv3
+Priority: optional
+
+Package: astra-sm-dev
+Version: 0.2-r0
+Depends: astra-sm (= 0.2-r0)
+Recommends: initscripts-dev, libaio-dev, libc6-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 841836be33c0d2484679b9a30525d54c
+Size: 906
+Filename: astra-sm-dev_0.2-r0_sh4.ipk
+Source: astra-sm_0.2.bb
+Description: Astra (Advanced Streamer) SlonikMod - Development files
+OE: astra-sm
+License: GPLv3
+Priority: optional
+
+Package: astra-sm
+Version: 0.2-r0
+Depends: libaio1 (>= 0.3.111), libc6 (>= 2.25)
+Recommends: update-rc.d
+Section: multimedia
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7aa13125beb7ef509864c59115adebf8
+Size: 183342
+Filename: astra-sm_0.2-r0_sh4.ipk
+Source: astra-sm_0.2.bb
+Description: Astra (Advanced Streamer) SlonikMod
+OE: astra-sm
+License: GPLv3
+Priority: optional
+
 Package: attr-dbg
 Version: 2.4.47-r0
 Recommends: libattr-dbg, libc6-dbg
@@ -5529,8 +5576,8 @@ Version: 1.3.9+git3545+3d7e788-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 84fa09d876c74c5db5f8bc824b6faf45
-Size: 728
+MD5Sum: bfa877e3dbe9907d97989af87135910e
+Size: 730
 Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0 - Debugging files
@@ -5545,8 +5592,8 @@ Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif-webtv
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d674f292d50b2e44ebf79f8a27e08025
-Size: 890
+MD5Sum: 3701d29a74ba77fdc89c4a4977028a4f
+Size: 894
 Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0 - Development files
@@ -5560,8 +5607,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 586581dc790da26f3a59afd7a178a725
-Size: 184324
+MD5Sum: e73d86f48c9e87e30030fb536e459c75
+Size: 184326
 Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0 - Source files
@@ -5575,8 +5622,8 @@ Depends: enigma2-plugin-extensions-openwebif, shellinabox
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3b4b6a2a7148602818b473614a4d317
-Size: 690
+MD5Sum: a96e2891966a43cd5ddcf08d1ecad892
+Size: 688
 Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0
@@ -5590,8 +5637,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 17a8d640dcf996283c55f4d2799c7c29
-Size: 1850098
+MD5Sum: 96280405eedb16bcff402f9e89feeb9c
+Size: 1850100
 Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (Additional themes for OpenWebif)
@@ -5605,7 +5652,7 @@ Depends: enigma2-plugin-extensions-openwebif-webtv
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82b73c5d752c6501344f1531c9820c8a
+MD5Sum: 452fbe9db827a6aff4c89e3242af6718
 Size: 1232086
 Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5620,7 +5667,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1d91a27168ec5cb7d6b4c028c598d564
+MD5Sum: a73c1b8fe08034c694211012c0de6dec
 Size: 4102
 Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5635,8 +5682,8 @@ Depends: aio-grab, enigma2, oe-alliance-branding, python-cheetah, python-compres
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1d35bec705f2f06f75a8243e7b0b258
-Size: 744090
+MD5Sum: 89e8bb4cc0e5cddd0b5d4a9801182384
+Size: 744092
 Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
@@ -32284,6 +32331,72 @@ Source: acl_2.2.52.bb
 Description: Utilities for managing POSIX Access Control Lists
 OE: acl
 HomePage: http://savannah.nongnu.org/projects/acl/
+License: LGPLv2.1+
+Priority: optional
+
+Package: libaio-dbg
+Version: 0.3.111-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f76e9fb795dd616afd95051f740e74da
+Size: 2068
+Filename: libaio-dbg_0.3.111-r0_sh4.ipk
+Source: libaio_0.3.111.bb
+Description: Asynchronous I/O library - Debugging files
+OE: libaio
+HomePage: http://lse.sourceforge.net/io/aio.html
+License: LGPLv2.1+
+Priority: optional
+
+Package: libaio-dev
+Version: 0.3.111-r0
+Depends: libaio1 (= 0.3.111-r0)
+Recommends: libc6-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fdd6abb28ea509e81c6df5b3224faa18
+Size: 3210
+Filename: libaio-dev_0.3.111-r0_sh4.ipk
+Source: libaio_0.3.111.bb
+Description: Asynchronous I/O library - Development files
+OE: libaio
+HomePage: http://lse.sourceforge.net/io/aio.html
+License: LGPLv2.1+
+Priority: optional
+
+Package: libaio-staticdev
+Version: 0.3.111-r0
+Depends: libaio-dev (= 0.3.111-r0)
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe96959dac098b7bfcf1fe911d37c081
+Size: 2522
+Filename: libaio-staticdev_0.3.111-r0_sh4.ipk
+Source: libaio_0.3.111.bb
+Description: Asynchronous I/O library - Development files (Static Libraries)
+OE: libaio
+HomePage: http://lse.sourceforge.net/io/aio.html
+License: LGPLv2.1+
+Priority: optional
+
+Package: libaio1
+Version: 0.3.111-r0
+Depends: libc6 (>= 2.25)
+Provides: libaio
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5fd304526ce245ffec583667d58c4af7
+Size: 2800
+Filename: libaio1_0.3.111-r0_sh4.ipk
+Source: libaio_0.3.111.bb
+Description: Asynchronous I/O library
+OE: libaio
+HomePage: http://lse.sourceforge.net/io/aio.html
 License: LGPLv2.1+
 Priority: optional
 
