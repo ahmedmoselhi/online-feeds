@@ -2257,6 +2257,135 @@ HomePage: http://www.bluez.org
 License: GPLv2+ & LGPLv2.1+
 Priority: optional
 
+Package: boost-dbg
+Version: 1.71.0-r0
+Recommends: boost-chrono-dbg, boost-filesystem-dbg, boost-regex-dbg, boost-thread-dbg, libbz2-dbg, libc6-dbg, libgcc-s-dbg, libicui18n-dbg, libicuuc-dbg, liblzma-dbg, libstdc++-dbg, libz-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2f019d99c2ea1bdb44cfe09595c6f76
+Size: 306924
+Filename: boost-dbg_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries - Debugging files
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: boost-dev
+Version: 1.71.0-r0
+Depends: boost (= 1.71.0-r0), boost-log, boost-math, boost-serialization, boost-test, libboost-atomic1.71.0, libboost-chrono1.71.0, libboost-container1.71.0, libboost-contract1.71.0, libboost-date-time1.71.0, libboost-filesystem1.71.0, libboost-graph1.71.0, libboost-iostreams1.71.0, libboost-locale1.71.0, libboost-program-options1.71.0, libboost-python37-1.71.0, libboost-random1.71.0, libboost-regex1.71.0, libboost-system1.71.0, libboost-thread1.71.0, libboost-timer1.71.0, libboost-wave1.71.0
+Recommends: boost-atomic-dev, boost-chrono-dev, boost-container-dev, boost-contract-dev, boost-date-time-dev, boost-filesystem-dev, boost-graph-dev, boost-iostreams-dev, boost-locale-dev, boost-log-dev, boost-math-dev, boost-program-options-dev, boost-python-dev, boost-random-dev, boost-regex-dev, boost-serialization-dev, boost-system-dev, boost-test-dev, boost-thread-dev, boost-timer-dev, boost-wave-dev, bzip2-dev, icu-dev, libbz2-dev, libc6-dev, libgcc-s-dev, libicui18n-dev, libicuuc-dev, liblzma-dev, libstdc++-dev, libz-dev, python3-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4253744192f38bcbbcd2f7ae7ce0777f
+Size: 8566300
+Filename: boost-dev_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries - Development files
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: boost-log
+Version: 1.71.0-r0
+Depends: libboost-filesystem1.71.0 (>= 1.71.0), libboost-regex1.71.0 (>= 1.71.0), libboost-thread1.71.0 (>= 1.71.0), libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61565fbc61190909369a324499bc0c81
+Size: 438666
+Filename: boost-log_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: boost-math
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b17a8ef33fd3565ec13315330ab47d1c
+Size: 160140
+Filename: boost-math_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: boost-serialization
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb0bc7c6763bb2a7eac8e9bd208c54c0
+Size: 110524
+Filename: boost-serialization_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: boost-staticdev
+Version: 1.71.0-r0
+Depends: boost-dev (= 1.71.0-r0)
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bd8200777f124f16bb56f313290ebf78
+Size: 2663128
+Filename: boost-staticdev_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries - Development files (Static Libraries)
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: boost-test
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5ba8814692dc0d9f6751d5a50dfb5247
+Size: 267082
+Filename: boost-test_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: boost
+Version: 1.71.0-r0
+Recommends: boost-exception, boost-log, boost-math, boost-serialization, boost-test, libboost-atomic1.71.0, libboost-chrono1.71.0, libboost-container1.71.0, libboost-contract1.71.0, libboost-date-time1.71.0, libboost-filesystem1.71.0, libboost-graph1.71.0, libboost-iostreams1.71.0, libboost-locale1.71.0, libboost-program-options1.71.0, libboost-python37-1.71.0, libboost-random1.71.0, libboost-regex1.71.0, libboost-system1.71.0, libboost-thread1.71.0, libboost-timer1.71.0, libboost-wave1.71.0
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc86f22051318c30db6932dd5ffc683c
+Size: 808
+Filename: boost_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
 Package: bsdcpio
 Version: 3.4.0-r0
 Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.25), liblzma5 (>= 5.2.4), liblzo2-2 (>= 2.10), libz1 (>= 1.2.11), update-alternatives-opkg
@@ -3414,6 +3543,86 @@ Description: The basic file, shell and text manipulation utilities
 OE: coreutils
 HomePage: http://www.gnu.org/software/coreutils/
 License: GPLv3+
+Priority: optional
+
+Package: cppunit-dbg
+Version: 1.14.0-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ecc2f9b3bb626d594f9a33e9fcb18e9
+Size: 17134
+Filename: cppunit-dbg_1.14.0-r0_sh4.ipk
+Source: cppunit_1.14.0.bb
+Description: cppunit version 1.14.0-r0 - Debugging files
+OE: cppunit
+HomePage: http://www.freedesktop.org/wiki/Software/cppunit
+License: LGPL-2.1
+Priority: optional
+
+Package: cppunit-dev
+Version: 1.14.0-r0
+Depends: cppunit (= 1.14.0-r0)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0f63523c31d18b1eb46cc0080d98c901
+Size: 41090
+Filename: cppunit-dev_1.14.0-r0_sh4.ipk
+Source: cppunit_1.14.0.bb
+Description: cppunit version 1.14.0-r0 - Development files
+OE: cppunit
+HomePage: http://www.freedesktop.org/wiki/Software/cppunit
+License: LGPL-2.1
+Priority: optional
+
+Package: cppunit-doc
+Version: 1.14.0-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 44ec90827b3bdc44e64b4d0dbc4e9e8e
+Size: 8888
+Filename: cppunit-doc_1.14.0-r0_sh4.ipk
+Source: cppunit_1.14.0.bb
+Description: cppunit version 1.14.0-r0 - Documentation files
+OE: cppunit
+HomePage: http://www.freedesktop.org/wiki/Software/cppunit
+License: LGPL-2.1
+Priority: optional
+
+Package: cppunit-staticdev
+Version: 1.14.0-r0
+Depends: cppunit-dev (= 1.14.0-r0)
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fa4d8c39edb82f88e19e961a11e7330f
+Size: 73474
+Filename: cppunit-staticdev_1.14.0-r0_sh4.ipk
+Source: cppunit_1.14.0.bb
+Description: cppunit version 1.14.0-r0 - Development files (Static Libraries)
+OE: cppunit
+HomePage: http://www.freedesktop.org/wiki/Software/cppunit
+License: LGPL-2.1
+Priority: optional
+
+Package: cppunit
+Version: 1.14.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f29bdfc50c7ac57a201957b2c952259f
+Size: 76946
+Filename: cppunit_1.14.0-r0_sh4.ipk
+Source: cppunit_1.14.0.bb
+Description: cppunit version 1.14.0-r0
+OE: cppunit
+HomePage: http://www.freedesktop.org/wiki/Software/cppunit
+License: LGPL-2.1
 Priority: optional
 
 Package: cracklib-dbg
@@ -5576,7 +5785,7 @@ Version: 1.3.9+git3545+3d7e788-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bfa877e3dbe9907d97989af87135910e
+MD5Sum: fdd6149a64bb7adff33b334b3d89b88d
 Size: 730
 Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5592,7 +5801,7 @@ Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif-webtv
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3701d29a74ba77fdc89c4a4977028a4f
+MD5Sum: 793cf8315fe83763d0c71edf5599e1f6
 Size: 894
 Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5607,7 +5816,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e73d86f48c9e87e30030fb536e459c75
+MD5Sum: 2a022194ae2c786c369cdc7f679a4c16
 Size: 184326
 Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5622,8 +5831,8 @@ Depends: enigma2-plugin-extensions-openwebif, shellinabox
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a96e2891966a43cd5ddcf08d1ecad892
-Size: 688
+MD5Sum: 8cb9d1d3390c290da46a3aea716897ee
+Size: 690
 Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+3d7e788613-r0
@@ -5637,8 +5846,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96280405eedb16bcff402f9e89feeb9c
-Size: 1850100
+MD5Sum: d62997a9cdd9925612cd85e342cca836
+Size: 1850098
 Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (Additional themes for OpenWebif)
@@ -5652,8 +5861,8 @@ Depends: enigma2-plugin-extensions-openwebif-webtv
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 452fbe9db827a6aff4c89e3242af6718
-Size: 1232086
+MD5Sum: bc0d87fdb3667fb9ab2030e9bf2bf771
+Size: 1232084
 Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (WebTV for Google Chrome)
@@ -5667,8 +5876,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a73c1b8fe08034c694211012c0de6dec
-Size: 4102
+MD5Sum: c779fd6a5aed974b8c60e6afbb4d52b9
+Size: 4100
 Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (WebTV for OpenWebif)
@@ -5682,8 +5891,8 @@ Depends: aio-grab, enigma2, oe-alliance-branding, python-cheetah, python-compres
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89e8bb4cc0e5cddd0b5d4a9801182384
-Size: 744092
+MD5Sum: 40058a2677373dc44d9c9ae37bbb1e74
+Size: 744090
 Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3545+3d7e788-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
@@ -32937,6 +33146,293 @@ HomePage: http://videolan.org
 License: GPLv2
 Priority: optional
 
+Package: libboost-atomic1.71.0
+Version: 1.71.0-r0
+Provides: boost-atomic
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc49a31a31af5105618633e291f1def8
+Size: 2244
+Filename: libboost-atomic1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-chrono1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-chrono
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 313f3a3b9ea56a0e7b2bacf6b0468ea6
+Size: 12148
+Filename: libboost-chrono1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-container1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-container
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d3abbb906ee89f925f83a4e20db19848
+Size: 36248
+Filename: libboost-container1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-contract1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-contract
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e4cc2a37dbf393603bb26dd3e868cb51
+Size: 31490
+Filename: libboost-contract1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-date-time1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-date-time
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce8eea3ba40c80adbffbeac7a79c9b9b
+Size: 16474
+Filename: libboost-date-time1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-filesystem1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-filesystem
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ede42e8825b91f9c656f4cf1701928fb
+Size: 46256
+Filename: libboost-filesystem1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-graph1.71.0
+Version: 1.71.0-r0
+Depends: libboost-regex1.71.0 (>= 1.71.0), libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-graph
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1daaf3ba4374287a3a693e24807e0b79
+Size: 101662
+Filename: libboost-graph1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-iostreams1.71.0
+Version: 1.71.0-r0
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.25), libgcc1 (>= 4.9.4), liblzma5 (>= 5.2.4), libstdc++6 (>= 4.9.4), libz1 (>= 1.2.11)
+Provides: boost-iostreams
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f3a97f3a43404603c457cf68b1843aa0
+Size: 28810
+Filename: libboost-iostreams1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-locale1.71.0
+Version: 1.71.0-r0
+Depends: libboost-thread1.71.0 (>= 1.71.0), libc6 (>= 2.25), libgcc1 (>= 4.9.4), libicui18n58 (>= 58.2), libicuuc58 (>= 58.2), libstdc++6 (>= 4.9.4)
+Provides: boost-locale
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 68bfc3e6267999e87bbf12fed645d584
+Size: 239574
+Filename: libboost-locale1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-program-options1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-program-options
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 79c6203a087484b2a906fb602ff695ff
+Size: 135438
+Filename: libboost-program-options1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-python37-1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-python
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 24a1eb531b6f6c9eb8a96d99b7083240
+Size: 82040
+Filename: libboost-python37-1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-random1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-random
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 53156125b6504c64dd052c992ea4d38b
+Size: 9666
+Filename: libboost-random1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-regex1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-regex
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35901f6a6a261f8809bfe54902bdb77c
+Size: 253858
+Filename: libboost-regex1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-system1.71.0
+Version: 1.71.0-r0
+Provides: boost-system
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 269531d47b6619c3c07cdc6ada9a0c78
+Size: 2008
+Filename: libboost-system1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-thread1.71.0
+Version: 1.71.0-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-thread
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8eb0e6998e9e0fc7dac5c1b172fa0523
+Size: 40808
+Filename: libboost-thread1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-timer1.71.0
+Version: 1.71.0-r0
+Depends: libboost-chrono1.71.0 (>= 1.71.0), libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-timer
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61ab9020b14c556ce743cb419908f8b0
+Size: 8894
+Filename: libboost-timer1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
+Package: libboost-wave1.71.0
+Version: 1.71.0-r0
+Depends: libboost-thread1.71.0 (>= 1.71.0), libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Provides: boost-wave
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f32912c7d161e3d91817218664f703ad
+Size: 200026
+Filename: libboost-wave1.71.0_1.71.0-r0_sh4.ipk
+Source: boost_1.71.0.bb
+Description: Free peer-reviewed portable C++ source libraries
+OE: boost
+HomePage: http://www.boost.org/
+License: BSL-1.0 & MIT & Python-2.0
+Priority: optional
+
 Package: libbz2-1
 Version: 1.0.8-r0
 Depends: libc6 (>= 2.25)
@@ -45717,6 +46213,56 @@ Description: Transport-Independent RPC library
 OE: libtirpc
 HomePage: http://sourceforge.net/projects/libtirpc/
 License: BSD
+Priority: optional
+
+Package: libtorrent-dbg
+Version: 0.13.7+git0+074f6ec51a-r0
+Recommends: cppunit-dbg, libc6-dbg, libcrypto10-dbg, libgcc-s-dbg, libstdc++-dbg, libz-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1b4fdfecbe1944ed6f8922b9fffa753
+Size: 4219664
+Filename: libtorrent-dbg_0.13.7+git0+074f6ec51a-r0_sh4.ipk
+Source: libtorrent_git.bb
+Description: libtorrent version 0.13.7+gitAUTOINC+074f6ec51a-r0 - Debugging files
+OE: libtorrent
+HomePage: http://libtorrent.rakshasa.no/
+License: GPL-2.0
+Priority: optional
+
+Package: libtorrent-dev
+Version: 0.13.7+git0+074f6ec51a-r0
+Depends: libtorrent20 (= 0.13.7+git0+074f6ec51a-r0)
+Recommends: cppunit-dev, libc6-dev, libcrypto10-dev, libgcc-s-dev, libsigc-2.0-dev, libstdc++-dev, libz-dev, openssl-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eadc45e0aad149e66fbea839cc8ff1da
+Size: 43074
+Filename: libtorrent-dev_0.13.7+git0+074f6ec51a-r0_sh4.ipk
+Source: libtorrent_git.bb
+Description: libtorrent version 0.13.7+gitAUTOINC+074f6ec51a-r0 - Development files
+OE: libtorrent
+HomePage: http://libtorrent.rakshasa.no/
+License: GPL-2.0
+Priority: optional
+
+Package: libtorrent20
+Version: 0.13.7+git0+074f6ec51a-r0
+Depends: cppunit (>= 1.14.0), libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libz1 (>= 1.2.11)
+Provides: libtorrent
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 844594bfc202d0796170efd01ea40157
+Size: 290342
+Filename: libtorrent20_0.13.7+git0+074f6ec51a-r0_sh4.ipk
+Source: libtorrent_git.bb
+Description: libtorrent version 0.13.7+gitAUTOINC+074f6ec51a-r0
+OE: libtorrent
+HomePage: http://libtorrent.rakshasa.no/
+License: GPL-2.0
 Priority: optional
 
 Package: libts-dbg

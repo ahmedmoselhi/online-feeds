@@ -6849,7 +6849,7 @@ Version: 5.4-r4
 Section: devel
 Architecture: spark
 Maintainer: OpenViX
-MD5Sum: 4d4b21c702c0a437f828c3cc9b5952bf
+MD5Sum: 869fc63bb65abdc0713f9d49ca562bc6
 Size: 626
 Filename: openvix-feeds-dbg_5.4-r4_spark.ipk
 Source: openvix-feeds.bb
@@ -6861,12 +6861,12 @@ Priority: optional
 Package: openvix-feeds-dev
 Version: 5.4-r4
 Depends: openvix-feeds (= 5.4-r4)
-Recommends: astra-sm-dev, enigma2-3rdparty-plugins-dev, enigma2-display-skins-dev, enigma2-oe-alliance-plugins-dev, enigma2-pliplugins-dev, enigma2-plugin-extensions-blurayplayer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-skins-vix-turquoise-hd-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugins-dev, enigma2-skins-openvix-dev, hd-skins-meta-dev, minidlna-dev, oe-alliance-skins-dev, openvix-bootlogos-meta-dev
+Recommends: astra-sm-dev, boost-dev, enigma2-3rdparty-plugins-dev, enigma2-display-skins-dev, enigma2-oe-alliance-plugins-dev, enigma2-pliplugins-dev, enigma2-plugin-extensions-blurayplayer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-skins-vix-turquoise-hd-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugins-dev, enigma2-skins-openvix-dev, hd-skins-meta-dev, libtorrent-dev, minidlna-dev, oe-alliance-skins-dev, openvix-bootlogos-meta-dev
 Section: devel
 Architecture: spark
 Maintainer: OpenViX
-MD5Sum: d2922ab9498bfd9f2fbf57d134c9325c
-Size: 822
+MD5Sum: 88de519499b0cb230da19b13708010ef
+Size: 836
 Filename: openvix-feeds-dev_5.4-r4_spark.ipk
 Source: openvix-feeds.bb
 Description: OpenViX Extras - Development files
@@ -6879,7 +6879,7 @@ Version: 5.4-r4
 Section: base
 Architecture: spark
 Maintainer: OpenViX
-MD5Sum: e172dabbd3f1dce5b8ba453a28775f49
+MD5Sum: c010ebcbf2447328e24ee4362942d42c
 Size: 560
 Filename: openvix-feeds_5.4-r4_spark.ipk
 Source: openvix-feeds.bb

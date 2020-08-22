@@ -5668,13 +5668,13 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 1.0+git648+f35e98f-r0
+Version: 1.0+git649+a9da82c-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 4b6c1fc699e998769addfb0aa2b9d782
+MD5Sum: 011c8cee97285aea8d884696e32df895
 Size: 656
-Filename: tuxbox-common-dbg_1.0+git648+f35e98f-r0_all.ipk
+Filename: tuxbox-common-dbg_1.0+git649+a9da82c-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Debugging files
 OE: tuxbox-common
@@ -5682,14 +5682,14 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 1.0+git648+f35e98f-r0
-Depends: tuxbox-common (= 1.0+git648+f35e98f-r0)
+Version: 1.0+git649+a9da82c-r0
+Depends: tuxbox-common (= 1.0+git649+a9da82c-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 8ee6015c532b17bf83f9cbbcfdc5d270
-Size: 690
-Filename: tuxbox-common-dev_1.0+git648+f35e98f-r0_all.ipk
+MD5Sum: 096fbd7ed79ddae4b3818994d286ad59
+Size: 688
+Filename: tuxbox-common-dev_1.0+git649+a9da82c-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Development files
 OE: tuxbox-common
@@ -5697,13 +5697,13 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common
-Version: 1.0+git648+f35e98f-r0
+Version: 1.0+git649+a9da82c-r0
 Section: base
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: 884c0d2bfef8a63fa54915e20a7d945c
-Size: 58874
-Filename: tuxbox-common_1.0+git648+f35e98f-r0_all.ipk
+MD5Sum: daecb4c5868c44acd035a601a0710e9a
+Size: 58892
+Filename: tuxbox-common_1.0+git649+a9da82c-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files
 OE: tuxbox-common
