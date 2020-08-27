@@ -203,13 +203,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-skins-blackshadowsep-dbg
-Version: 3.0+git267+cd149cd-r2
+Version: 3.0+git268+dbf8527-r2
 Section: devel
 Architecture: all
 Maintainer: BlackHole team
-MD5Sum: 540b2dcac68bfb057b8e03727f0fbf71
-Size: 674
-Filename: enigma2-plugin-skins-blackshadowsep-dbg_3.0+git267+cd149cd-r2_all.ipk
+MD5Sum: 746c9f75bc02322545e933ca882b860f
+Size: 670
+Filename: enigma2-plugin-skins-blackshadowsep-dbg_3.0+git268+dbf8527-r2_all.ipk
 Source: enigma2-plugin-skins-blackshadowsep.bb
 Description: Enigma2 Skin BlackShadowSE_P - Debugging files
 OE: enigma2-plugin-skins-blackshadowsep
@@ -217,14 +217,14 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-blackshadowsep-dev
-Version: 3.0+git267+cd149cd-r2
-Depends: enigma2-plugin-skins-blackshadowsep (= 3.0+git267+cd149cd-r2)
+Version: 3.0+git268+dbf8527-r2
+Depends: enigma2-plugin-skins-blackshadowsep (= 3.0+git268+dbf8527-r2)
 Section: devel
 Architecture: all
 Maintainer: BlackHole team
-MD5Sum: 4cf759a1c9417f871024a4eb3c33b46c
+MD5Sum: 0e34ec0ba7517806cf53af18746bcc4b
 Size: 708
-Filename: enigma2-plugin-skins-blackshadowsep-dev_3.0+git267+cd149cd-r2_all.ipk
+Filename: enigma2-plugin-skins-blackshadowsep-dev_3.0+git268+dbf8527-r2_all.ipk
 Source: enigma2-plugin-skins-blackshadowsep.bb
 Description: Enigma2 Skin BlackShadowSE_P - Development files
 OE: enigma2-plugin-skins-blackshadowsep
@@ -232,13 +232,13 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-blackshadowsep
-Version: 3.0+git267+cd149cd-r2
+Version: 3.0+git268+dbf8527-r2
 Section: base
 Architecture: all
 Maintainer: BlackHole team
-MD5Sum: 96ad44e90d5a88a6f0abb16c7020a8b2
-Size: 1573496
-Filename: enigma2-plugin-skins-blackshadowsep_3.0+git267+cd149cd-r2_all.ipk
+MD5Sum: 9152133b4179f30cda64ec0654e50aa2
+Size: 1573632
+Filename: enigma2-plugin-skins-blackshadowsep_3.0+git268+dbf8527-r2_all.ipk
 Source: enigma2-plugin-skins-blackshadowsep.bb
 Description: Enigma2 Skin BlackShadowSE_P
 OE: enigma2-plugin-skins-blackshadowsep
@@ -3494,8 +3494,8 @@ Recommends: enigma2-skindefault-dbg, openbh-core-dbg
 Section: devel
 Architecture: all
 Maintainer: OpenBH
-MD5Sum: 4afe649e93604294e6b010b1518d4fe7
-Size: 656
+MD5Sum: e4e6862fb622ad623e668c80bd55cf37
+Size: 654
 Filename: openbh-enigma2-dbg_4.4-r13_all.ipk
 Source: openbh-enigma2.bb
 Description: OpenBH Enigma2 - Debugging files
@@ -3510,7 +3510,7 @@ Recommends: enigma2-pliplugins-dev, enigma2-skindefault-dev, openbh-core-dev, op
 Section: devel
 Architecture: all
 Maintainer: OpenBH
-MD5Sum: 26fce69451a90ee7aaaf2706512912c0
+MD5Sum: 3e3c0a543443a1151ac4177e20f50fc5
 Size: 702
 Filename: openbh-enigma2-dev_4.4-r13_all.ipk
 Source: openbh-enigma2.bb
@@ -3524,11 +3524,11 @@ Version: 4.4-r13
 Depends: enigma2-skindefault, openbh-core
 Replaces: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
 Conflicts: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
-Recommends: aio-grab, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openmultiboot, enigma2-plugin-extensions-socketmmi, enigma2-plugin-softcams-ncam, enigma2-plugin-softcams-oscam-emu, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-wirelesslan, mtd-utils, openmultiboot, parted, procps, tuxbox-common, tuxbox-links
+Recommends: aio-grab, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openmultiboot, enigma2-plugin-extensions-socketmmi, enigma2-plugin-softcams-ncam-obh, enigma2-plugin-softcams-oscam-emu-obh, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-wirelesslan, mtd-utils, openmultiboot, parted, procps, tuxbox-common, tuxbox-links
 Section: base
 Architecture: all
 Maintainer: OpenBH
-MD5Sum: 59641bde3b17b347f3bdd5d2fbdce252
+MD5Sum: 3a4479723d33ddb706a04dd1097943ae
 Size: 814
 Filename: openbh-enigma2_4.4-r13_all.ipk
 Source: openbh-enigma2.bb

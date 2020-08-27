@@ -6152,13 +6152,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-obh-core-po
-Version: 4.4+git2311+1a2f415-r4
+Version: 4.4+git2312+8e140c7-r4
 Section: base
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: 51e86dfdd0c6fab792ed14cb7496a946
-Size: 155390
-Filename: enigma2-plugin-obh-core-po_4.4+git2311+1a2f415-r4_sh4.ipk
+MD5Sum: 8e8e643f37872368435cd47b026074a4
+Size: 155336
+Filename: enigma2-plugin-obh-core-po_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core
 OE: openbh-core
@@ -6166,13 +6166,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-obh-core-src
-Version: 4.4+git2311+1a2f415-r4
+Version: 4.4+git2312+8e140c7-r4
 Section: base
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: 44ffd93476ed8e8bc01683c2a6c9d566
-Size: 32432
-Filename: enigma2-plugin-obh-core-src_4.4+git2311+1a2f415-r4_sh4.ipk
+MD5Sum: 924e680942d6d4cce5327a9a523a683f
+Size: 32440
+Filename: enigma2-plugin-obh-core-src_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core
 OE: openbh-core
@@ -6180,7 +6180,7 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-obh-core
-Version: 4.4+git2311+1a2f415-r4
+Version: 4.4+git2312+8e140c7-r4
 Depends: libcrypto-compat-0.9.7, ofgwrite, procps, python-beautifulsoup4, python-compression, python-process, zip
 Provides: openbh-core
 Replaces: settings-autorestore
@@ -6188,9 +6188,9 @@ Conflicts: settings-autorestore
 Section: base
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: a9898a3f833b5240a24659364476a729
-Size: 155856
-Filename: enigma2-plugin-obh-core_4.4+git2311+1a2f415-r4_sh4.ipk
+MD5Sum: 67261aaa4754a23ff0e8a93805ee5ebb
+Size: 155744
+Filename: enigma2-plugin-obh-core_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core
 OE: openbh-core
@@ -6903,6 +6903,21 @@ OE: enigma2-skins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-softcams-ncam-obh
+Version: git10531+2314017-r0
+Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 05ad37b9558d26c85dd2906c6bddccae
+Size: 775982
+Filename: enigma2-plugin-softcams-ncam-obh_git10531+2314017-r0_sh4.ipk
+Source: enigma2-plugin-softcams-ncam-obh.bb
+Description: enigma2-plugin-softcams-ncam-obh version gitAUTOINC+2314017241-r0
+OE: enigma2-plugin-softcams-ncam-obh
+License: GPLv3
+Priority: optional
+
 Package: enigma2-plugin-softcams-ncam
 Version: git10531+2314017-r0
 Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r)
@@ -6915,6 +6930,21 @@ Filename: enigma2-plugin-softcams-ncam_git10531+2314017-r0_sh4.ipk
 Source: enigma2-plugin-softcams-ncam.bb
 Description: enigma2-plugin-softcams-ncam version gitAUTOINC+2314017241-r0
 OE: enigma2-plugin-softcams-ncam
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-softcams-oscam-emu-obh
+Version: git1837+119cb36-r0
+Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e5237b99d136037cf880acb60fc956b
+Size: 745250
+Filename: enigma2-plugin-softcams-oscam-emu-obh_git1837+119cb36-r0_sh4.ipk
+Source: enigma2-plugin-softcams-oscam-emu-obh.bb
+Description: enigma2-plugin-softcams-oscam-emu-obh version gitAUTOINC+119cb36c67-r0
+OE: enigma2-plugin-softcams-oscam-emu-obh
 License: GPLv3
 Priority: optional
 
@@ -6939,8 +6969,8 @@ Recommends: libc6-dbg, libcrypto10-dbg, libgcc-s-dbg, libssl10-dbg, libstdc++-db
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b320e0f6f012d9bffe26629218d49a4b
-Size: 17888
+MD5Sum: 9da59f242f6fb6907b7ffdc61922a4a2
+Size: 17880
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_0.5+git163+1559e94-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+1559e949a3-r0 - Debugging files
@@ -6953,8 +6983,8 @@ Version: 0.5+git163+1559e94-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8e0952215b781c9f614f76a59e8f04b0
-Size: 11776
+MD5Sum: 5699f1334a3ff9bb675d728f6d4a235f
+Size: 11774
 Filename: enigma2-plugin-systemplugins-serviceapp-src_0.5+git163+1559e94-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+1559e949a3-r0 - Source files
@@ -6970,8 +7000,8 @@ Conflicts: enigma2-plugin-extensions-serviceapp
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56f03185c529f94a7226ae0cf39779c3
-Size: 91500
+MD5Sum: 8178399bc81f4e61a78993eb5255d3b9
+Size: 91584
 Filename: enigma2-plugin-systemplugins-serviceapp_0.5+git163+1559e94-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+1559e949a3-r0
@@ -60300,13 +60330,13 @@ License: GPLv2+
 Priority: optional
 
 Package: openbh-core-dbg
-Version: 4.4+git2311+1a2f415-r4
+Version: 4.4+git2312+8e140c7-r4
 Section: devel
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: e0242bd37efa38c772cf0c5781ee41c8
+MD5Sum: 57cedb7c4b5e3e781a3f514312bf87ca
 Size: 638
-Filename: openbh-core-dbg_4.4+git2311+1a2f415-r4_sh4.ipk
+Filename: openbh-core-dbg_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core - Debugging files
 OE: openbh-core
@@ -60314,15 +60344,15 @@ License: GPLv2+
 Priority: optional
 
 Package: openbh-core-dev
-Version: 4.4+git2311+1a2f415-r4
-Depends: openbh-core (= 4.4+git2311+1a2f415-r4)
+Version: 4.4+git2312+8e140c7-r4
+Depends: openbh-core (= 4.4+git2312+8e140c7-r4)
 Recommends: enigma2-dev, libcrypto-compat-0.9.7-dev, ofgwrite-dev, procps-dev, python-beautifulsoup4-dev, python-compression-dev, python-process-dev, zip-dev
 Section: devel
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: c8b65ae88b1e9495dae21c537ebb20bf
+MD5Sum: 0b3ac90b8d97a89c5b8f48ee78c8e058
 Size: 754
-Filename: openbh-core-dev_4.4+git2311+1a2f415-r4_sh4.ipk
+Filename: openbh-core-dev_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core - Development files
 OE: openbh-core
@@ -79153,13 +79183,13 @@ License: PSFv2
 Priority: optional
 
 Package: python-youtube-dl-dbg
-Version: 2020.07.28-3-g10709fc7c-r1
+Version: 2020.07.28-4-gf5863a3ea-r1
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d674ff97850359d78f32b38ef1a85fe1
-Size: 836
-Filename: python-youtube-dl-dbg_2020.07.28-3-g10709fc7c-r1_sh4.ipk
+MD5Sum: 6936c8b589994d7aead856ed4d6b1ac1
+Size: 834
+Filename: python-youtube-dl-dbg_2020.07.28-4-gf5863a3ea-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Debugging files
 OE: python-youtube-dl
@@ -79168,15 +79198,15 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-dev
-Version: 2020.07.28-3-g10709fc7c-r1
-Depends: python-youtube-dl (= 2020.07.28-3-g10709fc7c-r1)
+Version: 2020.07.28-4-gf5863a3ea-r1
+Depends: python-youtube-dl (= 2020.07.28-4-gf5863a3ea-r1)
 Recommends: bash-completion-dev, libxml2-dev, python-argparse-dev, python-ctypes-dev, python-dev, python-email-dev, python-gdata-dev, python-html-dev, python-subprocess-dev, python-unixadmin-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ceecc35de06c3b7f1919d1d09d3caf7e
-Size: 938
-Filename: python-youtube-dl-dev_2020.07.28-3-g10709fc7c-r1_sh4.ipk
+MD5Sum: 3f9d0b5b366f968c6765411891364793
+Size: 940
+Filename: python-youtube-dl-dev_2020.07.28-4-gf5863a3ea-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Development files
 OE: python-youtube-dl
@@ -79185,13 +79215,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-doc
-Version: 2020.07.28-3-g10709fc7c-r1
+Version: 2020.07.28-4-gf5863a3ea-r1
 Section: doc
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e4872f7672a14c2d4b8c696ebcd87d2
+MD5Sum: 14a31a8bc13477b99e92d3d2c1db7be6
 Size: 936
-Filename: python-youtube-dl-doc_2020.07.28-3-g10709fc7c-r1_sh4.ipk
+Filename: python-youtube-dl-doc_2020.07.28-4-gf5863a3ea-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Documentation files
 OE: python-youtube-dl
@@ -79200,13 +79230,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-src
-Version: 2020.07.28-3-g10709fc7c-r1
+Version: 2020.07.28-4-gf5863a3ea-r1
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62243c9eef9c29177c238297cc533dbb
-Size: 947258
-Filename: python-youtube-dl-src_2020.07.28-3-g10709fc7c-r1_sh4.ipk
+MD5Sum: 286a5bb1548ceb34f80dfee8525f48e9
+Size: 947318
+Filename: python-youtube-dl-src_2020.07.28-4-gf5863a3ea-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Source files
 OE: python-youtube-dl
@@ -79215,14 +79245,14 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl
-Version: 2020.07.28-3-g10709fc7c-r1
+Version: 2020.07.28-4-gf5863a3ea-r1
 Depends: python-argparse, python-ctypes, python-email, python-gdata, python-html, python-subprocess, python-unixadmin
 Section: devel/python
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ed3b9433f877565955830ad9302ad6c
-Size: 1250084
-Filename: python-youtube-dl_2020.07.28-3-g10709fc7c-r1_sh4.ipk
+MD5Sum: 34370b876a54088857968eba6a447f43
+Size: 1249914
+Filename: python-youtube-dl_2020.07.28-4-gf5863a3ea-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites)
 OE: python-youtube-dl
