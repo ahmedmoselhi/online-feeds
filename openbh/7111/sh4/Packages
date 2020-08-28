@@ -6156,8 +6156,8 @@ Version: 4.4+git2312+8e140c7-r4
 Section: base
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: abcedc9932d164e04c3f70735ce862e6
-Size: 155276
+MD5Sum: dae1cac0a9914c20494470972b9edd35
+Size: 155388
 Filename: enigma2-plugin-obh-core-po_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core
@@ -6170,8 +6170,8 @@ Version: 4.4+git2312+8e140c7-r4
 Section: base
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: 421a68f282c61dfdcebe385de1fe424e
-Size: 32412
+MD5Sum: 62d200a75dc0712526adbd8de694196b
+Size: 32434
 Filename: enigma2-plugin-obh-core-src_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core
@@ -6188,8 +6188,8 @@ Conflicts: settings-autorestore
 Section: base
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: 4964e6fb2488f83f59e4f33f90be2bf3
-Size: 155804
+MD5Sum: 53c84e3f1ed18b64ade91db96f07cbb7
+Size: 155860
 Filename: enigma2-plugin-obh-core_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
 Description: OpenBH Core
@@ -6969,8 +6969,8 @@ Recommends: libc6-dbg, libcrypto10-dbg, libgcc-s-dbg, libssl10-dbg, libstdc++-db
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5cf27efbbd0e9a825a8e9728b3d461e5
-Size: 17872
+MD5Sum: bbe4a11cb4fd1add85ade71247fd1150
+Size: 17944
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_0.5+git163+1559e94-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+1559e949a3-r0 - Debugging files
@@ -6983,8 +6983,8 @@ Version: 0.5+git163+1559e94-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c52e6a177b6af92d51e5e235cea085b5
-Size: 11770
+MD5Sum: 5c8b6c8dd260ac52c7a42f35a54e24b8
+Size: 11782
 Filename: enigma2-plugin-systemplugins-serviceapp-src_0.5+git163+1559e94-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+1559e949a3-r0 - Source files
@@ -7000,8 +7000,8 @@ Conflicts: enigma2-plugin-extensions-serviceapp
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3fcfa2fcc28f19e43f6443eb16f91c6
-Size: 91570
+MD5Sum: 488b0bc84b9181a70446b8cc86195b0d
+Size: 91536
 Filename: enigma2-plugin-systemplugins-serviceapp_0.5+git163+1559e94-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+1559e949a3-r0
@@ -60834,7 +60834,7 @@ Version: 4.4+git2312+8e140c7-r4
 Section: devel
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: a09f23a71939fa6229c4ee41f3112f8d
+MD5Sum: a5c1333c94e1b7eeb2ec99e34aee36b7
 Size: 638
 Filename: openbh-core-dbg_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
@@ -60850,7 +60850,7 @@ Recommends: enigma2-dev, libcrypto-compat-0.9.7-dev, ofgwrite-dev, procps-dev, p
 Section: devel
 Architecture: sh4
 Maintainer: OpenBH
-MD5Sum: fdecba1c86dc5fea360dd239292111d7
+MD5Sum: bbd57214d58d2ef0520d1177a8077c22
 Size: 754
 Filename: openbh-core-dev_4.4+git2312+8e140c7-r4_sh4.ipk
 Source: openbh-core.bb
