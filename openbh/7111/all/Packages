@@ -3494,8 +3494,8 @@ Recommends: enigma2-skindefault-dbg, openbh-core-dbg
 Section: devel
 Architecture: all
 Maintainer: OpenBH
-MD5Sum: 133c9e72bca56ffbc2f648989e273921
-Size: 656
+MD5Sum: 042bc74901e5de577d1fb28cbf33e6a8
+Size: 654
 Filename: openbh-enigma2-dbg_4.4-r13_all.ipk
 Source: openbh-enigma2.bb
 Description: OpenBH Enigma2 - Debugging files
@@ -3510,7 +3510,7 @@ Recommends: enigma2-pliplugins-dev, enigma2-skindefault-dev, openbh-core-dev, op
 Section: devel
 Architecture: all
 Maintainer: OpenBH
-MD5Sum: 5aa71638a43c854a4ad1e772f0482b16
+MD5Sum: 3cfd02783b35ae6625e8ce9e9bbae1bd
 Size: 702
 Filename: openbh-enigma2-dev_4.4-r13_all.ipk
 Source: openbh-enigma2.bb
@@ -3524,12 +3524,12 @@ Version: 4.4-r13
 Depends: enigma2-skindefault, openbh-core
 Replaces: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
 Conflicts: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
-Recommends: aio-grab, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openmultiboot, enigma2-plugin-extensions-socketmmi, enigma2-plugin-softcams-ncam-obh, enigma2-plugin-softcams-oscam-emu-obh, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-networkbrowser, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-satfinder, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-wirelesslan, mtd-utils, openmultiboot, parted, procps, tuxbox-common, tuxbox-links
+Recommends: aio-grab, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgrefresh, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openmultiboot, enigma2-plugin-extensions-openwebif, enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-themes, enigma2-plugin-extensions-openwebif-vxg, enigma2-plugin-extensions-socketmmi, enigma2-plugin-softcams-ncam-obh, enigma2-plugin-softcams-oscam-emu-obh, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-networkbrowser, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-satfinder, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-wirelesslan, mtd-utils, openmultiboot, parted, procps, tuxbox-common, tuxbox-links
 Section: base
 Architecture: all
 Maintainer: OpenBH
-MD5Sum: 679833fba2db944dc44eef7d8db93e4d
-Size: 842
+MD5Sum: 1a27ba0c745c51660a4e19df3159d9f8
+Size: 864
 Filename: openbh-enigma2_4.4-r13_all.ipk
 Source: openbh-enigma2.bb
 Description: OpenBH Enigma2
