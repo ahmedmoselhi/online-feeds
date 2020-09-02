@@ -1,0 +1,109 @@
+Package: components-jrlg
+Version: 1.0-r8
+Depends: libgcc1 (>= 4.8.4), libsigc-1.2-5, libstdc++6 (>= 4.8.4), enigma2, libc6 (>= 2.21)
+Section: base
+Architecture: sh4
+Maintainer: Sergiri
+MD5Sum: 91cae1e4c30201a1e63b3bb3f3111f85
+Size: 30018
+Filename: components-jrlg_1.0-r8_sh4.ipk
+Source: unknown
+Description: components-jrlg version 1.0-r8
+OE: components-jrlg
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-mediacenter
+Version: 1.0-r20
+Depends: curl
+Section: extra
+Architecture: sh4
+Maintainer: OpenSPA Team
+MD5Sum: f24ef155448f1fd0a93b687726dd6f6e
+Size: 4561338
+Filename: enigma2-plugin-extensions-mediacenter_1.0-r20_sh4.ipk
+Source: unknown
+Description: enigma2-plugin-extensions-mediacenter version 1.0-r20
+OE: enigma2-plugin-extensions-mediacenter
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-openspajr
+Version: 4.0-r6
+Section: extra
+Architecture: sh4
+Maintainer: sergiri
+MD5Sum: 650ef1f1a16b4199ef111430ffa92b8d
+Size: 1218580
+Filename: enigma2-plugin-extensions-openspajr_4.0-r6_sh4.ipk
+Source: unknown
+Description: enigma2-plugin-extensions-openspajr version 4.0-r6
+OE: enigma2-plugin-extensions-openspajr
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-extensions-snesmanager
+Version: 0.1+git2+a7b49a3-r0
+Depends: snes-init, libsdl-1.2-0, snes9x-sdl, directfb
+Section: base
+Architecture: all
+Maintainer: open alliance
+MD5Sum: 819e47de0981e11190bc525ebea4ee83
+Size: 10374
+Filename: enigma2-plugin-extensions-snesmanager_0.1+git2+a7b49a3-r0_all.ipk
+Source: git://github.com/emulatorE2/snes_manager.git
+Description: SNES Game Manager
+OE: enigma2-plugin-extensions-snesmanager
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-jrlg1080
+Version: 1.0-r5
+Depends: openspa-components, enigma2-plugin-extensions-openspajr, components-jrlg
+Section: base
+Architecture: sh4
+Maintainer: Sergiri
+MD5Sum: 59c7003bd5f614490ce0e9dd5476ff77
+Size: 4661974
+Filename: enigma2-plugin-skins-jrlg1080_1.0-r5_sh4.ipk
+Source: unknown
+Description: enigma2-plugin-skins-jrlg1080 version 1.0-r5
+OE: enigma2-plugin-skins-jrlg1080
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-jrlg
+Version: 1.0-r5
+Depends: openspa-components, enigma2-plugin-extensions-openspajr, components-jrlg
+Section: base
+Architecture: sh4
+Maintainer: Sergiri
+MD5Sum: bfe890ef959d1b30893197508991b8cb
+Size: 3574222
+Filename: enigma2-plugin-skins-jrlg_1.0-r5_sh4.ipk
+Source: unknown
+Description: enigma2-plugin-skins-jrlg version 1.0-r5
+OE: enigma2-plugin-skins-jrlg
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+
+Package: openspa-components
+Version: 1.0-r11
+Section: base
+Architecture: sh4
+Maintainer: Mpiero
+MD5Sum: 506d8058cba6cfe825c99d75a61b02e4
+Size: 39188
+Filename: openspa-components_1.0-r11_sh4.ipk
+Source: unknown
+Description: openspa-components version 1.0-r11
+OE: openspa-components
+HomePage: http://openspa.info
+License: Proprietary
+Priority: optional
+

@@ -5692,8 +5692,8 @@ Version: 1.3.9+git3546+cd20d75-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 269f917733bf765ef3f92b96fee585a6
-Size: 726
+MD5Sum: b81026fa1c804c35f0b50ffd23c58db5
+Size: 730
 Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+cd20d750aa-r0 - Debugging files
@@ -5708,7 +5708,7 @@ Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif-webtv
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 43c06a9452ab903d1463e0181e0f50a4
+MD5Sum: f6833117f338d19613f10ccae66a4924
 Size: 894
 Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5723,7 +5723,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c208ff49d6ec72f9f232723b4a150957
+MD5Sum: 3337781764db5ef03fb7991f84fe628f
 Size: 184270
 Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5738,7 +5738,7 @@ Depends: enigma2-plugin-extensions-openwebif, shellinabox
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e3174a012780028529ceda0ca29f0a23
+MD5Sum: 7c94f56d159996ec4bdd132d96a64ab4
 Size: 688
 Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5753,7 +5753,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c14e2060e1bb4a212b59a99c1315136
+MD5Sum: 9e2b1049bef80e4664216c1f698bd569
 Size: 1850042
 Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5768,7 +5768,7 @@ Depends: enigma2-plugin-extensions-openwebif-webtv
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e770e1d2705a9aa2fc846ab0dc5ce787
+MD5Sum: 2d77ee9c0653474c6bf15795e46d57bb
 Size: 1232334
 Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5783,7 +5783,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 540616fab2a7c12ddcb392a264fd5034
+MD5Sum: 8906674df76680cb66d434a6a48cfaac
 Size: 4102
 Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5798,7 +5798,7 @@ Depends: aio-grab, enigma2, oe-alliance-branding, python-cheetah, python-compres
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 31edd2629980f709ebd5e87a9484fee8
+MD5Sum: 917cae3f7c7621a2b45fdde291ce7cb9
 Size: 743730
 Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3546+cd20d75-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -6489,8 +6489,8 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 3e36c26be0fea08c609af3cf2dac6178
-Size: 2164
+MD5Sum: c7d145ac46806d4bbce09643c4c45b40
+Size: 2160
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Debugging files
@@ -6505,7 +6505,7 @@ Recommends: enigma2-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 4edec2f4d14f2d649dadc24ad8bdd598
+MD5Sum: 7d7e101c77529e3a09fa6cc39f01a315
 Size: 752
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
@@ -6520,8 +6520,8 @@ Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Section: base
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 0075704aef2a21a5f235100c7df0f9f6
-Size: 38264
+MD5Sum: 3c0ca2a08a89b454422119e2d3f128ae
+Size: 38258
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker (translations)
@@ -6535,7 +6535,7 @@ Depends: enigma2
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 3f59d2a8db7344ed54cfc878dd970096
+MD5Sum: 8292404d120426d4954c75746f9e3c8e
 Size: 48000
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
@@ -6550,13 +6550,59 @@ Depends: enigma2, libc6 (>= 2.25)
 Section: base
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 027bfcec10648a1eb14571a6a38aa3a1
-Size: 220908
+MD5Sum: d71791e2e8d331c0585a5483ed239429
+Size: 220872
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
 License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-dbg
+Version: 0.5+git161+02956ea-r0
+Recommends: libc6-dbg, libcrypto10-dbg, libgcc-s-dbg, libssl10-dbg, libstdc++-dbg, uchardet-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5bd0987071d537cef85a78efc7c7c8b6
+Size: 18484
+Filename: enigma2-plugin-systemplugins-serviceapp-dbg_0.5+git161+02956ea-r0_sh4.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+02956ea6b0-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp-src
+Version: 0.5+git161+02956ea-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d2e58ca7f9e7a537c65f451ff950e26b
+Size: 11784
+Filename: enigma2-plugin-systemplugins-serviceapp-src_0.5+git161+02956ea-r0_sh4.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+02956ea6b0-r0 - Source files
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-serviceapp
+Version: 0.5+git161+02956ea-r0
+Depends: enigma2, exteplayer3, libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libgcc1 (>= 4.9.4), libssl1.0.2 (>= 1.0.2r), libstdc++6 (>= 4.9.4), openssl, python-json, uchardet (>= 0.0.6+git247+bdfd611)
+Replaces: enigma2-plugin-extensions-serviceapp
+Conflicts: enigma2-plugin-extensions-serviceapp
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6cf93580e1c31989e792051d82730981
+Size: 92326
+Filename: enigma2-plugin-systemplugins-serviceapp_0.5+git161+02956ea-r0_sh4.ipk
+Source: enigma2-plugin-systemplugins-serviceapp.bb
+Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+02956ea6b0-r0
+OE: enigma2-plugin-systemplugins-serviceapp
+License: GPLv2
 Priority: optional
 
 Package: enigma2-skins-meta
@@ -6749,6 +6795,52 @@ Description: eudev is a fork of systemd's udev
 OE: eudev
 HomePage: https://wiki.gentoo.org/wiki/Eudev
 License: GPLv2.0+ & LGPL-2.1+
+Priority: optional
+
+Package: exteplayer3-dbg
+Version: 68+gitr125+52666ca-r1
+Recommends: libavcodec-dbg, libavformat-dbg, libavutil-dbg, libc6-dbg, libswresample-dbg, libswscale-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93a1c3c1d3acec972fe45491ce9963a5
+Size: 13318
+Filename: exteplayer3-dbg_68+gitr125+52666ca-r1_sh4.ipk
+Source: exteplayer3.bb
+Description: exteplayer3 - media player for E2 - Debugging files
+OE: exteplayer3
+License: GPL-2.0
+Priority: optional
+
+Package: exteplayer3-dev
+Version: 68+gitr125+52666ca-r1
+Depends: exteplayer3 (= 68+gitr125+52666ca-r1)
+Recommends: ffmpeg-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libbluray-dev, libc6-dev, libswresample-dev, libswscale-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1657f1a170cbd1bc18e2d8555c2bac57
+Size: 802
+Filename: exteplayer3-dev_68+gitr125+52666ca-r1_sh4.ipk
+Source: exteplayer3.bb
+Description: exteplayer3 - media player for E2 - Development files
+OE: exteplayer3
+License: GPL-2.0
+Priority: optional
+
+Package: exteplayer3
+Version: 68+gitr125+52666ca-r1
+Depends: ffmpeg, libavcodec58 (>= 4.2.3), libavformat58 (>= 4.2.3), libavutil56 (>= 4.2.3), libbluray, libc6 (>= 2.25), libswresample3 (>= 4.2.3), libswscale5 (>= 4.2.3)
+Section: multimedia
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7232de7585e06848a06d6693c8aa3eaa
+Size: 71336
+Filename: exteplayer3_68+gitr125+52666ca-r1_sh4.ipk
+Source: exteplayer3.bb
+Description: exteplayer3 - media player for E2
+OE: exteplayer3
+License: GPL-2.0
 Priority: optional
 
 Package: faac-dbg
