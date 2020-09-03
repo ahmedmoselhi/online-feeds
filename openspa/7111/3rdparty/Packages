@@ -45,6 +45,21 @@ HomePage: http://openspa.info
 License: GPLv2
 Priority: optional
 
+Package: enigma2-plugin-extensions-scriptexecuter
+Version: 1.0-r0
+Section: extra
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b19f16195b9ff396bb6112b90f8f6639
+Size: 2096
+Filename: enigma2-plugin-extensions-scriptexecuter_1.0-r0_sh4.ipk
+Source: unknown
+Description: enigma2-plugin-extensions-scriptexecuter version 1.0-r0
+OE: enigma2-plugin-extensions-scriptexecuter
+HomePage: http://openspa.info
+License: GPLv2
+Priority: optional
+
 Package: enigma2-plugin-extensions-snesmanager
 Version: 0.1+git2+a7b49a3-r0
 Depends: snes-init, libsdl-1.2-0, snes9x-sdl, directfb
