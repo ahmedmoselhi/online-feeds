@@ -845,8 +845,8 @@ Recommends: libc6-dbg, libcurl-dbg, libxml2-dbg, libz-dbg
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8d95d014b0fd6d5189134100f8786598
-Size: 828
+MD5Sum: 05df5232a21f79ec286ce6536fd424a1
+Size: 830
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr497+14d2184-r0_spark7162.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+14d2184d93-r0 - Debugging files
@@ -862,8 +862,8 @@ Recommends: curl-dev, enigma2-dev, libc6-dev, libcurl-dev, libxml2-dev, libz-dev
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 33b660d2e1a8178ebf0090d0af443585
-Size: 894
+MD5Sum: c58f0267c4101216f931650ccdccd80f
+Size: 892
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr497+14d2184-r0_spark7162.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+14d2184d93-r0 - Development files
@@ -878,7 +878,7 @@ Depends: enigma2-plugin-systemplugins-crossepg
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e32ad209c21ca032559d28ed64013a7
+MD5Sum: 18e45c5e45a309a1782ab7dea70693b9
 Size: 22840
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.8.7+gitr497+14d2184-r0_spark7162.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -894,7 +894,7 @@ Depends: enigma2, libc6 (>= 2.25), libcurl4 (>= 7.66.0), libxml2 (>= 2.9.9), lib
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: da4892889630bac3771d9676f81887a6
+MD5Sum: 670a84e01503c904868a608e29f0a172
 Size: 285186
 Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr497+14d2184-r0_spark7162.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -4187,7 +4187,7 @@ Recommends: ca-certificates-dbg, flip-dbg, hddtemp-dbg, iproute2-dbg, mhw2-files
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72895aa3062f25557acd79018f205c4e
+MD5Sum: 327f5e160b299ff1ac5ec875ad8be230
 Size: 896
 Filename: openspa-base-dbg_7.4-r1_spark7162.ipk
 Source: openspa-base.bb
@@ -4203,7 +4203,7 @@ Recommends: ca-certificates-dev, flip-dev, hddtemp-dev, iproute2-dev, mhw2-files
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddb946015024e407851175c4de65eedc
+MD5Sum: 16181579e9689533c7bf02dde0a2a738
 Size: 922
 Filename: openspa-base-dev_7.4-r1_spark7162.ipk
 Source: openspa-base.bb
@@ -4218,7 +4218,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15dc647804fcdc831ac04fa580b57cc4
+MD5Sum: 1dca78b0d74bc71e68d968ac2d8ba77c
 Size: 3186
 Filename: openspa-base-files-dbg_1.0-r1_spark7162.ipk
 Source: openspa-base-files.bb
@@ -4234,8 +4234,8 @@ Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0981cf3de5dd3cda89b468711c6d80e4
-Size: 728
+MD5Sum: 74fc41b41666e544022d7e1dc40afef5
+Size: 730
 Filename: openspa-base-files-dev_1.0-r1_spark7162.ipk
 Source: openspa-base-files.bb
 Description: EGAMI base files - Development files
@@ -4249,8 +4249,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d1f689d4281e0d81546e3828e3f4d2b
-Size: 17428872
+MD5Sum: cbec7547f41dd56a7f61f1e5070c92ed
+Size: 17460204
 Filename: openspa-base-files_1.0-r1_spark7162.ipk
 Source: openspa-base-files.bb
 Description: EGAMI base files
@@ -4264,7 +4264,7 @@ Depends: ca-certificates, flip, hddtemp, iproute2, mhw2-files, ntfs-3g, oe-allia
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c211a45760a206184a2b8a1e0059d3eb
+MD5Sum: efc58cab53413ea1d1c126c9092e7f59
 Size: 822
 Filename: openspa-base_7.4-r1_spark7162.ipk
 Source: openspa-base.bb
@@ -4321,12 +4321,12 @@ Priority: required
 
 Package: openspa-enigma2-dbg
 Version: 7.4-r5
-Recommends: aio-grab-dbg, enigma2-plugin-drivers-usbserial-dbg, enigma2-plugin-extensions-cooltvguide-dbg, enigma2-plugin-extensions-epgimport-dbg, enigma2-plugin-extensions-openwebif-dbg, enigma2-plugin-extensions-openwebif-terminal-dbg, enigma2-plugin-extensions-openwebif-themes-dbg, enigma2-plugin-extensions-openwebif-vxg-dbg, enigma2-plugin-extensions-pictureplayer-dbg, enigma2-plugin-systemplugins-devicemanager-dbg, enigma2-plugin-systemplugins-hotplug-dbg, enigma2-plugin-systemplugins-networkwizard-dbg, enigma2-plugin-systemplugins-satfinder-dbg, enigma2-plugin-systemplugins-serviceapp-dbg, enigma2-plugin-systemplugins-softwaremanager-dbg, enigma2-plugin-systemplugins-videoenhancement-dbg, enigma2-plugin-systemplugins-videotune-dbg, enigma2-plugin-systemplugins-wirelesslan-dbg, enigma2-skindefault-dbg, mtd-utils-dbg, openspa-version-info-dbg, parted-dbg, procps-dbg, tuxbox-common-dbg, tuxbox-links-dbg
+Recommends: aio-grab-dbg, enigma2-plugin-drivers-usbserial-dbg, enigma2-plugin-extensions-cooltvguide-dbg, enigma2-plugin-extensions-epgimport-dbg, enigma2-plugin-extensions-openwebif-dbg, enigma2-plugin-extensions-openwebif-terminal-dbg, enigma2-plugin-extensions-openwebif-themes-dbg, enigma2-plugin-extensions-openwebif-vxg-dbg, enigma2-plugin-extensions-pictureplayer-dbg, enigma2-plugin-systemplugins-devicemanager-dbg, enigma2-plugin-systemplugins-hotplug-dbg, enigma2-plugin-systemplugins-networkwizard-dbg, enigma2-plugin-systemplugins-serviceapp-dbg, enigma2-plugin-systemplugins-softwaremanager-dbg, enigma2-plugin-systemplugins-videoenhancement-dbg, enigma2-plugin-systemplugins-videotune-dbg, enigma2-plugin-systemplugins-wirelesslan-dbg, enigma2-skindefault-dbg, mtd-utils-dbg, openspa-version-info-dbg, parted-dbg, procps-dbg, tuxbox-common-dbg, tuxbox-links-dbg
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f2ee28fd1c562d376320a1ce0b6f277
-Size: 944
+MD5Sum: 83b30b1823f4d6575f04dc2f56088c79
+Size: 934
 Filename: openspa-enigma2-dbg_7.4-r5_spark7162.ipk
 Source: openspa-enigma2.bb
 Description: Merge machine and distro options to create a enigma2 machine task/package - Debugging files
@@ -4337,12 +4337,12 @@ Priority: optional
 Package: openspa-enigma2-dev
 Version: 7.4-r5
 Depends: openspa-enigma2 (= 7.4-r5)
-Recommends: aio-grab-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-cooltvguide-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-openwebif-dev, enigma2-plugin-extensions-openwebif-terminal-dev, enigma2-plugin-extensions-openwebif-themes-dev, enigma2-plugin-extensions-openwebif-vxg-dev, enigma2-plugin-extensions-pictureplayer-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-hotplug-dev, enigma2-plugin-systemplugins-networkwizard-dev, enigma2-plugin-systemplugins-satfinder-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-softwaremanager-dev, enigma2-plugin-systemplugins-videoenhancement-dev, enigma2-plugin-systemplugins-videotune-dev, enigma2-plugin-systemplugins-wirelesslan-dev, enigma2-skindefault-dev, mtd-utils-dev, openspa-feeds-dev, openspa-version-info-dev, parted-dev, procps-dev, tuxbox-common-dev, tuxbox-links-dev
+Recommends: aio-grab-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-cooltvguide-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-openwebif-dev, enigma2-plugin-extensions-openwebif-terminal-dev, enigma2-plugin-extensions-openwebif-themes-dev, enigma2-plugin-extensions-openwebif-vxg-dev, enigma2-plugin-extensions-pictureplayer-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-hotplug-dev, enigma2-plugin-systemplugins-networkwizard-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-softwaremanager-dev, enigma2-plugin-systemplugins-videoenhancement-dev, enigma2-plugin-systemplugins-videotune-dev, enigma2-plugin-systemplugins-wirelesslan-dev, enigma2-skindefault-dev, mtd-utils-dev, openspa-feeds-dev, openspa-version-info-dev, parted-dev, procps-dev, tuxbox-common-dev, tuxbox-links-dev
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3e69f775e244abdeffe57ef4d55f5728
-Size: 970
+MD5Sum: 5fd190af4e3a49b0a347e284e3f5192f
+Size: 962
 Filename: openspa-enigma2-dev_7.4-r5_spark7162.ipk
 Source: openspa-enigma2.bb
 Description: Merge machine and distro options to create a enigma2 machine task/package - Development files
@@ -4352,12 +4352,12 @@ Priority: optional
 
 Package: openspa-enigma2
 Version: 7.4-r5
-Depends: aio-grab, enigma2-plugin-drivers-usbserial, enigma2-plugin-extensions-cooltvguide, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-openwebif, enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-themes, enigma2-plugin-extensions-openwebif-vxg, enigma2-plugin-extensions-pictureplayer, enigma2-plugin-systemplugins-devicemanager, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-satfinder, enigma2-plugin-systemplugins-serviceapp, enigma2-plugin-systemplugins-softwaremanager, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-videotune, enigma2-plugin-systemplugins-wirelesslan, enigma2-skindefault, mtd-utils, openspa-version-info, parted, procps, tuxbox-common, tuxbox-links
+Depends: aio-grab, enigma2-plugin-drivers-usbserial, enigma2-plugin-extensions-cooltvguide, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-openwebif, enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-themes, enigma2-plugin-extensions-openwebif-vxg, enigma2-plugin-extensions-pictureplayer, enigma2-plugin-systemplugins-devicemanager, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-serviceapp, enigma2-plugin-systemplugins-softwaremanager, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-videotune, enigma2-plugin-systemplugins-wirelesslan, enigma2-skindefault, mtd-utils, openspa-version-info, parted, procps, tuxbox-common, tuxbox-links
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 84f7911cc4dd68a386faae9312d802b0
-Size: 872
+MD5Sum: 3b8f855c1cdfec0c0118349e14a101a7
+Size: 864
 Filename: openspa-enigma2_7.4-r5_spark7162.ipk
 Source: openspa-enigma2.bb
 Description: Merge machine and distro options to create a enigma2 machine task/package
@@ -4370,7 +4370,7 @@ Version: 7.4-r1
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79d9d5df1e8c2d89b7bf1d95f3e4db67
+MD5Sum: 1eea5d1d4d69ad11d0bf569f77add79f
 Size: 702
 Filename: openspa-feeds-dbg_7.4-r1_spark7162.ipk
 Source: openspa-feeds.bb
@@ -4385,7 +4385,7 @@ Depends: openspa-feeds (= 7.4-r1)
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d5cc641cf3df98b4989cd65ddef8957d
+MD5Sum: f7509390227f4a26ba37f9dc66f7ee26
 Size: 732
 Filename: openspa-feeds-dev_7.4-r1_spark7162.ipk
 Source: openspa-feeds.bb
@@ -4400,7 +4400,7 @@ Recommends: cdfs, curlftpfs, enigma2-plugin-extensions-blurayplayer, enigma2-plu
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 84b52199d5be59b215c0ade2467f27e6
+MD5Sum: 66126cc6027bba1394b32e908eef3756
 Size: 818
 Filename: openspa-feeds_7.4-r1_spark7162.ipk
 Source: openspa-feeds.bb
