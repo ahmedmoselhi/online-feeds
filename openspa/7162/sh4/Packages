@@ -4519,6 +4519,71 @@ HomePage: http://djmount.sourceforge.net/
 License: GPLv2+
 Priority: optional
 
+Package: dosfstools-dbg
+Version: 4.1-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 804fde3cc9419ff63ad67322c9aa1cb5
+Size: 10578
+Filename: dosfstools-dbg_4.1-r0_sh4.ipk
+Source: dosfstools_4.1.bb
+Description: DOS FAT Filesystem Utilities - Debugging files
+OE: dosfstools
+HomePage: https://github.com/dosfstools/dosfstools
+License: GPLv3
+Priority: optional
+
+Package: dosfstools-dev
+Version: 4.1-r0
+Depends: dosfstools (= 4.1-r0)
+Recommends: libc6-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 99cb2bcfbee917996a6957cfb0afd1c8
+Size: 744
+Filename: dosfstools-dev_4.1-r0_sh4.ipk
+Source: dosfstools_4.1.bb
+Description: DOS FAT Filesystem Utilities - Development files
+OE: dosfstools
+HomePage: https://github.com/dosfstools/dosfstools
+License: GPLv3
+Priority: optional
+
+Package: dosfstools-doc
+Version: 4.1-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c126f3729899852fe2791dd5512ba2d0
+Size: 12862
+Filename: dosfstools-doc_4.1-r0_sh4.ipk
+Source: dosfstools_4.1.bb
+Description: DOS FAT Filesystem Utilities - Documentation files
+OE: dosfstools
+HomePage: https://github.com/dosfstools/dosfstools
+License: GPLv3
+Priority: optional
+
+Package: dosfstools
+Version: 4.1-r0
+Depends: libc6 (>= 2.25)
+Recommends: glibc-gconv-ibm437
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df6110694a1f59cb8b61179c1f5d75de
+Size: 38254
+Filename: dosfstools_4.1-r0_sh4.ipk
+Source: dosfstools_4.1.bb
+Description: DOS FAT Filesystem Utilities
+OE: dosfstools
+HomePage: https://github.com/dosfstools/dosfstools
+License: GPLv3
+Priority: optional
+
 Package: dropbear-dbg
 Version: 2019.78-r0
 Recommends: libc6-dbg, libpam-dbg, libz-dbg
@@ -5688,74 +5753,74 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: 1.3.9+git3546+cd20d75-r0
+Version: 1.3.9+git3548+9a235c0-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62089c79de8f87881d7e1957787c6a61
-Size: 728
-Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3546+cd20d75-r0_sh4.ipk
+MD5Sum: 3abff52209db6a759a13042e881200be
+Size: 730
+Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+cd20d750aa-r0 - Debugging files
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0 - Debugging files
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: 1.3.9+git3546+cd20d75-r0
-Depends: enigma2-plugin-extensions-openwebif (= 1.3.9+git3546+cd20d75-r0)
+Version: 1.3.9+git3548+9a235c0-r0
+Depends: enigma2-plugin-extensions-openwebif (= 1.3.9+git3548+9a235c0-r0)
 Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif-webtv-dev, oe-alliance-branding-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pprint-dev, python-pyopenssl-dev, python-shell-dev, python-twisted-web-dev, python-unixadmin-dev, shellinabox-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0226a0803ef4f0ed24af0ef94bcaae91
+MD5Sum: 64552a5ed355c559b11504f3157c3260
 Size: 894
-Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3546+cd20d75-r0_sh4.ipk
+Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+cd20d750aa-r0 - Development files
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0 - Development files
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-src
-Version: 1.3.9+git3546+cd20d75-r0
+Version: 1.3.9+git3548+9a235c0-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8da825d973cb37cbac6ae657a5171fa2
-Size: 184356
-Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3546+cd20d75-r0_sh4.ipk
+MD5Sum: f2365724c58395797e4600de1f9eb6aa
+Size: 184254
+Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+cd20d750aa-r0 - Source files
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0 - Source files
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-terminal
-Version: 1.3.9+git3546+cd20d75-r0
+Version: 1.3.9+git3548+9a235c0-r0
 Depends: enigma2-plugin-extensions-openwebif, shellinabox
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ec3bb8266d6ca1da78a6428b161ba9e
-Size: 690
-Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3546+cd20d75-r0_sh4.ipk
+MD5Sum: 3908f3f6d7b61462e98c8dfd1c4500b8
+Size: 692
+Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+cd20d750aa-r0
+Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-themes
-Version: 1.3.9+git3546+cd20d75-r0
+Version: 1.3.9+git3548+9a235c0-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e53f80718f84b9d90d3c55b1730a75d
-Size: 1850414
-Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3546+cd20d75-r0_sh4.ipk
+MD5Sum: 8c791d7cc367d619ce3ddbd9cbc3fe21
+Size: 1850336
+Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (Additional themes for OpenWebif)
 OE: enigma2-plugin-extensions-openwebif
@@ -5763,14 +5828,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-vxg
-Version: 1.3.9+git3546+cd20d75-r0
+Version: 1.3.9+git3548+9a235c0-r0
 Depends: enigma2-plugin-extensions-openwebif-webtv
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 13d8474b36aea04dbec71d8960698189
-Size: 1232096
-Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3546+cd20d75-r0_sh4.ipk
+MD5Sum: 5d199b67ea2e24e133f64d757688d4a8
+Size: 1231958
+Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (WebTV for Google Chrome)
 OE: enigma2-plugin-extensions-openwebif
@@ -5778,14 +5843,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-webtv
-Version: 1.3.9+git3546+cd20d75-r0
+Version: 1.3.9+git3548+9a235c0-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf8d8640f3ba58b6ceacda725be370c7
+MD5Sum: 61640bd8b84ca3ac97ebce58df5d20a9
 Size: 4102
-Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3546+cd20d75-r0_sh4.ipk
+Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (WebTV for OpenWebif)
 OE: enigma2-plugin-extensions-openwebif
@@ -5793,14 +5858,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: 1.3.9+git3546+cd20d75-r0
+Version: 1.3.9+git3548+9a235c0-r0
 Depends: aio-grab, enigma2, oe-alliance-branding, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pprint, python-pyopenssl, python-shell, python-twisted-web, python-unixadmin
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 09f2c0f578b38734cefd5b7be6e42163
-Size: 743918
-Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3546+cd20d75-r0_sh4.ipk
+MD5Sum: 9397252c2333bf7fd7c292a216eb53da
+Size: 744758
+Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
 OE: enigma2-plugin-extensions-openwebif
@@ -6489,7 +6554,7 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 5412247cffe70bbdb4f1cdf19e7dcf8b
+MD5Sum: 593aceaed8c2ef545d49e79c64aca95e
 Size: 2164
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
@@ -6505,8 +6570,8 @@ Recommends: enigma2-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: f31479b24b50536828a6c714584e7144
-Size: 752
+MD5Sum: bed06d287bc78dee4a3661b589683b56
+Size: 750
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Development files
@@ -6520,8 +6585,8 @@ Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Section: base
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: c7e1c4e34038c74b1c7bae389942e561
-Size: 38286
+MD5Sum: b100a9a83fe61ecbd08097847db0c4a4
+Size: 38262
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker (translations)
@@ -6535,8 +6600,8 @@ Depends: enigma2
 Section: devel
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 417fd9cf6c75a95025ed72e308962c3b
-Size: 48000
+MD5Sum: f371b6a4c4364b0caa742433357d8693
+Size: 47996
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Source files
@@ -6550,13 +6615,62 @@ Depends: enigma2, libc6 (>= 2.25)
 Section: base
 Architecture: sh4
 Maintainer: oe-alliance team
-MD5Sum: 38cf5b4d4013616fd7d9ef380bc5187e
-Size: 220876
+MD5Sum: 69d02cd70d7d063514e1c89a0c3e6ab6
+Size: 220952
 Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git801+c024498-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
 License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-devicemanager-dbg
+Version: 1+git40+c056098-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f52333afda2e711e046350fb92d0983c
+Size: 790
+Filename: enigma2-plugin-systemplugins-devicemanager-dbg_1+git40+c056098-r0_sh4.ipk
+Source: enigma2-plugin-systemplugins-devicemanager.bb
+Description: enigma2-plugin-systemplugins-devicemanager version 1+gitAUTOINC+c05609876f-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-devicemanager
+HomePage: https://github.com/Dima73/enigma2-plugin-systemplugins-devicemanager
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-devicemanager-dev
+Version: 1+git40+c056098-r0
+Depends: enigma2-plugin-systemplugins-devicemanager (= 1+git40+c056098-r0)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0ce770a2252b15e615ec327b540b102
+Size: 840
+Filename: enigma2-plugin-systemplugins-devicemanager-dev_1+git40+c056098-r0_sh4.ipk
+Source: enigma2-plugin-systemplugins-devicemanager.bb
+Description: enigma2-plugin-systemplugins-devicemanager version 1+gitAUTOINC+c05609876f-r0 - Development files
+OE: enigma2-plugin-systemplugins-devicemanager
+HomePage: https://github.com/Dima73/enigma2-plugin-systemplugins-devicemanager
+License: GPLv2
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-devicemanager
+Version: 1+git40+c056098-r0
+Depends: python-core
+Recommends: dosfstools, e2fsprogs, e2fsprogs-e2fsck, e2fsprogs-mke2fs, exfat-utils, hddtemp, ntfsprogs, util-linux-sfdisk
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9eddb6e9587ac1c1c577fc26d3d76ba5
+Size: 54552
+Filename: enigma2-plugin-systemplugins-devicemanager_1+git40+c056098-r0_sh4.ipk
+Source: enigma2-plugin-systemplugins-devicemanager.bb
+Description: enigma2-plugin-systemplugins-devicemanager version 1+gitAUTOINC+c05609876f-r0
+OE: enigma2-plugin-systemplugins-devicemanager
+HomePage: https://github.com/Dima73/enigma2-plugin-systemplugins-devicemanager
+License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-serviceapp-dbg
@@ -6565,8 +6679,8 @@ Recommends: libc6-dbg, libcrypto10-dbg, libgcc-s-dbg, libssl10-dbg, libstdc++-db
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d984ccd0b6ad762925d4ceb894376feb
-Size: 18492
+MD5Sum: 1620ea4ffc68450df3220399bb4ea3a8
+Size: 18500
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_0.5+git161+02956ea-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+02956ea6b0-r0 - Debugging files
@@ -6579,8 +6693,8 @@ Version: 0.5+git161+02956ea-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9054e16e310f85282b74eeba5d0fbf10
-Size: 11782
+MD5Sum: 755168bcdc52d459b5861b0d84f46c16
+Size: 11766
 Filename: enigma2-plugin-systemplugins-serviceapp-src_0.5+git161+02956ea-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+02956ea6b0-r0 - Source files
@@ -6596,8 +6710,8 @@ Conflicts: enigma2-plugin-extensions-serviceapp
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf645868ec7e2e17a03b4834ee06c67f
-Size: 92264
+MD5Sum: 13125cf33839d7dd7dc3428c554df354
+Size: 92540
 Filename: enigma2-plugin-systemplugins-serviceapp_0.5+git161+02956ea-r0_sh4.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version 0.5+gitAUTOINC+02956ea6b0-r0
@@ -6795,6 +6909,97 @@ Description: eudev is a fork of systemd's udev
 OE: eudev
 HomePage: https://wiki.gentoo.org/wiki/Eudev
 License: GPLv2.0+ & LGPL-2.1+
+Priority: optional
+
+Package: exfat-dump
+Version: 0.9.8-r0
+Depends: libc6 (>= 2.25)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aa335efd5dfeaa655bee146bf585ea93
+Size: 23332
+Filename: exfat-dump_0.9.8-r0_sh4.ipk
+Source: exfat-utils_0.9.8.bb
+Description: exfat-utils version 0.9.8-r0
+OE: exfat-utils
+License: GPLv2+
+Priority: optional
+
+Package: exfat-fsck
+Version: 0.9.8-r0
+Depends: libc6 (>= 2.25)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d881cd33cb322dcbba4b7692d7375584
+Size: 23286
+Filename: exfat-fsck_0.9.8-r0_sh4.ipk
+Source: exfat-utils_0.9.8.bb
+Description: exfat-utils version 0.9.8-r0
+OE: exfat-utils
+License: GPLv2+
+Priority: optional
+
+Package: exfat-label
+Version: 0.9.8-r0
+Depends: libc6 (>= 2.25)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7fe324d974ab4cbaee94c0cda7157a0b
+Size: 22570
+Filename: exfat-label_0.9.8-r0_sh4.ipk
+Source: exfat-utils_0.9.8.bb
+Description: exfat-utils version 0.9.8-r0
+OE: exfat-utils
+License: GPLv2+
+Priority: optional
+
+Package: exfat-mkfs
+Version: 0.9.8-r0
+Depends: libc6 (>= 2.25)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bcc2b39e605884b424cf4a4b2f931bfd
+Size: 27476
+Filename: exfat-mkfs_0.9.8-r0_sh4.ipk
+Source: exfat-utils_0.9.8.bb
+Description: exfat-utils version 0.9.8-r0
+OE: exfat-utils
+License: GPLv2+
+Priority: optional
+
+Package: exfat-utils-dbg
+Version: 0.9.8-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0bea0d915ba29565b5aac1ce611739a0
+Size: 14490
+Filename: exfat-utils-dbg_0.9.8-r0_sh4.ipk
+Source: exfat-utils_0.9.8.bb
+Description: exfat-utils version 0.9.8-r0 - Debugging files
+OE: exfat-utils
+License: GPLv2+
+Priority: optional
+
+Package: exfat-utils-dev
+Version: 0.9.8-r0
+Depends: exfat-utils (= 0.9.8-r0)
+Recommends: exfat-dump-dev, exfat-fsck-dev, exfat-label-dev, exfat-mkfs-dev, libc6-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 77abdee05d0e9e180e4e8142fedd8f10
+Size: 734
+Filename: exfat-utils-dev_0.9.8-r0_sh4.ipk
+Source: exfat-utils_0.9.8.bb
+Description: exfat-utils version 0.9.8-r0 - Development files
+OE: exfat-utils
+License: GPLv2+
 Priority: optional
 
 Package: exteplayer3-dbg
@@ -7749,8 +7954,8 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a360e9b86b01f6c3b139d838a29230f3
-Size: 5166
+MD5Sum: 8d7429204ac425392bc7fb8a81168b01
+Size: 5178
 Filename: fp-control-dbg_1.0+git640+34ed243-r0_sh4.ipk
 Source: fp-control_git.bb
 Description: fp-control version 1.0+gitAUTOINC+34ed243a4d-r0 - Debugging files
@@ -7766,7 +7971,7 @@ Recommends: fulan-dvb-modules-spark7162-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 74b52b3266b859cf1f4915a43898ec92
+MD5Sum: be462e1434209958d40825edc088f965
 Size: 816
 Filename: fp-control-dev_1.0+git640+34ed243-r0_sh4.ipk
 Source: fp-control_git.bb
@@ -7782,8 +7987,8 @@ Depends: libc6 (>= 2.25)
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3512440b2228be5dd4b7c3bda2f7bd65
-Size: 16922
+MD5Sum: 0055328d0c44f64eb3c5c2d46f73fb8c
+Size: 16876
 Filename: fp-control_1.0+git640+34ed243-r0_sh4.ipk
 Source: fp-control_git.bb
 Description: fp-control version 1.0+gitAUTOINC+34ed243a4d-r0
@@ -32950,8 +33155,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8bee0b555902bcaa6be84930b3e536d
-Size: 19366
+MD5Sum: a2f8ab32270198b0028342d6e03e37d7
+Size: 19382
 Filename: gstreamer1.0-plugins-base-adder_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for adder
@@ -32966,8 +33171,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libasound2 (>= 1.1.9), libc
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0fec8d08afc037f3d3120a9690111591
-Size: 32932
+MD5Sum: c40e4409baefc4df27198dd77c509657
+Size: 32924
 Filename: gstreamer1.0-plugins-base-alsa_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for alsa
@@ -32982,8 +33187,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libgstapp-
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 586977c10a5fec919b0a9bad1a7f37e9
-Size: 2444
+MD5Sum: 1789012f3627352436f0fcd66f4d1bc8
+Size: 2440
 Filename: gstreamer1.0-plugins-base-app_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for app
@@ -32998,8 +33203,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2f442e2eb549f916273fec897a055548
-Size: 27500
+MD5Sum: 027e8b2cf177da80e64d1de923ad0ff8
+Size: 27452
 Filename: gstreamer1.0-plugins-base-apps_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x
@@ -33014,8 +33219,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a807050a4568425363adcae52d621ad2
-Size: 10052
+MD5Sum: 74f5892f8da5ec17ab75a7aef5d24874
+Size: 10040
 Filename: gstreamer1.0-plugins-base-audioconvert_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for audioconvert
@@ -33030,8 +33235,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3a05069ce45e02c4d41a10da145f37af
-Size: 14238
+MD5Sum: 01a03f3db9d47b7dec3faa8e4d69110b
+Size: 14258
 Filename: gstreamer1.0-plugins-base-audiomixer_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for audiomixer
@@ -33046,7 +33251,7 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 47f2789a6542fdf8e7ae16e490881375
+MD5Sum: 1e0a07f14e5b887599fe289e3e3f6261
 Size: 11042
 Filename: gstreamer1.0-plugins-base-audiorate_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33062,8 +33267,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c80cd3a42cdbcf276ffe1b225c21e9f
-Size: 13732
+MD5Sum: 31413434566eb50d64ad638885a5f486
+Size: 13696
 Filename: gstreamer1.0-plugins-base-audioresample_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for audioresample
@@ -33078,8 +33283,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e293e9b061c1f233a43d06efce48eb38
-Size: 18670
+MD5Sum: 3248a990619f91e422b1addf85b36cdd
+Size: 18674
 Filename: gstreamer1.0-plugins-base-audiotestsrc_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for audiotestsrc
@@ -33094,7 +33299,7 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libcdparan
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8a09b26dadc5b24bb701a1655034611
+MD5Sum: 4214e745f12d14968535f15c9753e3af
 Size: 7304
 Filename: gstreamer1.0-plugins-base-cdparanoia_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33110,8 +33315,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5a46adbecb1a04c8ded5fefd141a5d8
-Size: 21186
+MD5Sum: 750875e33143df1cf5b66ab809e61f2d
+Size: 21182
 Filename: gstreamer1.0-plugins-base-compositor_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for compositor
@@ -33126,8 +33331,8 @@ Recommends: gstreamer1.0-dbg, libasound-dbg, libc6-dbg, libcairo-dbg, libcdparan
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 53aec838d480e2e514a3083f59165100
-Size: 173594
+MD5Sum: b74066945e39a06dc022dbc29f1d852d
+Size: 173822
 Filename: gstreamer1.0-plugins-base-dbg_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - Debugging files
@@ -33143,8 +33348,8 @@ Recommends: cdparanoia-dev, gobject-introspection-dev, gstreamer1.0-dev, gstream
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fcc5e545dfbfc789179d07dc7fe74a6f
-Size: 115382
+MD5Sum: 18674f715ae953fd247cdf4910d78560
+Size: 115444
 Filename: gstreamer1.0-plugins-base-dev_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - Development files
@@ -33158,8 +33363,8 @@ Version: 1.17.90+git20481+94dcf91-r0
 Section: doc
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7ed14fb6dc121851bb6b3d217889639
-Size: 2548
+MD5Sum: 5417d09f88d59abc4045f029364dab50
+Size: 2552
 Filename: gstreamer1.0-plugins-base-doc_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - Documentation files
@@ -33174,8 +33379,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 33d028dd2402cbb0ff0f94e857db2096
-Size: 30562
+MD5Sum: 55d2040616a35dd904106cfe8749632f
+Size: 30554
 Filename: gstreamer1.0-plugins-base-encoding_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for encoding
@@ -33190,8 +33395,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9ab3d7efcd2cad3caa9c33f1bd7ee561
-Size: 15332
+MD5Sum: 2ada5d10a11d8a51c851f970318f0cdd
+Size: 15310
 Filename: gstreamer1.0-plugins-base-gio_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for gio
@@ -33206,8 +33411,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 543ffb1638ee1b34d0db0df17a2c493b
-Size: 8794
+MD5Sum: 121a2c6ee86a7489427ede9574194ed8
+Size: 8790
 Filename: gstreamer1.0-plugins-base-ivorbisdec_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for ivorbisdec
@@ -33223,8 +33428,8 @@ Recommends: virtual-locale-af
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab58206168de331c652338f356130b72
-Size: 1298
+MD5Sum: 2592bd818f058acbd4e9c6ec41fec4e9
+Size: 1302
 Filename: gstreamer1.0-plugins-base-locale-af_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - af translations
@@ -33240,7 +33445,7 @@ Recommends: virtual-locale-az
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c36f3dc67c5568c80a4c6ee4fff5aaf
+MD5Sum: 06b07d3b011943dce4e466f5c54111e3
 Size: 1356
 Filename: gstreamer1.0-plugins-base-locale-az_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33257,7 +33462,7 @@ Recommends: virtual-locale-bg
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b5c76a3cf4380f65f6699fc3758be2c8
+MD5Sum: f82eda107dc9284b636ff02744ec4c00
 Size: 6982
 Filename: gstreamer1.0-plugins-base-locale-bg_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33274,8 +33479,8 @@ Recommends: virtual-locale-ca
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79fc80c930f3535817461ab9816a0e9b
-Size: 4546
+MD5Sum: 8ca121c89254075d7359534a1d5a254b
+Size: 4544
 Filename: gstreamer1.0-plugins-base-locale-ca_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - ca translations
@@ -33291,8 +33496,8 @@ Recommends: virtual-locale-cs
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f978dd86c2240f7b9be9dc44855b56f6
-Size: 6782
+MD5Sum: 0ff1d2f920c150261e4ad50e0e71e415
+Size: 6840
 Filename: gstreamer1.0-plugins-base-locale-cs_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - cs translations
@@ -33308,8 +33513,8 @@ Recommends: virtual-locale-da
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e59a46a57112be951f5b379d44dbe33
-Size: 6562
+MD5Sum: f7cf4e9e8c2ed077d3e655a62e148474
+Size: 6558
 Filename: gstreamer1.0-plugins-base-locale-da_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - da translations
@@ -33325,8 +33530,8 @@ Recommends: virtual-locale-de
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ecd2383d8b9fc8119816f18034c5b2bf
-Size: 7002
+MD5Sum: 4632e845a0b220c7d0ad8e086a4693e8
+Size: 7004
 Filename: gstreamer1.0-plugins-base-locale-de_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - de translations
@@ -33342,8 +33547,8 @@ Recommends: virtual-locale-el
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 102b29192d44a9f771113153dfd08f2d
-Size: 4990
+MD5Sum: aa9ee927d926f086017bd3d772607cea
+Size: 4984
 Filename: gstreamer1.0-plugins-base-locale-el_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - el translations
@@ -33359,7 +33564,7 @@ Recommends: virtual-locale-en-gb
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 52330c1b6248612247451a804ef12a58
+MD5Sum: f511b85b2810c9cefc45fa712a8fd56b
 Size: 1282
 Filename: gstreamer1.0-plugins-base-locale-en-gb_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33376,8 +33581,8 @@ Recommends: virtual-locale-eo
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab2d64ba5232f79c7b03fa00a9adee9d
-Size: 2110
+MD5Sum: 3b919558961ab0082dc39bbe52e3e271
+Size: 2112
 Filename: gstreamer1.0-plugins-base-locale-eo_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - eo translations
@@ -33393,8 +33598,8 @@ Recommends: virtual-locale-es
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 45988cb3bd39c233b80c5ff3491b8cb8
-Size: 4502
+MD5Sum: 5f4983aa239f75f2392f32601e5facc3
+Size: 4500
 Filename: gstreamer1.0-plugins-base-locale-es_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - es translations
@@ -33410,8 +33615,8 @@ Recommends: virtual-locale-eu
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f03fe8e6770745ce181e85e7f0b2ede4
-Size: 3494
+MD5Sum: 3220262fd8b0ebc04902a3f5c39f30c5
+Size: 3488
 Filename: gstreamer1.0-plugins-base-locale-eu_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - eu translations
@@ -33427,7 +33632,7 @@ Recommends: virtual-locale-fi
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 171116ad7f95aab55673d9ecb15d045f
+MD5Sum: dbffb69a0a8dde934cc8313e2b928411
 Size: 4454
 Filename: gstreamer1.0-plugins-base-locale-fi_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33444,8 +33649,8 @@ Recommends: virtual-locale-fr
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 61553b5797eb117384c1302e3f718465
-Size: 6658
+MD5Sum: b18a1f78240f2fe567678c1ea2e0deed
+Size: 6758
 Filename: gstreamer1.0-plugins-base-locale-fr_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - fr translations
@@ -33461,8 +33666,8 @@ Recommends: virtual-locale-fur
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0ed4ece5f6da5fb507e25fe8ce158663
-Size: 4802
+MD5Sum: 7fa341827d8b29d6ab5b3e8f236a91e6
+Size: 4804
 Filename: gstreamer1.0-plugins-base-locale-fur_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - fur translations
@@ -33478,8 +33683,8 @@ Recommends: virtual-locale-gl
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 830a3160183c48fd02433aebc548b7f0
-Size: 4758
+MD5Sum: 92223cfb40de78c38a3344f81c22e2a8
+Size: 4752
 Filename: gstreamer1.0-plugins-base-locale-gl_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - gl translations
@@ -33495,8 +33700,8 @@ Recommends: virtual-locale-hr
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e3c4334a8b6b77b55c51eecdaa1d4ec
-Size: 6950
+MD5Sum: effbef4bdd40bc252ba55136fcef7697
+Size: 6936
 Filename: gstreamer1.0-plugins-base-locale-hr_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - hr translations
@@ -33512,8 +33717,8 @@ Recommends: virtual-locale-hu
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6efef592cf5ae2670fd2f6e2c38ce052
-Size: 6770
+MD5Sum: 03057f9d2d5e9b4d585fd052b8cacfb6
+Size: 6764
 Filename: gstreamer1.0-plugins-base-locale-hu_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - hu translations
@@ -33529,8 +33734,8 @@ Recommends: virtual-locale-id
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f948fc8a3cbbb0f0afd1f39d7caac7fd
-Size: 6218
+MD5Sum: 139920181f2288b3526285a88943a2d6
+Size: 6220
 Filename: gstreamer1.0-plugins-base-locale-id_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - id translations
@@ -33546,8 +33751,8 @@ Recommends: virtual-locale-it
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f3d478fda6e9be6ae993655542efa07
-Size: 6754
+MD5Sum: c6410f414002a53b0e9728a505e04e3f
+Size: 6748
 Filename: gstreamer1.0-plugins-base-locale-it_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - it translations
@@ -33563,7 +33768,7 @@ Recommends: virtual-locale-ja
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3d2f645b7c920c81d3f6174f7c6c4248
+MD5Sum: f7c3342585e03211eeded61093ed48c6
 Size: 3910
 Filename: gstreamer1.0-plugins-base-locale-ja_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33580,7 +33785,7 @@ Recommends: virtual-locale-lt
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80c91295de629b692d453d6dbe4c6a02
+MD5Sum: 0e130579108d06fc1f05bb479fc1f6e2
 Size: 3020
 Filename: gstreamer1.0-plugins-base-locale-lt_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33597,7 +33802,7 @@ Recommends: virtual-locale-lv
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 98b45bed3627bd0573079ee52d41f086
+MD5Sum: 914630621313c88d85823ae4c15101db
 Size: 5372
 Filename: gstreamer1.0-plugins-base-locale-lv_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33614,8 +33819,8 @@ Recommends: virtual-locale-nb
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62aa7dadf370338d07e1065e688b6453
-Size: 6434
+MD5Sum: 6616c0f626b60cf5326a5db1b1fcd932
+Size: 6370
 Filename: gstreamer1.0-plugins-base-locale-nb_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - nb translations
@@ -33631,8 +33836,8 @@ Recommends: virtual-locale-nl
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9c64a2d9a65a25feca8df84a3323152e
-Size: 6194
+MD5Sum: 46ab617097c0f4cad15063b821bfc992
+Size: 6188
 Filename: gstreamer1.0-plugins-base-locale-nl_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - nl translations
@@ -33648,8 +33853,8 @@ Recommends: virtual-locale-or
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f4b6b8bed5693ff5ec0c3f3fb250585
-Size: 1336
+MD5Sum: b0360de0e392936793838f6ae63c16ec
+Size: 1332
 Filename: gstreamer1.0-plugins-base-locale-or_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - or translations
@@ -33665,8 +33870,8 @@ Recommends: virtual-locale-pl
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72f21ef6820fe4d814d2c2b4518e5adc
-Size: 6880
+MD5Sum: 90a00e4e42026b7584a56bc6e6dc8f48
+Size: 6878
 Filename: gstreamer1.0-plugins-base-locale-pl_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - pl translations
@@ -33682,8 +33887,8 @@ Recommends: virtual-locale-pt-br
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 86b88b0fb483b3da38a1764668e88730
-Size: 6574
+MD5Sum: 7b6ca62565ee0acbcf09a811fae9f581
+Size: 6578
 Filename: gstreamer1.0-plugins-base-locale-pt-br_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - pt_BR translations
@@ -33699,8 +33904,8 @@ Recommends: virtual-locale-ro
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7a1f209bbc170e8381714940a5c385c9
-Size: 3452
+MD5Sum: b8e2b5c0c95c0f9fc2927045e99d04c2
+Size: 3458
 Filename: gstreamer1.0-plugins-base-locale-ro_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - ro translations
@@ -33716,8 +33921,8 @@ Recommends: virtual-locale-ru
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b2943871c2e25f8a128109936003a634
-Size: 7398
+MD5Sum: 3b98fc594b84690546c5e11f80bc4158
+Size: 7402
 Filename: gstreamer1.0-plugins-base-locale-ru_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - ru translations
@@ -33733,8 +33938,8 @@ Recommends: virtual-locale-sk
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f836a040af3e5a9e23f9279704159799
-Size: 6482
+MD5Sum: 8115be79be4f4f52c9d7669f04cc3ecf
+Size: 6478
 Filename: gstreamer1.0-plugins-base-locale-sk_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - sk translations
@@ -33750,8 +33955,8 @@ Recommends: virtual-locale-sl
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a14c9903c9a3911cd702bb7727ac5caf
-Size: 4682
+MD5Sum: ec0f4be65549c386a00329fb1dd9275e
+Size: 4674
 Filename: gstreamer1.0-plugins-base-locale-sl_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - sl translations
@@ -33767,8 +33972,8 @@ Recommends: virtual-locale-sq
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e53c30c83ef8257aead362e3d4db4ea
-Size: 1314
+MD5Sum: fef5723e353197b7ea8ac8ae4b1423ee
+Size: 1312
 Filename: gstreamer1.0-plugins-base-locale-sq_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - sq translations
@@ -33784,8 +33989,8 @@ Recommends: virtual-locale-sr
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 35a9e96cb30d2de912d6da7e692b2853
-Size: 7228
+MD5Sum: c7961089ac67c7b6f5614e0b7b229dd2
+Size: 7230
 Filename: gstreamer1.0-plugins-base-locale-sr_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - sr translations
@@ -33801,8 +34006,8 @@ Recommends: virtual-locale-sv
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 801e5bd2d0983a50d0ea1867850c6772
-Size: 6638
+MD5Sum: 793e1abd5a0d40f5f86ad496815cc35c
+Size: 6646
 Filename: gstreamer1.0-plugins-base-locale-sv_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - sv translations
@@ -33818,8 +34023,8 @@ Recommends: virtual-locale-tr
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 378bc89481c21e83dc6e94de85e9e719
-Size: 6872
+MD5Sum: 54b4b0f9e1112bc84a8baf21cf309bd7
+Size: 6874
 Filename: gstreamer1.0-plugins-base-locale-tr_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - tr translations
@@ -33835,8 +34040,8 @@ Recommends: virtual-locale-uk
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 39badbf3f69414728e95b708aecac274
-Size: 7614
+MD5Sum: 7233c58f6b3694d4474fec07365e866f
+Size: 7618
 Filename: gstreamer1.0-plugins-base-locale-uk_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - uk translations
@@ -33852,8 +34057,8 @@ Recommends: virtual-locale-vi
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e7adb819c830f640914b3446aca301a
-Size: 6994
+MD5Sum: 01aabbd04f5df40d68e8ddfcde69fc69
+Size: 6998
 Filename: gstreamer1.0-plugins-base-locale-vi_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - vi translations
@@ -33869,8 +34074,8 @@ Recommends: virtual-locale-zh-cn
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b34e84ba34d8c1cbe5fdbf3fadc1b15d
-Size: 6750
+MD5Sum: 8ee17cb20d44e04a83fafeeb60020278
+Size: 6752
 Filename: gstreamer1.0-plugins-base-locale-zh-cn_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x - zh_CN translations
@@ -33885,7 +34090,7 @@ Depends: gstreamer1.0-plugins-base-adder, gstreamer1.0-plugins-base-alsa, gstrea
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce45c8bc9437aa735c9a1670507b7e2e
+MD5Sum: 4cb8027872ef19a1fd00acdf72a8e060
 Size: 944
 Filename: gstreamer1.0-plugins-base-meta_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -33901,8 +34106,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f84d50580e5a6488bcc39301883d7f41
-Size: 95596
+MD5Sum: 7c6b9d8bfa77c02300b054b54f6b2964
+Size: 95588
 Filename: gstreamer1.0-plugins-base-ogg_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for ogg
@@ -33917,8 +34122,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41eb788a0f05da9574e2a62fb41a705f
-Size: 24944
+MD5Sum: 173c91f5be8cddba94a4f2704b9d4d05
+Size: 24948
 Filename: gstreamer1.0-plugins-base-opus_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for opus
@@ -33933,8 +34138,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b407be13a852ce2a5fa185c343da085a
-Size: 8024
+MD5Sum: 13a213c4364bf83a99f26109e1a34f48
+Size: 8032
 Filename: gstreamer1.0-plugins-base-overlaycomposition_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for overlaycomposition
@@ -33949,8 +34154,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libcairo2 
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a537046256156e8f25f04608987d5bb
-Size: 31552
+MD5Sum: a7274d6dfeba0229e97bd9396a0840f5
+Size: 31560
 Filename: gstreamer1.0-plugins-base-pango_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for pango
@@ -33965,8 +34170,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libgstvide
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 303ea87411d96fa7dc66ce94719bffe3
-Size: 2390
+MD5Sum: c28dd24fa3c14b2c9ce465b0e7cae740
+Size: 2398
 Filename: gstreamer1.0-plugins-base-pbtypes_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for pbtypes
@@ -33981,8 +34186,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2cf39bfbfc7cef2b03f571173aaf5bd3
-Size: 198900
+MD5Sum: 41c29bdd9bc746463b4b46526d5c06cc
+Size: 198992
 Filename: gstreamer1.0-plugins-base-playback_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for playback
@@ -33997,8 +34202,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8584b07efdc438f3ee905989bce4caf8
-Size: 20192
+MD5Sum: 04ae9e38960efe9139c2396794b0172e
+Size: 20232
 Filename: gstreamer1.0-plugins-base-rawparse_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for rawparse
@@ -34013,7 +34218,7 @@ Depends: gstreamer1.0-plugins-base-dev (= 1.17.90+git20481+94dcf91-r0)
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 567559bb48f91ad5122af0572e3ae520
+MD5Sum: de19dde6bf3fab21612e12a00f10624e
 Size: 764
 Filename: gstreamer1.0-plugins-base-staticdev_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
@@ -34029,8 +34234,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ea8c1d713bcf4d41cab60db65f1727c5
-Size: 31884
+MD5Sum: c7715c9a0677b4db641976cd5419afaa
+Size: 31886
 Filename: gstreamer1.0-plugins-base-subparse_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for subparse
@@ -34045,8 +34250,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b341fce264bdede38dd5bc1f33646dcc
-Size: 40584
+MD5Sum: 3bdd7be9b6c79e5dbc18d6859a1b65c0
+Size: 40566
 Filename: gstreamer1.0-plugins-base-tcp_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for tcp
@@ -34061,8 +34266,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc74930a0847fbf745a72f6be04d4cd7
-Size: 23266
+MD5Sum: 6755960894583b4381672d330e3b41f7
+Size: 23278
 Filename: gstreamer1.0-plugins-base-theora_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for theora
@@ -34077,8 +34282,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: afc384d43bc3f51729f5527c31a9119d
-Size: 38002
+MD5Sum: f0d829532c30de0d0b88066344d2e784
+Size: 37922
 Filename: gstreamer1.0-plugins-base-typefindfunctions_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for typefindfunctions
@@ -34093,8 +34298,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 932ef6130d479ca9ee38152516e58941
-Size: 7958
+MD5Sum: c61b87a4525951f0173e445b6dc6d9f4
+Size: 7954
 Filename: gstreamer1.0-plugins-base-videoconvert_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for videoconvert
@@ -34109,8 +34314,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a83950949ef07949ea8fd1168b96dd99
-Size: 20996
+MD5Sum: 226fa7766d9010425af58be31a0e390a
+Size: 20984
 Filename: gstreamer1.0-plugins-base-videorate_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for videorate
@@ -34125,8 +34330,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bbc97f61b89ab7cd0cdbce91c343251f
-Size: 12328
+MD5Sum: 3d0b92aee1c3fbe04d9682484e148c85
+Size: 12320
 Filename: gstreamer1.0-plugins-base-videoscale_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for videoscale
@@ -34141,8 +34346,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbb97e5d98a99c48407aca5dcbe18894
-Size: 22122
+MD5Sum: f13e273f09e46f25ffb30a90045149cf
+Size: 22146
 Filename: gstreamer1.0-plugins-base-videotestsrc_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for videotestsrc
@@ -34157,8 +34362,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7be09afef5422e81d97de18e7240ef14
-Size: 12826
+MD5Sum: 9f791990a9006bf4a204a8891d0560ca
+Size: 12830
 Filename: gstreamer1.0-plugins-base-volume_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for volume
@@ -34173,8 +34378,8 @@ Depends: gstreamer1.0 (>= 1.17.90+git19007+e97c520), libc6 (>= 2.25), libglib-2.
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96e7bdf407e3e39a1c7b122db4cd92e2
-Size: 21656
+MD5Sum: c358edf45bcfabf966588c302a55c665
+Size: 21680
 Filename: gstreamer1.0-plugins-base-vorbis_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 plugin for vorbis
@@ -34189,8 +34394,8 @@ Recommends: gstreamer1.0-plugins-base-meta
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e8b09b665b30aa69e7898e9a4e9726c
-Size: 700
+MD5Sum: b6c1aa253bf2c3259d9fd5d6871e6f8e
+Size: 698
 Filename: gstreamer1.0-plugins-base_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: Plugins for the GStreamer multimedia framework 1.x
@@ -39865,8 +40070,8 @@ Recommends: directfb-dbg, libc6-dbg, libfontconfig-dbg, libfreetype-dbg, libglib
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfc980c01fb56376f893b618447d9143
-Size: 55724
+MD5Sum: fb5a08a5c33175641068555474bf4708
+Size: 55660
 Filename: libcairo-dbg_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo 2D vector graphics library - Debugging files
@@ -39883,8 +40088,8 @@ Recommends: cairo-gobject-dev, cairo-script-interpreter-dev, directfb-dev, libc6
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 35066fbc989777a6372166dca3c6dd3c
-Size: 29120
+MD5Sum: 80ca9249595c2c913119bde5ebd3a374
+Size: 29118
 Filename: libcairo-dev_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo 2D vector graphics library - Development files
@@ -39899,8 +40104,8 @@ Provides: cairo-doc
 Section: doc
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f39655d433383e35f5db68632eca7ce
-Size: 132914
+MD5Sum: 7411e7d98822389d98d2d7275353d278
+Size: 132986
 Filename: libcairo-doc_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo 2D vector graphics library - Documentation files
@@ -39916,8 +40121,8 @@ Provides: cairo-gobject
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 66719181b9badc91ddb9e2067fb12537
-Size: 7156
+MD5Sum: 1a4afeeeef8ab38e24e235d8809521d0
+Size: 7176
 Filename: libcairo-gobject2_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo library GObject wrapper library
@@ -39933,8 +40138,8 @@ Provides: cairo-perf-utils
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c6dac808a4bcf70f9d586cbfedd0d75
-Size: 31902
+MD5Sum: a4b04bf65f4910facb3cfef0e0daddf0
+Size: 31876
 Filename: libcairo-perf-utils_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo 2D vector graphics library
@@ -39950,8 +40155,8 @@ Provides: cairo-script-interpreter
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 913b79a0bedf5c25c908f52573fc2666
-Size: 39932
+MD5Sum: bc499dfcb71ab245eb69ddf7296a206b
+Size: 39914
 Filename: libcairo-script-interpreter2_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo library script interpreter
@@ -39967,8 +40172,8 @@ Provides: cairo-staticdev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 13d548d496d4bf40852cd76dd364eac2
-Size: 457258
+MD5Sum: 9d95f13a533577ebd337b7a342e28299
+Size: 457198
 Filename: libcairo-staticdev_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo 2D vector graphics library - Development files (Static Libraries)
@@ -39984,8 +40189,8 @@ Provides: cairo
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d7382329e4a01e64e6bec287b24e0355
-Size: 366870
+MD5Sum: daddc8d435eb7eca0c043f306db3eeb9
+Size: 366898
 Filename: libcairo2_1.16.0-r0_sh4.ipk
 Source: cairo_1.16.0.bb
 Description: The Cairo 2D vector graphics library
@@ -47882,8 +48087,8 @@ Provides: libgstallocators-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aaab75e1fbda8c409000a54d386f2789
-Size: 5410
+MD5Sum: 586745e50ed02812cbbae1a57d9d8941
+Size: 5394
 Filename: libgstallocators-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstallocators-1.0 library
@@ -47899,8 +48104,8 @@ Provides: libgstapp-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b2f659d75f48b0f626726c890dd5703
-Size: 22224
+MD5Sum: 6f2f6aa6dbb130fd895856fc2e8da20a
+Size: 22220
 Filename: libgstapp-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstapp-1.0 library
@@ -47916,8 +48121,8 @@ Provides: libgstaudio-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 276d9ec260c56d2aa564b76edfaf565b
-Size: 166180
+MD5Sum: 118c1861e80496b154e36f6740ecc10f
+Size: 166156
 Filename: libgstaudio-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstaudio-1.0 library
@@ -48001,8 +48206,8 @@ Provides: libgstfft-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8af6f28150eee3fe2bdf9c1898bdfdf2
-Size: 17250
+MD5Sum: deb57c5698170f8f38f92f17b7901044
+Size: 17246
 Filename: libgstfft-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstfft-1.0 library
@@ -48069,8 +48274,8 @@ Provides: libgstpbutils-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d273a191bcea82286b316cebf47d6c0
-Size: 71074
+MD5Sum: 5e2b180e43eaa59d59e799344903ba00
+Size: 71070
 Filename: libgstpbutils-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstpbutils-1.0 library
@@ -48120,8 +48325,8 @@ Provides: libgstriff-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 181e2dcc6d44d8814666f25ab33b2582
-Size: 21686
+MD5Sum: 26e729b5774024f830856a896b4ca311
+Size: 21678
 Filename: libgstriff-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstriff-1.0 library
@@ -48137,8 +48342,8 @@ Provides: libgstrtp-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0abb6cb0847a5a45f23a758a53ed8db8
-Size: 45564
+MD5Sum: a67b1eb01a1e5aac277908a1a4280449
+Size: 45612
 Filename: libgstrtp-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstrtp-1.0 library
@@ -48154,8 +48359,8 @@ Provides: libgstrtsp-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ecdd730a9027bf9c95dbade43f275586
-Size: 45420
+MD5Sum: 0c56736a2636b638ee02817aab97ce88
+Size: 45412
 Filename: libgstrtsp-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstrtsp-1.0 library
@@ -48188,8 +48393,8 @@ Provides: libgstsdp-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6235d5310cf2baacbd25043b4717c3c3
-Size: 27648
+MD5Sum: 2900d623e9954a704a8baa992ea58ea6
+Size: 27652
 Filename: libgstsdp-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstsdp-1.0 library
@@ -48205,8 +48410,8 @@ Provides: libgsttag-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83b3632b0ebcf9227053579d031324b5
-Size: 92884
+MD5Sum: 2efe45c51d9aa2b718b2c999e65d91f0
+Size: 92724
 Filename: libgsttag-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gsttag-1.0 library
@@ -48256,8 +48461,8 @@ Provides: libgstvideo-1.0
 Section: multimedia
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bb86b420c2547af68e5150585fea4388
-Size: 217738
+MD5Sum: 29cf3dd840a8b4558874aec374b03177
+Size: 217754
 Filename: libgstvideo-1.0-0_1.17.90+git20481+94dcf91-r0_sh4.ipk
 Source: gstreamer1.0-plugins-base_git.bb
 Description: GStreamer 1.0 gstvideo-1.0 library
@@ -48343,8 +48548,8 @@ Provides: harfbuzz-bin
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a88f83de5ea117448f38b0697ef8a17a
-Size: 34112
+MD5Sum: d977573a6ca66b6527d10615a5d4bc5c
+Size: 33980
 Filename: libharfbuzz-bin_2.6.1-r0_sh4.ipk
 Source: harfbuzz_2.6.1.bb
 Description: Text shaping library
@@ -48360,8 +48565,8 @@ Recommends: libc6-dbg, libcairo-dbg, libfreetype-dbg, libgcc-s-dbg, libglib-2.0-
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d990d49e0e78c4f44ed6ad2bb64314a
-Size: 64402
+MD5Sum: dccb9125d0b30adbb333d0826e1dc21d
+Size: 64430
 Filename: libharfbuzz-dbg_2.6.1-r0_sh4.ipk
 Source: harfbuzz_2.6.1.bb
 Description: Text shaping library - Debugging files
@@ -48378,8 +48583,8 @@ Recommends: icu-dev, libc6-dev, libcairo-dev, libfontconfig-dev, libfreetype-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bb5c389f56569fb4920e2fbda38661cf
-Size: 27768
+MD5Sum: 5d240cae4f85629916478648f05e621b
+Size: 27796
 Filename: libharfbuzz-dev_2.6.1-r0_sh4.ipk
 Source: harfbuzz_2.6.1.bb
 Description: Text shaping library - Development files
@@ -48396,8 +48601,8 @@ Recommends: icu-dev, libc6-dev, libcairo-dev, libfontconfig-dev, libfreetype-dev
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a10dde626229f66ca1ab6cb4a01f1e51
-Size: 1090
+MD5Sum: 9cf13487a8e5b45c5b4fd2d06f72145f
+Size: 1086
 Filename: libharfbuzz-icu-dev_2.6.1-r0_sh4.ipk
 Source: harfbuzz_2.6.1.bb
 Description: Text shaping library
@@ -48413,7 +48618,7 @@ Provides: harfbuzz-icu
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 315ff9e5b141ac71e16c0cefc544e903
+MD5Sum: ec23b1cb5dc4404ef25184d3f1a56d99
 Size: 3728
 Filename: libharfbuzz-icu0_2.6.1-r0_sh4.ipk
 Source: harfbuzz_2.6.1.bb
@@ -48430,8 +48635,8 @@ Provides: harfbuzz
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32f12958324149eb853d92de97d7e2bd
-Size: 301480
+MD5Sum: 675212568e6d6e4664ffee0fe80e8a08
+Size: 301416
 Filename: libharfbuzz0_2.6.1-r0_sh4.ipk
 Source: harfbuzz_2.6.1.bb
 Description: Text shaping library
@@ -49851,8 +50056,8 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5cbed8ba3f186de57a15881ea9642eb4
-Size: 2994
+MD5Sum: 5694ef55fcb61ec3ce584dbade3aabc7
+Size: 2992
 Filename: libmme-host-dbg_1.0+git640+34ed243-r0_sh4.ipk
 Source: libmme-host_git.bb
 Description: libmme-host version 1.0+gitAUTOINC+34ed243a4d-r0 - Debugging files
@@ -49868,7 +50073,7 @@ Recommends: fulan-dvb-modules-spark7162-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a66f386bcf12d4044b2b7f6239141a1
+MD5Sum: 4ab7db3d73fcf2ebdff0e33f833a9050
 Size: 796
 Filename: libmme-host-dev_1.0+git640+34ed243-r0_sh4.ipk
 Source: libmme-host_git.bb
@@ -49884,8 +50089,8 @@ Depends: libmme-host-dev (= 1.0+git640+34ed243-r0)
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 894b1c7972b268062a1c06dfc1bec21b
-Size: 7728
+MD5Sum: 49bc150b76b3a0176ab1dc541d5a97d7
+Size: 7732
 Filename: libmme-host-staticdev_1.0+git640+34ed243-r0_sh4.ipk
 Source: libmme-host_git.bb
 Description: libmme-host version 1.0+gitAUTOINC+34ed243a4d-r0 - Development files (Static Libraries)
@@ -49901,8 +50106,8 @@ Provides: libmme-host
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6b14e08e7d2d6f98e558b938682ec9fa
-Size: 8430
+MD5Sum: 6adfab1793968bf34ed834f2654bad70
+Size: 8424
 Filename: libmme-host0_1.0+git640+34ed243-r0_sh4.ipk
 Source: libmme-host_git.bb
 Description: libmme-host version 1.0+gitAUTOINC+34ed243a4d-r0
@@ -49918,8 +50123,8 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 88276644387269733984fcd57ef8b275
-Size: 2726
+MD5Sum: 5515dc5bb8d7c4a2f77dcfcf80a27fb1
+Size: 2734
 Filename: libmmeimage-dbg_1.0+git640+34ed243-r2_sh4.ipk
 Source: libmme-image_git.bb
 Description: libmme-image version 1.0+gitAUTOINC+34ed243a4d-r2 - Debugging files
@@ -49936,7 +50141,7 @@ Recommends: fulan-dvb-modules-spark7162-dev, jpeg-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af005264bfa8e6012bc67669401642bb
+MD5Sum: a25f3d0443011802a98f69cdd5078cef
 Size: 814
 Filename: libmmeimage-dev_1.0+git640+34ed243-r2_sh4.ipk
 Source: libmme-image_git.bb
@@ -49953,8 +50158,8 @@ Provides: libmme-image-staticdev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d144aabe2c8a25e1b77e5280b3963da8
-Size: 6694
+MD5Sum: e3788f2aa816ffcc13fb7dc086a943c9
+Size: 6682
 Filename: libmmeimage-staticdev_1.0+git640+34ed243-r2_sh4.ipk
 Source: libmme-image_git.bb
 Description: libmme-image version 1.0+gitAUTOINC+34ed243a4d-r2 - Development files (Static Libraries)
@@ -49970,8 +50175,8 @@ Provides: libmme-image
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6eb075091eb4ff860184aa23ec500536
-Size: 8746
+MD5Sum: a5e4291049a9932c118192ab60db5faf
+Size: 8754
 Filename: libmmeimage0_1.0+git640+34ed243-r2_sh4.ipk
 Source: libmme-image_git.bb
 Description: libmme-image version 1.0+gitAUTOINC+34ed243a4d-r2
@@ -56243,8 +56448,8 @@ Recommends: directfb-dbg, libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e8df05cef716789ade31c71cc30f09e7
-Size: 2642
+MD5Sum: 3bb6b794d30a47142be78fe633982ae3
+Size: 2646
 Filename: libstgles-dbg_1.0+git640+34ed243-r0_sh4.ipk
 Source: libstgles_git.bb
 Description: libstgles version 1.0+gitAUTOINC+34ed243a4d-r0 - Debugging files
@@ -56260,8 +56465,8 @@ Recommends: directfb-dev, fulan-dvb-modules-spark7162-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5bcc67e6ba81e51136bab498b4068d94
-Size: 6642
+MD5Sum: 8ca4bbcbb3d5a775f4ad86adbb933347
+Size: 6646
 Filename: libstgles-dev_1.0+git640+34ed243-r0_sh4.ipk
 Source: libstgles_git.bb
 Description: libstgles version 1.0+gitAUTOINC+34ed243a4d-r0 - Development files
@@ -56276,8 +56481,8 @@ Depends: libstgles-dev (= 1.0+git640+34ed243-r0)
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ed3efddbc65996b7c4a10a187f2b219
-Size: 4464
+MD5Sum: 09b1a6f950a352011d3fd03fa1fefe33
+Size: 4462
 Filename: libstgles-staticdev_1.0+git640+34ed243-r0_sh4.ipk
 Source: libstgles_git.bb
 Description: libstgles version 1.0+gitAUTOINC+34ed243a4d-r0 - Development files (Static Libraries)
@@ -56293,8 +56498,8 @@ Provides: libstgles
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfd5245990f501981f2139ceecc76962
-Size: 5458
+MD5Sum: f81338ded7f7750004188838598f1217
+Size: 5466
 Filename: libstgles0_1.0+git640+34ed243-r0_sh4.ipk
 Source: libstgles_git.bb
 Description: libstgles version 1.0+gitAUTOINC+34ed243a4d-r0
@@ -68682,7 +68887,7 @@ Recommends: libc6-dbg, libcairo-dbg, libfontconfig-dbg, libfreetype-dbg, libfrib
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 20a32606d71d37f4ea0ca7970eff1a57
+MD5Sum: 46cd658251844df3dce6bae85bab0a57
 Size: 29274
 Filename: pango-dbg_1.44.6-r0_sh4.ipk
 Source: pango_1.44.6.bb
@@ -68699,8 +68904,8 @@ Recommends: gobject-introspection-dev, libc6-dev, libcairo-dev, libfontconfig-de
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 03b64bf439180802b6fbc350d32a006a
-Size: 40842
+MD5Sum: bf2182aa86e056fb2f319dab7bc00e78
+Size: 40866
 Filename: pango-dev_1.44.6-r0_sh4.ipk
 Source: pango_1.44.6.bb
 Description: Framework for layout and rendering of internationalized text - Development files
@@ -68716,8 +68921,8 @@ Provides: pango-module-arabic-lang, pango-module-basic-fc, pango-module-indic-la
 Section: libs
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a2806ddd4174ee8abcd61f98a081ffc6
-Size: 152576
+MD5Sum: 789a5128fdb0cff522484127dec71dcc
+Size: 152672
 Filename: pango_1.44.6-r0_sh4.ipk
 Source: pango_1.44.6.bb
 Description: Framework for layout and rendering of internationalized text
@@ -84675,6 +84880,69 @@ HomePage: http://www.python.org
 License: PSFv2
 Priority: optional
 
+Package: python-gdata-dbg
+Version: 2.0.18-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f90f97efe9a391f31b30b9599adefd3
+Size: 1540
+Filename: python-gdata-dbg_2.0.18-r0_sh4.ipk
+Source: python-gdata_2.0.18.bb
+Description: Google Data APIs Python Client Library - Debugging files
+OE: python-gdata
+HomePage: http://code.google.com/p/gdata-python-client/
+License: Apache-2.0
+Priority: optional
+
+Package: python-gdata-dev
+Version: 2.0.18-r0
+Depends: python-gdata (= 2.0.18-r0)
+Recommends: python-dev, python-distutils-dev, python-json-dev, python-netserver-dev, python-stringold-dev, python-xml-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d35e6160beabc1fd48a9debe2df375d6
+Size: 794
+Filename: python-gdata-dev_2.0.18-r0_sh4.ipk
+Source: python-gdata_2.0.18.bb
+Description: Google Data APIs Python Client Library - Development files
+OE: python-gdata
+HomePage: http://code.google.com/p/gdata-python-client/
+License: Apache-2.0
+Priority: optional
+
+Package: python-gdata-src
+Version: 2.0.18-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a463ceca0285c8c792a5ee2e353cda7f
+Size: 355024
+Filename: python-gdata-src_2.0.18-r0_sh4.ipk
+Source: python-gdata_2.0.18.bb
+Description: Google Data APIs Python Client Library - Source files
+OE: python-gdata
+HomePage: http://code.google.com/p/gdata-python-client/
+License: Apache-2.0
+Priority: optional
+
+Package: python-gdata
+Version: 2.0.18-r0
+Depends: python-distutils, python-json, python-netserver, python-stringold, python-xml
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3043b3468fcd1f602863d1624d35f259
+Size: 456308
+Filename: python-gdata_2.0.18-r0_sh4.ipk
+Source: python-gdata_2.0.18.bb
+Description: Google Data APIs Python Client Library
+OE: python-gdata
+HomePage: http://code.google.com/p/gdata-python-client/
+License: Apache-2.0
+Priority: optional
+
 Package: python-gdbm
 Version: 2.7.17-r0
 Depends: libc6 (>= 2.25), libgdbm6 (>= 1.18.1), libpython2.7-1.0 (>= 2.7.17), python-core
@@ -84689,6 +84957,69 @@ Description: Python GNU database support
 OE: python
 HomePage: http://www.python.org
 License: PSFv2
+Priority: optional
+
+Package: python-google-api-client-dbg
+Version: 1.7.8-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe3aa9cb2033f83e052eb573557044de
+Size: 1992
+Filename: python-google-api-client-dbg_1.7.8-r0_sh4.ipk
+Source: python-google-api-client_1.7.8.bb
+Description: Google API Client Library for Python - Debugging files
+OE: python-google-api-client
+HomePage: https://github.com/googleapis/google-api-python-client
+License: Apache-2.0
+Priority: optional
+
+Package: python-google-api-client-dev
+Version: 1.7.8-r0
+Depends: python-google-api-client (= 1.7.8-r0)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a6d7bd5e8e4086e2e9872ad6cbe93958
+Size: 812
+Filename: python-google-api-client-dev_1.7.8-r0_sh4.ipk
+Source: python-google-api-client_1.7.8.bb
+Description: Google API Client Library for Python - Development files
+OE: python-google-api-client
+HomePage: https://github.com/googleapis/google-api-python-client
+License: Apache-2.0
+Priority: optional
+
+Package: python-google-api-client-src
+Version: 1.7.8-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b26a709571c8749e3ec2aadebc2c2fd4
+Size: 38912
+Filename: python-google-api-client-src_1.7.8-r0_sh4.ipk
+Source: python-google-api-client_1.7.8.bb
+Description: Google API Client Library for Python - Source files
+OE: python-google-api-client
+HomePage: https://github.com/googleapis/google-api-python-client
+License: Apache-2.0
+Priority: optional
+
+Package: python-google-api-client
+Version: 1.7.8-r0
+Depends: python-core
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 265c2b2d9ce5ffe27588fc258d61a743
+Size: 47528
+Filename: python-google-api-client_1.7.8-r0_sh4.ipk
+Source: python-google-api-client_1.7.8.bb
+Description: Google API Client Library for Python
+OE: python-google-api-client
+HomePage: https://github.com/googleapis/google-api-python-client
+License: Apache-2.0
 Priority: optional
 
 Package: python-hotshot-src
@@ -84798,6 +85129,84 @@ Description: Python HTML processing support
 OE: python
 HomePage: http://www.python.org
 License: PSFv2
+Priority: optional
+
+Package: python-httplib2-dbg
+Version: 0.12.3-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78c0068ad1dd01ffbf2b2fd5071c6cf3
+Size: 2220
+Filename: python-httplib2-dbg_0.12.3-r0_sh4.ipk
+Source: python-httplib2_0.12.3.bb
+Description: python-httplib2 version 0.12.3-r0 - Debugging files
+OE: python-httplib2
+HomePage: https://github.com/httplib2/httplib2
+License: MIT
+Priority: optional
+
+Package: python-httplib2-dev
+Version: 0.12.3-r0
+Depends: python-httplib2 (= 0.12.3-r0)
+Recommends: ca-certificates-dev, python-core-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 52f5cdfa930227e6a444d369946fcc46
+Size: 770
+Filename: python-httplib2-dev_0.12.3-r0_sh4.ipk
+Source: python-httplib2_0.12.3.bb
+Description: python-httplib2 version 0.12.3-r0 - Development files
+OE: python-httplib2
+HomePage: https://github.com/httplib2/httplib2
+License: MIT
+Priority: optional
+
+Package: python-httplib2-doc
+Version: 0.12.3-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91f8b52be289751393fbc9d258790c37
+Size: 864
+Filename: python-httplib2-doc_0.12.3-r0_sh4.ipk
+Source: python-httplib2_0.12.3.bb
+Description: python-httplib2 version 0.12.3-r0 - Documentation files
+OE: python-httplib2
+HomePage: https://github.com/httplib2/httplib2
+License: MIT
+Priority: optional
+
+Package: python-httplib2-src
+Version: 0.12.3-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5914bbe427f89b3e29cdd233600a2a5
+Size: 24078
+Filename: python-httplib2-src_0.12.3-r0_sh4.ipk
+Source: python-httplib2_0.12.3.bb
+Description: python-httplib2 version 0.12.3-r0 - Source files
+OE: python-httplib2
+HomePage: https://github.com/httplib2/httplib2
+License: MIT
+Priority: optional
+
+Package: python-httplib2
+Version: 0.12.3-r0
+Depends: ca-certificates, python-core
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c39b19a537a66040620ac6b145e8ca29
+Size: 27304
+Filename: python-httplib2_0.12.3-r0_sh4.ipk
+Source: python-httplib2_0.12.3.bb
+Description: python-httplib2 version 0.12.3-r0
+OE: python-httplib2
+HomePage: https://github.com/httplib2/httplib2
+License: MIT
 Priority: optional
 
 Package: python-hyperlink-dbg
@@ -85996,6 +86405,69 @@ Description: Python number APIs
 OE: python
 HomePage: http://www.python.org
 License: PSFv2
+Priority: optional
+
+Package: python-oauth2client-dbg
+Version: 4.1.3-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 13b0d3450f48742725a40aba9262b5f7
+Size: 2240
+Filename: python-oauth2client-dbg_4.1.3-r0_sh4.ipk
+Source: python-oauth2client_4.1.3.bb
+Description: This is a python library for accessing resources protected by OAuth 2.0 - Debugging files
+OE: python-oauth2client
+HomePage: http://github.com/google/oauth2client
+License: Apache-2.0
+Priority: optional
+
+Package: python-oauth2client-dev
+Version: 4.1.3-r0
+Depends: python-oauth2client (= 4.1.3-r0)
+Recommends: python-core-dev, python-dev, python-httplib2-dev, python-six-dev, python-uritemplate-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a49df29c2cbb4c5dc05e78f10e78ea13
+Size: 798
+Filename: python-oauth2client-dev_4.1.3-r0_sh4.ipk
+Source: python-oauth2client_4.1.3.bb
+Description: This is a python library for accessing resources protected by OAuth 2.0 - Development files
+OE: python-oauth2client
+HomePage: http://github.com/google/oauth2client
+License: Apache-2.0
+Priority: optional
+
+Package: python-oauth2client-src
+Version: 4.1.3-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 76f56977f494c2daf282b1817e11f827
+Size: 57410
+Filename: python-oauth2client-src_4.1.3-r0_sh4.ipk
+Source: python-oauth2client_4.1.3.bb
+Description: This is a python library for accessing resources protected by OAuth 2.0 - Source files
+OE: python-oauth2client
+HomePage: http://github.com/google/oauth2client
+License: Apache-2.0
+Priority: optional
+
+Package: python-oauth2client
+Version: 4.1.3-r0
+Depends: python-core, python-httplib2, python-six, python-uritemplate
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a4ac84c5fa11624497001610e8fd974
+Size: 73416
+Filename: python-oauth2client_4.1.3-r0_sh4.ipk
+Source: python-oauth2client_4.1.3.bb
+Description: This is a python library for accessing resources protected by OAuth 2.0
+OE: python-oauth2client
+HomePage: http://github.com/google/oauth2client
+License: Apache-2.0
 Priority: optional
 
 Package: python-pickle-src
@@ -88063,6 +88535,69 @@ HomePage: http://www.python.org
 License: PSFv2
 Priority: optional
 
+Package: python-uritemplate-dbg
+Version: 3.0.0-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e2af03cedfa081c294ea84c99c57926
+Size: 2832
+Filename: python-uritemplate-dbg_3.0.0-r0_sh4.ipk
+Source: python-uritemplate_3.0.0.bb
+Description: Simple python library to deal with URI Templates. - Debugging files
+OE: python-uritemplate
+HomePage: https://uritemplate.readthedocs.org
+License: Apache-2.0 | BSD
+Priority: optional
+
+Package: python-uritemplate-dev
+Version: 3.0.0-r0
+Depends: python-uritemplate (= 3.0.0-r0)
+Recommends: python-core-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4c7b8a55261f4ce627103df168d5cfd
+Size: 774
+Filename: python-uritemplate-dev_3.0.0-r0_sh4.ipk
+Source: python-uritemplate_3.0.0.bb
+Description: Simple python library to deal with URI Templates. - Development files
+OE: python-uritemplate
+HomePage: https://uritemplate.readthedocs.org
+License: Apache-2.0 | BSD
+Priority: optional
+
+Package: python-uritemplate-src
+Version: 3.0.0-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 40cabfccc3af639d80d7135f383e20e7
+Size: 5076
+Filename: python-uritemplate-src_3.0.0-r0_sh4.ipk
+Source: python-uritemplate_3.0.0.bb
+Description: Simple python library to deal with URI Templates. - Source files
+OE: python-uritemplate
+HomePage: https://uritemplate.readthedocs.org
+License: Apache-2.0 | BSD
+Priority: optional
+
+Package: python-uritemplate
+Version: 3.0.0-r0
+Depends: python, python-core
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8235f27ce063bb3c657c8d68aa8f78c3
+Size: 7056
+Filename: python-uritemplate_3.0.0-r0_sh4.ipk
+Source: python-uritemplate_3.0.0.bb
+Description: Simple python library to deal with URI Templates.
+OE: python-uritemplate
+HomePage: https://uritemplate.readthedocs.org
+License: Apache-2.0 | BSD
+Priority: optional
+
 Package: python-urllib3-dbg
 Version: 1.25.6-r0
 Section: devel
@@ -88326,6 +88861,84 @@ Description: Python XML-RPC support
 OE: python
 HomePage: http://www.python.org
 License: PSFv2
+Priority: optional
+
+Package: python-youtube-dl-dbg
+Version: 2022.07.28+git17727+f5863a3-r1
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9cdd6fbe6413da09b382bf5f6501a3ef
+Size: 840
+Filename: python-youtube-dl-dbg_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+Source: python-youtube-dl.bb
+Description: Download videos from YouTube (and more sites) - Debugging files
+OE: python-youtube-dl
+HomePage: http://rg3.github.io/youtube-dl/
+License: LGPLv2.1
+Priority: optional
+
+Package: python-youtube-dl-dev
+Version: 2022.07.28+git17727+f5863a3-r1
+Depends: python-youtube-dl (= 2022.07.28+git17727+f5863a3-r1)
+Recommends: bash-completion-dev, libxml2-dev, python-argparse-dev, python-ctypes-dev, python-dev, python-email-dev, python-gdata-dev, python-html-dev, python-subprocess-dev, python-unixadmin-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d05151099bd32814a0cdce83492d1b4e
+Size: 944
+Filename: python-youtube-dl-dev_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+Source: python-youtube-dl.bb
+Description: Download videos from YouTube (and more sites) - Development files
+OE: python-youtube-dl
+HomePage: http://rg3.github.io/youtube-dl/
+License: LGPLv2.1
+Priority: optional
+
+Package: python-youtube-dl-doc
+Version: 2022.07.28+git17727+f5863a3-r1
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d1df5cae2ac384116e3c67460d909020
+Size: 940
+Filename: python-youtube-dl-doc_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+Source: python-youtube-dl.bb
+Description: Download videos from YouTube (and more sites) - Documentation files
+OE: python-youtube-dl
+HomePage: http://rg3.github.io/youtube-dl/
+License: LGPLv2.1
+Priority: optional
+
+Package: python-youtube-dl-src
+Version: 2022.07.28+git17727+f5863a3-r1
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 072513a664cd2d5ab08b394d8e756934
+Size: 947330
+Filename: python-youtube-dl-src_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+Source: python-youtube-dl.bb
+Description: Download videos from YouTube (and more sites) - Source files
+OE: python-youtube-dl
+HomePage: http://rg3.github.io/youtube-dl/
+License: LGPLv2.1
+Priority: optional
+
+Package: python-youtube-dl
+Version: 2022.07.28+git17727+f5863a3-r1
+Depends: python-argparse, python-ctypes, python-email, python-gdata, python-html, python-subprocess, python-unixadmin
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 987b2504ea92240c89b3c04d8de5802c
+Size: 1249806
+Filename: python-youtube-dl_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+Source: python-youtube-dl.bb
+Description: Download videos from YouTube (and more sites)
+OE: python-youtube-dl
+HomePage: http://rg3.github.io/youtube-dl/
+License: LGPLv2.1
 Priority: optional
 
 Package: python-zlib
@@ -91481,7 +92094,7 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 75fb8f8c2e9f9fdebf4a995dc4592a78
+MD5Sum: 688466ac5ecb2502e264ad0e7b761638
 Size: 2260
 Filename: stfbcontrol-dbg_1.0+git640+34ed243-r0_sh4.ipk
 Source: stfbcontrol_git.bb
@@ -91498,7 +92111,7 @@ Recommends: fulan-dvb-modules-spark7162-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14477b16bf7e194a189a8b487759bc69
+MD5Sum: 78501bff9cd99632c23bb41177e3528e
 Size: 816
 Filename: stfbcontrol-dev_1.0+git640+34ed243-r0_sh4.ipk
 Source: stfbcontrol_git.bb
@@ -91514,8 +92127,8 @@ Depends: libc6 (>= 2.25)
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 160eb1952d0c006e553bca7c60a1a51c
-Size: 3438
+MD5Sum: bdb337a72bad77df4f3eb005fc1e836a
+Size: 3440
 Filename: stfbcontrol_1.0+git640+34ed243-r0_sh4.ipk
 Source: stfbcontrol_git.bb
 Description: stfbcontrol version 1.0+gitAUTOINC+34ed243a4d-r0
@@ -91529,7 +92142,7 @@ Version: 1.0-r3
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c95264895d7c23d91a2254c499ce55c
+MD5Sum: e1c4d4fd635d6407119dc4c6572cfa1c
 Size: 672
 Filename: stinit-dbg_1.0-r3_sh4.ipk
 Source: stinit_1.0.bb
@@ -91545,8 +92158,8 @@ Recommends: ustslave-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 75adb3b542ec0b25bcdd5cc290a8155e
-Size: 716
+MD5Sum: 15739bf40251a407d5f8ed940276c08b
+Size: 718
 Filename: stinit-dev_1.0-r3_sh4.ipk
 Source: stinit_1.0.bb
 Description: stinit version 1.0-r3 - Development files
@@ -91560,7 +92173,7 @@ Depends: ustslave
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d401e648e28403c8070b52a34f8ac248
+MD5Sum: 8c6280d53188e769bf661f29df1fcf90
 Size: 812
 Filename: stinit_1.0-r3_sh4.ipk
 Source: stinit_1.0.bb
@@ -92946,8 +93559,8 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5b8886c0d7b19b4bc4458f8472d3727
-Size: 2480
+MD5Sum: 8743c0129a629528bd8ede9f5564c752
+Size: 2484
 Filename: ustslave-dbg_1.0+git640+34ed243-r0_sh4.ipk
 Source: ustslave_git.bb
 Description: ustslave version 1.0+gitAUTOINC+34ed243a4d-r0 - Debugging files
@@ -92963,7 +93576,7 @@ Recommends: fulan-dvb-modules-spark7162-dev, libc6-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e156397f030a83e61e0e6d1e80bcbc09
+MD5Sum: e4ddad09fe2a38378f0fcb4c3b056bfd
 Size: 814
 Filename: ustslave-dev_1.0+git640+34ed243-r0_sh4.ipk
 Source: ustslave_git.bb
@@ -92979,7 +93592,7 @@ Depends: libc6 (>= 2.25)
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fe329a154a74395f4e669e90580c134e
+MD5Sum: 751fab00b9764e77009482834a9f3c0a
 Size: 4220
 Filename: ustslave_1.0+git640+34ed243-r0_sh4.ipk
 Source: ustslave_git.bb

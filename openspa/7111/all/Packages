@@ -89,6 +89,49 @@ HomePage: http://packages.debian.org/sid/ca-certificates
 License: GPL-2.0+ & MPL-2.0
 Priority: optional
 
+Package: enigma2-plugin-skins-pli-hd-dbg
+Version: 0.1+git2133+de19fac-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: a2e95062e976ef83baee72ce7abd05df
+Size: 654
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2133+de19fac-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: PLi HD skin - Debugging files
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dev
+Version: 0.1+git2133+de19fac-r0
+Depends: enigma2-plugin-skins-pli-hd (= 0.1+git2133+de19fac-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 169b2ed982a76a88a90d6ded5ad654a6
+Size: 690
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2133+de19fac-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: PLi HD skin - Development files
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git2133+de19fac-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 8a0ef99b1a27f6ffaa9a2b1c5f6bf049
+Size: 383004
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2133+de19fac-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: PLi HD skin
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-skins-spa24hd-dbg
 Version: 1.0+git29+ba7f91a-r1
 Section: devel
@@ -3190,13 +3233,13 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 1.0+git650+f22eb55-r0
+Version: 1.0+git651+1ba9dbd-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: d00e9a95fa4a18ed4bb52eb76ce8014b
-Size: 654
-Filename: tuxbox-common-dbg_1.0+git650+f22eb55-r0_all.ipk
+MD5Sum: 0d5606351bee7b4b6300d4a450a9d83c
+Size: 656
+Filename: tuxbox-common-dbg_1.0+git651+1ba9dbd-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Debugging files
 OE: tuxbox-common
@@ -3204,14 +3247,14 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 1.0+git650+f22eb55-r0
-Depends: tuxbox-common (= 1.0+git650+f22eb55-r0)
+Version: 1.0+git651+1ba9dbd-r0
+Depends: tuxbox-common (= 1.0+git651+1ba9dbd-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: cb965cd40ddadb2093e5d937a28ba870
-Size: 688
-Filename: tuxbox-common-dev_1.0+git650+f22eb55-r0_all.ipk
+MD5Sum: e401f2a00802bdd346969bc9b3018b06
+Size: 690
+Filename: tuxbox-common-dev_1.0+git651+1ba9dbd-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files - Development files
 OE: tuxbox-common
@@ -3219,13 +3262,13 @@ License: Proprietary
 Priority: optional
 
 Package: tuxbox-common
-Version: 1.0+git650+f22eb55-r0
+Version: 1.0+git651+1ba9dbd-r0
 Section: base
 Architecture: all
 Maintainer: OE-Alliance team
-MD5Sum: a077e5cb577b831cb6d36effa323c6eb
-Size: 58854
-Filename: tuxbox-common_1.0+git650+f22eb55-r0_all.ipk
+MD5Sum: 52a7ef6a2ac3bc6a9449658f7339a17f
+Size: 58774
+Filename: tuxbox-common_1.0+git651+1ba9dbd-r0_all.ipk
 Source: tuxbox-common_0.1.1.bb
 Description: Tuxbox common files
 OE: tuxbox-common
