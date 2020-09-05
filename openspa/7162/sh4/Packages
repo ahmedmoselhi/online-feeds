@@ -5757,7 +5757,7 @@ Version: 1.3.9+git3548+9a235c0-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3abff52209db6a759a13042e881200be
+MD5Sum: 1304b6daf465a07e43e0c7ebe8210454
 Size: 730
 Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5773,7 +5773,7 @@ Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif-webtv
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 64552a5ed355c559b11504f3157c3260
+MD5Sum: c719392f7ebc7d20f67af65de3780c32
 Size: 894
 Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5788,7 +5788,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2365724c58395797e4600de1f9eb6aa
+MD5Sum: cd82bd8c35362fa20d7812e01df71ef3
 Size: 184254
 Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5803,8 +5803,8 @@ Depends: enigma2-plugin-extensions-openwebif, shellinabox
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3908f3f6d7b61462e98c8dfd1c4500b8
-Size: 692
+MD5Sum: 73e1013655bf955841fbff12bf4d1f9b
+Size: 690
 Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0
@@ -5818,8 +5818,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c791d7cc367d619ce3ddbd9cbc3fe21
-Size: 1850336
+MD5Sum: e8f4e91f26976df877096a9516c7c93a
+Size: 1850334
 Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (Additional themes for OpenWebif)
@@ -5833,7 +5833,7 @@ Depends: enigma2-plugin-extensions-openwebif-webtv
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d199b67ea2e24e133f64d757688d4a8
+MD5Sum: 4f73999466aa38df5471a8f724924f3a
 Size: 1231958
 Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5848,7 +5848,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 61640bd8b84ca3ac97ebce58df5d20a9
+MD5Sum: b22fc890d9303a843fdbf7cf9ee1c787
 Size: 4102
 Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5863,7 +5863,7 @@ Depends: aio-grab, enigma2, oe-alliance-branding, python-cheetah, python-compres
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9397252c2333bf7fd7c292a216eb53da
+MD5Sum: 840af51acc9c6e57da991ffbbb2e2b54
 Size: 744758
 Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -6545,6 +6545,36 @@ Source: enigma2-skins.bb
 Description: Enigma2 Skin: yads-hd
 OE: enigma2-skins
 License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-softcams-ncam-spa
+Version: git10534+b5bb6b2-r0
+Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2c4d240495244e0fa6e15d8055a9d1ea
+Size: 775944
+Filename: enigma2-plugin-softcams-ncam-spa_git10534+b5bb6b2-r0_sh4.ipk
+Source: enigma2-plugin-softcams-ncam-spa.bb
+Description: enigma2-plugin-softcams-ncam-spa version gitAUTOINC+b5bb6b2c02-r0
+OE: enigma2-plugin-softcams-ncam-spa
+License: GPLv3
+Priority: optional
+
+Package: enigma2-plugin-softcams-oscam-emu-spa
+Version: git1837+119cb36-r0
+Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libssl1.0.2 (>= 1.0.2r)
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7474273b334614c1e9f4323ea12b03ab
+Size: 745036
+Filename: enigma2-plugin-softcams-oscam-emu-spa_git1837+119cb36-r0_sh4.ipk
+Source: enigma2-plugin-softcams-oscam-emu-spa.bb
+Description: enigma2-plugin-softcams-oscam-emu-spa version gitAUTOINC+119cb36c67-r0
+OE: enigma2-plugin-softcams-oscam-emu-spa
+License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dbg
