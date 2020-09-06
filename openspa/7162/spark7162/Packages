@@ -4187,8 +4187,8 @@ Recommends: ca-certificates-dbg, flip-dbg, hddtemp-dbg, iproute2-dbg, mhw2-files
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 327f5e160b299ff1ac5ec875ad8be230
-Size: 896
+MD5Sum: 7714f2e3b2287ccb7733bc0aa07c9ac1
+Size: 894
 Filename: openspa-base-dbg_7.4-r1_spark7162.ipk
 Source: openspa-base.bb
 Description: Base packages require for image. - Debugging files
@@ -4203,7 +4203,7 @@ Recommends: ca-certificates-dev, flip-dev, hddtemp-dev, iproute2-dev, mhw2-files
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16181579e9689533c7bf02dde0a2a738
+MD5Sum: e8b3a03bdfdaa9535dbcbab4eaf01176
 Size: 922
 Filename: openspa-base-dev_7.4-r1_spark7162.ipk
 Source: openspa-base.bb
@@ -4264,7 +4264,7 @@ Depends: ca-certificates, flip, hddtemp, iproute2, mhw2-files, ntfs-3g, oe-allia
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: efc58cab53413ea1d1c126c9092e7f59
+MD5Sum: 2833a7cf6e15bee7bd1ef2af0f7d9ff6
 Size: 822
 Filename: openspa-base_7.4-r1_spark7162.ipk
 Source: openspa-base.bb
@@ -4325,7 +4325,7 @@ Recommends: aio-grab-dbg, enigma2-plugin-drivers-usbserial-dbg, enigma2-plugin-e
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83b30b1823f4d6575f04dc2f56088c79
+MD5Sum: bdc2d96c5ca442160d28e4992b998400
 Size: 934
 Filename: openspa-enigma2-dbg_7.4-r5_spark7162.ipk
 Source: openspa-enigma2.bb
@@ -4341,8 +4341,8 @@ Recommends: aio-grab-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-e
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5fd190af4e3a49b0a347e284e3f5192f
-Size: 962
+MD5Sum: d46b97c6aee2ab6acd0cda4789190cdd
+Size: 964
 Filename: openspa-enigma2-dev_7.4-r5_spark7162.ipk
 Source: openspa-enigma2.bb
 Description: Merge machine and distro options to create a enigma2 machine task/package - Development files
@@ -4356,7 +4356,7 @@ Depends: aio-grab, enigma2-plugin-drivers-usbserial, enigma2-plugin-extensions-c
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3b8f855c1cdfec0c0118349e14a101a7
+MD5Sum: 91d52a97f08947e12affb9053db55add
 Size: 864
 Filename: openspa-enigma2_7.4-r5_spark7162.ipk
 Source: openspa-enigma2.bb
@@ -4370,8 +4370,8 @@ Version: 7.4-r1
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1eea5d1d4d69ad11d0bf569f77add79f
-Size: 702
+MD5Sum: f7c8b4a8b1e2bccb8bb747e3d20c612b
+Size: 704
 Filename: openspa-feeds-dbg_7.4-r1_spark7162.ipk
 Source: openspa-feeds.bb
 Description: Merge machine and distro options to create a enigma2 feeds machine task/package - Debugging files
@@ -4385,8 +4385,8 @@ Depends: openspa-feeds (= 7.4-r1)
 Section: devel
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7509390227f4a26ba37f9dc66f7ee26
-Size: 732
+MD5Sum: 177587443539e34e854dbefc3bec94a8
+Size: 734
 Filename: openspa-feeds-dev_7.4-r1_spark7162.ipk
 Source: openspa-feeds.bb
 Description: Merge machine and distro options to create a enigma2 feeds machine task/package - Development files
@@ -4396,12 +4396,12 @@ Priority: optional
 
 Package: openspa-feeds
 Version: 7.4-r1
-Recommends: cdfs, curlftpfs, enigma2-plugin-extensions-blurayplayer, enigma2-plugin-extensions-bmediacenter, enigma2-plugin-extensions-cooltvguide, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-filecommander, enigma2-plugin-extensions-subssupport, enigma2-plugin-softcams-ncam-spa, enigma2-plugin-softcams-oscam-emu-spa, enigma2-plugin-systemplugins-autobouquetsmaker, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-devicemanager, enigma2-plugin-systemplugins-serviceapp, enigma2-skins, openspa-display-skins, openspa-skins, openssl-old
+Recommends: cdfs, curlftpfs, djmount, enigma2-plugin-extensions-blurayplayer, enigma2-plugin-extensions-bmediacenter, enigma2-plugin-extensions-cooltvguide, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-filecommander, enigma2-plugin-extensions-subssupport, enigma2-plugin-softcams-ncam-spa, enigma2-plugin-softcams-oscam-emu-spa, enigma2-plugin-systemplugins-autobouquetsmaker, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-devicemanager, enigma2-plugin-systemplugins-serviceapp, enigma2-skins, inadyn-mt, mediatomb, minidlna, openspa-display-skins, openspa-skins, openssl-old, python-beautifulsoup, python-requests, sabnzbd, transmission, udpxy, ushare
 Section: base
 Architecture: spark7162
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 66126cc6027bba1394b32e908eef3756
-Size: 818
+MD5Sum: 651955e5a17e969b231a0014230aba97
+Size: 896
 Filename: openspa-feeds_7.4-r1_spark7162.ipk
 Source: openspa-feeds.bb
 Description: Merge machine and distro options to create a enigma2 feeds machine task/package

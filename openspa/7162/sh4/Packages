@@ -5757,7 +5757,7 @@ Version: 1.3.9+git3548+9a235c0-r0
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5fa837c96b9972980a9813c9c773d567
+MD5Sum: ea8f3ef4494084e3ae32d883e3fa1c7e
 Size: 730
 Filename: enigma2-plugin-extensions-openwebif-dbg_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5773,8 +5773,8 @@ Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif-webtv
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1b6fb69d37e85ac28489ad1145e77fee
-Size: 894
+MD5Sum: 36b399f0a9391a34fe18fd8e3a8a7e0c
+Size: 892
 Filename: enigma2-plugin-extensions-openwebif-dev_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0 - Development files
@@ -5788,8 +5788,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a0065e34cb646d3091726e6534c61926
-Size: 184252
+MD5Sum: 6b4e6c3929da4bd65f9208e436f52f14
+Size: 184254
 Filename: enigma2-plugin-extensions-openwebif-src_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0 - Source files
@@ -5803,8 +5803,8 @@ Depends: enigma2-plugin-extensions-openwebif, shellinabox
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 091c8cc689537449a97b4f4ec75e6f75
-Size: 690
+MD5Sum: 2db8543f629c904d0b56a7f7bd5493ac
+Size: 686
 Filename: enigma2-plugin-extensions-openwebif-terminal_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version 1.3.9+gitAUTOINC+9a235c0876-r0
@@ -5818,7 +5818,7 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 57062e3c66a5175d8c864911237ba747
+MD5Sum: 813427c20184e57350f4486b8a6eeabd
 Size: 1850334
 Filename: enigma2-plugin-extensions-openwebif-themes_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -5833,8 +5833,8 @@ Depends: enigma2-plugin-extensions-openwebif-webtv
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7faf26f4584a980932e467fd19d79cce
-Size: 1231958
+MD5Sum: 7919a6e700b7b3fc40ad64140ca9b874
+Size: 1231956
 Filename: enigma2-plugin-extensions-openwebif-vxg_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (WebTV for Google Chrome)
@@ -5848,8 +5848,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3e196696d4f381abd3c08f3e13039df0
-Size: 4102
+MD5Sum: 917c55991d952e84a4a38a9b32a6f69a
+Size: 4100
 Filename: enigma2-plugin-extensions-openwebif-webtv_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif (WebTV for OpenWebif)
@@ -5863,7 +5863,7 @@ Depends: aio-grab, enigma2, oe-alliance-branding, python-cheetah, python-compres
 Section: base
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 994b94182ca9a44e6300cdff55f32e09
+MD5Sum: ac8d2079c5edeba19deb26e512fa2b35
 Size: 744758
 Filename: enigma2-plugin-extensions-openwebif_1.3.9+git3548+9a235c0-r0_sh4.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -7348,6 +7348,70 @@ HomePage: https://www.ffmpeg.org/
 License: GPLv2+
 Priority: optional
 
+Package: file-dbg
+Version: 5.37-r0
+Recommends: libc6-dbg, libz-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a2510263c63e0057776641bbc9eacdd
+Size: 14264
+Filename: file-dbg_5.37-r0_sh4.ipk
+Source: file_5.37.bb
+Description: File classification tool - Debugging files
+OE: file
+HomePage: http://www.darwinsys.com/file/
+License: BSD
+Priority: optional
+
+Package: file-dev
+Version: 5.37-r0
+Depends: file (= 5.37-r0)
+Recommends: libc6-dev, libz-dev, update-alternatives-opkg-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2cd0bfbdab0560ddcab28b99dcea74d2
+Size: 2978
+Filename: file-dev_5.37-r0_sh4.ipk
+Source: file_5.37.bb
+Description: File classification tool - Development files
+OE: file
+HomePage: http://www.darwinsys.com/file/
+License: BSD
+Priority: optional
+
+Package: file-doc
+Version: 5.37-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2204247915a419b193f46c54a51be0cb
+Size: 18070
+Filename: file-doc_5.37-r0_sh4.ipk
+Source: file_5.37.bb
+Description: File classification tool - Documentation files
+OE: file
+HomePage: http://www.darwinsys.com/file/
+License: BSD
+Priority: optional
+
+Package: file
+Version: 5.37-r0
+Depends: libc6 (>= 2.25), libz1 (>= 1.2.11), update-alternatives-opkg
+Section: console/utils
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25cd08c6a9bbb0643a04fad762577a5d
+Size: 289756
+Filename: file_5.37-r0_sh4.ipk
+Source: file_5.37.bb
+Description: File classification tool
+OE: file
+HomePage: http://www.darwinsys.com/file/
+License: BSD
+Priority: optional
+
 Package: flac-dbg
 Version: 1.3.3-r0
 Recommends: libc6-dbg, libflac-dbg, libgcc-s-dbg, libogg-dbg, libstdc++-dbg
@@ -8444,6 +8508,832 @@ Description: Runtime libraries from GCC - Debugging files
 OE: gcc-runtime
 HomePage: http://www.gnu.org/software/gcc/
 License: GPL-3.0-with-GCC-exception
+Priority: optional
+
+Package: gettext-dbg
+Version: 0.19.8.1-r0
+Recommends: libc6-dbg, libcroco-dbg, libgettextlib-dbg, libgettextsrc-dbg, libglib-2.0-dbg, libxml2-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f9852d8d1239512d4d7e3c1328028142
+Size: 60770
+Filename: gettext-dbg_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - Debugging files
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-dev
+Version: 0.19.8.1-r0
+Depends: gettext (= 0.19.8.1-r0), libgettextlib, libgettextsrc
+Recommends: libc6-dev, libcroco-dev, libgettextlib-dev, libgettextsrc-dev, libglib-2.0-dev, libxml2-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be021f9c14f6f91d2c9f33eff8d260ef
+Size: 38138
+Filename: gettext-dev_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - Development files
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-doc
+Version: 0.19.8.1-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d4e75814fe2b85d88d7f35a55bfb0c44
+Size: 541592
+Filename: gettext-doc_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - Documentation files
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-be
+Version: 0.19.8.1-r0
+Provides: be-translation, gettext-locale
+Recommends: virtual-locale-be
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1319340c23e23d2047a5387476c10194
+Size: 9428
+Filename: gettext-locale-be_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - be translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-bg
+Version: 0.19.8.1-r0
+Provides: bg-translation, gettext-locale
+Recommends: virtual-locale-bg
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2d707b0eace1b87df6dd4970d335a1c6
+Size: 33642
+Filename: gettext-locale-bg_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - bg translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-ca
+Version: 0.19.8.1-r0
+Provides: ca-translation, gettext-locale
+Recommends: virtual-locale-ca
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4de9e394a3a129bf14af60a87459bd68
+Size: 30922
+Filename: gettext-locale-ca_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - ca translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-cs
+Version: 0.19.8.1-r0
+Provides: cs-translation, gettext-locale
+Recommends: virtual-locale-cs
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 414de18fe49061fa49c1a8060bccc805
+Size: 6722
+Filename: gettext-locale-cs_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - cs translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-da
+Version: 0.19.8.1-r0
+Provides: da-translation, gettext-locale
+Recommends: virtual-locale-da
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc5ff78ae2510fb4ee17b10fe85b3c0d
+Size: 26354
+Filename: gettext-locale-da_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - da translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-de
+Version: 0.19.8.1-r0
+Provides: de-translation, gettext-locale
+Recommends: virtual-locale-de
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6d3ed60ed352c094c72d65247b57682c
+Size: 31228
+Filename: gettext-locale-de_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - de translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-el
+Version: 0.19.8.1-r0
+Provides: el-translation, gettext-locale
+Recommends: virtual-locale-el
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6151d8fdc9a6a897b35b859dd31f2a37
+Size: 3048
+Filename: gettext-locale-el_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - el translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-en+boldquot
+Version: 0.19.8.1-r0
+Provides: en+boldquot-translation, gettext-locale
+Recommends: virtual-locale-en+boldquot
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b6fddb27bcfb12b9c46398877153cc6
+Size: 20502
+Filename: gettext-locale-en+boldquot_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - en@boldquot translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-en+quot
+Version: 0.19.8.1-r0
+Provides: en+quot-translation, gettext-locale
+Recommends: virtual-locale-en+quot
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d8331dfe08450433a5cda9acfd1ee78
+Size: 20440
+Filename: gettext-locale-en+quot_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - en@quot translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-eo
+Version: 0.19.8.1-r0
+Provides: eo-translation, gettext-locale
+Recommends: virtual-locale-eo
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdc2c8aefffe9bddf7dd2c97b6b837e0
+Size: 4088
+Filename: gettext-locale-eo_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - eo translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-es
+Version: 0.19.8.1-r0
+Provides: es-translation, gettext-locale
+Recommends: virtual-locale-es
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d9e3db975d14642df65962e6af7cebfb
+Size: 32088
+Filename: gettext-locale-es_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - es translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-et
+Version: 0.19.8.1-r0
+Provides: et-translation, gettext-locale
+Recommends: virtual-locale-et
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 818aba3d6fd7d13b02ee8004ff02120b
+Size: 3840
+Filename: gettext-locale-et_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - et translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-eu
+Version: 0.19.8.1-r0
+Provides: eu-translation, gettext-locale
+Recommends: virtual-locale-eu
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 975cbc07abb9603573cfecbca55bdb59
+Size: 15454
+Filename: gettext-locale-eu_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - eu translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-fi
+Version: 0.19.8.1-r0
+Provides: fi-translation, gettext-locale
+Recommends: virtual-locale-fi
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc693d2b451b1c8c3a2fd7ba6120be09
+Size: 30634
+Filename: gettext-locale-fi_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - fi translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-fr
+Version: 0.19.8.1-r0
+Provides: fr-translation, gettext-locale
+Recommends: virtual-locale-fr
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38fcb351f33342829cc8a01f7b4aae5d
+Size: 32862
+Filename: gettext-locale-fr_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - fr translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-ga
+Version: 0.19.8.1-r0
+Provides: ga-translation, gettext-locale
+Recommends: virtual-locale-ga
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ecf719ef65e5210bea265cad17770be9
+Size: 3740
+Filename: gettext-locale-ga_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - ga translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-gl
+Version: 0.19.8.1-r0
+Provides: gettext-locale, gl-translation
+Recommends: virtual-locale-gl
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ff40b3ba732a329a6b6f467fb31dbeb2
+Size: 10060
+Filename: gettext-locale-gl_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - gl translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-hr
+Version: 0.19.8.1-r0
+Provides: gettext-locale, hr-translation
+Recommends: virtual-locale-hr
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 126b8d0ce3991d07be9a3944e6ead278
+Size: 4444
+Filename: gettext-locale-hr_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - hr translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-hu
+Version: 0.19.8.1-r0
+Provides: gettext-locale, hu-translation
+Recommends: virtual-locale-hu
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9b8a1f30db8e317aaa50ed4d313c69eb
+Size: 4496
+Filename: gettext-locale-hu_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - hu translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-id
+Version: 0.19.8.1-r0
+Provides: gettext-locale, id-translation
+Recommends: virtual-locale-id
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0c70fae5cbf0868097baf020ab431e58
+Size: 25408
+Filename: gettext-locale-id_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - id translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-it
+Version: 0.19.8.1-r0
+Provides: gettext-locale, it-translation
+Recommends: virtual-locale-it
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d2c59102a4c9523dea8cf2ab65e9d3e7
+Size: 28988
+Filename: gettext-locale-it_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - it translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-ja
+Version: 0.19.8.1-r0
+Provides: gettext-locale, ja-translation
+Recommends: virtual-locale-ja
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4f591797eb7ccdde03b1f7b19ca1713d
+Size: 30874
+Filename: gettext-locale-ja_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - ja translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-ko
+Version: 0.19.8.1-r0
+Provides: gettext-locale, ko-translation
+Recommends: virtual-locale-ko
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a487e71972dc6282e342a5ccdda9b395
+Size: 32416
+Filename: gettext-locale-ko_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - ko translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-nb
+Version: 0.19.8.1-r0
+Provides: gettext-locale, nb-translation
+Recommends: virtual-locale-nb
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e99334376f2374be5f5a8ff8b9603fab
+Size: 6088
+Filename: gettext-locale-nb_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - nb translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-nl
+Version: 0.19.8.1-r0
+Provides: gettext-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6502ff1c226a29befe9bfd2cd7a4c0e1
+Size: 17184
+Filename: gettext-locale-nl_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - nl translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-nn
+Version: 0.19.8.1-r0
+Provides: gettext-locale, nn-translation
+Recommends: virtual-locale-nn
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 573df6fa688b24931ef1f6f39e109442
+Size: 6892
+Filename: gettext-locale-nn_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - nn translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-pa
+Version: 0.19.8.1-r0
+Provides: gettext-locale, pa-translation
+Recommends: virtual-locale-pa
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43445170e37c95bc554098e3d65bec13
+Size: 8800
+Filename: gettext-locale-pa_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - pa translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-pl
+Version: 0.19.8.1-r0
+Provides: gettext-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4923faee68f75c50ab181593cc94c73d
+Size: 32600
+Filename: gettext-locale-pl_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - pl translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-pt-br
+Version: 0.19.8.1-r0
+Provides: gettext-locale, pt-br-translation
+Recommends: virtual-locale-pt-br
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 99520da7523fd3729ab7f4c20281326d
+Size: 31530
+Filename: gettext-locale-pt-br_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - pt_BR translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-pt
+Version: 0.19.8.1-r0
+Provides: gettext-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 510e33fafdd3be0cb58e15c004a322ae
+Size: 4768
+Filename: gettext-locale-pt_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - pt translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-ro
+Version: 0.19.8.1-r0
+Provides: gettext-locale, ro-translation
+Recommends: virtual-locale-ro
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a797582549cfb4f282c8e54b035f38e8
+Size: 20572
+Filename: gettext-locale-ro_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - ro translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-ru
+Version: 0.19.8.1-r0
+Provides: gettext-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce009bc851acd55153fb999a34906b63
+Size: 32296
+Filename: gettext-locale-ru_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - ru translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-sk
+Version: 0.19.8.1-r0
+Provides: gettext-locale, sk-translation
+Recommends: virtual-locale-sk
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ef7404b990ccf4b694eed94582583a8
+Size: 32424
+Filename: gettext-locale-sk_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - sk translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-sl
+Version: 0.19.8.1-r0
+Provides: gettext-locale, sl-translation
+Recommends: virtual-locale-sl
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 929d62b60077dbef37880ae00980c745
+Size: 32108
+Filename: gettext-locale-sl_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - sl translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-sr
+Version: 0.19.8.1-r0
+Provides: gettext-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ef922756f100aaf371e07c33999b1d2
+Size: 34408
+Filename: gettext-locale-sr_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - sr translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-sv
+Version: 0.19.8.1-r0
+Provides: gettext-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bcc57ef5407668dc3480d42835effdd0
+Size: 30856
+Filename: gettext-locale-sv_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - sv translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-tr
+Version: 0.19.8.1-r0
+Provides: gettext-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 157d49d2eb0955c780541789f5d89fcb
+Size: 25300
+Filename: gettext-locale-tr_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - tr translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-uk
+Version: 0.19.8.1-r0
+Provides: gettext-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a44a4905b9809aa07d9e52b127ece515
+Size: 34368
+Filename: gettext-locale-uk_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - uk translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-vi
+Version: 0.19.8.1-r0
+Provides: gettext-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cd787767f3c9448755bdd58af983e80f
+Size: 33488
+Filename: gettext-locale-vi_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - vi translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-zh-cn
+Version: 0.19.8.1-r0
+Provides: gettext-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5bb2b791e551424b964c7146621cce55
+Size: 29786
+Filename: gettext-locale-zh-cn_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - zh_CN translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-zh-hk
+Version: 0.19.8.1-r0
+Provides: gettext-locale, zh-hk-translation
+Recommends: virtual-locale-zh-hk
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 981bde1313007b7cd0a7a3d22baeed0b
+Size: 3536
+Filename: gettext-locale-zh-hk_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - zh_HK translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-locale-zh-tw
+Version: 0.19.8.1-r0
+Provides: gettext-locale, zh-tw-translation
+Recommends: virtual-locale-zh-tw
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db85137b16348e508699d9ad4eeabb5a
+Size: 20872
+Filename: gettext-locale-zh-tw_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - zh_TW translations
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-runtime-doc
+Version: 0.19.8.1-r0
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 852d3c79c3b10f7c7da96112ab71b823
+Size: 20934
+Filename: gettext-runtime-doc_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-runtime
+Version: 0.19.8.1-r0
+Depends: libc6 (>= 2.25)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 67e0181512a8fec2d28fe084d611da25
+Size: 22764
+Filename: gettext-runtime_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext-staticdev
+Version: 0.19.8.1-r0
+Depends: gettext-dev (= 0.19.8.1-r0)
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 497c456a66cc9022a0249583c003dbf4
+Size: 115290
+Filename: gettext-staticdev_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages - Development files (Static Libraries)
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: gettext
+Version: 0.19.8.1-r0
+Depends: libc6 (>= 2.25), libgettextlib (>= 0.19.8.1), libgettextsrc (>= 0.19.8.1), libxml2 (>= 2.9.9)
+Conflicts: proxy-libintl
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2f2ecb62731e03d391dd2dd9692f4b47
+Size: 886372
+Filename: gettext_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
 Priority: optional
 
 Package: glib-networking-dbg
@@ -36538,6 +37428,67 @@ HomePage: http://site.icu-project.org/
 License: ICU
 Priority: optional
 
+Package: id3lib-dbg
+Version: 3.8.3-r1
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libz-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 463e1efce6ed7c2b0192f0704d5c426b
+Size: 16922
+Filename: id3lib-dbg_3.8.3-r1_sh4.ipk
+Source: id3lib_3.8.3.bb
+Description: Library for interacting with ID3 tags - Debugging files
+OE: id3lib
+License: LGPLv2+
+Priority: optional
+
+Package: id3lib-dev
+Version: 3.8.3-r1
+Depends: id3lib (= 3.8.3-r1)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev, libz-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5866518b23bdad730d677aca5244bb0c
+Size: 15728
+Filename: id3lib-dev_3.8.3-r1_sh4.ipk
+Source: id3lib_3.8.3.bb
+Description: Library for interacting with ID3 tags - Development files
+OE: id3lib
+License: LGPLv2+
+Priority: optional
+
+Package: id3lib-staticdev
+Version: 3.8.3-r1
+Depends: id3lib-dev (= 3.8.3-r1)
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5c2077a482447d655b240a3dc1e4d4ee
+Size: 75996
+Filename: id3lib-staticdev_3.8.3-r1_sh4.ipk
+Source: id3lib_3.8.3.bb
+Description: Library for interacting with ID3 tags - Development files (Static Libraries)
+OE: id3lib
+License: LGPLv2+
+Priority: optional
+
+Package: id3lib
+Version: 3.8.3-r1
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libz1 (>= 1.2.11)
+Section: libs/multimedia
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 73a98d5867ece60a892448cb78b6d9e6
+Size: 75216
+Filename: id3lib_3.8.3-r1_sh4.ipk
+Source: id3lib_3.8.3.bb
+Description: Library for interacting with ID3 tags
+OE: id3lib
+License: LGPLv2+
+Priority: optional
+
 Package: ifrename-doc
 Version: 1:30.pre9-r0
 Section: base
@@ -36567,6 +37518,53 @@ Description: Tools for the Linux Standard Wireless Extension Subsystem
 OE: wireless-tools
 HomePage: https://hewlettpackard.github.io/wireless-tools/Tools.html
 License: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+Priority: optional
+
+Package: inadyn-mt-dbg
+Version: v.02.24.44-r0.2
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: Narcis Ilisei
+MD5Sum: e32c560d965c064b93cbfe81f9ab7582
+Size: 6138
+Filename: inadyn-mt-dbg_v.02.24.44-r0.2_sh4.ipk
+Source: inadyn-mt.bb
+Description: inadyn-mt version v.02.24.44-r0.2 - Debugging files
+OE: inadyn-mt
+License: GPLv3
+Priority: optional
+
+Package: inadyn-mt-dev
+Version: v.02.24.44-r0.2
+Depends: inadyn-mt (= v.02.24.44-r0.2)
+Recommends: initscripts-dev, libc6-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: Narcis Ilisei
+MD5Sum: baf7d859f5d55fb30434af00552fe18f
+Size: 702
+Filename: inadyn-mt-dev_v.02.24.44-r0.2_sh4.ipk
+Source: inadyn-mt.bb
+Description: inadyn-mt version v.02.24.44-r0.2 - Development files
+OE: inadyn-mt
+License: GPLv3
+Priority: optional
+
+Package: inadyn-mt
+Version: v.02.24.44-r0.2
+Depends: libc6 (>= 2.25)
+Recommends: update-rc.d
+Section: base
+Architecture: sh4
+Maintainer: Narcis Ilisei
+MD5Sum: e0c578da0b13590581b3bb94fab2a1be
+Size: 30810
+Filename: inadyn-mt_v.02.24.44-r0.2_sh4.ipk
+Source: inadyn-mt.bb
+Description: inadyn-mt version v.02.24.44-r0.2
+OE: inadyn-mt
+License: GPLv3
 Priority: optional
 
 Package: initscripts-dbg
@@ -38556,6 +39554,71 @@ Description: Hardware accelerated JPEG compression/decompression library
 OE: libjpeg-turbo
 HomePage: http://libjpeg-turbo.org/
 License: BSD-3-Clause
+Priority: optional
+
+Package: js-dbg
+Version: 1.7.0+1.8.0rc1-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9903eb8be8a4f5a225ef7d0311ab5bc7
+Size: 29244
+Filename: js-dbg_1.7.0+1.8.0rc1-r0_sh4.ipk
+Source: js_1.7.0+1.8.0rc1.bb
+Description: js version 1.7.0+1.8.0rc1-r0 - Debugging files
+OE: js
+HomePage: http://www.mozilla.org/js/spidermonkey/
+License: MPL-1 | GPLv2+ | LGPLv2.1+
+Priority: optional
+
+Package: js-dev
+Version: 1.7.0+1.8.0rc1-r0
+Depends: js (= 1.7.0+1.8.0rc1-r0)
+Recommends: libc6-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39d0cf5b6b5d1f3666c592bad8f0eb85
+Size: 127866
+Filename: js-dev_1.7.0+1.8.0rc1-r0_sh4.ipk
+Source: js_1.7.0+1.8.0rc1.bb
+Description: js version 1.7.0+1.8.0rc1-r0 - Development files
+OE: js
+HomePage: http://www.mozilla.org/js/spidermonkey/
+License: MPL-1 | GPLv2+ | LGPLv2.1+
+Priority: optional
+
+Package: js-staticdev
+Version: 1.7.0+1.8.0rc1-r0
+Depends: js-dev (= 1.7.0+1.8.0rc1-r0)
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9add02400b7c8db7206eecfea24a0e4
+Size: 308578
+Filename: js-staticdev_1.7.0+1.8.0rc1-r0_sh4.ipk
+Source: js_1.7.0+1.8.0rc1.bb
+Description: js version 1.7.0+1.8.0rc1-r0 - Development files (Static Libraries)
+OE: js
+HomePage: http://www.mozilla.org/js/spidermonkey/
+License: MPL-1 | GPLv2+ | LGPLv2.1+
+Priority: optional
+
+Package: js
+Version: 1.7.0+1.8.0rc1-r0
+Depends: libc6 (>= 2.25)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 47fa410a9687ee7eef05b2c01638f058
+Size: 290660
+Filename: js_1.7.0+1.8.0rc1-r0_sh4.ipk
+Source: js_1.7.0+1.8.0rc1.bb
+Description: js version 1.7.0+1.8.0rc1-r0
+OE: js
+HomePage: http://www.mozilla.org/js/spidermonkey/
+License: MPL-1 | GPLv2+ | LGPLv2.1+
 Priority: optional
 
 Package: kernel-params
@@ -45260,6 +46323,38 @@ Description: Image loading library for GTK+
 OE: gdk-pixbuf
 HomePage: http://www.gtk.org/
 License: LGPLv2.1
+Priority: optional
+
+Package: libgettextlib
+Version: 0.19.8.1-r0
+Depends: libc6 (>= 2.25), libcroco (>= 0.6.13), libglib-2.0-0 (>= 2.60.7), libxml2 (>= 2.9.9)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 495fb4d9031b132d95a3914021aa181d
+Size: 282482
+Filename: libgettextlib_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
+Priority: optional
+
+Package: libgettextsrc
+Version: 0.19.8.1-r0
+Depends: libc6 (>= 2.25), libcroco (>= 0.6.13), libgettextlib (>= 0.19.8.1), libglib-2.0-0 (>= 2.60.7), libxml2 (>= 2.9.9)
+Section: libs
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fccd482638474db0beb8cd6da692a69f
+Size: 102394
+Filename: libgettextsrc_0.19.8.1-r0_sh4.ipk
+Source: gettext_0.19.8.1.bb
+Description: Utilities and libraries for producing multi-lingual messages
+OE: gettext
+HomePage: http://www.gnu.org/software/gettext/gettext.html
+License: GPLv3+ & LGPL-2.1+
 Priority: optional
 
 Package: libgif-dbg
@@ -66264,6 +67359,71 @@ HomePage: https://www.gnu.org/software/m4/m4.html
 License: GPLv3
 Priority: optional
 
+Package: mediatomb-dbg
+Version: 0.12.1-r0
+Recommends: file-dbg, id3lib-dbg, js-dbg, libavformat-dbg, libavutil-dbg, libc6-dbg, libcurl-dbg, libexif-dbg, libexpat-dbg, libgcc-s-dbg, libsqlite3-dbg, libstdc++-dbg, libz-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 60383405d49967f60bd426356cfb8c96
+Size: 53544
+Filename: mediatomb-dbg_0.12.1-r0_sh4.ipk
+Source: mediatomb_0.12.1.bb
+Description: MediaTomb - UPnP AV MediaServer for Linux - Debugging files
+OE: mediatomb
+HomePage: http://mediatomb.org/
+License: GPLv2
+Priority: optional
+
+Package: mediatomb-dev
+Version: 0.12.1-r0
+Depends: mediatomb (= 0.12.1-r0)
+Recommends: curl-dev, ffmpeg-dev, file-dev, id3lib-dev, initscripts-dev, js-dev, libavformat-dev, libavutil-dev, libc6-dev, libcurl-dev, libexif-dev, libexpat-dev, libgcc-s-dev, libsqlite3-dev, libstdc++-dev, libz-dev, sqlite3-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f9a2b744d9f3d1030998fe1d2ea723ae
+Size: 832
+Filename: mediatomb-dev_0.12.1-r0_sh4.ipk
+Source: mediatomb_0.12.1.bb
+Description: MediaTomb - UPnP AV MediaServer for Linux - Development files
+OE: mediatomb
+HomePage: http://mediatomb.org/
+License: GPLv2
+Priority: optional
+
+Package: mediatomb-doc
+Version: 0.12.1-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 37d5c7d2490b448b41037ed1094184fd
+Size: 2726
+Filename: mediatomb-doc_0.12.1-r0_sh4.ipk
+Source: mediatomb_0.12.1.bb
+Description: MediaTomb - UPnP AV MediaServer for Linux - Documentation files
+OE: mediatomb
+HomePage: http://mediatomb.org/
+License: GPLv2
+Priority: optional
+
+Package: mediatomb
+Version: 0.12.1-r0
+Depends: file (>= 5.37), id3lib (>= 3.8.3), js (>= 1.7.0+1.8.0rc1), libavformat58 (>= 4.2.3), libavutil56 (>= 4.2.3), libc6 (>= 2.25), libcurl4 (>= 7.66.0), libexif12 (>= 0.6.21), libexpat1 (>= 2.2.8), libgcc1 (>= 4.9.4), libsqlite3-0 (>= 3.29.0), libstdc++6 (>= 4.9.4), libz1 (>= 1.2.11)
+Recommends: update-rc.d
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ec5e6e90fff289ac937d49c1cca4f15
+Size: 613572
+Filename: mediatomb_0.12.1-r0_sh4.ipk
+Source: mediatomb_0.12.1.bb
+Description: MediaTomb - UPnP AV MediaServer for Linux
+OE: mediatomb
+HomePage: http://mediatomb.org/
+License: GPLv2
+Priority: optional
+
 Package: minidlna-dbg
 Version: 1.1.5-r0
 Recommends: libavformat-dbg, libavutil-dbg, libc6-dbg, libexif-dbg, libflac-dbg, libid3tag-dbg, libjpeg-dbg, libogg-dbg, libsqlite3-dbg, libvorbis-dbg
@@ -68959,6 +70119,55 @@ Description: Framework for layout and rendering of internationalized text
 OE: pango
 HomePage: http://www.pango.org/
 License: LGPLv2.0+
+Priority: optional
+
+Package: par2cmdline-dbg
+Version: 0.4-r0
+Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
+Section: devel
+Architecture: sh4
+Maintainer: Peter Brian Clements <peterbclements@users.sourceforge.net>
+MD5Sum: 2f1daa63e8805090d803ff2bead9debb
+Size: 10390
+Filename: par2cmdline-dbg_0.4-r0_sh4.ipk
+Source: par2cmdline_0.4.bb
+Description: A tool to apply the data-recovery capability concepts of RAID-like systems to the posting & recovery of multi-part archives on Usenet. - Debugging files
+OE: par2cmdline
+HomePage: http://parchive.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: par2cmdline-dev
+Version: 0.4-r0
+Depends: par2cmdline (= 0.4-r0)
+Recommends: libc6-dev, libgcc-s-dev, libsigc-2.0-dev, libstdc++-dev
+Section: devel
+Architecture: sh4
+Maintainer: Peter Brian Clements <peterbclements@users.sourceforge.net>
+MD5Sum: d5634c740243f67a6a83e5029f7a2837
+Size: 832
+Filename: par2cmdline-dev_0.4-r0_sh4.ipk
+Source: par2cmdline_0.4.bb
+Description: A tool to apply the data-recovery capability concepts of RAID-like systems to the posting & recovery of multi-part archives on Usenet. - Development files
+OE: par2cmdline
+HomePage: http://parchive.sourceforge.net/
+License: GPLv2
+Priority: optional
+
+Package: par2cmdline
+Version: 0.4-r0
+Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
+Section: base
+Architecture: sh4
+Maintainer: Peter Brian Clements <peterbclements@users.sourceforge.net>
+MD5Sum: 4870cbb712f5599f6d53a719f6513345
+Size: 61366
+Filename: par2cmdline_0.4-r0_sh4.ipk
+Source: par2cmdline_0.4.bb
+Description: A tool to apply the data-recovery capability concepts of RAID-like systems to the posting & recovery of multi-part archives on Usenet.
+OE: par2cmdline
+HomePage: http://parchive.sourceforge.net/
+License: GPLv2
 Priority: optional
 
 Package: parted-dbg
@@ -87512,6 +88721,55 @@ HomePage: http://www.python.org
 License: PSFv2
 Priority: optional
 
+Package: python-sabyenc-dbg
+Version: 3.3.5-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f513d7205b1d8981b1b1d732dc228e0b
+Size: 11226
+Filename: python-sabyenc-dbg_3.3.5-r0_sh4.ipk
+Source: python-sabyenc_3.3.5.bb
+Description: sabyenc - yEnc Module for Python modified for SABnzbd - Debugging files
+OE: python-sabyenc
+HomePage: https://github.com/sabnzbd/sabnzbd-yenc
+License: LGPL-3.0
+Priority: optional
+
+Package: python-sabyenc-dev
+Version: 3.3.5-r0
+Depends: python-sabyenc (= 3.3.5-r0)
+Recommends: libc6-dev, python-core-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0e94e2dd4fc09b98aab0e76db0a292dc
+Size: 778
+Filename: python-sabyenc-dev_3.3.5-r0_sh4.ipk
+Source: python-sabyenc_3.3.5.bb
+Description: sabyenc - yEnc Module for Python modified for SABnzbd - Development files
+OE: python-sabyenc
+HomePage: https://github.com/sabnzbd/sabnzbd-yenc
+License: LGPL-3.0
+Priority: optional
+
+Package: python-sabyenc
+Version: 3.3.5-r0
+Depends: libc6 (>= 2.25), python-core
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8d29ff57433b280eddb3f29231814c6
+Size: 4468
+Filename: python-sabyenc_3.3.5-r0_sh4.ipk
+Source: python-sabyenc_3.3.5.bb
+Description: sabyenc - yEnc Module for Python modified for SABnzbd
+OE: python-sabyenc
+HomePage: https://github.com/sabnzbd/sabnzbd-yenc
+License: LGPL-3.0
+Priority: optional
+
 Package: python-service-identity-dbg
 Version: 18.1.0-r0
 Section: devel
@@ -88893,14 +90151,74 @@ HomePage: http://www.python.org
 License: PSFv2
 Priority: optional
 
-Package: python-youtube-dl-dbg
-Version: 2022.07.28+git17727+f5863a3-r1
+Package: python-yenc-dbg
+Version: 0.4.0-r0
+Recommends: libc6-dbg
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9cdd6fbe6413da09b382bf5f6501a3ef
-Size: 840
-Filename: python-youtube-dl-dbg_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+MD5Sum: 617cb776a68fae1e79e10b59ccae62b4
+Size: 9726
+Filename: python-yenc-dbg_0.4.0-r0_sh4.ipk
+Source: python-yenc_0.4.0.bb
+Description: yEnc module for Python - Debugging files
+OE: python-yenc
+License: LGPL-2.1
+Priority: optional
+
+Package: python-yenc-dev
+Version: 0.4.0-r0
+Depends: python-yenc (= 0.4.0-r0)
+Recommends: libc6-dev, python-core-dev, python-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4ac8e18311ac7b5b525324f8d0b0e2a4
+Size: 726
+Filename: python-yenc-dev_0.4.0-r0_sh4.ipk
+Source: python-yenc_0.4.0.bb
+Description: yEnc module for Python - Development files
+OE: python-yenc
+License: LGPL-2.1
+Priority: optional
+
+Package: python-yenc-src
+Version: 0.4.0-r0
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d047a196f5568b166f370e14e635c806
+Size: 2782
+Filename: python-yenc-src_0.4.0-r0_sh4.ipk
+Source: python-yenc_0.4.0.bb
+Description: yEnc module for Python - Source files
+OE: python-yenc
+License: LGPL-2.1
+Priority: optional
+
+Package: python-yenc
+Version: 0.4.0-r0
+Depends: libc6 (>= 2.25), python-core
+Section: devel/python
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0052354095675fe30f250bc740cb087b
+Size: 7438
+Filename: python-yenc_0.4.0-r0_sh4.ipk
+Source: python-yenc_0.4.0.bb
+Description: yEnc module for Python
+OE: python-yenc
+License: LGPL-2.1
+Priority: optional
+
+Package: python-youtube-dl-dbg
+Version: 2022.07.28+git17736+d51e23d-r1
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3f89f700d6c3f25e5a0f81b237b74f80
+Size: 838
+Filename: python-youtube-dl-dbg_2022.07.28+git17736+d51e23d-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Debugging files
 OE: python-youtube-dl
@@ -88909,15 +90227,15 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-dev
-Version: 2022.07.28+git17727+f5863a3-r1
-Depends: python-youtube-dl (= 2022.07.28+git17727+f5863a3-r1)
+Version: 2022.07.28+git17736+d51e23d-r1
+Depends: python-youtube-dl (= 2022.07.28+git17736+d51e23d-r1)
 Recommends: bash-completion-dev, libxml2-dev, python-argparse-dev, python-ctypes-dev, python-dev, python-email-dev, python-gdata-dev, python-html-dev, python-subprocess-dev, python-unixadmin-dev
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d05151099bd32814a0cdce83492d1b4e
-Size: 944
-Filename: python-youtube-dl-dev_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+MD5Sum: bdbace2a6e68ae21a17fd8e7b8d60eaa
+Size: 942
+Filename: python-youtube-dl-dev_2022.07.28+git17736+d51e23d-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Development files
 OE: python-youtube-dl
@@ -88926,13 +90244,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-doc
-Version: 2022.07.28+git17727+f5863a3-r1
+Version: 2022.07.28+git17736+d51e23d-r1
 Section: doc
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1df5cae2ac384116e3c67460d909020
-Size: 940
-Filename: python-youtube-dl-doc_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+MD5Sum: 6bf96138795838b6731878b3ac678f31
+Size: 938
+Filename: python-youtube-dl-doc_2022.07.28+git17736+d51e23d-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Documentation files
 OE: python-youtube-dl
@@ -88941,13 +90259,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl-src
-Version: 2022.07.28+git17727+f5863a3-r1
+Version: 2022.07.28+git17736+d51e23d-r1
 Section: devel
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 072513a664cd2d5ab08b394d8e756934
-Size: 947330
-Filename: python-youtube-dl-src_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+MD5Sum: 424f8f4d01740257775219e4d8adcf98
+Size: 948358
+Filename: python-youtube-dl-src_2022.07.28+git17736+d51e23d-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Source files
 OE: python-youtube-dl
@@ -88956,14 +90274,14 @@ License: LGPLv2.1
 Priority: optional
 
 Package: python-youtube-dl
-Version: 2022.07.28+git17727+f5863a3-r1
+Version: 2022.07.28+git17736+d51e23d-r1
 Depends: python-argparse, python-ctypes, python-email, python-gdata, python-html, python-subprocess, python-unixadmin
 Section: devel/python
 Architecture: sh4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 987b2504ea92240c89b3c04d8de5802c
-Size: 1249806
-Filename: python-youtube-dl_2022.07.28+git17727+f5863a3-r1_sh4.ipk
+MD5Sum: 2c840d9427503b00dda4f742e612508f
+Size: 1251550
+Filename: python-youtube-dl_2022.07.28+git17736+d51e23d-r1_sh4.ipk
 Source: python-youtube-dl.bb
 Description: Download videos from YouTube (and more sites)
 OE: python-youtube-dl
@@ -90456,6 +91774,54 @@ Filename: rtmpdump_2.48+git504+ad70c64-r0_sh4.ipk
 Source: rtmpdump.bb
 Description: rtmpdump Real-Time Messaging Protocol
 OE: rtmpdump
+License: GPLv2+
+Priority: optional
+
+Package: sabnzbd-doc
+Version: 2.3.9-r0
+Section: doc
+Architecture: sh4
+Maintainer: team@sabnzbd.org
+MD5Sum: 5cfc3eac323006c460ffe8e720e848cd
+Size: 37002
+Filename: sabnzbd-doc_2.3.9-r0_sh4.ipk
+Source: sabnzbd_2.3.9.bb
+Description: SABnzbd - The automated Usenet download tool - Documentation files
+OE: sabnzbd
+HomePage: https://sabnzbd.org
+License: GPLv2+
+Priority: optional
+
+Package: sabnzbd-src
+Version: 2.3.9-r0
+Depends: python
+Section: devel
+Architecture: sh4
+Maintainer: team@sabnzbd.org
+MD5Sum: 4ee6285ed11df5fc7efa42e4d925c499
+Size: 458816
+Filename: sabnzbd-src_2.3.9-r0_sh4.ipk
+Source: sabnzbd_2.3.9.bb
+Description: SABnzbd - The automated Usenet download tool - Source files
+OE: sabnzbd
+HomePage: https://sabnzbd.org
+License: GPLv2+
+Priority: optional
+
+Package: sabnzbd
+Version: 2.3.9-r0
+Depends: python-cheetah, python-compression, python-core, python-crypt, python-ctypes, python-email, python-html, python-misc, python-multiprocessing, python-sabyenc, python-shell, python-sqlite3, python-subprocess, python-yenc
+Recommends: par2cmdline, unrar, update-rc.d
+Section: base
+Architecture: sh4
+Maintainer: team@sabnzbd.org
+MD5Sum: 5843a7e30c5152507d1ebe909128003f
+Size: 3524850
+Filename: sabnzbd_2.3.9-r0_sh4.ipk
+Source: sabnzbd_2.3.9.bb
+Description: SABnzbd - The automated Usenet download tool
+OE: sabnzbd
+HomePage: https://sabnzbd.org
 License: GPLv2+
 Priority: optional
 
@@ -93145,6 +94511,87 @@ HomePage: http://www.softpanorama.org/Net/Network_security/TCP_wrappers/
 License: BSD
 Priority: optional
 
+Package: transmission-client
+Version: 2.94-r0
+Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libcurl4 (>= 7.66.0), libevent (>= 2.1.11), libz1 (>= 1.2.11)
+Section: network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 09c6802df37ea0b7e09dbc329781fe19
+Size: 267084
+Filename: transmission-client_2.94-r0_sh4.ipk
+Source: transmission_2.94.bb
+Description: transmission version 2.94-r0
+OE: transmission
+HomePage: www.transmissionbt.com/
+License: GPLv2 & GPLv3
+Priority: optional
+
+Package: transmission-dbg
+Version: 2.94-r0
+Recommends: libc6-dbg, libcrypto10-dbg, libcurl-dbg, libevent-dbg, libz-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee66bd931ffae748bddcf337c952ea4c
+Size: 1459038
+Filename: transmission-dbg_2.94-r0_sh4.ipk
+Source: transmission_2.94.bb
+Description: transmission version 2.94-r0 - Debugging files
+OE: transmission
+HomePage: www.transmissionbt.com/
+License: GPLv2 & GPLv3
+Priority: optional
+
+Package: transmission-dev
+Version: 2.94-r0
+Depends: transmission (= 2.94-r0)
+Recommends: curl-dev, gettext-dev, initscripts-dev, libc6-dev, libcrypto10-dev, libcurl-dev, libevent-dev, libgnutls-dev, librtmp-dev, libtool-dev, libz-dev, openssl-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 594237f670d8ec7d7307faf980918696
+Size: 842
+Filename: transmission-dev_2.94-r0_sh4.ipk
+Source: transmission_2.94.bb
+Description: transmission version 2.94-r0 - Development files
+OE: transmission
+HomePage: www.transmissionbt.com/
+License: GPLv2 & GPLv3
+Priority: optional
+
+Package: transmission-doc
+Version: 2.94-r0
+Section: doc
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cfd77f0895cf896424972a495919fe77
+Size: 6172
+Filename: transmission-doc_2.94-r0_sh4.ipk
+Source: transmission_2.94.bb
+Description: transmission version 2.94-r0 - Documentation files
+OE: transmission
+HomePage: www.transmissionbt.com/
+License: GPLv2 & GPLv3
+Priority: optional
+
+Package: transmission
+Version: 2.94-r0
+Depends: libc6 (>= 2.25), libcrypto1.0.2 (>= 1.0.2r), libcurl4 (>= 7.66.0), libevent (>= 2.1.11), libz1 (>= 1.2.11)
+Recommends: update-rc.d
+Section: network
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3c23bea4be32d865c52cae784bfcc616
+Size: 394982
+Filename: transmission_2.94-r0_sh4.ipk
+Source: transmission_2.94.bb
+Description: transmission version 2.94-r0
+OE: transmission
+HomePage: www.transmissionbt.com/
+License: GPLv2 & GPLv3
+Priority: optional
+
 Package: tuxbox-links-dbg
 Version: 1.0-r0
 Section: devel
@@ -93282,6 +94729,53 @@ Description: uchardet version 0.0.6+gitAUTOINC+bdfd6116a9-r0
 OE: uchardet
 HomePage: https://github.com/BYVoid/uchardet
 License: MPLv1.1
+Priority: optional
+
+Package: udpxy-dbg
+Version: 1+git109+ab25cc6-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: Pavel V. Cherenkov
+MD5Sum: d58c05fcd188530e6a324a8b7d2ecb6e
+Size: 7586
+Filename: udpxy-dbg_1+git109+ab25cc6-r0_sh4.ipk
+Source: udpxy.bb
+Description: udpxy - Debugging files
+OE: udpxy
+License: GPLv3
+Priority: optional
+
+Package: udpxy-dev
+Version: 1+git109+ab25cc6-r0
+Depends: udpxy (= 1+git109+ab25cc6-r0)
+Recommends: initscripts-dev, libc6-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: Pavel V. Cherenkov
+MD5Sum: 48ef0a25f0bcdd5efeb18e4c13cc5399
+Size: 702
+Filename: udpxy-dev_1+git109+ab25cc6-r0_sh4.ipk
+Source: udpxy.bb
+Description: udpxy - Development files
+OE: udpxy
+License: GPLv3
+Priority: optional
+
+Package: udpxy
+Version: 1+git109+ab25cc6-r0
+Depends: libc6 (>= 2.25)
+Recommends: update-rc.d
+Section: multimedia
+Architecture: sh4
+Maintainer: Pavel V. Cherenkov
+MD5Sum: 31248777887bfe0319a03819507db3a8
+Size: 29322
+Filename: udpxy_1+git109+ab25cc6-r0_sh4.ipk
+Source: udpxy.bb
+Description: udpxy
+OE: udpxy
+License: GPLv3
 Priority: optional
 
 Package: uniconfd
@@ -93580,6 +95074,90 @@ Source: usbutils_012.bb
 Description: Host side USB console utilities
 OE: usbutils
 HomePage: http://www.linux-usb.org
+License: GPLv2+
+Priority: optional
+
+Package: ushare-dbg
+Version: 1.1a-r1
+Recommends: libc6-dbg, libupnp1.6-dbg
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7dd3fb8c3a1a8b7901ffb5054242b6a
+Size: 720
+Filename: ushare-dbg_1.1a-r1_sh4.ipk
+Source: ushare_1.1a.bb
+Description: ushare is a UPnP media server - Debugging files
+OE: ushare
+HomePage: http://ushare.geexbox.org/
+License: GPLv2+
+Priority: optional
+
+Package: ushare-dev
+Version: 1.1a-r1
+Depends: ushare (= 1.1a-r1)
+Recommends: gettext-dev, initscripts-dev, libc6-dev, libupnp1.6-dev, update-rc.d-dev
+Section: devel
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1cb5af41d654c2e8c46e6a81ddc4316c
+Size: 770
+Filename: ushare-dev_1.1a-r1_sh4.ipk
+Source: ushare_1.1a.bb
+Description: ushare is a UPnP media server - Development files
+OE: ushare
+HomePage: http://ushare.geexbox.org/
+License: GPLv2+
+Priority: optional
+
+Package: ushare-locale-de
+Version: 1.1a-r1
+Provides: de-translation, ushare-locale
+Recommends: virtual-locale-de
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eb6564e5aa3e9a50dc2b2cd614128020
+Size: 2966
+Filename: ushare-locale-de_1.1a-r1_sh4.ipk
+Source: ushare_1.1a.bb
+Description: ushare is a UPnP media server - de translations
+OE: ushare
+HomePage: http://ushare.geexbox.org/
+License: GPLv2+
+Priority: optional
+
+Package: ushare-locale-fr
+Version: 1.1a-r1
+Provides: fr-translation, ushare-locale
+Recommends: virtual-locale-fr
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b88f721e8acc6009ea93c94c30c6c079
+Size: 3660
+Filename: ushare-locale-fr_1.1a-r1_sh4.ipk
+Source: ushare_1.1a.bb
+Description: ushare is a UPnP media server - fr translations
+OE: ushare
+HomePage: http://ushare.geexbox.org/
+License: GPLv2+
+Priority: optional
+
+Package: ushare
+Version: 1.1a-r1
+Depends: libc6 (>= 2.25), libupnp1.6 (>= 1.6.21)
+Recommends: update-rc.d
+Section: base
+Architecture: sh4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a9cb11b91dcd42a72bf1eaad5177d3a9
+Size: 30938
+Filename: ushare_1.1a-r1_sh4.ipk
+Source: ushare_1.1a.bb
+Description: ushare is a UPnP media server
+OE: ushare
+HomePage: http://ushare.geexbox.org/
 License: GPLv2+
 Priority: optional
 
