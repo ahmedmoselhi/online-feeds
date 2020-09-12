@@ -56,14 +56,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dbg
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg, uchardet-dbg
 Section: devel
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: b3322d2c8d2618fe5e7d30b6ee51bc78
-Size: 26486
-Filename: enigma2-dbg_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: cfce8d9e8b4ac641468864b361274326
+Size: 26488
+Filename: enigma2-dbg_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
 OE: enigma2
@@ -71,15 +71,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: 7.4+git486+6f33384-r0
-Depends: enigma2 (= 7.4+git486+6f33384-r0)
+Version: 7.4+git481+8804722-r0
+Depends: enigma2 (= 7.4+git481+8804722-r0)
 Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, enigma2-locale-ar-dev, enigma2-locale-en-dev, enigma2-locale-ru-dev, enigma2-plugin-font-wqy-microhei-dev, enigma2-skindefault-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto10-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-dev, libmad-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl10-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-dev, python-email-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mime-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-shell-dev, python-six-dev, python-smtpd-dev, python-subprocess-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, uchardet-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 321b1e0f7902f84529ace8bc6c1f7ca7
-Size: 104644
-Filename: enigma2-dev_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: a2a80b0138f688c94c1143832cb74509
+Size: 104670
+Filename: enigma2-dev_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
 OE: enigma2
@@ -87,13 +87,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-fonts
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 1f2cc294562bea8238ea48f2e464f510
-Size: 795290
-Filename: enigma2-fonts_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: ff99203eea56878af641f96e02adf011
+Size: 795428
+Filename: enigma2-fonts_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -101,14 +101,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 537057cb7c5ee7bafd31bf358b946e7c
-Size: 21040
-Filename: enigma2-locale-ar_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: ece942a3283de02a4cbbec4aa5a9fc88
+Size: 21048
+Filename: enigma2-locale-ar_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: ar
 OE: enigma2
@@ -116,14 +116,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 7011008feba42c617c6d746977ff4e3a
-Size: 116308
-Filename: enigma2-locale-bg_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: f22cfb5697e5ce950f41e1977cd22d66
+Size: 116312
+Filename: enigma2-locale-bg_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: bg
 OE: enigma2
@@ -131,14 +131,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 3db479f8b1f830ed50917aca93d931e2
-Size: 116088
-Filename: enigma2-locale-ca_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: bbd734bf821bff880edcae0c1f884b19
+Size: 116068
+Filename: enigma2-locale-ca_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: ca
 OE: enigma2
@@ -146,14 +146,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: b2aa6303de216eb1d996753c86c85aed
-Size: 119916
-Filename: enigma2-locale-cs_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 837052ec05556525a376824d00b0ff23
+Size: 119900
+Filename: enigma2-locale-cs_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: cs
 OE: enigma2
@@ -161,14 +161,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-da
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 2608abbba9f4a250fd810de725d69549
-Size: 26804
-Filename: enigma2-locale-da_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 1a243e991415dd6de04a0f2834df84b9
+Size: 26808
+Filename: enigma2-locale-da_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: da
 OE: enigma2
@@ -176,14 +176,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-de
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 8059f69d7c2dc16baff1ccb22fcb40dc
+MD5Sum: b9a224ce70e2ae7048aac6ded12e208a
 Size: 118408
-Filename: enigma2-locale-de_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-locale-de_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: de
 OE: enigma2
@@ -191,14 +191,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-el
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 355d3266975b82e08702affe382f6a35
-Size: 120668
-Filename: enigma2-locale-el_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 94252651232af0115bd9bb03996f5db3
+Size: 120680
+Filename: enigma2-locale-el_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: el
 OE: enigma2
@@ -206,14 +206,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en-gb
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 78740cf950905b8f1afb0a15ac733a94
-Size: 40608
-Filename: enigma2-locale-en-gb_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 81ca27efa698770573ca059739c7ded3
+Size: 40642
+Filename: enigma2-locale-en-gb_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: en-gb
 OE: enigma2
@@ -221,14 +221,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: df64151e827be798cedc0cc9235749af
-Size: 67752
-Filename: enigma2-locale-en_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: e134fccb4da2480fd7cc6d9782053e81
+Size: 67784
+Filename: enigma2-locale-en_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: en
 OE: enigma2
@@ -236,14 +236,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-es
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 72ae7b5982136f49bc8840e0af0f10e7
-Size: 113324
-Filename: enigma2-locale-es_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: ad261589294f46f53787fe7bcc1c60b6
+Size: 113356
+Filename: enigma2-locale-es_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: es
 OE: enigma2
@@ -251,14 +251,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-et
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: e2c38d2bef670747dafba9feefe3ba52
-Size: 103884
-Filename: enigma2-locale-et_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: d2d31e9a40031aa3864818e9d9c32ee7
+Size: 103892
+Filename: enigma2-locale-et_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: et
 OE: enigma2
@@ -266,14 +266,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: c6a7a38611047a0c3979042da599637f
-Size: 22834
-Filename: enigma2-locale-fa_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c55dc5dd6908e585ba10419911a6c998
+Size: 22844
+Filename: enigma2-locale-fa_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: fa
 OE: enigma2
@@ -281,14 +281,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: f002795cd4ce1c28182a884de512611e
-Size: 85546
-Filename: enigma2-locale-fi_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 1259101f30ce0fd1ff4060cd80abcfa3
+Size: 85540
+Filename: enigma2-locale-fi_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: fi
 OE: enigma2
@@ -296,14 +296,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 03a09c85f2d58476603dce2077482507
-Size: 101720
-Filename: enigma2-locale-fr_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c6acefa5e76eab97b794bf99541c4cd5
+Size: 101732
+Filename: enigma2-locale-fr_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: fr
 OE: enigma2
@@ -311,14 +311,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 58136910613f8ff721d97f739f32ddef
-Size: 17210
-Filename: enigma2-locale-fy_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: a6bcdb8e40c603e58f21a676326372bc
+Size: 17204
+Filename: enigma2-locale-fy_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: fy
 OE: enigma2
@@ -326,14 +326,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-he
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 5f496cfa6284319e2217a8a617ef637b
-Size: 17944
-Filename: enigma2-locale-he_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 6d58fe2ff35cef0299e8edb848ef1781
+Size: 17584
+Filename: enigma2-locale-he_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: he
 OE: enigma2
@@ -341,14 +341,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: e396ad0c8a96df74e9c573c2c62ca036
-Size: 11500
-Filename: enigma2-locale-hr_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 6fe624a85899fe6f83b2c2ea2facb5b8
+Size: 11492
+Filename: enigma2-locale-hr_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: hr
 OE: enigma2
@@ -356,14 +356,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 1b6eb70722ccaea9681a30de2d6e232d
-Size: 25982
-Filename: enigma2-locale-hu_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c685d2c7bd571ca7e4cc29124acce3d6
+Size: 26016
+Filename: enigma2-locale-hu_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: hu
 OE: enigma2
@@ -371,14 +371,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-id
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 73cf8693a24c91d7fa6e1defac3a7367
-Size: 80004
-Filename: enigma2-locale-id_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 87553a606d12d5f401e5ae7f41ab3b7a
+Size: 79984
+Filename: enigma2-locale-id_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: id
 OE: enigma2
@@ -386,14 +386,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-is
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: b5859f16302679d66a17b6e7f6727734
-Size: 24620
-Filename: enigma2-locale-is_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: b3babf9e08759ff8ac7158dd7f91664f
+Size: 24624
+Filename: enigma2-locale-is_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: is
 OE: enigma2
@@ -401,14 +401,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-it
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: b28a64928a04804871de5803551674a9
-Size: 108860
-Filename: enigma2-locale-it_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: e71ef6214d7d7ed590ac7480fd8e3aaf
+Size: 108832
+Filename: enigma2-locale-it_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: it
 OE: enigma2
@@ -416,14 +416,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 71aa7116bdb75422c0890f9f4c0320ad
-Size: 27240
-Filename: enigma2-locale-ku_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 3096e4df0cfcf935b26a75d272acc3f9
+Size: 27244
+Filename: enigma2-locale-ku_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: ku
 OE: enigma2
@@ -431,14 +431,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 77945b3ef342ed93746f9c9cc2e7a628
-Size: 113688
-Filename: enigma2-locale-lt_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 2fa7c433bcd54e4563701637c6385a79
+Size: 113680
+Filename: enigma2-locale-lt_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: lt
 OE: enigma2
@@ -446,14 +446,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 00894ba869ac631366a36c7e5e758e90
-Size: 18902
-Filename: enigma2-locale-lv_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: e832b0ec09a7eeb2e956ab4963b3e96d
+Size: 18904
+Filename: enigma2-locale-lv_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: lv
 OE: enigma2
@@ -461,14 +461,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: b4cba88279decedec567962b5c3d952b
-Size: 1032
-Filename: enigma2-locale-nb_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: f237ef7f0d78d0d86578a2b957c4f799
+Size: 1036
+Filename: enigma2-locale-nb_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: nb
 OE: enigma2
@@ -476,14 +476,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: cecc9a73f2a4d3fc82abb2aead2512a3
-Size: 110996
-Filename: enigma2-locale-nl_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 7a6cde6a17af1124cdfa48fc9442e96c
+Size: 110992
+Filename: enigma2-locale-nl_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: nl
 OE: enigma2
@@ -491,14 +491,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-no
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: ed43f8ec99edbe95b9cf12fab822daac
-Size: 63400
-Filename: enigma2-locale-no_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: af45246b4c1f319c9ec92d74f4804d62
+Size: 63396
+Filename: enigma2-locale-no_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: no
 OE: enigma2
@@ -506,14 +506,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 4b30c052ca6b92322b60d5ce575c3093
-Size: 108628
-Filename: enigma2-locale-pl_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 168c087a91ab653cb868183a4405d94d
+Size: 108616
+Filename: enigma2-locale-pl_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: pl
 OE: enigma2
@@ -521,14 +521,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 8f4604ab82bab2a1a2bc402eaae4bbde
-Size: 39412
-Filename: enigma2-locale-pt-br_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: d02613ff50da7b647254441bdb527513
+Size: 39418
+Filename: enigma2-locale-pt-br_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: pt-br
 OE: enigma2
@@ -536,14 +536,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 33321da0df8688009914388769ae6f41
-Size: 48676
-Filename: enigma2-locale-pt_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 43e552794a891e391f7291139be40ba7
+Size: 48688
+Filename: enigma2-locale-pt_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: pt
 OE: enigma2
@@ -551,14 +551,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 102ff7585156297739934370e2b2c1aa
-Size: 18848
-Filename: enigma2-locale-ro_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 2035e29c75de9ae8467fd0199d97db68
+Size: 18844
+Filename: enigma2-locale-ro_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: ro
 OE: enigma2
@@ -566,14 +566,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 9697ef8b53af69619ede1c30cf28d7a0
-Size: 101540
-Filename: enigma2-locale-ru_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: a89936052b9cac94d7511f6a66a9d27c
+Size: 101520
+Filename: enigma2-locale-ru_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: ru
 OE: enigma2
@@ -581,14 +581,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 464962780e59d22a1621dc6d9c9de72a
-Size: 99180
-Filename: enigma2-locale-sk_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: d3725a55da59ec014a74ca14641ad9f8
+Size: 99212
+Filename: enigma2-locale-sk_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: sk
 OE: enigma2
@@ -596,14 +596,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 06a8aa38744f1b303c83d95fd615cb4e
-Size: 26820
-Filename: enigma2-locale-sl_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 1a6c6188251316c37fb590b5064172f5
+Size: 26832
+Filename: enigma2-locale-sl_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: sl
 OE: enigma2
@@ -611,14 +611,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: c76b471aea856c9dd5497754edc25630
-Size: 24792
-Filename: enigma2-locale-sr_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: a5e1c79912c82cef479a6225a1939acc
+Size: 24804
+Filename: enigma2-locale-sr_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: sr
 OE: enigma2
@@ -626,14 +626,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: d0e91cfffce34a5216fc5db1d07ddb04
-Size: 63102
-Filename: enigma2-locale-sv_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 471fda75d88f83e2ce7ae6e2afc12b39
+Size: 63068
+Filename: enigma2-locale-sv_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: sv
 OE: enigma2
@@ -641,14 +641,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-th
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 179f78db6357efc59cbba527cf384256
-Size: 22438
-Filename: enigma2-locale-th_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 0609a608e4119bf3599bc96b704f99e9
+Size: 22444
+Filename: enigma2-locale-th_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: th
 OE: enigma2
@@ -656,14 +656,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 29020e38eaa3f85759386aeb6a420e1c
-Size: 71784
-Filename: enigma2-locale-tr_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 06e03b1265eaa4349fc9c33e07769bd9
+Size: 71756
+Filename: enigma2-locale-tr_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: tr
 OE: enigma2
@@ -671,14 +671,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: ea6b7892376146a0c0dd5724fddcbd81
-Size: 135480
-Filename: enigma2-locale-uk_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 7c9a43925cf60da3153bba1007e7623f
+Size: 135476
+Filename: enigma2-locale-uk_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: uk
 OE: enigma2
@@ -686,14 +686,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 9dc08ef05f2ebe131d0232947430ea73
-Size: 137762
-Filename: enigma2-locale-vi_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 97341a08d47186f72aa74f397d6597a5
+Size: 137760
+Filename: enigma2-locale-vi_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: vi
 OE: enigma2
@@ -701,14 +701,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: cab6dc8c006589701b3ad9ca0c96c01b
-Size: 25836
-Filename: enigma2-locale-zh-cn_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: abb380594705ff32845158cfc5a9413f
+Size: 25860
+Filename: enigma2-locale-zh-cn_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: zh-cn
 OE: enigma2
@@ -716,14 +716,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 4f948ae806077831524a873072dbd765
-Size: 22782
-Filename: enigma2-locale-zh-hk_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: cc8d591e27f253de4adab078338b3a40
+Size: 22792
+Filename: enigma2-locale-zh-hk_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: zh-hk
 OE: enigma2
@@ -731,13 +731,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 4592b38d2ba4c7fae6ea48e3c883ca16
-Size: 4440
-Filename: enigma2-meta_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: b733d2bd57dd71de6bdbee8bc749df61
+Size: 4436
+Filename: enigma2-meta_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -745,14 +745,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: fdd36cdcf7673ab4feadeaf4ce5f5695
-Size: 5174
-Filename: enigma2-plugin-extensions-cutlisteditor-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 788e3996b1175c37c4261ed189299dd1
+Size: 5170
+Filename: enigma2-plugin-extensions-cutlisteditor-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor (source files)
 OE: enigma2
@@ -760,14 +760,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: aio-grab, enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 2d1962111cda4a63259b84eed02db549
-Size: 7348
-Filename: enigma2-plugin-extensions-cutlisteditor_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c8ec2515fa074debaf1782dd326c6c8e
+Size: 7350
+Filename: enigma2-plugin-extensions-cutlisteditor_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
@@ -775,14 +775,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 145ae7a0ad2bd5cc8249174cad4d23aa
-Size: 28702
-Filename: enigma2-plugin-extensions-dvdburn-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 2b0d75da6e3985c7823bc83a26363938
+Size: 28704
+Filename: enigma2-plugin-extensions-dvdburn-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn (source files)
 OE: enigma2
@@ -790,14 +790,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, enigma2, mjpegtools, python-imaging, replex
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: d5c7fb26fd3d01038a6044c814f9f7f2
-Size: 805298
-Filename: enigma2-plugin-extensions-dvdburn_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 371780276ecdec95e01e777c932e660b
+Size: 805300
+Filename: enigma2-plugin-extensions-dvdburn_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
 OE: enigma2
@@ -805,14 +805,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 9d6d18b6a80dea5c74584892eeba69f5
-Size: 1896
-Filename: enigma2-plugin-extensions-dvdplayer-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 0a65ca57df2c0233f3bff51c733ed75f
+Size: 1894
+Filename: enigma2-plugin-extensions-dvdplayer-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer (source files)
 OE: enigma2
@@ -820,14 +820,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 6d21cc56bee83922afce67b71c46dd9e
-Size: 2588
-Filename: enigma2-plugin-extensions-dvdplayer_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c2de13d06e60cecf0bb368ae22ff6d91
+Size: 2586
+Filename: enigma2-plugin-extensions-dvdplayer_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
 OE: enigma2
@@ -835,14 +835,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 62e34a4882900b42eec1018e971c6c07
+MD5Sum: 2df6c1e695b8584942cfd421b4306f42
 Size: 31714
-Filename: enigma2-plugin-extensions-filecommander-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-extensions-filecommander-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-filecommander (source files)
 OE: enigma2
@@ -850,14 +850,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: d6f462ddaf18d41415b6b486dd30c0f4
-Size: 70834
-Filename: enigma2-plugin-extensions-filecommander_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 21063bcf7128a533912fb394a92e3938
+Size: 70824
+Filename: enigma2-plugin-extensions-filecommander_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-filecommander
 OE: enigma2
@@ -865,14 +865,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 602e1e8abf048e3a9de8ea85038bd338
-Size: 14180
-Filename: enigma2-plugin-extensions-graphmultiepg-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: e627cb5878b9b307ba299ed8f7b928da
+Size: 14174
+Filename: enigma2-plugin-extensions-graphmultiepg-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg (source files)
 OE: enigma2
@@ -880,14 +880,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 9e293e904c36a0afa5c8c8685374dfff
-Size: 21260
-Filename: enigma2-plugin-extensions-graphmultiepg_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: dd000dfcde03dec399bf607717c45ce3
+Size: 21252
+Filename: enigma2-plugin-extensions-graphmultiepg_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
 OE: enigma2
@@ -895,14 +895,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: aa924017107c0227fe4942cf78edccd1
-Size: 11056
-Filename: enigma2-plugin-extensions-mediaplayer-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 354ecf2817183ab141b1246e6a487201
+Size: 11048
+Filename: enigma2-plugin-extensions-mediaplayer-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer (source files)
 OE: enigma2
@@ -910,14 +910,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: fa3a028ae160ce4ea04a09793d6da900
-Size: 22524
-Filename: enigma2-plugin-extensions-mediaplayer_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 3497f843eb13b34716b45887b3c03b18
+Size: 22516
+Filename: enigma2-plugin-extensions-mediaplayer_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
 OE: enigma2
@@ -925,14 +925,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 2bb603df81b0bec7e2c866c4aa177f05
-Size: 2470
-Filename: enigma2-plugin-extensions-mediascanner-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c5c947eabe445ab343f3e02c7d7e81fb
+Size: 2468
+Filename: enigma2-plugin-extensions-mediascanner-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner (source files)
 OE: enigma2
@@ -940,14 +940,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 2a529e39c7a0ebcca02b0a177f80d66e
-Size: 7628
-Filename: enigma2-plugin-extensions-mediascanner_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: b6b8bc8a82f731eccc0fa24b15960066
+Size: 7632
+Filename: enigma2-plugin-extensions-mediascanner_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
 OE: enigma2
@@ -955,14 +955,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 5b38dc3835a896c7dcb6c7cf4b039775
-Size: 6754
-Filename: enigma2-plugin-extensions-pictureplayer-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: d67bffc7d2f6c2abd6ec2488435ff025
+Size: 6752
+Filename: enigma2-plugin-extensions-pictureplayer-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer (source files)
 OE: enigma2
@@ -970,14 +970,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: d2a431093f789ed803f985485d0338e4
-Size: 27180
-Filename: enigma2-plugin-extensions-pictureplayer_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 404c721ec3468db622e2dfad8ac64fd3
+Size: 27196
+Filename: enigma2-plugin-extensions-pictureplayer_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
@@ -985,15 +985,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-dbg
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg, uchardet-dbg
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 4c5907a162df41b37845ee2aa168a0e6
-Size: 146306
-Filename: enigma2-plugin-extensions-socketmmi-dbg_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 9c31cf84572dbe8cb0f991a8f2b4a098
+Size: 146262
+Filename: enigma2-plugin-extensions-socketmmi-dbg_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
 OE: enigma2
@@ -1001,14 +1001,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: fe2d6b3fd3a9e31cac586319640ea48d
+MD5Sum: 12d836e08e784fc1b44296da93063f9a
 Size: 1522
-Filename: enigma2-plugin-extensions-socketmmi-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-extensions-socketmmi-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (source files)
 OE: enigma2
@@ -1016,14 +1016,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 12b91b20e4eb62b8c67d651a390c4bde
-Size: 8902
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 2df45e6790f60da7fa95ec3eb70c6af1
+Size: 8894
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
 OE: enigma2
@@ -1031,14 +1031,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.0.0+git98+d091bf5), libxml2 (>= 2.9.9)
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 93db806f817b1b99ded98e822472d410
-Size: 10622
-Filename: enigma2-plugin-extensions-socketmmi_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 67848228adfc71a0890d42aefb1c4790
+Size: 10660
+Filename: enigma2-plugin-extensions-socketmmi_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
 OE: enigma2
@@ -1046,14 +1046,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-spateam-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 5075fea5a2a508df1b202ade49ecc080
-Size: 32268
-Filename: enigma2-plugin-extensions-spateam-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c3f7197f85e53081dcf3f51c85113825
+Size: 32316
+Filename: enigma2-plugin-extensions-spateam-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-spateam (source files)
 OE: enigma2
@@ -1061,14 +1061,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-spateam
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 11119cb98594aa9f34dcfc6ac04b3623
-Size: 181340
-Filename: enigma2-plugin-extensions-spateam_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 280e08ebcb9cfe4f9fd8cf89d2cbe73d
+Size: 181296
+Filename: enigma2-plugin-extensions-spateam_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-spateam
 OE: enigma2
@@ -1076,14 +1076,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-tuxboxplugins-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 0c9a6b388eb83580fa99d1b66976bd41
+MD5Sum: c53124f622afb968d8d684df51d38531
 Size: 1812
-Filename: enigma2-plugin-extensions-tuxboxplugins-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-extensions-tuxboxplugins-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-tuxboxplugins (source files)
 OE: enigma2
@@ -1091,14 +1091,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-tuxboxplugins
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: a3a20177ca396c104f14e6c316812326
-Size: 4140
-Filename: enigma2-plugin-extensions-tuxboxplugins_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: b23b65a2deb1e67bf348a7f9912e2b03
+Size: 4142
+Filename: enigma2-plugin-extensions-tuxboxplugins_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-tuxboxplugins
 OE: enigma2
@@ -1106,14 +1106,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-volume-adjust-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: fd6848a53b464429d0165ad7cb62c382
-Size: 5676
-Filename: enigma2-plugin-extensions-volume-adjust-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 3d018c144451a46f31736b0f2ffc0bf9
+Size: 5674
+Filename: enigma2-plugin-extensions-volume-adjust-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-volume-adjust (source files)
 OE: enigma2
@@ -1121,14 +1121,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-volume-adjust
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: c2c871a128dfb3954c64410636729a2b
-Size: 7762
-Filename: enigma2-plugin-extensions-volume-adjust_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: ff899963a554953d70e72d861b9dcd8b
+Size: 7774
+Filename: enigma2-plugin-extensions-volume-adjust_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: extensions-volume-adjust
 OE: enigma2
@@ -1136,13 +1136,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-font-wqy-microhei
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: d721cc37648fec80cbe81f663ac002ff
-Size: 1546872
-Filename: enigma2-plugin-font-wqy-microhei_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: efc0fde43930124619d650e9788cad33
+Size: 1543746
+Filename: enigma2-plugin-font-wqy-microhei_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -1150,14 +1150,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: bd92bda7058d1a8951cf2030921860ba
+MD5Sum: c976d9b141504c6918e612c8e808fb63
 Size: 3518
-Filename: enigma2-plugin-systemplugins-cablescan-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-systemplugins-cablescan-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan (source files)
 OE: enigma2
@@ -1165,14 +1165,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: ecc52b69a2ab96ef525bd3c1aca7cbb1
-Size: 5240
-Filename: enigma2-plugin-systemplugins-cablescan_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 69e77e012924b66b2b00404e687dc270
+Size: 5238
+Filename: enigma2-plugin-systemplugins-cablescan_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
 OE: enigma2
@@ -1180,14 +1180,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 4c606cbc958fb873b779cee015b05405
-Size: 6058
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c66edd4f2d3d35cf9e2e50199b9b5a70
+Size: 6062
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment (source files)
 OE: enigma2
@@ -1195,14 +1195,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 9fa77e39915029f80f0bc2d7ac491195
-Size: 9106
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: ef0474d79d5505f1ce608bd979c9f334
+Size: 9098
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
@@ -1210,14 +1210,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 117065edd4bfdbfccae049366d78d92d
-Size: 2638
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 842ce4771245387147a886c7e888fc85
+Size: 2640
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner (source files)
 OE: enigma2
@@ -1225,14 +1225,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: cc6a8dbbe59728c0666810e459c7fd5f
-Size: 3352
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 46795acb2fbf95b6ffde881c5b8c00b1
+Size: 3348
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
 OE: enigma2
@@ -1240,14 +1240,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: e8a1b78b297f95dd2caadd4e1721a520
-Size: 6638
-Filename: enigma2-plugin-systemplugins-diseqctester-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 2f9131c27a696a1afffaded47df195ca
+Size: 6636
+Filename: enigma2-plugin-systemplugins-diseqctester-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester (source files)
 OE: enigma2
@@ -1255,14 +1255,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: bcde6e484b04e61b15e85797eae27162
-Size: 9090
-Filename: enigma2-plugin-systemplugins-diseqctester_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 5bbde0a553db033f2eed5f89b874a4f5
+Size: 9086
+Filename: enigma2-plugin-systemplugins-diseqctester_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
 OE: enigma2
@@ -1270,14 +1270,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 1320ce4b553dee4ed0c77793b458076d
-Size: 4910
-Filename: enigma2-plugin-systemplugins-fastscan-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 3cce2a49a0a3d79490096bc6ac4fbea1
+Size: 4906
+Filename: enigma2-plugin-systemplugins-fastscan-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan (source files)
 OE: enigma2
@@ -1285,14 +1285,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 0329c004359f66a624b104bd9150f37b
-Size: 7284
-Filename: enigma2-plugin-systemplugins-fastscan_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c0d8cd495abe288670cc6dfd9ac3bf1f
+Size: 7270
+Filename: enigma2-plugin-systemplugins-fastscan_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
@@ -1300,14 +1300,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 29c7e01dc1de93f1cd6796c9a2ff185c
-Size: 4240
-Filename: enigma2-plugin-systemplugins-hdmicec-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: d60da9987b5eea39b3d77a7358423d82
+Size: 4174
+Filename: enigma2-plugin-systemplugins-hdmicec-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec (source files)
 OE: enigma2
@@ -1315,14 +1315,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 51c5722361c41b76be560b02b81d8133
-Size: 5416
-Filename: enigma2-plugin-systemplugins-hdmicec_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 669e844c12582b7c3c6eec00a8d7697b
+Size: 5392
+Filename: enigma2-plugin-systemplugins-hdmicec_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
 OE: enigma2
@@ -1330,14 +1330,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 377706950343b3211c4378c7483979cd
-Size: 1994
-Filename: enigma2-plugin-systemplugins-hotplug-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: f99cdd20c54347e93186fe79c5b245b1
+Size: 1990
+Filename: enigma2-plugin-systemplugins-hotplug-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug (source files)
 OE: enigma2
@@ -1345,14 +1345,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2, hotplug-e2-helper
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 47aeb5a9e867c80a0cbb677be84ef1e0
-Size: 2558
-Filename: enigma2-plugin-systemplugins-hotplug_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 3eec10ee570aeb102ad42edf0cec80e5
+Size: 2554
+Filename: enigma2-plugin-systemplugins-hotplug_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
 OE: enigma2
@@ -1360,14 +1360,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-lcnscanner-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 227a43aa7be15c442f38853bac65c665
-Size: 4226
-Filename: enigma2-plugin-systemplugins-lcnscanner-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 477deebaaaca790673aebe3b070a31ae
+Size: 4224
+Filename: enigma2-plugin-systemplugins-lcnscanner-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner (source files)
 OE: enigma2
@@ -1375,14 +1375,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-lcnscanner
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: c7d85e9abc6cc15d867b1960c4b4df3a
-Size: 6396
-Filename: enigma2-plugin-systemplugins-lcnscanner_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 682523bbe97b2286c31ae5625da05efb
+Size: 6394
+Filename: enigma2-plugin-systemplugins-lcnscanner_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner
 OE: enigma2
@@ -1390,14 +1390,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 1a507bd6f1e5a211fc50fe316cdbad9e
-Size: 4296
-Filename: enigma2-plugin-systemplugins-networkwizard-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 880321e9623aab67b41c8288a3b6aded
+Size: 4292
+Filename: enigma2-plugin-systemplugins-networkwizard-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard (source files)
 OE: enigma2
@@ -1405,14 +1405,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 09496a7946ddf036bdb38237ed797330
-Size: 7416
-Filename: enigma2-plugin-systemplugins-networkwizard_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 8d72427c70848e6a96e39e3e267995fd
+Size: 7408
+Filename: enigma2-plugin-systemplugins-networkwizard_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
 OE: enigma2
@@ -1420,14 +1420,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 9ea703218bf5a3043c0dca6896b6a979
+MD5Sum: 2c9abbf36a44d1dd2ba08c5b1cdb1ff8
 Size: 12730
-Filename: enigma2-plugin-systemplugins-positionersetup-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-systemplugins-positionersetup-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup (source files)
 OE: enigma2
@@ -1435,14 +1435,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 7ce9b1a0dcb3f9bdbccfef352006b1f9
-Size: 18314
-Filename: enigma2-plugin-systemplugins-positionersetup_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: cd598ada6c031d2ddc1f59c3816ee262
+Size: 18312
+Filename: enigma2-plugin-systemplugins-positionersetup_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
 OE: enigma2
@@ -1450,14 +1450,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 842dc6ad20e145e6a6f769a68dc28ef1
-Size: 1994
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: e649d1607cb1e31cad9df587c4761023
+Size: 1992
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol (source files)
 OE: enigma2
@@ -1465,14 +1465,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 63f2ab9605598bdc997f0f8a471ab33c
-Size: 2602
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 774187950b2371bb9eafe792fbb8b8be
+Size: 2604
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
@@ -1480,14 +1480,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: b10e2ef09f469c0143f8c8ac53486f7b
-Size: 5080
-Filename: enigma2-plugin-systemplugins-satfinder-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 2029c208490d73d678f273b0977459d5
+Size: 5084
+Filename: enigma2-plugin-systemplugins-satfinder-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder (source files)
 OE: enigma2
@@ -1495,14 +1495,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: d22e97f0be430f3b94e9e76061532d4b
+MD5Sum: de84150f8e84fba70080620edaa9f928
 Size: 6972
-Filename: enigma2-plugin-systemplugins-satfinder_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-systemplugins-satfinder_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
 OE: enigma2
@@ -1510,14 +1510,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 6b21c957b2a19c47276c97907222bb14
-Size: 36908
-Filename: enigma2-plugin-systemplugins-softwaremanager-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: f4bcd18112680cf9c37d7c15ae8c2e56
+Size: 36914
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager (source files)
 OE: enigma2
@@ -1525,14 +1525,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2, python-twisted-web
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 642ba44350a0f2ee0a99560b8e7472ab
-Size: 74982
-Filename: enigma2-plugin-systemplugins-softwaremanager_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 9a035bf8cd997928bdd4ba88628ba4d1
+Size: 74954
+Filename: enigma2-plugin-systemplugins-softwaremanager_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
 OE: enigma2
@@ -1540,14 +1540,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 25391eac75f977143310a4bd425fa4f6
+MD5Sum: e286e7dbfbe786adb8ca4ef0280fa1cb
 Size: 2278
-Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup (source files)
 OE: enigma2
@@ -1555,14 +1555,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 17c7a5ff57fe1e0b322514ece4a061b7
-Size: 3026
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: a3230d156dcab82688c899a8ff1d2d5d
+Size: 3028
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
@@ -1570,14 +1570,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: cf66e40d443527c4115d3a74b01ab7d2
+MD5Sum: 6a49954ee77c1255e8221ba45d8109c2
 Size: 5736
-Filename: enigma2-plugin-systemplugins-videoenhancement-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement (source files)
 OE: enigma2
@@ -1585,14 +1585,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 0109003b6b1f143c82fc84e97ff89c9c
-Size: 8592
-Filename: enigma2-plugin-systemplugins-videoenhancement_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: c0329956f6517578de48011d216c6605
+Size: 8582
+Filename: enigma2-plugin-systemplugins-videoenhancement_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
 OE: enigma2
@@ -1600,14 +1600,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 521eeede63b6fa48202c13d74917d578
+MD5Sum: f4ed8d33411da0a59191279a56b2c12a
 Size: 3664
-Filename: enigma2-plugin-systemplugins-videotune-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-systemplugins-videotune-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune (source files)
 OE: enigma2
@@ -1615,14 +1615,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 9d1fab70954a527bb2f51472732f3ee8
+MD5Sum: 859442981ad2758ec0511388e2c492e9
 Size: 5344
-Filename: enigma2-plugin-systemplugins-videotune_7.4+git486+6f33384-r0_sparkreloaded.ipk
+Filename: enigma2-plugin-systemplugins-videotune_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
 OE: enigma2
@@ -1630,14 +1630,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 29703da1edf6723a1e926f1c0ba012c0
-Size: 7744
-Filename: enigma2-plugin-systemplugins-wirelesslan-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 3b6fff35c29d40c2de9073381effb0b8
+Size: 7748
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan (source files)
 OE: enigma2
@@ -1645,14 +1645,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: enigma2, python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: de1ead817e5a82b0ea1e8eda6c30f836
-Size: 11486
-Filename: enigma2-plugin-systemplugins-wirelesslan_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 767007b004742b839129c3496d34c648
+Size: 11476
+Filename: enigma2-plugin-systemplugins-wirelesslan_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
 OE: enigma2
@@ -1660,13 +1660,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-po
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: ec2e4253fb2edfef7526a0b14abf39f1
-Size: 3233796
-Filename: enigma2-po_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 614d2c220810dfe838d5445a7899e810
+Size: 3234300
+Filename: enigma2-po_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -1674,13 +1674,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-src
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Section: devel
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 5ed6d8b01ea506494f110abb86d17ebd
-Size: 500244
-Filename: enigma2-src_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 602b2b5a0105cd90b751ccdf98c71236
+Size: 500940
+Filename: enigma2-src_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Source files
 OE: enigma2
@@ -1688,14 +1688,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-staticdev
-Version: 7.4+git486+6f33384-r0
-Depends: enigma2-dev (= 7.4+git486+6f33384-r0)
+Version: 7.4+git481+8804722-r0
+Depends: enigma2-dev (= 7.4+git481+8804722-r0)
 Section: devel
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: c3e80e5b23d9e0064af19e2f922103db
-Size: 1986
-Filename: enigma2-staticdev_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 7b36e05ceb9a9fdf4732ae668cddbb48
+Size: 1982
+Filename: enigma2-staticdev_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
 OE: enigma2
@@ -1703,15 +1703,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: 7.4+git486+6f33384-r0
+Version: 7.4+git481+8804722-r0
 Depends: alsa-conf, enigma2-fonts, enigma2-locale-ar, enigma2-locale-en, enigma2-locale-ru, enigma2-plugin-font-wqy-microhei, enigma2-skindefault, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.17.90+git19007+e97c520), hotplug-e2-helper, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.25), libcrypt2 (>= 4.4.8), libcrypto1.0.2 (>= 1.0.2r), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git128+515a1b6), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.5), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.60.7), libgomp1 (>= 4.9.4), libgstpbutils-1.0-0 (>= 1.17.90+git20481+94dcf91), libjpeg62 (>= 2.0.3), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.17), libsigc-2.0-0 (>= 2.10.2), libssl1.0.2 (>= 1.0.2r), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0+git71+fa18f77), libtuxtxt32bpp0 (>= 2.0+git71+fa18f77), libudfread0 (>= 1.0.0+git98+d091bf5), libxml2 (>= 2.9.9), oe-alliance-branding, python-codecs, python-core, python-crypt, python-email, python-fcntl, python-image, python-imaging, python-lang, python-mime, python-mmap, python-netclient, python-netifaces, python-netserver, python-pickle, python-process, python-pyusb, python-re, python-shell, python-six, python-smtpd, python-subprocess, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, uchardet (>= 0.0.6+git247+bdfd611)
 Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, libdvdcss2
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Alliance
-MD5Sum: 43d390a45047d8cd5d8e02426c6480d5
-Size: 1899010
-Filename: enigma2_7.4+git486+6f33384-r0_sparkreloaded.ipk
+MD5Sum: 028a2cb11f553e642f30e61ce46dddbc
+Size: 1899358
+Filename: enigma2_7.4+git481+8804722-r0_sparkreloaded.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -1724,8 +1724,8 @@ Recommends: alsa-utils-amixer-conf-dbg, avahi-daemon-dbg, bash-dbg, cronie-dbg, 
 Section: devel
 Architecture: sparkreloaded
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f26ea8e9875a26b61d08733fc065fc10
-Size: 996
+MD5Sum: fc1d7bd115b43fbb51981291869df525
+Size: 994
 Filename: oe-alliance-base-dbg_7.4-r0_sparkreloaded.ipk
 Source: oe-alliance-base.bb
 Description: Base packages require for image. - Debugging files
@@ -1740,8 +1740,8 @@ Recommends: alsa-utils-amixer-conf-dev, avahi-daemon-dev, bash-dev, cronie-dev, 
 Section: devel
 Architecture: sparkreloaded
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 74f714524c28af409633ad4fcfe4936d
-Size: 1020
+MD5Sum: ecb9f5d89a381d0d0c0aecdb40cd083b
+Size: 1018
 Filename: oe-alliance-base-dev_7.4-r0_sparkreloaded.ipk
 Source: oe-alliance-base.bb
 Description: Base packages require for image. - Development files
@@ -1756,7 +1756,7 @@ Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kern
 Section: base
 Architecture: sparkreloaded
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b2fe39b8c2653af98f339215e346d69
+MD5Sum: 794216b5d52b54f7b3f06c8e266e06cc
 Size: 978
 Filename: oe-alliance-base_7.4-r0_sparkreloaded.ipk
 Source: oe-alliance-base.bb
@@ -1771,8 +1771,8 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: sparkreloaded
 Maintainer: oe-alliance team
-MD5Sum: b43c329a0e44ceff16e9c0b7b422dd30
-Size: 57050
+MD5Sum: 2ad31570f8193fd23cb5bca8fa9645bd
+Size: 56990
 Filename: oe-alliance-branding-dbg_7.4+git897+470e28c-r20200912-sparkreloaded_sparkreloaded.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version 7.4+gitAUTOINC+470e28c164-r20200912-sparkreloaded - Debugging files
@@ -1787,7 +1787,7 @@ Recommends: libc6-dev, python-dev
 Section: devel
 Architecture: sparkreloaded
 Maintainer: oe-alliance team
-MD5Sum: 88f9cc9a2947ca823fda6dfeae2253a4
+MD5Sum: 7cc78c78f8c26e1d8f3a673832a6d51d
 Size: 746
 Filename: oe-alliance-branding-dev_7.4+git897+470e28c-r20200912-sparkreloaded_sparkreloaded.ipk
 Source: oe-alliance-branding.bb
@@ -1801,8 +1801,8 @@ Version: 7.4+git897+470e28c-r20200912-sparkreloaded
 Section: devel
 Architecture: sparkreloaded
 Maintainer: oe-alliance team
-MD5Sum: bad8e5ac2eec31a1995ba7debb1c6771
-Size: 3432
+MD5Sum: 2ea68b0290c6748ef1d43ca53a8231ca
+Size: 3430
 Filename: oe-alliance-branding-src_7.4+git897+470e28c-r20200912-sparkreloaded_sparkreloaded.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version 7.4+gitAUTOINC+470e28c164-r20200912-sparkreloaded - Source files
@@ -1816,8 +1816,8 @@ Depends: libc6 (>= 2.25)
 Section: base
 Architecture: sparkreloaded
 Maintainer: oe-alliance team
-MD5Sum: 72e067886164fb253643330e5536a3a6
-Size: 171428
+MD5Sum: bf034e38f44fe792a7cda76f0683b757
+Size: 171404
 Filename: oe-alliance-branding_7.4+git897+470e28c-r20200912-sparkreloaded_sparkreloaded.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version 7.4+gitAUTOINC+470e28c164-r20200912-sparkreloaded
@@ -1858,7 +1858,7 @@ Version: 7.4-004
 Section: base
 Architecture: sparkreloaded
 Maintainer: OpenSPA Team
-MD5Sum: 285a1acc68e40700daba70e7004d4d3a
+MD5Sum: eceadfeae54980572dcbc86f8a65955c
 Size: 1164
 Filename: openspa-version-info_7.4-004_sparkreloaded.ipk
 Source: openspa-version-info.bb

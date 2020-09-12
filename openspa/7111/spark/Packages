@@ -845,8 +845,8 @@ Recommends: libc6-dbg, libcurl-dbg, libxml2-dbg, libz-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b29e77f1f739ee5613015dca3b29f018
-Size: 828
+MD5Sum: 98a8c7291f712c15e622707dd638c459
+Size: 824
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr497+14d2184-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+14d2184d93-r0 - Debugging files
@@ -862,8 +862,8 @@ Recommends: curl-dev, enigma2-dev, libc6-dev, libcurl-dev, libxml2-dev, libz-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15656c172a9071fc70ed67749eb4321a
-Size: 890
+MD5Sum: 3f6592ff325ad80238cabe3e84689c47
+Size: 888
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr497+14d2184-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+14d2184d93-r0 - Development files
@@ -878,7 +878,7 @@ Depends: enigma2-plugin-systemplugins-crossepg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f3a44f5c1003c770cfae19c312eac5dd
+MD5Sum: f04c6fe4d3907d97d7d6d39c7a719ecd
 Size: 22834
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.8.7+gitr497+14d2184-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -894,7 +894,7 @@ Depends: enigma2, libc6 (>= 2.25), libcurl4 (>= 7.66.0), libxml2 (>= 2.9.9), lib
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0dfdd5ffe651529efc25e8e2e7705920
+MD5Sum: 04ff7c3b5fec8721d14a53f9a1ffeb07
 Size: 285538
 Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr497+14d2184-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -4135,7 +4135,7 @@ Recommends: ca-certificates-dbg, flip-dbg, hddtemp-dbg, iproute2-dbg, mhw2-files
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a66eae8c17dd720c0b1faae2a5ebae9
+MD5Sum: 4adafa63d9661850e754694c224d8faa
 Size: 892
 Filename: openspa-base-dbg_7.4-r1_spark.ipk
 Source: openspa-base.bb
@@ -4151,7 +4151,7 @@ Recommends: ca-certificates-dev, flip-dev, hddtemp-dev, iproute2-dev, mhw2-files
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3ac11956779117c0e960c3f00f11d570
+MD5Sum: 4bd95f2da535da08e74178e50d1d913c
 Size: 918
 Filename: openspa-base-dev_7.4-r1_spark.ipk
 Source: openspa-base.bb
@@ -4166,7 +4166,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dff972c15e0e9b3809a1b8c91c63eb49
+MD5Sum: 74c7321f570db3347be8ecdf700109d4
 Size: 3182
 Filename: openspa-base-files-dbg_1.0-r1_spark.ipk
 Source: openspa-base-files.bb
@@ -4182,8 +4182,8 @@ Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96b96454e0f99720e4ad7472699767c3
-Size: 724
+MD5Sum: 9bdc1eac9819ec03d46a216439e69af0
+Size: 722
 Filename: openspa-base-files-dev_1.0-r1_spark.ipk
 Source: openspa-base-files.bb
 Description: EGAMI base files - Development files
@@ -4197,8 +4197,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dda5c26823a8f2c4ec3f2069d6726646
-Size: 17455384
+MD5Sum: f6ce09a272019215b52922a99e947fdc
+Size: 17451172
 Filename: openspa-base-files_1.0-r1_spark.ipk
 Source: openspa-base-files.bb
 Description: EGAMI base files
@@ -4212,8 +4212,8 @@ Depends: ca-certificates, flip, hddtemp, iproute2, mhw2-files, ntfs-3g, oe-allia
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2671262206a8f5bd07ad18f86e86604b
-Size: 820
+MD5Sum: 4e3ed7b50f5008dfdbb71f581d7046ec
+Size: 818
 Filename: openspa-base_7.4-r1_spark.ipk
 Source: openspa-base.bb
 Description: Base packages require for image.
@@ -4273,7 +4273,7 @@ Recommends: aio-grab-dbg, enigma2-plugin-drivers-usbserial-dbg, enigma2-plugin-e
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e6658e1334577435594342322ce34a7b
+MD5Sum: 70544a897d45204205ba8591be30d209
 Size: 930
 Filename: openspa-enigma2-dbg_7.4-r5_spark.ipk
 Source: openspa-enigma2.bb
@@ -4289,7 +4289,7 @@ Recommends: aio-grab-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-e
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 20f1bf3ef22adff7cb9b44a7a708fa6f
+MD5Sum: 14dedc98069aa9dcb8e733fab689ddf7
 Size: 960
 Filename: openspa-enigma2-dev_7.4-r5_spark.ipk
 Source: openspa-enigma2.bb
@@ -4304,7 +4304,7 @@ Depends: aio-grab, enigma2-plugin-drivers-usbserial, enigma2-plugin-extensions-c
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 03c660421e9fc31af3b6d2f1de6f9465
+MD5Sum: 18ee3136cde44169b404623b32a887bc
 Size: 860
 Filename: openspa-enigma2_7.4-r5_spark.ipk
 Source: openspa-enigma2.bb
@@ -4318,8 +4318,8 @@ Version: 7.4-r1
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 946fadd60a07c6cacc7a6d9423903260
-Size: 700
+MD5Sum: 928e91a4790e1d5a789730e402bff74b
+Size: 702
 Filename: openspa-feeds-dbg_7.4-r1_spark.ipk
 Source: openspa-feeds.bb
 Description: Merge machine and distro options to create a enigma2 feeds machine task/package - Debugging files
@@ -4333,7 +4333,7 @@ Depends: openspa-feeds (= 7.4-r1)
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2412c48221820d9ee2d07ee789c0bb0
+MD5Sum: 4cb508f74431ae75e10a2e72629f7e74
 Size: 730
 Filename: openspa-feeds-dev_7.4-r1_spark.ipk
 Source: openspa-feeds.bb
@@ -4348,7 +4348,7 @@ Recommends: cdfs, curlftpfs, djmount, enigma2-plugin-extensions-blurayplayer, en
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff685be9c037eac6a547ee95281070c3
+MD5Sum: 07645f64df271febdf5eb79909518b88
 Size: 890
 Filename: openspa-feeds_7.4-r1_spark.ipk
 Source: openspa-feeds.bb
