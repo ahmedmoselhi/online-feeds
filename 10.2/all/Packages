@@ -465,14 +465,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: git3585+038dfe4-r0
+Version: git3599+ac7c1df-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f7eb60ec73683f65d900157e2254890
-SHA256sum: c9cf152ca484d5bcc812680c1dbd3c1cd8007d7d26ddcd9d086b9d257ef0e212
+MD5Sum: 24d623edfffd4ec4c79c48e977e91272
+SHA256sum: e882e8a4c9d9e5e7f301b4f66006c928b7ff2b8c0d16d46598ad1f8540d4014b
 Size: 690
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_git3585+038dfe4-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_git3599+ac7c1df-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -480,16 +480,16 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: git3585+038dfe4-r0
-Depends: enigma2-plugin-extensions-e2iplayer (= git3585+038dfe4-r0)
+Version: git3599+ac7c1df-r0
+Depends: enigma2-plugin-extensions-e2iplayer (= git3599+ac7c1df-r0)
 Recommends: cmdwrapper-dev, duktape-dev, exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python-compression-dev, python-core-dev, python-dev, python-e2icjson-dev, python-html-dev, python-json-dev, python-pycurl-dev, python-shell-dev, python-subprocess-dev, python-textutils-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 803df0bf41a490a5cda64b7938e897ca
-SHA256sum: e493d8703e75cb13362d947cefb8bcea0bbf3e702fdafddbace58cb73fc5ebd1
+MD5Sum: 206d4efeba8347a1b29bcca8631e316e
+SHA256sum: 27044a8657a00249ba5f8c9dc9e40daa188f5312a39e736cb18f67c87bab55a2
 Size: 868
-Filename: enigma2-plugin-extensions-e2iplayer-dev_git3585+038dfe4-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_git3599+ac7c1df-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -497,14 +497,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: git3585+038dfe4-r0
+Version: git3599+ac7c1df-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 401fdba7b1ec3246ab69ead6f5650ce8
-SHA256sum: d4d38e68dbd9a8b84b718161d35b29679fcea8d6bdbabe4083d0493e1ef67f28
-Size: 838422
-Filename: enigma2-plugin-extensions-e2iplayer-src_git3585+038dfe4-r0_all.ipk
+MD5Sum: 49ae779d54d44ce5e89e8903580532fe
+SHA256sum: 06d48e2072130ef305ba873487b9f125644011c0b0fcd688fca44f5bc6e6f5b2
+Size: 837374
+Filename: enigma2-plugin-extensions-e2iplayer-src_git3599+ac7c1df-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -512,15 +512,15 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: git3585+038dfe4-r0
+Version: git3599+ac7c1df-r0
 Depends: cmdwrapper, duktape, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python-compression, python-core, python-e2icjson, python-html, python-json, python-pycurl, python-shell, python-subprocess, python-textutils, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 128bde519e39ebd34d369f8cf553035f
-SHA256sum: 3bb85356ef97d5afbc4cc2d771a6ca5872c6173c6d13de9f7b794f1dce82e02a
-Size: 5794110
-Filename: enigma2-plugin-extensions-e2iplayer_git3585+038dfe4-r0_all.ipk
+MD5Sum: 69ad1d9d3e5baf262acac4fc6e20ad3b
+SHA256sum: 52aeeabe2bc59171e78261be472c3811a22d341b06c7b6f40b27489bd7993e4c
+Size: 5767884
+Filename: enigma2-plugin-extensions-e2iplayer_git3599+ac7c1df-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
 OE: enigma2-plugin-extensions-e2iplayer
@@ -5017,14 +5017,14 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-octetfhd-dbg
-Version: git161+10dabe8-r0
+Version: git162+57690a6-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f449af8430e7fd94f6c82dc4bd1cf5e1
-SHA256sum: eb35acc1583a2ec2f4dd864812fc4abdfce138b46d771773ead2ac37dac05b56
+MD5Sum: f90fa295eb7091087494d17fb0906cda
+SHA256sum: 9cd0ad0c479285ef5ba43cb7490fcb80504dffdba121a6a5cdda1e85e4843fe4
 Size: 692
-Filename: enigma2-plugin-skins-octetfhd-dbg_git161+10dabe8-r0_all.ipk
+Filename: enigma2-plugin-skins-octetfhd-dbg_git162+57690a6-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Debugging files
 OE: enigma2-plugin-skins-octetfhd
@@ -5032,16 +5032,16 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-octetfhd-dev
-Version: git161+10dabe8-r0
-Depends: enigma2-plugin-skins-octetfhd (= git161+10dabe8-r0)
+Version: git162+57690a6-r0
+Depends: enigma2-plugin-skins-octetfhd (= git162+57690a6-r0)
 Recommends: enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-fonts-opensans-dev, enigma2-plugin-fonts-segoe-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a5c56dceecf8a77f9b14d8c1e487d59
-SHA256sum: a84501f9d257c8bf3fe7e61161ffb821fe3784d84e124856824753d8b86204fe
-Size: 802
-Filename: enigma2-plugin-skins-octetfhd-dev_git161+10dabe8-r0_all.ipk
+MD5Sum: e37e48ee69d1ab6bc2b457b4865c0a28
+SHA256sum: 89fc4c8c430740fea4dae0474c443d576af7d09c97c8e2152c8a930e17a267bd
+Size: 804
+Filename: enigma2-plugin-skins-octetfhd-dev_git162+57690a6-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Development files
 OE: enigma2-plugin-skins-octetfhd
@@ -5049,15 +5049,15 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-octetfhd
-Version: git161+10dabe8-r0
+Version: git162+57690a6-r0
 Depends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-extensions-xtraevent, enigma2-plugin-fonts-opensans, enigma2-plugin-fonts-segoe, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 06ed3de5dc3c55c6227c062fdadc0f78
-SHA256sum: 6d2beddad4d9289e57c574e0a23c7510e86506c34392c17894b8cb301a0d8cb4
-Size: 1271830
-Filename: enigma2-plugin-skins-octetfhd_git161+10dabe8-r0_all.ipk
+MD5Sum: 117536dd86ecf366aff55e3b85ff65de
+SHA256sum: d59cbc964450dcfe1b327740afded1319161fa0098fae87b054e2a0899c74344
+Size: 1276168
+Filename: enigma2-plugin-skins-octetfhd_git162+57690a6-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD
 OE: enigma2-plugin-skins-octetfhd

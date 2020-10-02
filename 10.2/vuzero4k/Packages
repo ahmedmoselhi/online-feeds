@@ -338,8 +338,8 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b89c560b4457101ea54b7a344e1b2e5
-SHA256sum: 121bdb428072939dd7ff49a441ae46c145036ef846764a2d6b23031f2768e45b
+MD5Sum: e7e7559920d13737228041fa3f2c4272
+SHA256sum: c2f229813fc3b6d96c77be98bb746371f12d174763f7165f1ad9e0f3cf15f2f1
 Size: 882
 Filename: enigma2-dbg_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -355,9 +355,9 @@ Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, bzip2-dev, cdrkit-dev, dvd+r
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 98bf36e117512406495ffd91ec67aad5
-SHA256sum: 42a39c1fc89fc2211fa3d9d8eb53d1e60f2b463dc58dc94f2d23c4aaf83f9c29
-Size: 130002
+MD5Sum: a683346db4d61b32b2dddd0f43f722d2
+SHA256sum: 72c3e98d96b2f67e16fc432eeeeefd932d7723fc9cfd131de8ba51ed6b24ca87
+Size: 130004
 Filename: enigma2-dev_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
@@ -370,9 +370,9 @@ Version: 2018.08.15-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a3b90f7b186914c457c765219a8d1d2
-SHA256sum: 4c5f3423dd99efc25b4afe08519eda8e240d4655d2fca6d08ab0e199a813b309
-Size: 793108
+MD5Sum: e98b1ee6fb2871e959dbfcbc56be41e8
+SHA256sum: 3c5dd8c504e9d9bffeeb8342e09f6fd41754d80b6062ac12f1bf8ce1111e96da
+Size: 793112
 Filename: enigma2-fonts_2018.08.15-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -386,9 +386,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b0d379770e1856ec8158f72e5dc1f598
-SHA256sum: e3f6a435225e3c0b0a05b56c7a9112a30577ff405aa83730995b90bef850996f
-Size: 68974
+MD5Sum: c6d52e0b00f4ff2cce0a3b1392495e07
+SHA256sum: d95f530487ae146e93ceef0cef9d40cc3fdbd6af8f74a8e0d3e7163ee6d9aa78
+Size: 68976
 Filename: enigma2-locale-ar_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: ar
@@ -402,9 +402,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae5e13a0dc60c003e6f283dd26e6f41e
-SHA256sum: b494bbcc23e01c2e36e49a3c7939bed89adcccc583c79885f48c5488bdd9b3c0
-Size: 87106
+MD5Sum: 32085438150e9ca156487d676deb37e7
+SHA256sum: 146eadcae352e348f6304edb38b496c508ee7eac4ce4503829563e91e696e4af
+Size: 87108
 Filename: enigma2-locale-bg_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: bg
@@ -418,9 +418,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7e1c019e1c9f785f2452769b465f3d76
-SHA256sum: e4fb4c42692bdc1567d6ff8614771028c32b4146b883a2d19fb75be79334f37b
-Size: 83390
+MD5Sum: 468897d5b702a10f4169bdffaa668666
+SHA256sum: 10048cf7ee63a1c6e70cdf4c834304ab40f3364913cd97c83bcde8651f5cc14f
+Size: 83392
 Filename: enigma2-locale-ca_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: ca
@@ -434,9 +434,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6a23f9d9ab446541edab3d6a7ab8a668
-SHA256sum: 46bf580dbf934a7e410be813efc05f46bb63fe685f1e00390af952e8bbda6480
-Size: 83082
+MD5Sum: e5609fcaa182b9900f8856e5c07a1b49
+SHA256sum: 9828f702016ecb70467a337a4bc72d0818e4a8ac82c5cea36ff23b7b6bdff65e
+Size: 83084
 Filename: enigma2-locale-cs_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: cs
@@ -450,8 +450,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 77b4092a832d0d5b2d10cd88e346c808
-SHA256sum: e56739d3b16b275d567965ba54cda86127b858cd4f5b8fb94fd0e3b8c36c3da7
+MD5Sum: 1ea954445a508919d002dfb55b8eb5ac
+SHA256sum: ac15091e6ce14ca9f0f69cf838707fef8df6f9db45327cf52cf8ebefccbc1126
 Size: 56958
 Filename: enigma2-locale-da_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -466,8 +466,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0822ed92aa61bccdd158d7ace69044e
-SHA256sum: 038beae9bf8184aee2e191081253450d94793abc7095c4909b03867f1f2e3bea
+MD5Sum: bd8df32d5c60f21833848d0ce76880b8
+SHA256sum: 99715799a9d47f62548a81016c5e3a40f05157e2a3ccafc682a6b41055b63756
 Size: 81562
 Filename: enigma2-locale-de_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -482,9 +482,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56e1adfda8a6c220f5a3097acd65533a
-SHA256sum: 12d34413b9d70a5665a9ac576dbcb66f240e9d91331055f1132ffc0a9934584c
-Size: 89766
+MD5Sum: 9a33d3eabc363bf5589df9ff3f7cfc7c
+SHA256sum: 87c9c6eb61b7d6b0ff466c2487da6f0387284e196be9c6b1183d513df75d1614
+Size: 89768
 Filename: enigma2-locale-el_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: el
@@ -498,9 +498,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 396f32142551442bc892720fc100221f
-SHA256sum: c90149515887a1d392dee75878a4ce914862c51119e28d20e81f4d03453ae287
-Size: 28274
+MD5Sum: dc485cd569dde8a3241c984c16113469
+SHA256sum: 42eb0fc1a94a3a2ce1b824c4ea50f107909d14bceb885afa9f563af41c966442
+Size: 28276
 Filename: enigma2-locale-en_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: en
@@ -514,9 +514,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a8540da778ed1b051ba95a5c3a4ae5a0
-SHA256sum: 0f3139e33dc39b7715892f8ff82d232491ad892ef26e0633ff4bbf06cb9a9dbe
-Size: 83242
+MD5Sum: 5f47d8ccb57611d420c6ee1fe9a02b89
+SHA256sum: 957600d58bdfda65e307cc6c051ea4ddc34be332d5e76e18e62d2faa72854b86
+Size: 83244
 Filename: enigma2-locale-es_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: es
@@ -530,9 +530,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f24bccabc69e2edcfa9baddd144c6f42
-SHA256sum: 88354c7be858d370585acc1adb7933330d213cef5752e4ba739bcb65ebfa1842
-Size: 72790
+MD5Sum: e7ed4aebbc031ef2f805fb5bd111d818
+SHA256sum: edd29c4ccb97cfcadca161dcb8db8be8245d4b0664cd68d82238467342b9a38d
+Size: 72792
 Filename: enigma2-locale-et_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: et
@@ -546,8 +546,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 977987459b917a426c1495e4225b9325
-SHA256sum: 69f2349ffa11544248379530c4b40bc5c3f3e8378737a3c33d5cb73229c71c94
+MD5Sum: 530f3c7ce6315285f769f24f992930fa
+SHA256sum: d73e7b1585be65ea764d4e0360b027aa8ca4f94189e622c9b48794103a9b5cf5
 Size: 23084
 Filename: enigma2-locale-fa_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -562,8 +562,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 803e55f8b5a537368b4b49e4de6780e6
-SHA256sum: 07e6fdb57f0329385637df0a90a141cb154fbb81d3646c4c5776a063fe7bfa44
+MD5Sum: 468f7a1fb0e375b04fe23296e194c9fd
+SHA256sum: ba6593181da3c2167353e7b78fca3af210e9483e051efe3de56cb6ba6fb2c209
 Size: 68504
 Filename: enigma2-locale-fi_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -578,8 +578,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 944ad472d07cfc556c89ab1541daf476
-SHA256sum: f01dc52427d05d3e4e86ea25487d8a59258fc382c5e1f21a7b8b2018966720e8
+MD5Sum: fe6fb1208b260442806d2c9568d1d6cf
+SHA256sum: 925d82f5f2ea748f35abb71c52835f1983cdc27eeee5c37d1a117d1d9ce2a770
 Size: 83628
 Filename: enigma2-locale-fr_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -594,8 +594,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1790be3fa2e498af9842bd8dd10a93bc
-SHA256sum: 6e459b8009561bacf44fc163ac3eeab5d581dbac6d10d4da8be30dcf2e2d5fa8
+MD5Sum: 2af935f45c5dfd31d6dc1f991627ba81
+SHA256sum: 1ae5ff75961f6dfb0ffedaf30059c122e9da38d3677aac47f89085ced6dd8bb5
 Size: 16352
 Filename: enigma2-locale-fy_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -610,8 +610,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec23f418383c05cfb802228d1f852687
-SHA256sum: d5b0de815fd9f9a74a41eeb15d93197461e89d9e63d2144973291fee1fb38c81
+MD5Sum: a6f7f314e20e8847880f51a1797a76a6
+SHA256sum: a95646b9a77f8a47d7d6d54fdcc304e81fc264b2e82d3190f39c9223b6c3e82f
 Size: 16856
 Filename: enigma2-locale-he_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -626,9 +626,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd454881c5e079ce0245c23a90d1c331
-SHA256sum: e533348a3e63de169a1f63ae28f9d3ca491d39c9d55fc6048295408626225523
-Size: 83362
+MD5Sum: ecb84f878ff8d59f81f1c174d5314e7c
+SHA256sum: 8cd4df7dbba876c3a23a56610181aa2b60b0f1fee295585dfa3608fa4111bee2
+Size: 83364
 Filename: enigma2-locale-hr_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: hr
@@ -642,8 +642,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 540912d454b64f18c4859ed986f302f0
-SHA256sum: 7c462bcdd437972b5abe7f5325946345bb99801f0f8d9127fe3541a9f06a613b
+MD5Sum: 4db3332a63c64ce80d0f469b7e8c1e3d
+SHA256sum: c31ec96693355473c100252fc76288fb51946ebeb3aa425c5244f55a9f2dd73e
 Size: 84376
 Filename: enigma2-locale-hu_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -658,8 +658,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0bec1b6cc3613e4aa6f205a4e9c1b5a1
-SHA256sum: 07a5744956b0e37df4ae2905ec42159a67e7ea506f16e76c46cb471027ee4d09
+MD5Sum: 5bf47fd28bde2af87f05768c8858458f
+SHA256sum: ce3f75a30cc2c5b6a38f3ecb49e2e2f9900df642a98751ce2993599e475e43b3
 Size: 68646
 Filename: enigma2-locale-id_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -674,8 +674,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1077e8b23b9991eef119ba6a98b2eee3
-SHA256sum: a6513f99fc55dd2a93480247e7f59db73f9d3a135d64031205f06f0e2aa0514f
+MD5Sum: de1b88ed40ed14452ad5b0d088bc4a46
+SHA256sum: 3fc248ee2ad2bb5e398a8d8d5a3c2b2e2c0dde511d3e13e665d2697a266cdbe1
 Size: 22666
 Filename: enigma2-locale-is_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -690,8 +690,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b82cfd2c4af3e113ad883239ec5d52b
-SHA256sum: a5b09773fe9d65936048da7e33914ce61a8131bf73df309208972e68bf47aecc
+MD5Sum: ebb9d61bd9aad7585d9b4b33e804c773
+SHA256sum: d510fdf4b85883e1572dc3dfb7ce99f70a5d0fd5ea167f0b6402a429d9f122fc
 Size: 78754
 Filename: enigma2-locale-it_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -706,8 +706,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2bc7ea85418ee94ee1e60e2e3ede0be0
-SHA256sum: 0f4b5ea4e309c8e83e7ff9ca744a96db6ee7f708a7d086db15175461bd5baa38
+MD5Sum: 77f74b0a089a559d84c831156e0ca8c2
+SHA256sum: 752a0c02303394fa030001b3f95cf9699539a7460a0c6bd7aad6f1d97046a6d4
 Size: 29164
 Filename: enigma2-locale-ku_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -722,8 +722,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8f4eb6becbf17842440e0f748b0eae1c
-SHA256sum: a5bca17ddd7242953d502ce85b7fc58034cd1101623132125b5d2776f437236f
+MD5Sum: 6dbc27bb1d717a8c3b636f35c7908ba8
+SHA256sum: 28e6ac646bdb9814aa06c5838514f7d1ab9425a036d5a6629fefd924ed9c8005
 Size: 109530
 Filename: enigma2-locale-lt_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -738,9 +738,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24b2cc372a76eea2dc58ba9fd24e7ee0
-SHA256sum: 6a019e8bcf3d01fc2b847360011c15af40dc25b54ba5b49b09caa72bb1c42c27
-Size: 78712
+MD5Sum: 4cda8e487d3822447dd4ec52814f3d34
+SHA256sum: cccc62819b484df0f9395454de27918f1801cd9bd01619a6d62925e94efd4021
+Size: 78710
 Filename: enigma2-locale-lv_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: lv
@@ -801,9 +801,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4a00fa081240273e42cc12473fbf4ac
-SHA256sum: 11735d2bb43da799ce349f6b1c7254da9c86f457a6f0e2220babaa96fc0d7f10
-Size: 79868
+MD5Sum: 176cd735adbc7cccce701e9a0de7ada1
+SHA256sum: e1ba65ebb2e6ff7b9ade2f569e791329d231c0ac2017d815a1196865f8c663c3
+Size: 79866
 Filename: enigma2-locale-nb_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: nb
@@ -817,9 +817,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9d152b440b104d920aa319de9115ae7
-SHA256sum: 164582c7102247d4da7183d3ff4c05016f1d9db625594c5fde65ebbb659ccb18
-Size: 86056
+MD5Sum: e2890e7ba06f179de1a82b53fab64311
+SHA256sum: 9995799d4f8a3ad3236c89d1996873d0b71c2ad9f64d3a5ab76fe9cff62c2cb1
+Size: 86054
 Filename: enigma2-locale-nl_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: nl
@@ -833,9 +833,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d4d657d1d325831b6fe50dba8789662
-SHA256sum: 3726d8da2a8752a69d7f1ff524004429c9be3357cba1fc2b6fe7e2f65a09bf19
-Size: 43956
+MD5Sum: e594c7a029004f3fd7c89911e93ccee5
+SHA256sum: c694197c25091c6b431e5e75314b3a7d759fb9aa21d484baaec265ab28a451e9
+Size: 43954
 Filename: enigma2-locale-nn_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: nn
@@ -849,8 +849,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5dbbb95c6bffe825861c66eb2f11eb73
-SHA256sum: 1695c72d61755c088a9e43d865dd21c5b8bf26825326fc62a8f87ff8dbc1af6d
+MD5Sum: cb9c910b8eec2d33927939abf0d21d59
+SHA256sum: 7b1dc55b1730fd94354497070d9462d4b573eab16369311aaaa7712ba2ddba35
 Size: 78196
 Filename: enigma2-locale-pl_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -865,8 +865,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ef2cc86ed777bfc9ccb14695e259ef0
-SHA256sum: d5eff7ffac143ff54698f5b976cfbf0c7216b9da6066f8d02540893ba18d97aa
+MD5Sum: c4de94b5318a1e889879c79310a25d92
+SHA256sum: 291366bc0d9f177fa3268430520187635addb7069f77a6657987acad7727252b
 Size: 43592
 Filename: enigma2-locale-pt-br_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -881,9 +881,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73338aefa10b429b7762fec495e5d4a7
-SHA256sum: b44fb1cb6fbf395bcbb7d2f2710b07516e8be177c5c1c8fadd5e989352bf1e58
-Size: 41404
+MD5Sum: 1ac345f1a4ba3d34b2c849f30b296bb3
+SHA256sum: 2fee384e679f93c86efd53811a07a4a6aadd60280a3879897baf65890857e7b7
+Size: 41402
 Filename: enigma2-locale-pt_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: pt
@@ -897,9 +897,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 730730d2ef42b968bc9d536e89f780f7
-SHA256sum: 4416f2f771bcc8ab9c0b138571030ae5647f120273171c188b4bbef3e189f2b9
-Size: 17508
+MD5Sum: 2a9585e6e5e697998c47a99fdce5b442
+SHA256sum: e921e9efa91eeeafe71eda99653647f16bc80448b065117f523041708dbb5ed1
+Size: 17506
 Filename: enigma2-locale-ro_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: ro
@@ -913,9 +913,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba366506db6fdd18640c32c39c72802d
-SHA256sum: f5d567686bc812c9abe3412864a3704d0e2a7901798b7be51a8dc81f95522653
-Size: 88288
+MD5Sum: 2c729d1db6e1a063461694906c24a8b6
+SHA256sum: f9c8729729dc6d0eaeed62d252b708c793965ea2013bdf138a2f188e40330d3e
+Size: 88286
 Filename: enigma2-locale-ru_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: ru
@@ -929,9 +929,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c0a6d831983f55626535569e18786dc1
-SHA256sum: 6161805042e133e435704a6293a7cc613137b715608a5634b4066f68e116ad74
-Size: 84528
+MD5Sum: 20facd3755ba62432c7300c5f0a20fb8
+SHA256sum: f198ff8d26ad17ea7c9cc966fa26353a5c26b41d149f656e9650f2636634fe3b
+Size: 84526
 Filename: enigma2-locale-sk_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: sk
@@ -945,9 +945,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f95250e065f2c55f26c3715e2674f249
-SHA256sum: ab15d061bf8d9988cc861213321fc0ae8b31b0377e4cc28661d00c4b244f8b00
-Size: 50176
+MD5Sum: 607bd457745e520e09eb9ccb83d5d7cc
+SHA256sum: 082594496282e7b00a58bdddee2aab4661f29902d292ce56f1dcf6712568e9fe
+Size: 50174
 Filename: enigma2-locale-sl_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: sl
@@ -961,9 +961,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7bbbd1ab7870a2abbbbc6bc7488eef84
-SHA256sum: e5f950b731ba07ec259e152115e9e2da728545a34fc11a1b79ad915c0cf0175e
-Size: 22832
+MD5Sum: 8a0c5bca354b2c52c8194f96511bb318
+SHA256sum: dba5cb6d43420ee39855da12db388ad17b399f3119854ea0cc21181f89b7fd6a
+Size: 22830
 Filename: enigma2-locale-sr_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: sr
@@ -977,9 +977,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a92ceeee1f5826f4c35b59b9c6bef12
-SHA256sum: c765586e1dc6acbbae235c5dd709e7e14aa5c62fda404d36508a4da8573f9d80
-Size: 58380
+MD5Sum: 065962d2aaa4a4c2181ec501fb0e3312
+SHA256sum: d78caffc0c5bb556d938fc3779dcb858291441e65e7ae3664358d3af3629409c
+Size: 58378
 Filename: enigma2-locale-sv_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: sv
@@ -993,8 +993,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b4479b215747cf787c24f5e88739b24d
-SHA256sum: 6e3a52065125124f33f36f09012ddb52b9c323a02a1a4d1494844bec2f4d7e45
+MD5Sum: 6e8db1332a9bc052f2837b0b2e2e9185
+SHA256sum: 17b4b52ee90e30213769000496c1a4d200e1caf2020bddb19ec0adca6e897141
 Size: 21088
 Filename: enigma2-locale-th_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -1009,9 +1009,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9945c3991efcf24a38c2f7817ee945b9
-SHA256sum: 3bcc574c6a948e93b071db260bc4424dc761c31be003d3bfe26493acaa305b62
-Size: 56244
+MD5Sum: f820bd1c942fba077db5afe48a691338
+SHA256sum: 3779ebf04d61418c3ed4ee3da1ed2b74309c9e78769b3b35ba8778d026089374
+Size: 56242
 Filename: enigma2-locale-tr_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: tr
@@ -1025,8 +1025,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c3db37e07dd6fc1bd090f4a855552c2
-SHA256sum: b5cda0a2dd67827f32554719ebe43c1992f07623cae97567e2a98346b3e4bbff
+MD5Sum: a52ad43b4cad492ff4366472179e2841
+SHA256sum: e37e005645c10ca03758b4809991f4aa80a9846d1484bfff28308b8410c8247b
 Size: 65176
 Filename: enigma2-locale-uk_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -1041,9 +1041,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2bcb278075dc01bb6e870a8fbb7f4140
-SHA256sum: 966263c31b6992560d8e979925e3f8c48376fdc33aad7bd0edc4d21d58833c8b
-Size: 80876
+MD5Sum: a1881e665a897188a735138f717c4855
+SHA256sum: 9177cd313067b3dc2daf7cd8668b86c144e512c873a5ca018c13f9a20c2a011b
+Size: 80874
 Filename: enigma2-locale-vi_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: vi
@@ -1057,9 +1057,9 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0923eb6e439251110d08d95ce81bed23
-SHA256sum: 194bb915ed437e125fd25a718f4aea8e22c6b6bc608032dc06cf17d52df51b98
-Size: 72258
+MD5Sum: 53ea939ae0f229db09d9346d984f9d0c
+SHA256sum: 548ae1015ad7cc71ddde4912de9e2f9b6f5b85225052ced43f3a965a752e94c2
+Size: 72256
 Filename: enigma2-locale-zh-cn_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: zh-cn
@@ -1073,8 +1073,8 @@ Depends: enigma2
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 409e1115894533dda56daef5c9612113
-SHA256sum: 7048a5b310ad3c098503364a0196c2e8f2abfba6d18027cbd5180b90626e4714
+MD5Sum: 4c27ecb9aa1a39963b00fa66084a7821
+SHA256sum: 26286c89bb834244c3cecccdf174d7451c80b999e0a00d292b5a9af9bca86c02
 Size: 20994
 Filename: enigma2-locale-zh-hk_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -1088,8 +1088,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 735074ccdd6ff4ded587a32f524bb5f0
-SHA256sum: c1aa23b3a6e821d217cc3923b13b054255ec499700aa7505fd5aac192b667c9d
+MD5Sum: 74d1e63e965483ec95b6e59389c6fedc
+SHA256sum: d65b6246ff3c4d14a742e564ed3c875bda15a1fa901303eba16716c9bf24566b
 Size: 3928
 Filename: enigma2-meta_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -1743,9 +1743,9 @@ Depends: aio-grab
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7bf797f133aa882142fe6573b17accb
-SHA256sum: eb61deb26a1d209aff2dd74659036fcd608be85ec17d88a442a8eb5813bd1c38
-Size: 11116
+MD5Sum: bd38b0469c3e42968d7ea0311950eadc
+SHA256sum: eef8996e892bced5a3623bf2c4cfd9f948c9aa7135c65802f0cd1892cd97c223
+Size: 11118
 Filename: enigma2-plugin-extensions-cutlisteditor_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
@@ -1999,9 +1999,9 @@ Depends: cdrkit, dvd+rw-tools, dvdauthor, kernel-module-pktcdvd, mjpegtools, pyt
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7cebf1ade137c299aaff8b478b11f572
-SHA256sum: 1a5daedf71e538c43abdd97903b066796cc375733a66aa25e91b2ebb3d8e5aa4
-Size: 796772
+MD5Sum: 26773987a1577ddefbe5efc2c5c871ed
+SHA256sum: 3ac975d77d0e04b578996960970fd50ae9f38108faac3bfed16827f0465134bf
+Size: 796774
 Filename: enigma2-plugin-extensions-dvdburn_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
@@ -2015,8 +2015,8 @@ Depends: kernel-module-udf
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e98fe99d963668b59224a5b1044acee2
-SHA256sum: 38946d5637103eb7e486a1a5e008c9daa8857dd8b580af463502cc95aea554c2
+MD5Sum: 214ba44bcdca23d516c75522fcba70de
+SHA256sum: f67955d112d63cb666c41b65aacf278535a9eba787a923d03f46e10f4287b571
 Size: 2666
 Filename: enigma2-plugin-extensions-dvdplayer_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -2910,8 +2910,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e1d8e910eaab9281fc3f3cb1376ba4d3
-SHA256sum: ee29ae40820a713146a732217c0ce5c517c5eb0b70fe8f3fc7108151b9a8f6a3
+MD5Sum: c1e2535cf75dd7f4676905a307a2222a
+SHA256sum: eb12ea4c0463171152d92c56c3c98969535f6fb6f8e3705f8c642905f5795d96
 Size: 22120
 Filename: enigma2-plugin-extensions-graphmultiepg_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -3405,8 +3405,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c7a04e2f2a7ef02303bb583925cfb13
-SHA256sum: b00e6852e7a48d8dc86307dc74bba66c20090d3b398d64360189d8eb67d5e9a2
+MD5Sum: b2df9e02a2b4c90b9777dad659aaa5b3
+SHA256sum: c5e681c2f765bd38773ff4a673fb85982fa03633abd4ec05c2f6dfa95612c1f7
 Size: 20556
 Filename: enigma2-plugin-extensions-mediaplayer_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -3420,8 +3420,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 959842a52461497a94dbce94ef5a1585
-SHA256sum: 880611ac449098ab0ea5d3af212c62fdcba6a286a5c2fc5deda283ab7d28610a
+MD5Sum: 1582be959ea6c7a03327f68d8834e6da
+SHA256sum: 30c4c33ed9cdb390c9de56a9ee03574a8a07582fed6424e1f44ec08965bf388a
 Size: 5412
 Filename: enigma2-plugin-extensions-mediascanner_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -4505,9 +4505,9 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fa7a8dd9fd821ef3a5b739d090c8c55c
-SHA256sum: 5147de5b7091754b6036b4733ead96714e51ef6f1a6da12a3bcb5cafa17c9958
-Size: 13254
+MD5Sum: d545fc66334f0e3d22f49f0a62cdaa98
+SHA256sum: 6a5659fbd63493a731f6e3287fe1d7e366b334d7543d318249c60aad7de52366
+Size: 13256
 Filename: enigma2-plugin-extensions-pictureplayer_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
@@ -5561,9 +5561,9 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b5ae02d931e89c1042b85f52c4aae5d9
-SHA256sum: 6c32f60666e88a6b8c0e70d0d4cc117d2eb8e374c6c89da6b989728c97651065
-Size: 7964034
+MD5Sum: e5ba29bc1062df564f247eab76664aa3
+SHA256sum: 6b492065a5bd920342638802b5d866b3abc49d638963c58b6d0579dfdc7fb171
+Size: 7964032
 Filename: enigma2-plugin-extensions-socketmmi-dbg_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
@@ -5576,8 +5576,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd3afb058a836e7f484bc0ef6c5df5e6
-SHA256sum: 04860104862ecc9423c1a96d4ff28f909f7b7cf76fbc8ebaa5faf751af7e88a9
+MD5Sum: e7e92e1bd4b06054421b0c69c3f4f28b
+SHA256sum: 810b2b7ace515c84c8eb50ed04575c814fdac818ccf1aab94576ac4991aa87a8
 Size: 270638
 Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -5592,8 +5592,8 @@ Depends: libc6 (>= 2.32), libgcc1 (>= 10.2.0), libstdc++6 (>= 10.2.0), libudfrea
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e77999cf7dd4354e1264c08a6856c2cc
-SHA256sum: 48eae1d31de31d28bedffaf3cdc90d2bb2bbb1dce214db861a64146b0997c624
+MD5Sum: 35cb31129b1b043fb5920a1af4594f46
+SHA256sum: 5702cab5e6edc0017b02d2aab81982e67b990eddf77308c43814159f48360fd4
 Size: 8772
 Filename: enigma2-plugin-extensions-socketmmi_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -6631,8 +6631,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aad89106a4bf8b82b1f638c831a0b4c0
-SHA256sum: b82ad46723c0bbca82c1455f53e960903076dfb621f10fcd98bc5802f640df84
+MD5Sum: 82ddbe794191cc6242ed7e60c190d928
+SHA256sum: 1aa4276d2df2f256e699aedf3260f3a387448e0c73e870d24dc374c01ee59732
 Size: 1546010
 Filename: enigma2-plugin-font-wqy-microhei_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -6820,8 +6820,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 040f425e07a62f2a95f61028ddf47788
-SHA256sum: 0508bc245994a8dcedf9d21a780b692e83d15341b90d3f78d1231a465f0b0d21
+MD5Sum: 0d371078ec12ffd56968f813db5cd549
+SHA256sum: 5590459f2c40b45a45cd2458c0d7bdf79d804bc9b9226b01dc7afa8fb149ca73
 Size: 4510
 Filename: enigma2-plugin-systemplugins-animationsetup_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -7173,9 +7173,9 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9dad724837db6a788f9490ae84bcfe5c
-SHA256sum: 89015c912bb448ee09d0fbac3ff79b302c0a412dbacc91d82dda6040674e9891
-Size: 5846
+MD5Sum: 37fd32316dfc7e3d4bd2bd3841daff9a
+SHA256sum: 6c511929533d97582e5a5fe82df9be044e9122652b68828c32d8e3a5ba3b6c65
+Size: 5848
 Filename: enigma2-plugin-systemplugins-cablescan_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
@@ -7236,8 +7236,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: afa50b55a861ecb674cdaf9faceb1de9
-SHA256sum: c5e2f2ebd9846e6aa7dc1330f0c5dec58e3bab468b39c14989f6078740b85c8d
+MD5Sum: 29a712de7422ebcad066d6bf5e957cd8
+SHA256sum: c262b6009aea176787c6f9db3fb27cb66397c227ba84ba99c59b017aa97dd4af
 Size: 9730
 Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -7303,8 +7303,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 513694ebfb0024ac734d5c947c9ce553
-SHA256sum: 5d4ebac550e4b16ad4620dc484be0970d4ee07d3de009338582b6e9d3bf04f13
+MD5Sum: dc766cbd55b31aa0fb2bce2a7cf58a01
+SHA256sum: 3b97db20f57cd780c86d849db533c0ab08631725b7b938d47b05df52cc04ebd3
 Size: 3428
 Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -7318,8 +7318,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82bab113f86be0193db835e390b4f509
-SHA256sum: 397e435ce986d33855e3b6bf7f2b4ecc1ae45d6b7a193087d8525ca51898bac1
+MD5Sum: 4178a15d7f5db997754c9faaa537013c
+SHA256sum: 2e6ef5a2d44424f8f54a1ebcc0346152e4635c5a84044b20c6658951b61a1e23
 Size: 8904
 Filename: enigma2-plugin-systemplugins-diseqctester_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -7478,8 +7478,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65f74feae1c5440132a4a6349861a36a
-SHA256sum: dec911cabbaf6e8880f04c93dbf5b70ca8bc04503d8d43282522884f5ce65ec1
+MD5Sum: fb551ab2dbca0cf44860e0f2d5add37e
+SHA256sum: 5bb89be2f3732592050290f4827cc2715cde5808f4f82f568fad7a9963efa076
 Size: 7574
 Filename: enigma2-plugin-systemplugins-fastscan_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -7717,8 +7717,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b3d62496431c9fc5c446f7520652cc9
-SHA256sum: 37c2e80392d1586217b59500c0bd542796a5acd0864dfc09923c9062d11c2f0d
+MD5Sum: 8960e3b3f2dbfc0ebbf77be29b4f0f19
+SHA256sum: da6081978a81ea582deb9f768e1ec289752069e1b3684524065d4f8c375b084c
 Size: 3820
 Filename: enigma2-plugin-systemplugins-hdmicec_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -7733,8 +7733,8 @@ Depends: hotplug-e2-helper
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2be3400501e514d0edea64dfc447f01
-SHA256sum: babd501454f21a92daa733a39917bbe5def09690b8b5e938b86b746764ea7052
+MD5Sum: 8c441a6454007232b651405e084b27c8
+SHA256sum: 7118dc8582b093aa82db5acca591f00d991342d4c44bc08f329157ab4a855dbb
 Size: 2630
 Filename: enigma2-plugin-systemplugins-hotplug_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -8036,8 +8036,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7656ea8b183b5a094c4b5d8d02c9dff1
-SHA256sum: 8cf551a09bfc90f8d45ab64be75b3e9e04b8029ff9034c8d128c03ac9975b82c
+MD5Sum: 1036b7c7a2153aeca181e8fec6e36d56
+SHA256sum: 380fab7b2fc4e02583af73d0e980d47e48c56c8c071991ce0d5f001f9c745ec0
 Size: 7340
 Filename: enigma2-plugin-systemplugins-networkwizard_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -8099,8 +8099,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97a67d49f6ab7271a76b5ddd37c0fc62
-SHA256sum: abc53144a7e69ad292c9919f21fb546b0932c8cd983ee5975134137684973dc9
+MD5Sum: a0513230b040643d24ddf34af1aca778
+SHA256sum: 644d78f8922c00e7a5cd30e6f67555ca43a78a99514813fefa2e42b24213a76e
 Size: 3468
 Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -8114,8 +8114,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b13d68e91765d9b5e83f01e1e5f7079d
-SHA256sum: a041dd233a022bfb9a34fc76a430933ae374a867f8e0f41f9c5520fe48101019
+MD5Sum: 5e331e2014537d5487919487deb92f69
+SHA256sum: 26522dec228a6f86b1a658b789bbad829de8754004f20cf0050b3ce74a1adfba
 Size: 5478
 Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -8161,8 +8161,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 766a83387c83cd445d4870bd98e5f1ac
-SHA256sum: cd805822ec1bd092c11043a04c3307a703698cf962703935ad748c024f350f72
+MD5Sum: 6036dc4b7fee67307e2833a37b385402
+SHA256sum: 0415e9c53dca342777c6dad03b5816be4d1e16e76944be80fd73bc6b93b6436f
 Size: 21312
 Filename: enigma2-plugin-systemplugins-positionersetup_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -8272,9 +8272,9 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1df6d5be962904768541fd5b4bf91c59
-SHA256sum: 435d4a9bfd0417a230e43648ee2d49fa8e73b55de5e655894eaa516c30ca4edc
-Size: 2870
+MD5Sum: 80fa78cbc9f01382e7a5e95d77389a4a
+SHA256sum: d6ef640ffe6d6eab4587375b3d30cc9564f20583e9045661f6c2cbe114d48aa1
+Size: 2872
 Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
@@ -8287,9 +8287,9 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee76bae53654b72231f9d30f915262c6
-SHA256sum: e1b8733d6e17c3e95aa65474d264e124d1ac8c1a36e6f5b0008fae2cb017f0cd
-Size: 11766
+MD5Sum: 1d997746c33968e43ee77063d58e1e62
+SHA256sum: 486cfdc6b4976642189e0b47a990c020aa47c54049224b5582dee9a18d4b7dde
+Size: 11768
 Filename: enigma2-plugin-systemplugins-satfinder_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
@@ -8625,9 +8625,9 @@ Depends: python-twisted-web
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0b82c94b35923238d65defbf7e8bd1f
-SHA256sum: 7ae629d5248b9c8181d88366a794d687bc7169bc2fb98e136ef3ba640ee25954
-Size: 42730
+MD5Sum: ca02672135692cb9c6a5ca6d139e8787
+SHA256sum: be61a6e3d82768420c1769047e36c0d03138e77576ed7e63527ef2d398a90d8e
+Size: 42732
 Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
@@ -8961,9 +8961,9 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f03a583bb22aad545f70a2964e5c61d
-SHA256sum: e15cacdb420e9a0d9c5c68427900b583eaae4f0eced84094a002e1336487aee6
-Size: 2968
+MD5Sum: ab2a108d258094d13bc4ade6b12dfc3a
+SHA256sum: b8609d7ced9beea4da3973512aaa241e11ef550a806c0fb53583a1dc03c687be
+Size: 2970
 Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
@@ -9024,8 +9024,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e70d16faf2c58e4e34049b5cff5be01d
-SHA256sum: b6466baa7480d7b991e66af84070a6d455e5e3da3c5ae2bb5efcc9180690f94e
+MD5Sum: b56d243f63c86a520cd99bee809a6257
+SHA256sum: 00e6db5c1e4554c55ce02a9170ab9514000fbfb8d87308b5a3f57460cd20c5ed
 Size: 8304
 Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -9039,8 +9039,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b812cc78c3e07bb729306623fe22b1c
-SHA256sum: 613b88e4c67d8f074809715c521db21ea3ed86263ce1a7e2c65cb45844dd5aa6
+MD5Sum: 9bd5bd333e4b4a93b8d86ff074134c73
+SHA256sum: 13c22193c24ef78becd8d436345239043d3c86a66add3e36f43f959da428694b
 Size: 57870
 Filename: enigma2-plugin-systemplugins-videomode_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -9054,8 +9054,8 @@ Version: develop+git20154+d04860d-r0
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 50015e3fb27db9f8cb6a16aa74c30396
-SHA256sum: 5f4b03b2832ad59b9b1cd288b175b48a99f622324019d5a88148ed7f3af4fdcd
+MD5Sum: 82d7691005e260d37d1d3a3c633167f8
+SHA256sum: 506c349e5dadcf55bd5f86efb7b25dba8b0633156b5ecfc6284008ddb446e888
 Size: 64956
 Filename: enigma2-plugin-systemplugins-videotune_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -9439,9 +9439,9 @@ Depends: python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d04fc21bce42d528a2900beb6a59e5fd
-SHA256sum: c2472c8d7330f5c02a0b30323da1aecf15c7834fe76cc9b2dd9cbd32172b0cf7
-Size: 11188
+MD5Sum: 3824a17eb2fea7feec7a2c94b51cf813
+SHA256sum: f05deed33e30056d922767e90f3c00602d047b4ea5e1f3800d94231696525886
+Size: 11186
 Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
@@ -9676,9 +9676,9 @@ Version: develop+git20154+d04860d-r0
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dad98a650710dbb656e46db42b7f0a4d
-SHA256sum: 38f5d92f10b8fba596b3f6e3d2ce775072c7d1fc0ac75c691282b80439848fb1
-Size: 609500
+MD5Sum: 0d8b1ea2a7a2c0c70f551743adf467ff
+SHA256sum: fe7957cc9dff6d005bba86b8ac42464f8b9ae3337aca1d2cb09036fa7d581591
+Size: 609498
 Filename: enigma2-src_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Source files
@@ -9692,8 +9692,8 @@ Depends: enigma2-dev (= develop+git20154+d04860d-r0)
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c8645a3c3a85d790c45447c145b2075
-SHA256sum: 59cfd26ed3f4496f562a90970833670159556ceafeaddc5ff34adce6b74e454c
+MD5Sum: 3f579fe22d70d5548a182456c898060f
+SHA256sum: f2b300c53420c1d7d6f41c9f94f7e730ee34adca60cc7c98409f92540097ad24
 Size: 6558
 Filename: enigma2-staticdev_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
@@ -9709,9 +9709,9 @@ Recommends: hotplug-e2-helper, libdvdcss, ofgwrite, python-sendfile, virtual/eni
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44fa82488e52d71e88d3eff6b2100bba
-SHA256sum: 7dd3e8990376d46589716e86d198d10054736363b2a9dc65c7b7ca29e3f7529e
-Size: 2369012
+MD5Sum: 2836885243f395843129b92bdfec4179
+SHA256sum: 50d77191fc402615765cb3f428eab8e32751e3d23743b47987aa9eb65a5d0879
+Size: 2369014
 Filename: enigma2_develop+git20154+d04860d-r0_vuzero4k.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -10078,6 +10078,42 @@ Filename: kernel-image-zimage-4.1.20-1.9_4.1.20-openvision_vuzero4k.ipk
 Source: linux-vuplus_4.1.20.bb
 Description: Linux kernel for vuzero4k
 OE: linux-vuplus
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8188eu-4.1.20-1.9
+Version: 1.0-openvision
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8188eu
+Section: kernel/modules
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 376b1a12a875e80d1232e2daf4a2fb9e
+SHA256sum: 810a8501f8f456c01905641f512b8d49a387e59f30a43f20e52aa32c60532c65
+Size: 253362
+Filename: kernel-module-8188eu-4.1.20-1.9_1.0-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: 8188eu kernel module
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192cu-4.1.20-1.9
+Version: 4.0.2-openvision
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-8192cu
+Section: base
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 32da3d5531f18b15cb50e1e4280ad9ab
+SHA256sum: 8a715e0a2fef887f87e9f41599c6037c0fa5673436acd6728746dc53b97bdd06
+Size: 169208
+Filename: kernel-module-8192cu-4.1.20-1.9_4.0.2-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: 8192cu kernel module
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
 License: GPLv2
 Priority: optional
 
@@ -12356,6 +12392,207 @@ Filename: kernel-module-ext3-4.1.20-1.9_4.1.20-openvision_vuzero4k.ipk
 Source: linux-vuplus_4.1.20.bb
 Description: ext3 kernel module
 OE: linux-vuplus
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-mt7601u-dbg
+Version: 3.0.0.4-openvision
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a95cde16b591261c137254b91118b8c5
+SHA256sum: 8b71a14a3ce0c4f3a2c62148d5505e5c02791b9d42e77aa1cac64ddc11b64396
+Size: 714
+Filename: kernel-module-extrawlan-mt7601u-dbg_3.0.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Debugging files
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-mt7601u-dev
+Version: 3.0.0.4-openvision
+Depends: kernel-module-extrawlan-mt7601u (= 3.0.0.4-openvision)
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-mt7601usta-4.1.20-1.9-dev
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a2d1ebff76dddbd55475e79387bb0d64
+SHA256sum: 69f0cd28fda2e12d673d542f6bb4a2b47f02f0af7c5d79cb6821183cf52b882f
+Size: 770
+Filename: kernel-module-extrawlan-mt7601u-dev_3.0.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Development files
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-mt7601u
+Version: 3.0.0.4-openvision
+Depends: kernel-module-mt7601usta-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 547e33d21afe2b27a7a4394b6b85cf79
+SHA256sum: 2da659c73ea6c11584632782149f203904068e648be54847dc1982e4c32b3ca9
+Size: 1664
+Filename: kernel-module-extrawlan-mt7601u_3.0.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rt3070-dbg
+Version: 2.5.0.4-openvision
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1e4d6bb9bda02b0bc7d640e4f89fc237
+SHA256sum: 96c10c4253a13e8451dcd34a7f37b4ad53c68a2734a37526163ec5c2184311bc
+Size: 736
+Filename: kernel-module-extrawlan-rt3070-dbg_2.5.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Debugging files
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-extrawlan-rt3070-dev
+Version: 2.5.0.4-openvision
+Depends: kernel-module-extrawlan-rt3070 (= 2.5.0.4-openvision)
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-rt5370sta-4.1.20-1.9-dev
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8ce63f994ab28fd3f2121e2b6405c515
+SHA256sum: c9499ac41b151cc9dbfb8ec351dd2a3f06c2ca8d2f0db416198d19a8639d092c
+Size: 792
+Filename: kernel-module-extrawlan-rt3070-dev_2.5.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Development files
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-extrawlan-rt3070
+Version: 2.5.0.4-openvision
+Depends: kernel-module-rt5370sta-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 397acfb875d2cf3c4a8e48ec87b48fcc
+SHA256sum: dff5b93a83c38a0e792dcacf4f7187277351f33a008aa2949cefb8ee1f21043f
+Size: 1464
+Filename: kernel-module-extrawlan-rt3070_2.5.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8188eu-dbg
+Version: 1.0-openvision
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 186a5d7a9db98848f5182f5518fda3aa
+SHA256sum: 7c6fd43cfc13358ff30b3bc5c4d400346f5abd5a7d2605dbbbd0d4c894529a97
+Size: 734
+Filename: kernel-module-extrawlan-rtl8188eu-dbg_1.0-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: kernel-module-extrawlan-rtl8188eu version 1.0-openvision - Debugging files
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8188eu-dev
+Version: 1.0-openvision
+Depends: kernel-module-extrawlan-rtl8188eu (= 1.0-openvision)
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8188eu-4.1.20-1.9-dev
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c14f012b84ca30584f45343a3094ee2c
+SHA256sum: 8b4c0a580a3d6a5c63613ab64f18f5eea57ac0d3dcffc5676da79c420711895c
+Size: 790
+Filename: kernel-module-extrawlan-rtl8188eu-dev_1.0-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: kernel-module-extrawlan-rtl8188eu version 1.0-openvision - Development files
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8188eu
+Version: 1.0-openvision
+Depends: kernel-module-8188eu-4.1.20-1.9
+Section: kernel/modules
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca3227bb3b15f0588616e2e889a4f9d4
+SHA256sum: 23e1a8fb27d7a632348fd93ba7a7f560bde5953293e419072014b5c97d6e38aa
+Size: 690
+Filename: kernel-module-extrawlan-rtl8188eu_1.0-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: kernel-module-extrawlan-rtl8188eu version 1.0-openvision
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192cu-dbg
+Version: 4.0.2-openvision
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cfd32279e0a372dc81fa0a471bf86b39
+SHA256sum: 3c0c0311179e5c52b48c65bb378899414bafb008629c091df9a96fa84832661e
+Size: 740
+Filename: kernel-module-extrawlan-rtl8192cu-dbg_4.0.2-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Debugging files
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192cu-dev
+Version: 4.0.2-openvision
+Depends: kernel-module-extrawlan-rtl8192cu (= 4.0.2-openvision)
+Recommends: kernel-4.1.20-1.9-dev, kernel-module-8192cu-4.1.20-1.9-dev
+Section: devel
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f25f115469cf462a25e8d2eb33544d72
+SHA256sum: b47098697b8305ce55e6bf1a635963589dc2b70d952a9c9533f38f17be6736df
+Size: 796
+Filename: kernel-module-extrawlan-rtl8192cu-dev_4.0.2-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Development files
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192cu
+Version: 4.0.2-openvision
+Depends: kernel-module-8192cu-4.1.20-1.9
+Section: base
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 491c9b982ff39d41bbf0b0f8d4859085
+SHA256sum: 22dfdb3202542b9d276f1351a72879940e96d2455b1c0ee428d5e10ad03edf7e
+Size: 696
+Filename: kernel-module-extrawlan-rtl8192cu_4.0.2-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
 License: GPLv2
 Priority: optional
 
@@ -14773,6 +15010,24 @@ OE: linux-vuplus
 License: GPLv2
 Priority: optional
 
+Package: kernel-module-mt7601usta-4.1.20-1.9
+Version: 3.0.0.4-openvision
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-mt7601usta
+Section: kernel/modules
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 15d1c47f5d6b554dfc0556f59f50c4bd
+SHA256sum: 3b69075a3b0338ec539b88a76c6b637231cf7b17291f1f4d76e8a4d4d839d7de
+Size: 311680
+Filename: kernel-module-mt7601usta-4.1.20-1.9_3.0.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mt7601usta kernel module
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
 Package: kernel-module-mt9v011-4.1.20-1.9
 Version: 4.1.20-openvision
 Depends: kernel-4.1.20-1.9
@@ -15630,9 +15885,9 @@ Provides: kernel-module-openvision
 Section: kernel/modules
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 38b7b98858426152aa4ee8214523bdf4
-SHA256sum: f10d6c7d367d3f16be7ccc85ca04d864d5dc855c2c2a57cb9a63cee39bfe270e
-Size: 2496
+MD5Sum: 7bda5926c577dd370a49e2adf861c46b
+SHA256sum: 1d64b28d7e6856a9807d513e1b17595c872bdc4d0cf9294430840864cdd07f8a
+Size: 2500
 Filename: kernel-module-openvision-4.1.20-1.9_1.0-openvision_vuzero4k.ipk
 Source: openvision-module.bb
 Description: openvision kernel module
@@ -16267,6 +16522,23 @@ Source: linux-vuplus_4.1.20.bb
 Description: rt2x00usb kernel module
 OE: linux-vuplus
 License: GPLv2
+Priority: optional
+
+Package: kernel-module-rt5370sta-4.1.20-1.9
+Version: 2.5.0.4-openvision
+Depends: kernel-4.1.20-1.9
+Provides: kernel-module-rt5370sta
+Section: kernel/modules
+Architecture: vuzero4k
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f318e156c722ea4337c714dbbc6f2d3
+SHA256sum: 8cce182acb8f0d102a9243489613e56b120cb9cd7141c049e57e34f5993389b1
+Size: 289316
+Filename: kernel-module-rt5370sta-4.1.20-1.9_2.5.0.4-openvision_vuzero4k.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: rt5370sta kernel module
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
 Priority: optional
 
 Package: kernel-module-rt73usb-4.1.20-1.9
@@ -18658,9 +18930,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dd769709900f25523994a414d56fd256
-SHA256sum: 42840861cfc3d204693880c58e49b8039846b39089b5d4160b31565db028eed0
-Size: 13926
+MD5Sum: 4263e77dc32890666e0dc7564d09b400
+SHA256sum: 81148030c0d348256ed846148380a74893d221fd8240317706a6c5a124c52b90
+Size: 13888
 Filename: openvision-branding-dbg_git29+0da23df-r0_vuzero4k.ipk
 Source: openvision-branding.bb
 Description: openvision-branding version gitAUTOINC+0da23dffb7-r0 - Debugging files
@@ -18675,8 +18947,8 @@ Recommends: glibc-dev, python-dev
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f10f214ed288ab8eeaa17e63864b8960
-SHA256sum: f0e44b0bdc08583295023da4430c78a1a26d6420791f0441a7d604815eb39c85
+MD5Sum: 9be3d09a6d1015d616ea385578f763c1
+SHA256sum: b0b206f0d316255dc1f4dafa1a58181e30603633085f052719556b7c025f8c7a
 Size: 754
 Filename: openvision-branding-dev_git29+0da23df-r0_vuzero4k.ipk
 Source: openvision-branding.bb
@@ -18691,8 +18963,8 @@ Depends: libc6 (>= 2.32)
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf191423c3a1a8753fdb48fb6a56139d
-SHA256sum: 8076a936059e4b3b826b23ec946680445a64e46ecbd0bf01bc7bc09759e4b15f
+MD5Sum: 2350e8aaaa103cbe929a2db286661189
+SHA256sum: b75dc58a92f23d3740c168c3e65be45ee7162cb43d01cfc299b6f0cccef06b8a
 Size: 4846
 Filename: openvision-branding_git29+0da23df-r0_vuzero4k.ipk
 Source: openvision-branding.bb
@@ -18753,8 +19025,8 @@ Version: 1.0-openvision
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8513eaadc14681d2dc6855fdfed1dd97
-SHA256sum: 4f3eb2a04d73dde88ba6cd7cc215504d9812d7aa4151b72f8871c352bf07d2a3
+MD5Sum: 5254277c85743a8f1a2a36baa59e006c
+SHA256sum: eda38b4b50433bc745c3f1563d910c7ed6c505d2f20a932ec72f5ca565935e92
 Size: 670
 Filename: openvision-module-dbg_1.0-openvision_vuzero4k.ipk
 Source: openvision-module.bb
@@ -18770,8 +19042,8 @@ Recommends: kernel-4.1.20-1.9-dev, kernel-module-openvision-4.1.20-1.9-dev, ovlo
 Section: devel
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 629b08ca054256f8c451fb0be1740e03
-SHA256sum: 9adb22a1702af75f93812c1309bf94c14100cbc59b18f26e0eaebd5f31a57763
+MD5Sum: c3d8f65e15ba314002c604407bb4a28d
+SHA256sum: eb5e9af25fea4900a1e5862a7645f5528b778b580d29fa83ba7be173f69cb870
 Size: 740
 Filename: openvision-module-dev_1.0-openvision_vuzero4k.ipk
 Source: openvision-module.bb
@@ -18786,8 +19058,8 @@ Depends: kernel-module-openvision-4.1.20-1.9, ovlock
 Section: kernel/modules
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f4e158cdb50cd595c26faa6ab387489
-SHA256sum: 8b440e4e7379a901509260c05fbb6d61e2bcd19ef0b635273d107be34916818d
+MD5Sum: 3b01c389415a1ac3f818251cef24f33b
+SHA256sum: d1bf3f8357e43c8719735fdbf7770f5285aa75a6f2db0c3a540d1ca768350342
 Size: 760
 Filename: openvision-module_1.0-openvision_vuzero4k.ipk
 Source: openvision-module.bb
@@ -18801,9 +19073,9 @@ Version: 10.2-r236
 Section: base
 Architecture: vuzero4k
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7a5af9745dfd999d112ba1ecb4c43408
-SHA256sum: e250cc47d0f1e3b8339013ad07c4f38b14cb7be11da74847c4ed6da466707f7b
-Size: 2070
+MD5Sum: 5b36bfce2250dca74a8d0b53860491f1
+SHA256sum: a881a354ea12456a3a212f4f2ed823838c23cb835be0b706a95f76afe6521f05
+Size: 2072
 Filename: openvision-version-info_10.2-r236_vuzero4k.ipk
 Source: openvision-version-info.bb
 Description: openvision-version-info version 10.2-r236
